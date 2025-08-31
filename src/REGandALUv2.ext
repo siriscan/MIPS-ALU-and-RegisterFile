@@ -1,0 +1,805 @@
+timestamp 1746652338
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use REGISTER_FILEv2 REGISTER_FILEv2_0 1 0 791 0 1 2276
+use ALU ALU_0 1 0 4266 0 1 767
+node "m1_613_136#" 1 712.71 613 136 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "reg_six7" 0 138.96 3707 316 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_six6" 0 138.96 3707 324 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_six5" 0 138.96 3707 332 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_six4" 0 138.96 3707 340 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_six3" 0 138.96 3707 348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_six2" 0 138.96 3707 356 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_six1" 0 138.96 3707 364 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_six0" 0 138.96 3707 372 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_five7" 0 138.96 3709 656 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_five6" 0 138.96 3709 664 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_five5" 0 138.96 3709 672 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_five4" 0 138.96 3709 680 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_five3" 0 138.96 3709 688 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_five2" 0 138.96 3709 696 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_five1" 0 138.96 3709 704 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_five0" 0 138.96 3709 712 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_four7" 0 138.96 3710 996 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_four6" 0 138.96 3710 1004 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_four5" 0 138.96 3710 1012 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_four4" 0 138.96 3710 1020 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_four3" 0 138.96 3710 1028 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_four2" 0 138.96 3710 1036 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_four1" 0 138.96 3710 1044 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_four0" 0 138.96 3710 1052 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "RorL" 21 11758 3853 1171 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 4748 2382 0 0
+node "LorA" 22 12619.7 3876 1259 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 5100 2558 0 0
+node "reg_three7" 0 138.96 3708 1336 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_three6" 0 138.96 3708 1344 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_three5" 0 138.96 3708 1352 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_three4" 0 138.96 3708 1360 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_three3" 0 138.96 3708 1368 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_three2" 0 138.96 3708 1376 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_three1" 0 138.96 3708 1384 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_three0" 0 138.96 3708 1392 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B_Read_Address2" 0 299.61 11 1653 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "B_Read_Address1" 0 299.61 11 1669 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "reg_two7" 0 138.96 3709 1676 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_two6" 0 138.96 3709 1684 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B_Read_Address0" 0 299.61 11 1685 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "reg_two5" 0 138.96 3709 1692 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_two4" 0 138.96 3709 1700 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_two3" 0 138.96 3709 1708 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_two2" 0 138.96 3709 1716 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_two1" 0 138.96 3709 1724 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_two0" 0 138.96 3709 1732 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A_Read_Address2" 0 368.46 12 1901 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "A_Read_Address1" 0 368.46 12 1917 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "A_Read_Address0" 0 368.46 12 1933 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "reg_one7" 0 138.96 3709 2016 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_one6" 0 138.96 3709 2024 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_one5" 0 138.96 3709 2032 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_one4" 0 138.96 3709 2040 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_one3" 0 138.96 3709 2048 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_one2" 0 138.96 3709 2056 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_one1" 0 138.96 3709 2064 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "reg_one0" 0 138.96 3709 2072 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Write_Address2" 0 368.46 12 2136 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "Write_Address1" 0 368.46 12 2152 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "Write_Address0" 0 368.46 12 2168 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "Write_Address3" 0 368.46 12 2176 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "B7" 0 138.96 3854 2292 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B6" 0 138.96 3854 2300 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B5" 0 138.96 3854 2308 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B4" 0 138.96 3854 2316 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B3" 0 138.96 3854 2324 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B2" 0 138.96 3854 2332 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B1" 0 138.96 3854 2340 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B0" 0 138.96 3854 2348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A7" 0 138.96 3854 2356 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3781_2356#" 2 1908.29 3781 2356 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 272 144 240 128 0 0
+node "reg_zero7" 0 161.91 3706 2356 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "A6" 0 138.96 3854 2364 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3773_2364#" 2 2131.06 3773 2364 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 304 160 240 128 0 0
+node "reg_zero6" 0 161.91 3706 2364 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "A5" 0 138.96 3854 2372 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3765_2372#" 3 2353.82 3765 2372 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 336 176 240 128 0 0
+node "reg_zero5" 0 161.91 3706 2372 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "A4" 0 138.96 3854 2380 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3757_2380#" 3 2576.59 3757 2380 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 368 192 240 128 0 0
+node "reg_zero4" 0 161.91 3706 2380 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Y7" 0 138.96 8011 2387 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A3" 0 138.96 3854 2388 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3749_2388#" 3 2799.36 3749 2388 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400 208 240 128 0 0
+node "reg_zero3" 0 161.91 3706 2388 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Y6" 0 138.96 8011 2395 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A2" 0 138.96 3854 2396 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3741_2396#" 3 3022.13 3741 2396 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 432 224 240 128 0 0
+node "reg_zero2" 0 161.91 3706 2396 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Y5" 0 138.96 8011 2403 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A1" 0 138.96 3854 2404 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3733_2404#" 3 3244.9 3733 2404 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 464 240 240 128 0 0
+node "reg_zero1" 0 161.91 3706 2404 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Y4" 0 138.96 8011 2411 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A0" 0 138.96 3854 2412 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3725_2412#" 3 3467.66 3725 2412 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 496 256 240 128 0 0
+node "reg_zero0" 0 161.91 3706 2412 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "Y3" 0 138.96 8011 2419 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Imm7" 0 138.96 2 2420 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Y2" 0 138.96 8011 2427 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Imm6" 0 138.96 2 2428 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Y1" 0 138.96 8011 2435 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Imm5" 0 138.96 2 2436 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Y0" 0 138.96 8011 2443 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "func2" 5 2338.13 3928 2443 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 1028 522 0 0
+node "Imm4" 0 138.96 2 2444 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Overflow" 0 138.96 8011 2451 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "func1" 4 2259.79 3920 2451 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 996 506 0 0
+node "Imm3" 0 138.96 2 2452 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "func0" 4 2181.46 3912 2459 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 964 490 0 0
+node "Imm2" 0 138.96 2 2460 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Imm1" 0 138.96 2 2468 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Imm0" 0 138.96 2 2476 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "clk" 0 138.96 2 2500 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "imm_en" 0 138.96 2 2516 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3701_2524#" 3 2462.31 3701 2524 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 32 64 48 1457 480
+node "VSS" 0 161.91 178 2524 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "m1_3696_2608#" 4 3332.39 3696 2608 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 32 64 48 2046 694
+node "VDD" 0 161.91 178 2608 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "m1_690_2625#" 133 170416 690 2625 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29284 14650 1000 516 0 0
+node "m1_626_2633#" 134 171850 626 2633 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29508 14762 1048 540 0 0
+node "m1_562_2641#" 135 173184 562 2641 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29732 14874 1084 558 0 0
+node "m1_498_2649#" 136 174646 498 2649 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29956 14986 1172 602 0 0
+node "m1_434_2657#" 137 175794 434 2657 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30180 15098 1132 582 0 0
+node "m1_370_2665#" 138 177138 370 2665 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30404 15210 1172 602 0 0
+node "m1_306_2673#" 140 178531 306 2673 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30628 15322 1232 632 0 0
+node "m1_242_2681#" 141 179943 242 2681 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30852 15434 1300 666 0 0
+cap "reg_five4" "reg_five3" 46.174
+cap "reg_four6" "reg_four7" 46.174
+cap "m1_498_2649#" "m1_690_2625#" 156.768
+cap "m1_242_2681#" "m1_626_2633#" 156.768
+cap "func0" "m1_626_2633#" 156.768
+cap "Y2" "Y1" 46.174
+cap "func1" "m1_626_2633#" 156.768
+cap "m1_3781_2356#" "m1_3757_2380#" 156.768
+cap "A1" "A2" 46.174
+cap "m1_626_2633#" "m1_434_2657#" 156.768
+cap "reg_six2" "reg_six3" 46.174
+cap "m1_562_2641#" "func2" 156.768
+cap "m1_242_2681#" "m1_690_2625#" 156.768
+cap "func2" "m1_306_2673#" 156.768
+cap "func0" "m1_690_2625#" 156.768
+cap "reg_one3" "reg_one4" 46.174
+cap "func1" "m1_690_2625#" 156.768
+cap "reg_five0" "reg_five1" 46.174
+cap "reg_five2" "reg_five3" 46.174
+cap "reg_two2" "reg_two3" 46.174
+cap "m1_690_2625#" "m1_434_2657#" 156.768
+cap "reg_three6" "reg_three5" 46.174
+cap "Overflow" "Y0" 46.174
+cap "reg_four4" "reg_four3" 46.174
+cap "m1_3765_2372#" "A5" 36.9392
+cap "m1_498_2649#" "m1_370_2665#" 156.768
+cap "B6" "B7" 46.174
+cap "Overflow" "m1_690_2625#" 51.024
+cap "Imm6" "Imm5" 46.174
+cap "m1_3749_2388#" "m1_3773_2364#" 156.768
+cap "m1_3765_2372#" "m1_3757_2380#" 1890.67
+cap "reg_three4" "reg_three3" 46.174
+cap "m1_242_2681#" "m1_370_2665#" 156.768
+cap "Imm3" "Imm4" 46.174
+cap "func0" "m1_370_2665#" 156.768
+cap "A7" "A6" 46.174
+cap "m1_3733_2404#" "m1_3773_2364#" 156.768
+cap "func1" "m1_370_2665#" 156.768
+cap "m1_434_2657#" "m1_370_2665#" 90153.4
+cap "reg_zero5" "reg_zero6" 57.7175
+cap "m1_3741_2396#" "m1_3773_2364#" 156.768
+cap "A0" "A1" 46.174
+cap "m1_626_2633#" "m1_690_2625#" 87593.2
+cap "func0" "m1_3696_2608#" 40.76
+cap "B2" "B1" 46.174
+cap "m1_3725_2412#" "m1_3773_2364#" 131.256
+cap "Y0" "m1_690_2625#" 51.024
+cap "m1_3749_2388#" "m1_3733_2404#" 156.768
+cap "Y3" "m1_690_2625#" 51.024
+cap "reg_five5" "reg_five6" 46.174
+cap "Write_Address0" "Write_Address3" 161.609
+cap "A5" "A6" 46.174
+cap "m1_3749_2388#" "m1_3741_2396#" 2075.37
+cap "m1_562_2641#" "m1_498_2649#" 89000.7
+cap "m1_498_2649#" "m1_306_2673#" 156.768
+cap "A3" "A2" 46.174
+cap "Imm7" "Imm6" 46.174
+cap "m1_3749_2388#" "m1_3725_2412#" 131.256
+cap "m1_242_2681#" "m1_562_2641#" 156.768
+cap "m1_3733_2404#" "m1_3741_2396#" 2167.72
+cap "m1_562_2641#" "func0" 156.768
+cap "m1_242_2681#" "m1_306_2673#" 91650.1
+cap "m1_626_2633#" "m1_370_2665#" 156.768
+cap "reg_six3" "reg_six4" 46.174
+cap "reg_one2" "reg_one3" 46.174
+cap "func0" "m1_306_2673#" 156.768
+cap "B4" "B3" 46.174
+cap "func1" "m1_562_2641#" 156.768
+cap "m1_3781_2356#" "m1_3773_2364#" 1705.98
+cap "reg_four2" "reg_four3" 46.174
+cap "func1" "m1_306_2673#" 156.768
+cap "A7" "B0" 46.174
+cap "m1_562_2641#" "m1_434_2657#" 156.768
+cap "reg_six6" "reg_six7" 46.174
+cap "Y4" "Y5" 46.174
+cap "m1_3725_2412#" "m1_3733_2404#" 2234.55
+cap "m1_306_2673#" "m1_434_2657#" 156.768
+cap "m1_690_2625#" "m1_370_2665#" 156.768
+cap "m1_3725_2412#" "m1_3741_2396#" 131.256
+cap "Imm5" "Imm4" 46.174
+cap "m1_3749_2388#" "m1_3781_2356#" 156.768
+cap "reg_three4" "reg_three5" 46.174
+cap "reg_four5" "reg_four6" 46.174
+cap "Y6" "m1_690_2625#" 51.024
+cap "m1_3765_2372#" "m1_3773_2364#" 1798.32
+cap "m1_3781_2356#" "m1_3733_2404#" 156.768
+cap "B5" "B6" 46.174
+cap "m1_3781_2356#" "m1_3741_2396#" 156.768
+cap "reg_six6" "reg_six5" 46.174
+cap "m1_562_2641#" "m1_626_2633#" 88252.3
+cap "m1_626_2633#" "m1_306_2673#" 156.768
+cap "reg_six2" "reg_six1" 46.174
+cap "reg_two1" "reg_two2" 46.174
+cap "m1_3765_2372#" "m1_3749_2388#" 156.768
+cap "m1_3781_2356#" "m1_3725_2412#" 131.256
+cap "m1_562_2641#" "m1_690_2625#" 156.768
+cap "reg_one2" "reg_one1" 46.174
+cap "m1_690_2625#" "m1_306_2673#" 156.768
+cap "Y2" "Y3" 46.174
+cap "m1_498_2649#" "func2" 156.768
+cap "reg_zero4" "reg_zero5" 57.7175
+cap "m1_3765_2372#" "m1_3733_2404#" 156.768
+cap "reg_four1" "reg_four2" 46.174
+cap "reg_zero4" "reg_zero3" 57.7175
+cap "Y2" "m1_690_2625#" 51.024
+cap "m1_3765_2372#" "m1_3741_2396#" 156.768
+cap "m1_242_2681#" "func2" 156.768
+cap "reg_five1" "reg_five2" 46.174
+cap "m1_3773_2364#" "A6" 36.9392
+cap "reg_five6" "reg_five7" 46.174
+cap "func1" "func2" 3171.64
+cap "reg_six4" "reg_six5" 46.174
+cap "m1_3765_2372#" "m1_3725_2412#" 131.256
+cap "func2" "m1_434_2657#" 156.768
+cap "m1_562_2641#" "m1_370_2665#" 156.768
+cap "m1_306_2673#" "m1_370_2665#" 90901.8
+cap "reg_two5" "reg_two4" 46.174
+cap "Y5" "m1_690_2625#" 51.024
+cap "A1" "m1_3733_2404#" 36.9392
+cap "reg_one5" "reg_one4" 46.174
+cap "reg_two3" "reg_two4" 46.174
+cap "B4" "B5" 46.174
+cap "reg_two6" "reg_two5" 46.174
+cap "A4" "A5" 46.174
+cap "m1_3741_2396#" "A2" 36.9392
+cap "Y1" "Y0" 46.174
+cap "m1_3765_2372#" "m1_3781_2356#" 156.768
+cap "Imm3" "Imm2" 46.174
+cap "A4" "m1_3757_2380#" 36.9392
+cap "Y1" "m1_690_2625#" 51.024
+cap "m1_626_2633#" "func2" 156.768
+cap "reg_four0" "reg_four1" 46.174
+cap "reg_two0" "reg_two1" 46.174
+cap "A3" "A4" 46.174
+cap "reg_two6" "reg_two7" 46.174
+cap "m1_3757_2380#" "m1_3773_2364#" 156.768
+cap "reg_zero3" "reg_zero2" 57.7175
+cap "reg_three6" "reg_three7" 46.174
+cap "m1_562_2641#" "m1_306_2673#" 156.768
+cap "func2" "m1_690_2625#" 156.768
+cap "m1_242_2681#" "m1_498_2649#" 156.768
+cap "Y6" "Y5" 46.174
+cap "func0" "m1_498_2649#" 156.768
+cap "Imm1" "Imm2" 46.174
+cap "Imm1" "Imm0" 46.174
+cap "func1" "m1_498_2649#" 156.768
+cap "m1_3749_2388#" "m1_3757_2380#" 1983.02
+cap "m1_498_2649#" "m1_434_2657#" 89468.8
+cap "B2" "B3" 46.174
+cap "m1_242_2681#" "func0" 156.768
+cap "reg_four4" "reg_four5" 46.174
+cap "A3" "m1_3749_2388#" 36.9392
+cap "Y7" "Y6" 46.174
+cap "m1_242_2681#" "func1" 156.768
+cap "func1" "func0" 3069.74
+cap "m1_3733_2404#" "m1_3757_2380#" 156.768
+cap "m1_242_2681#" "m1_434_2657#" 156.768
+cap "reg_one5" "reg_one6" 46.174
+cap "func0" "m1_434_2657#" 156.768
+cap "reg_zero0" "reg_zero1" 57.7175
+cap "func2" "m1_370_2665#" 156.768
+cap "m1_3757_2380#" "m1_3741_2396#" 156.768
+cap "func1" "m1_434_2657#" 156.768
+cap "reg_zero7" "reg_zero6" 57.7175
+cap "reg_three2" "reg_three3" 46.174
+cap "reg_five4" "reg_five5" 46.174
+cap "reg_three1" "reg_three2" 46.174
+cap "A7" "m1_3781_2356#" 36.9392
+cap "reg_three0" "reg_three1" 46.174
+cap "A0" "m1_3725_2412#" 36.9392
+cap "reg_one6" "reg_one7" 46.174
+cap "m1_3725_2412#" "m1_3757_2380#" 131.256
+cap "reg_six0" "reg_six1" 46.174
+cap "B1" "B0" 46.174
+cap "reg_zero1" "reg_zero2" 57.7175
+cap "Y4" "Y3" 46.174
+cap "reg_one0" "reg_one1" 46.174
+cap "m1_498_2649#" "m1_626_2633#" 156.768
+cap "Y4" "m1_690_2625#" 51.024
+cap "REGISTER_FILEv2_0/B7" "RorL" 1120.9
+cap "REGISTER_FILEv2_0/B7" "RorL" 1273.75
+cap "REGISTER_FILEv2_0/B7" "RorL" 1273.75
+subcap "reg_six7" -69.48
+subcap "reg_six6" -69.48
+subcap "reg_six5" -69.48
+subcap "reg_six4" -69.48
+subcap "reg_six3" -69.48
+subcap "reg_six2" -69.48
+subcap "reg_six1" -69.48
+subcap "reg_six0" -69.48
+cap "REGISTER_FILEv2_0/reg_six5" "REGISTER_FILEv2_0/reg_six6" -46.174
+cap "REGISTER_FILEv2_0/reg_six4" "REGISTER_FILEv2_0/reg_six5" -46.174
+cap "REGISTER_FILEv2_0/reg_six3" "REGISTER_FILEv2_0/reg_six4" -46.174
+cap "REGISTER_FILEv2_0/reg_six2" "REGISTER_FILEv2_0/reg_six3" -46.174
+cap "REGISTER_FILEv2_0/reg_six1" "REGISTER_FILEv2_0/reg_six2" -46.174
+cap "REGISTER_FILEv2_0/reg_six7" "REGISTER_FILEv2_0/reg_six6" -46.174
+cap "REGISTER_FILEv2_0/reg_six0" "REGISTER_FILEv2_0/reg_six1" -46.174
+cap "RorL" "REGISTER_FILEv2_0/B7" 1273.75
+cap "REGISTER_FILEv2_0/B7" "RorL" 1273.75
+cap "RorL" "REGISTER_FILEv2_0/B7" 1273.75
+subcap "reg_five3" -15.165
+subcap "reg_five2" -607.68
+cap "REGISTER_FILEv2_0/reg_five6" "REGISTER_FILEv2_0/reg_five7" -46.174
+cap "REGISTER_FILEv2_0/reg_five5" "REGISTER_FILEv2_0/reg_five6" -46.174
+cap "REGISTER_FILEv2_0/reg_five4" "REGISTER_FILEv2_0/reg_five5" -46.174
+cap "REGISTER_FILEv2_0/reg_five3" "REGISTER_FILEv2_0/reg_five4" -23.087
+cap "REGISTER_FILEv2_0/B7" "RorL" 1273.75
+subcap "reg_five4" -373.32
+cap "REGISTER_FILEv2_0/reg_five3" "REGISTER_FILEv2_0/reg_five4" -23.087
+cap "REGISTER_FILEv2_0/reg_five2" "REGISTER_FILEv2_0/reg_five3" -46.174
+cap "REGISTER_FILEv2_0/reg_five1" "REGISTER_FILEv2_0/reg_five2" -46.174
+cap "REGISTER_FILEv2_0/reg_five0" "REGISTER_FILEv2_0/reg_five1" -46.174
+cap "REGISTER_FILEv2_0/B7" "RorL" 1273.75
+cap "REGISTER_FILEv2_0/B7" "RorL" 1273.75
+subcap "reg_four7" -585.36
+cap "RorL" "REGISTER_FILEv2_0/B7" 1273.75
+cap "REGISTER_FILEv2_0/reg_four7" "REGISTER_FILEv2_0/reg_four6" -46.174
+cap "REGISTER_FILEv2_0/reg_four5" "REGISTER_FILEv2_0/reg_four6" -46.174
+cap "REGISTER_FILEv2_0/reg_four4" "REGISTER_FILEv2_0/reg_four5" -46.174
+cap "REGISTER_FILEv2_0/reg_four3" "REGISTER_FILEv2_0/reg_four4" -46.174
+cap "REGISTER_FILEv2_0/reg_four2" "REGISTER_FILEv2_0/reg_four3" -46.174
+cap "REGISTER_FILEv2_0/reg_four1" "REGISTER_FILEv2_0/reg_four2" -46.174
+cap "REGISTER_FILEv2_0/reg_four0" "REGISTER_FILEv2_0/reg_four1" -46.174
+cap "LorA" "ALU_0/m1_n382_265#" 713.3
+cap "LorA" "ALU_0/m1_n398_248#" 1086.61
+cap "LorA" "ALU_0/VDD" 209.58
+cap "RorL" "REGISTER_FILEv2_0/B7" 1273.75
+subcap "RorL" -9971.35
+cap "REGISTER_FILEv2_0/B7" "ALU_0/RorL" 1159.19
+cap "ALU_0/m1_n398_248#" "LorA" 1273.75
+cap "ALU_0/m1_n382_265#" "LorA" 1273.75
+cap "ALU_0/RorL" "LorA" 156.768
+subcap "LorA" -10950.6
+cap "REGISTER_FILEv2_0/B7" "ALU_0/Sign" 51.024
+cap "ALU_0/m1_n398_248#" "ALU_0/Sign" 955.312
+cap "ALU_0/Sign" "ALU_0/m1_n382_265#" 955.312
+subcap "reg_three7" -92.43
+subcap "reg_three6" -92.43
+subcap "reg_three5" -92.43
+subcap "reg_three4" -92.43
+subcap "reg_three3" -92.43
+subcap "reg_three2" -92.43
+subcap "reg_three1" -92.43
+subcap "reg_three0" -150.12
+subcap "reg_three0" -373.32
+cap "REGISTER_FILEv2_0/reg_three6" "REGISTER_FILEv2_0/reg_three7" -46.174
+cap "REGISTER_FILEv2_0/reg_three6" "REGISTER_FILEv2_0/reg_three5" -46.174
+cap "REGISTER_FILEv2_0/reg_three4" "REGISTER_FILEv2_0/reg_three5" -46.174
+cap "REGISTER_FILEv2_0/reg_three3" "REGISTER_FILEv2_0/reg_three4" -46.174
+cap "REGISTER_FILEv2_0/reg_three2" "REGISTER_FILEv2_0/reg_three3" -46.174
+cap "REGISTER_FILEv2_0/reg_three1" "REGISTER_FILEv2_0/reg_three2" -46.174
+cap "REGISTER_FILEv2_0/reg_three0" "REGISTER_FILEv2_0/reg_three1" -23.087
+subcap "reg_three1" -133.065
+subcap "reg_three0" -92.43
+subcap "reg_three1" -15.165
+cap "REGISTER_FILEv2_0/reg_three1" "REGISTER_FILEv2_0/reg_three0" -23.087
+subcap "reg_two5" -373.32
+cap "REGISTER_FILEv2_0/reg_two7" "REGISTER_FILEv2_0/reg_two6" -46.174
+cap "REGISTER_FILEv2_0/reg_two6" "REGISTER_FILEv2_0/reg_two5" -23.087
+subcap "B_Read_Address0" -12.951
+subcap "reg_two6" -15.165
+cap "REGISTER_FILEv2_0/reg_two5" "REGISTER_FILEv2_0/reg_two6" -23.087
+cap "REGISTER_FILEv2_0/reg_two4" "REGISTER_FILEv2_0/reg_two5" -46.174
+cap "REGISTER_FILEv2_0/reg_two3" "REGISTER_FILEv2_0/reg_two4" -46.174
+cap "REGISTER_FILEv2_0/reg_two2" "REGISTER_FILEv2_0/reg_two3" -46.174
+cap "REGISTER_FILEv2_0/reg_two1" "REGISTER_FILEv2_0/reg_two2" -46.174
+cap "REGISTER_FILEv2_0/reg_two0" "REGISTER_FILEv2_0/reg_two1" -46.174
+cap "REGISTER_FILEv2_0/reg_one6" "REGISTER_FILEv2_0/reg_one7" -46.174
+cap "REGISTER_FILEv2_0/reg_one5" "REGISTER_FILEv2_0/reg_one6" -46.174
+cap "REGISTER_FILEv2_0/reg_one4" "REGISTER_FILEv2_0/reg_one5" -46.174
+cap "REGISTER_FILEv2_0/reg_one3" "REGISTER_FILEv2_0/reg_one4" -46.174
+cap "REGISTER_FILEv2_0/reg_one2" "REGISTER_FILEv2_0/reg_one3" -46.174
+cap "REGISTER_FILEv2_0/reg_one1" "REGISTER_FILEv2_0/reg_one2" -46.174
+cap "REGISTER_FILEv2_0/reg_one0" "REGISTER_FILEv2_0/reg_one1" -46.174
+cap "REGISTER_FILEv2_0/C_sel3" "REGISTER_FILEv2_0/C_sel0" -161.609
+subcap "reg_zero7" -69.48
+subcap "reg_zero6" -69.48
+subcap "reg_zero5" -69.48
+subcap "reg_zero4" -69.48
+subcap "reg_zero3" -144.225
+subcap "reg_zero2" -228.87
+subcap "m1_3781_2356#" -1225.46
+subcap "m1_3773_2364#" -1225.46
+subcap "m1_3765_2372#" -1225.46
+subcap "m1_3757_2380#" -1225.46
+subcap "m1_3749_2388#" -2149.23
+subcap "reg_zero3" -38.115
+subcap "m1_3741_2396#" -4011.12
+subcap "reg_zero2" -630.63
+cap "m1_3725_2412#" "m1_3733_2404#" -407.6
+cap "m1_3781_2356#" "REGISTER_FILEv2_0/B1" 98.442
+cap "m1_3781_2356#" "REGISTER_FILEv2_0/REG8v2_0/B0" 376.095
+cap "m1_3773_2364#" "REGISTER_FILEv2_0/B1" 98.442
+cap "m1_3773_2364#" "REGISTER_FILEv2_0/REG8v2_0/B0" 156.768
+cap "m1_3765_2372#" "REGISTER_FILEv2_0/B1" 98.442
+cap "m1_3773_2364#" "m1_3781_2356#" -407.6
+cap "REGISTER_FILEv2_0/reg_zero6" "REGISTER_FILEv2_0/reg_zero7" -57.7175
+cap "m1_3765_2372#" "REGISTER_FILEv2_0/REG8v2_0/B0" 156.768
+cap "m1_3765_2372#" "m1_3773_2364#" -407.6
+cap "REGISTER_FILEv2_0/reg_zero5" "REGISTER_FILEv2_0/reg_zero6" -57.7175
+cap "m1_3757_2380#" "REGISTER_FILEv2_0/B1" 98.442
+cap "m1_3757_2380#" "REGISTER_FILEv2_0/REG8v2_0/B0" 156.768
+cap "m1_3741_2396#" "m1_3733_2404#" -407.6
+cap "m1_3757_2380#" "m1_3765_2372#" -407.6
+cap "REGISTER_FILEv2_0/reg_zero4" "REGISTER_FILEv2_0/reg_zero5" -57.7175
+cap "m1_3749_2388#" "m1_3757_2380#" -407.6
+cap "m1_3741_2396#" "m1_3749_2388#" -407.6
+cap "REGISTER_FILEv2_0/reg_zero3" "REGISTER_FILEv2_0/reg_zero4" -28.8588
+subcap "A2" -1634.4
+cap "ALU_0/A7" "REGISTER_FILEv2_0/B0" 519.457
+cap "ALU_0/A6" "ALU_0/A7" -46.174
+cap "ALU_0/A5" "ALU_0/A6" -46.174
+cap "ALU_0/A4" "ALU_0/A5" -46.174
+cap "ALU_0/A3" "ALU_0/A4" -23.087
+cap "ALU_0/B7" "REGISTER_FILEv2_0/B0" 25.512
+cap "ALU_0/B7" "ALU_0/A7" 156.768
+cap "REGISTER_FILEv2_0/B6" "ALU_0/A7" 156.768
+cap "REGISTER_FILEv2_0/B5" "ALU_0/A7" 156.768
+cap "REGISTER_FILEv2_0/B4" "ALU_0/A7" 156.768
+cap "REGISTER_FILEv2_0/B3" "ALU_0/A7" 156.768
+cap "ALU_0/B7" "ALU_0/A6" 156.768
+cap "REGISTER_FILEv2_0/B6" "ALU_0/A6" 156.768
+cap "REGISTER_FILEv2_0/B5" "ALU_0/A6" 156.768
+cap "REGISTER_FILEv2_0/B4" "ALU_0/A6" 156.768
+cap "ALU_0/B7" "ALU_0/A5" 156.768
+cap "REGISTER_FILEv2_0/B6" "ALU_0/A5" 156.768
+cap "REGISTER_FILEv2_0/B5" "ALU_0/A5" 156.768
+cap "ALU_0/B7" "ALU_0/A4" 156.768
+cap "REGISTER_FILEv2_0/B6" "ALU_0/A4" 156.768
+cap "REGISTER_FILEv2_0/B1" "REGISTER_FILEv2_0/B0" -46.174
+cap "REGISTER_FILEv2_0/B2" "ALU_0/A7" 156.768
+cap "REGISTER_FILEv2_0/B1" "ALU_0/A7" -24.588
+cap "REGISTER_FILEv2_0/B3" "ALU_0/A6" 156.768
+cap "REGISTER_FILEv2_0/B2" "ALU_0/A6" 156.768
+cap "REGISTER_FILEv2_0/B1" "ALU_0/A6" -24.588
+cap "REGISTER_FILEv2_0/B4" "ALU_0/A5" 156.768
+cap "REGISTER_FILEv2_0/B3" "ALU_0/A5" 156.768
+cap "REGISTER_FILEv2_0/B2" "ALU_0/A5" 156.768
+cap "REGISTER_FILEv2_0/B1" "ALU_0/A5" -24.588
+cap "REGISTER_FILEv2_0/B5" "ALU_0/A4" 156.768
+cap "REGISTER_FILEv2_0/B4" "ALU_0/A4" 156.768
+cap "REGISTER_FILEv2_0/B3" "ALU_0/A4" 156.768
+cap "REGISTER_FILEv2_0/B2" "ALU_0/A4" 156.768
+cap "REGISTER_FILEv2_0/B1" "ALU_0/A4" -24.588
+cap "REGISTER_FILEv2_0/B6" "ALU_0/B7" -20.662
+cap "REGISTER_FILEv2_0/B5" "ALU_0/B7" 25.512
+cap "REGISTER_FILEv2_0/B5" "REGISTER_FILEv2_0/B6" -46.174
+cap "REGISTER_FILEv2_0/B4" "ALU_0/B7" 25.512
+cap "REGISTER_FILEv2_0/B3" "ALU_0/B7" 25.512
+cap "REGISTER_FILEv2_0/B4" "REGISTER_FILEv2_0/B5" -46.174
+cap "REGISTER_FILEv2_0/B3" "REGISTER_FILEv2_0/B4" -46.174
+cap "REGISTER_FILEv2_0/B2" "ALU_0/B7" 25.512
+cap "REGISTER_FILEv2_0/B1" "ALU_0/B7" 25.512
+cap "REGISTER_FILEv2_0/B2" "REGISTER_FILEv2_0/B3" -46.174
+cap "REGISTER_FILEv2_0/B1" "REGISTER_FILEv2_0/B2" -46.174
+subcap "Y6" -375.732
+cap "ALU_0/Y7" "ALU_0/Y6" -1.77636e-15
+cap "REGISTER_FILEv2_0/Imm5" "REGISTER_FILEv2_0/Imm6" -7.10543e-15
+cap "REGISTER_FILEv2_0/Imm4" "REGISTER_FILEv2_0/Imm5" -7.10543e-15
+cap "REGISTER_FILEv2_0/Imm3" "REGISTER_FILEv2_0/Imm4" -7.10543e-15
+cap "REGISTER_FILEv2_0/Imm2" "REGISTER_FILEv2_0/Imm3" -7.10543e-15
+cap "REGISTER_FILEv2_0/Imm1" "REGISTER_FILEv2_0/Imm2" -7.10543e-15
+cap "REGISTER_FILEv2_0/Imm0" "REGISTER_FILEv2_0/Imm1" -7.10543e-15
+cap "REGISTER_FILEv2_0/Imm7" "REGISTER_FILEv2_0/Imm6" -7.10543e-15
+subcap "reg_zero4" -195.39
+subcap "reg_zero3" -69.48
+subcap "reg_zero2" -69.48
+subcap "reg_zero1" -69.48
+subcap "reg_zero0" -69.48
+subcap "m1_3757_2380#" -2946.02
+subcap "reg_zero4" -396.27
+subcap "m1_3749_2388#" -1421.3
+subcap "m1_3741_2396#" -1421.3
+subcap "m1_3733_2404#" -1421.3
+subcap "m1_3725_2412#" -1421.3
+cap "m1_3741_2396#" "m1_3725_2412#" 25.512
+cap "m1_3733_2404#" "m1_3725_2412#" -331.138
+cap "REGISTER_FILEv2_0/reg_zero1" "REGISTER_FILEv2_0/reg_zero0" -57.7175
+cap "m1_3765_2372#" "m1_3773_2364#" -356.65
+cap "m1_3757_2380#" "m1_3765_2372#" -356.65
+cap "m1_3749_2388#" "REGISTER_FILEv2_0/B1" 98.442
+cap "m1_3749_2388#" "REGISTER_FILEv2_0/B0" 156.768
+cap "m1_3741_2396#" "REGISTER_FILEv2_0/B1" 98.442
+cap "m1_3749_2388#" "m1_3757_2380#" -356.65
+cap "REGISTER_FILEv2_0/reg_zero3" "REGISTER_FILEv2_0/reg_zero4" -28.8588
+cap "m1_3741_2396#" "REGISTER_FILEv2_0/B0" 156.768
+cap "m1_3733_2404#" "REGISTER_FILEv2_0/B1" 98.442
+cap "m1_3733_2404#" "REGISTER_FILEv2_0/B0" 156.768
+cap "m1_3741_2396#" "m1_3749_2388#" -356.65
+cap "REGISTER_FILEv2_0/reg_zero2" "REGISTER_FILEv2_0/reg_zero3" -57.7175
+cap "m1_3733_2404#" "m1_3741_2396#" -356.65
+cap "REGISTER_FILEv2_0/reg_zero1" "REGISTER_FILEv2_0/reg_zero2" -57.7175
+cap "REGISTER_FILEv2_0/reg_zero0" "m1_3725_2412#" 46.174
+cap "REGISTER_FILEv2_0/REG8v2_0/A7" "m1_3725_2412#" 718.122
+cap "REGISTER_FILEv2_0/B1" "m1_3725_2412#" 98.442
+cap "REGISTER_FILEv2_0/B0" "m1_3725_2412#" 156.768
+cap "m1_3773_2364#" "m1_3725_2412#" 25.512
+cap "m1_3765_2372#" "m1_3725_2412#" 25.512
+cap "m1_3757_2380#" "m1_3725_2412#" 25.512
+cap "m1_3749_2388#" "m1_3725_2412#" 25.512
+cap "m1_3773_2364#" "REGISTER_FILEv2_0/REG8v2_0/A7" -356.65
+subcap "A4" -1254.96
+cap "ALU_0/A3" "REGISTER_FILEv2_0/B7" 156.768
+cap "ALU_0/A3" "REGISTER_FILEv2_0/B6" 156.768
+cap "ALU_0/A3" "REGISTER_FILEv2_0/B5" 156.768
+cap "ALU_0/A3" "REGISTER_FILEv2_0/B4" 156.768
+cap "ALU_0/A3" "REGISTER_FILEv2_0/B3" 156.768
+cap "ALU_0/A3" "REGISTER_FILEv2_0/B2" 156.768
+cap "ALU_0/A3" "REGISTER_FILEv2_0/B1" -24.588
+cap "ALU_0/A3" "ALU_0/A4" -23.087
+cap "ALU_0/A2" "REGISTER_FILEv2_0/B7" 156.768
+cap "ALU_0/A2" "REGISTER_FILEv2_0/B6" 156.768
+cap "ALU_0/A2" "REGISTER_FILEv2_0/B5" 156.768
+cap "ALU_0/A2" "REGISTER_FILEv2_0/B4" 156.768
+cap "ALU_0/A2" "REGISTER_FILEv2_0/B3" 156.768
+cap "ALU_0/A2" "REGISTER_FILEv2_0/B2" 156.768
+cap "ALU_0/A1" "REGISTER_FILEv2_0/B7" 156.768
+cap "ALU_0/A1" "REGISTER_FILEv2_0/B6" 156.768
+cap "ALU_0/A1" "REGISTER_FILEv2_0/B5" 156.768
+cap "ALU_0/A1" "REGISTER_FILEv2_0/B4" 156.768
+cap "ALU_0/A1" "REGISTER_FILEv2_0/B3" 156.768
+cap "ALU_0/A0" "REGISTER_FILEv2_0/B7" 156.768
+cap "ALU_0/A0" "REGISTER_FILEv2_0/B6" 156.768
+cap "ALU_0/A0" "REGISTER_FILEv2_0/B5" 156.768
+cap "ALU_0/A0" "REGISTER_FILEv2_0/B4" 156.768
+cap "ALU_0/A2" "ALU_0/A3" -46.174
+cap "ALU_0/A2" "REGISTER_FILEv2_0/B1" -24.588
+cap "ALU_0/A1" "REGISTER_FILEv2_0/B2" 156.768
+cap "ALU_0/A1" "REGISTER_FILEv2_0/B1" -24.588
+cap "ALU_0/A0" "REGISTER_FILEv2_0/B3" 156.768
+cap "ALU_0/A0" "REGISTER_FILEv2_0/B2" 156.768
+cap "ALU_0/A0" "REGISTER_FILEv2_0/B1" -24.588
+cap "ALU_0/A1" "ALU_0/A2" -46.174
+cap "ALU_0/A0" "ALU_0/A1" -46.174
+cap "ALU_0/VDD" "ALU_0/VSS" 85.044
+subcap "func2" -1120.01
+subcap "func1" -1080.85
+subcap "func0" -1041.68
+cap "ALU_0/func0" "ALU_0/VSS" 156.768
+cap "ALU_0/func1" "ALU_0/VSS" 156.768
+cap "ALU_0/func0" "ALU_0/func1" 156.768
+cap "ALU_0/VDD" "ALU_0/func2" 156.768
+cap "ALU_0/VDD" "ALU_0/VSS" 5.68434e-14
+cap "ALU_0/VDD" "ALU_0/func0" 156.768
+cap "ALU_0/VDD" "ALU_0/func1" 156.768
+cap "ALU_0/func2" "ALU_0/VSS" 156.768
+cap "ALU_0/func2" "ALU_0/func0" 156.768
+cap "ALU_0/func2" "ALU_0/func1" 156.768
+cap "ALU_0/Y2" "ALU_0/Y0" 156.768
+cap "ALU_0/Y4" "ALU_0/Overflow" 156.768
+cap "ALU_0/Y3" "ALU_0/Overflow" 156.768
+cap "ALU_0/Y5" "ALU_0/Y6" 32.814
+cap "ALU_0/Overflow" "ALU_0/Y0" 156.768
+cap "ALU_0/Y4" "ALU_0/Y6" 32.814
+cap "ALU_0/Y4" "ALU_0/Y5" 54.868
+cap "ALU_0/Y3" "ALU_0/Y6" 32.814
+cap "ALU_0/Y3" "ALU_0/Y5" 156.768
+cap "ALU_0/Y3" "ALU_0/Y4" 233.193
+cap "ALU_0/Y6" "ALU_0/Y0" 32.814
+cap "ALU_0/Y5" "ALU_0/Y0" 156.768
+cap "ALU_0/Y4" "ALU_0/Y0" 156.768
+cap "ALU_0/Y3" "ALU_0/Y0" 156.768
+cap "ALU_0/Y1" "ALU_0/Y2" 93.0805
+cap "ALU_0/Overflow" "ALU_0/Y1" 156.768
+cap "ALU_0/Y6" "ALU_0/Y7" 3.63929
+cap "ALU_0/Y6" "ALU_0/Y1" 32.814
+cap "ALU_0/Y5" "ALU_0/Y1" 156.768
+cap "ALU_0/Overflow" "ALU_0/Y2" 156.768
+cap "ALU_0/Y4" "ALU_0/Y1" 156.768
+cap "ALU_0/Y3" "ALU_0/Y1" 156.768
+cap "ALU_0/Y6" "ALU_0/Y2" 32.814
+cap "ALU_0/Y5" "ALU_0/Y2" 156.768
+cap "ALU_0/Y1" "ALU_0/Y0" -8.8195
+cap "ALU_0/Y4" "ALU_0/Y2" 156.768
+cap "ALU_0/Y3" "ALU_0/Y2" 194.98
+cap "ALU_0/Overflow" "ALU_0/Y6" 32.814
+cap "ALU_0/Overflow" "ALU_0/Y5" 156.768
+subcap "Y5" -501.93
+cap "ALU_0/Y0" "ALU_0/Y7" 105.744
+cap "ALU_0/Overflow" "ALU_0/Y7" 105.744
+cap "ALU_0/Y3" "ALU_0/Y7" 105.744
+cap "ALU_0/Y2" "ALU_0/Y7" 105.744
+cap "ALU_0/Y1" "ALU_0/Y7" 105.744
+cap "ALU_0/Overflow" "ALU_0/Y0" 7.10543e-15
+cap "ALU_0/Y1" "ALU_0/Y0" 7.10543e-15
+cap "ALU_0/Y2" "ALU_0/Y3" 7.10543e-15
+cap "ALU_0/Y1" "ALU_0/Y2" 7.10543e-15
+cap "ALU_0/Y5" "ALU_0/Y6" 98.442
+cap "ALU_0/Y4" "ALU_0/Y5" 7.10543e-15
+cap "ALU_0/Y4" "ALU_0/Y6" 41.04
+cap "ALU_0/Y6" "ALU_0/Y7" 118.481
+cap "ALU_0/Y5" "ALU_0/Y7" 105.744
+cap "ALU_0/Y4" "ALU_0/Y7" 105.744
+cap "ALU_0/Y0" "ALU_0/Y6" 41.04
+cap "ALU_0/Overflow" "ALU_0/Y6" 41.04
+cap "ALU_0/Y3" "ALU_0/Y4" 7.10543e-15
+cap "ALU_0/Y3" "ALU_0/Y6" 41.04
+cap "ALU_0/Y2" "ALU_0/Y6" 41.04
+cap "ALU_0/Y1" "ALU_0/Y6" 41.04
+cap "REGISTER_FILEv2_0/VSS" "REGISTER_FILEv2_0/Imm_en" 57.7175
+subcap "m1_3701_2524#" -2398.05
+subcap "m1_3701_2524#" -1377.67
+subcap "m1_690_2625#" -170009
+cap "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_0/BUFFER2_0/en" "m1_690_2625#" 517.149
+cap "m1_690_2625#" "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_0/BUFFER2_2/en" 923.48
+cap "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_0/BUFFER2_4/en" "m1_690_2625#" 923.48
+cap "m1_690_2625#" "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_0/BUFFER2_6/en" 923.48
+cap "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_0/BUFFER2_7/en" "m1_690_2625#" 461.74
+cap "m1_690_2625#" "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_0/en" 267.809
+cap "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_2/en" "m1_690_2625#" 923.48
+cap "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_4/en" "m1_690_2625#" 923.48
+cap "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_6/en" "m1_690_2625#" 923.48
+cap "m1_690_2625#" "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_7/en" 711.08
+subcap "m1_3696_2608#" -2566.17
+cap "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_7/w_20_84#" "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_7/a_22_75#" 107.028
+merge "REGISTER_FILEv2_0/C5" "ALU_0/Y5" -20.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 36 -10 0 0
+merge "ALU_0/Y5" "m1_562_2641#"
+merge "m1_562_2641#" "Y5"
+merge "REGISTER_FILEv2_0/reg_zero2" "reg_zero2" 325.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 176 -28 0 0 0 0
+merge "REGISTER_FILEv2_0/C_sel2" "Write_Address2" -368.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -36 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_five7" "reg_five7" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/Imm1" "Imm1" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "ALU_0/A4" "REGISTER_FILEv2_0/A4" -424.44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -112 -60 0 0
+merge "REGISTER_FILEv2_0/A4" "m1_3757_2380#"
+merge "m1_3757_2380#" "A4"
+merge "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_7/a_22_8#" "ALU_0/VSS" -2209.34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -32 -8 -24 -1287 -437
+merge "ALU_0/VSS" "m1_3701_2524#"
+merge "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_7/a_22_75#" "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_7/VDD" -1144.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -36 -16 -12 -600 -200
+merge "REGISTER_FILEv2_0/REG8v2_0/BUFFER8v2_1/BUFFER2_7/VDD" "ALU_0/VDD"
+merge "ALU_0/VDD" "m1_3696_2608#"
+merge "REGISTER_FILEv2_0/reg_one5" "reg_one5" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/Imm_en" "imm_en" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/C_sel3" "Write_Address3" -55.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 -36 0 0 0 0
+merge "REGISTER_FILEv2_0/C6" "ALU_0/Y6" -357.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 -32 0 0
+merge "ALU_0/Y6" "m1_626_2633#"
+merge "m1_626_2633#" "Y6"
+merge "REGISTER_FILEv2_0/reg_zero3" "reg_zero3" -234.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -36 0 0 0 0
+merge "REGISTER_FILEv2_0/C_sel0" "Write_Address0" -368.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -36 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_four0" "reg_four0" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/Imm2" "Imm2" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_one6" "reg_one6" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "ALU_0/RorL" "RorL" -156.528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "ALU_0/Sign" "LorA" -156.528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/C7" "ALU_0/Y7" -23290.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4000 -2008 8 -24 0 0
+merge "ALU_0/Y7" "m1_690_2625#"
+merge "m1_690_2625#" "Y7"
+merge "REGISTER_FILEv2_0/reg_zero4" "reg_zero4" -165.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 0 0 0 0
+merge "REGISTER_FILEv2_0/C_sel1" "Write_Address1" -368.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -36 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_four1" "reg_four1" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/Imm3" "Imm3" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_one7" "reg_one7" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_zero5" "reg_zero5" -187.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -28 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_four2" "reg_four2" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/CLK" "clk" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/C0" "ALU_0/Y0" -84.312 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -8 -12 0 0
+merge "ALU_0/Y0" "m1_242_2681#"
+merge "m1_242_2681#" "Y0"
+merge "REGISTER_FILEv2_0/Imm4" "Imm4" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_four3" "reg_four3" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/Imm5" "Imm5" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_zero6" "reg_zero6" -187.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -28 0 0 0 0
+merge "REGISTER_FILEv2_0/C1" "ALU_0/Y1" -66.42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 2 -10 0 0
+merge "ALU_0/Y1" "m1_306_2673#"
+merge "m1_306_2673#" "Y1"
+merge "ALU_0/B0" "REGISTER_FILEv2_0/B0" -186.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/B0" "B0"
+merge "REGISTER_FILEv2_0/reg_zero7" "reg_zero7" -187.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -28 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_four4" "reg_four4" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/Imm6" "Imm6" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "ALU_0/Overflow" "Overflow" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/C2" "ALU_0/Y2" -84.312 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -8 -12 0 0
+merge "ALU_0/Y2" "m1_370_2665#"
+merge "m1_370_2665#" "Y2"
+merge "ALU_0/func0" "func0" -1066.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -336 -172 0 0
+merge "ALU_0/B1" "REGISTER_FILEv2_0/B1" -246.888 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/B1" "B1"
+merge "ALU_0/A0" "REGISTER_FILEv2_0/A0" -186.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/A0" "m1_3725_2412#"
+merge "m1_3725_2412#" "A0"
+merge "REGISTER_FILEv2_0/reg_four5" "reg_four5" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/Imm7" "Imm7" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_one0" "reg_one0" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/C3" "ALU_0/Y3" -94.104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 -14 0 0
+merge "ALU_0/Y3" "m1_434_2657#"
+merge "m1_434_2657#" "Y3"
+merge "ALU_0/func1" "func1" -1105.34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -336 -172 0 0
+merge "REGISTER_FILEv2_0/B_sel0" "B_Read_Address0" -299.61 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "REGISTER_FILEv2_0/VDD" "VDD" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "REGISTER_FILEv2_0/VSS" "VSS" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "ALU_0/B2" "REGISTER_FILEv2_0/B2" -499.464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/B2" "B2"
+merge "ALU_0/A1" "REGISTER_FILEv2_0/A1" -186.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/A1" "m1_3733_2404#"
+merge "m1_3733_2404#" "A1"
+merge "REGISTER_FILEv2_0/reg_one1" "reg_one1" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_four6" "reg_four6" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/B_sel1" "B_Read_Address1" -299.61 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "ALU_0/func2" "func2" -1144.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -336 -172 0 0
+merge "REGISTER_FILEv2_0/reg_zero0" "reg_zero0" -187.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -28 0 0 0 0
+merge "REGISTER_FILEv2_0/C4" "ALU_0/Y4" -84.312 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -8 -12 0 0
+merge "ALU_0/Y4" "m1_498_2649#"
+merge "m1_498_2649#" "Y4"
+merge "REGISTER_FILEv2_0/REG8v2_0/A7" "ALU_0/A7" -469.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 -112 -60 0 0
+merge "ALU_0/A7" "REGISTER_FILEv2_0/A7"
+merge "REGISTER_FILEv2_0/A7" "m1_3781_2356#"
+merge "m1_3781_2356#" "A7"
+merge "REGISTER_FILEv2_0/reg_four7" "reg_four7" 396.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 176 -16 0 0 0 0
+merge "ALU_0/B3" "REGISTER_FILEv2_0/B3" -499.464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/B3" "B3"
+merge "ALU_0/A2" "REGISTER_FILEv2_0/A2" 1115.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 552 -24 -112 -60 0 0
+merge "REGISTER_FILEv2_0/A2" "m1_3741_2396#"
+merge "m1_3741_2396#" "A2"
+merge "REGISTER_FILEv2_0/reg_one2" "reg_one2" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/B_sel2" "B_Read_Address2" -299.61 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_zero1" "reg_zero1" -187.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -28 0 0 0 0
+merge "ALU_0/B4" "REGISTER_FILEv2_0/B4" -499.464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/B4" "B4"
+merge "ALU_0/A3" "REGISTER_FILEv2_0/A3" -492.66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -28 -112 -60 0 0
+merge "REGISTER_FILEv2_0/A3" "m1_3749_2388#"
+merge "m1_3749_2388#" "A3"
+merge "REGISTER_FILEv2_0/reg_one3" "reg_one3" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "ALU_0/B5" "REGISTER_FILEv2_0/B5" -499.464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/B5" "B5"
+merge "REGISTER_FILEv2_0/reg_one4" "reg_one4" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "ALU_0/B6" "REGISTER_FILEv2_0/B6" -499.464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/B6" "B6"
+merge "ALU_0/A5" "REGISTER_FILEv2_0/A5" -644.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 -260 -138 0 0
+merge "REGISTER_FILEv2_0/A5" "m1_3765_2372#"
+merge "m1_3765_2372#" "A5"
+merge "ALU_0/A6" "REGISTER_FILEv2_0/A6" -644.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 -260 -138 0 0
+merge "REGISTER_FILEv2_0/A6" "m1_3773_2364#"
+merge "m1_3773_2364#" "A6"
+merge "ALU_0/B7" "REGISTER_FILEv2_0/B7" -525.096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/B7" "B7"
+merge "REGISTER_FILEv2_0/reg_two0" "reg_two0" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_six0" "reg_six0" -130.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_two1" "reg_two1" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_six1" "reg_six1" -130.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_two2" "reg_two2" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_six2" "reg_six2" -130.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_two3" "reg_two3" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_three0" "reg_three0" -129.69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -22 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_two4" "reg_two4" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_six3" "reg_six3" -130.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/REG0v2_0/b_enb" "m1_613_136#" -712.71 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -116 -66 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_three1" "reg_three1" -125.685 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -27 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_six4" "reg_six4" -130.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_five0" "reg_five0" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_two5" "reg_two5" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/A_sel0" "A_Read_Address0" -368.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -36 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_three2" "reg_three2" -163.17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -22 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_two6" "reg_two6" -162.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_six5" "reg_six5" -130.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_five1" "reg_five1" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/A_sel1" "A_Read_Address1" -368.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -36 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_three3" "reg_three3" -96.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -22 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_six6" "reg_six6" -130.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_two7" "reg_two7" 419.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 184 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/A_sel2" "A_Read_Address2" -368.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -36 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_five2" "reg_five2" 419.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 184 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_three4" "reg_three4" -96.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -22 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_six7" "reg_six7" -130.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -24 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_five3" "reg_five3" -162.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_three5" "reg_three5" -96.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -22 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_five4" "reg_five4" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_three6" "reg_three6" -96.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -22 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_five5" "reg_five5" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_three7" "reg_three7" -96.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -22 0 0 0 0
+merge "REGISTER_FILEv2_0/reg_five6" "reg_five6" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "REGISTER_FILEv2_0/Imm0" "Imm0" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

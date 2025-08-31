@@ -1,0 +1,120 @@
+magic
+tech scmos
+timestamp 1746041965
+<< nwell >>
+rect -4 55 44 94
+<< ntransistor >>
+rect 7 8 9 12
+rect 15 8 17 12
+rect 23 8 25 12
+rect 31 8 33 12
+<< ptransistor >>
+rect 7 68 9 72
+rect 15 68 17 72
+rect 23 68 25 72
+rect 31 68 33 72
+<< ndiffusion >>
+rect 6 8 7 12
+rect 9 8 15 12
+rect 17 8 18 12
+rect 22 8 23 12
+rect 25 8 31 12
+rect 33 8 34 12
+<< pdiffusion >>
+rect 6 68 7 72
+rect 9 68 10 72
+rect 14 68 15 72
+rect 17 68 18 72
+rect 22 68 23 72
+rect 25 68 26 72
+rect 30 68 31 72
+rect 33 68 34 72
+<< ndcontact >>
+rect 2 8 6 12
+rect 18 8 22 12
+rect 34 8 38 12
+<< pdcontact >>
+rect 2 68 6 72
+rect 10 68 14 72
+rect 18 68 22 72
+rect 26 68 30 72
+rect 34 68 38 72
+<< psubstratepcontact >>
+rect 18 0 22 4
+<< nsubstratencontact >>
+rect 10 84 14 88
+<< polysilicon >>
+rect 7 72 9 74
+rect 15 72 17 74
+rect 23 72 25 74
+rect 31 72 33 74
+rect 7 27 9 68
+rect 15 34 17 68
+rect 23 54 25 68
+rect 21 52 25 54
+rect 21 42 23 52
+rect 21 41 25 42
+rect 24 37 25 41
+rect 16 30 17 34
+rect 6 23 9 27
+rect 7 12 9 23
+rect 15 12 17 30
+rect 23 12 25 37
+rect 31 12 33 68
+rect 7 6 9 8
+rect 15 6 17 8
+rect 23 6 25 8
+rect 31 6 33 8
+<< polycontact >>
+rect 27 45 31 49
+rect 20 37 24 41
+rect 12 30 16 34
+rect 2 23 6 27
+<< metal1 >>
+rect 0 84 10 88
+rect 14 84 40 88
+rect 10 72 14 84
+rect 18 76 38 80
+rect 18 72 22 76
+rect 34 72 38 76
+rect 2 64 6 68
+rect 18 64 22 68
+rect 2 60 22 64
+rect 26 64 30 68
+rect 26 60 38 64
+rect -30 27 -26 40
+rect -14 34 -10 40
+rect -2 37 20 41
+rect 34 20 38 60
+rect 2 16 38 20
+rect 2 12 6 16
+rect 34 12 38 16
+rect 18 4 22 8
+rect 0 0 18 4
+rect 22 0 40 4
+<< m2contact >>
+rect -22 45 -18 49
+rect 23 45 27 49
+rect -14 30 -10 34
+rect 8 30 12 34
+rect -30 23 -26 27
+rect 6 23 10 27
+<< metal2 >>
+rect -18 45 23 49
+rect -10 30 8 34
+rect -26 23 6 27
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 -16 0 1 0
+box -4 0 20 91
+use INV  INV_1
+timestamp 1741159900
+transform 1 0 -32 0 1 0
+box -4 0 20 91
+<< labels >>
+rlabel psubstratepcontact 20 2 20 2 1 VSS
+rlabel metal1 36 40 36 40 1 Y
+rlabel metal1 12 86 12 86 1 VDD
+rlabel m2contact -12 32 -12 32 1 B
+rlabel m2contact -28 25 -28 25 1 A
+<< end >>

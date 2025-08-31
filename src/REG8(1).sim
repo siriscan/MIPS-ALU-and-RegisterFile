@@ -1,0 +1,1344 @@
+| units: 30 tech: scmos format: MIT
+p a_en Q1 A1 2 8 793 -349
+n BUFFER8_0/INV_0/Y Q1 A1 2 4 793 -286
+p a_en Q2 A2 2 8 818 -349
+n BUFFER8_0/INV_0/Y Q2 A2 2 4 818 -286
+p a_en Q3 A3 2 8 843 -349
+n BUFFER8_0/INV_0/Y Q3 A3 2 4 843 -286
+p a_en Q4 A4 2 8 868 -349
+n BUFFER8_0/INV_0/Y Q4 A4 2 4 868 -286
+p a_en Q5 A5 2 8 893 -349
+n BUFFER8_0/INV_0/Y Q5 A5 2 4 893 -286
+p a_en Q6 A6 2 8 918 -349
+n BUFFER8_0/INV_0/Y Q6 A6 2 4 918 -286
+p a_en Q7 A7 2 8 943 -349
+n BUFFER8_0/INV_0/Y Q7 A7 2 4 943 -286
+p a_en VDD BUFFER8_0/INV_0/Y 2 4 745 -353
+n a_en VSS BUFFER8_0/INV_0/Y 2 4 745 -286
+p a_en Q0 A0 2 8 768 -349
+n BUFFER8_0/INV_0/Y Q0 A0 2 4 768 -286
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/a_2_8# 2 4 697 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_0/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/a_2_8# VSS 2 4 705 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 2 4 697 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 2 4 688 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_0/Dbar VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/a_9_76# 2 4 705 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 VDD 2 4 688 310
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/a_2_8# 2 4 646 242
+n reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/a_2_8# VSS 2 4 638 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 2 4 646 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 2 4 655 242
+p reg8_8bitMUX2to1_0/reg8_0/D0 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/a_9_76# 2 4 638 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 VDD 2 4 655 310
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/a_2_69# 2 4 732 303
+n reg8_8bitMUX2to1_0/reg8_0/Qbar0 Q0 VSS 2 4 740 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/a_2_69# VDD 2 4 724 303
+p reg8_8bitMUX2to1_0/reg8_0/Qbar0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/a_2_69# Q0 2 4 740 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/a_9_8# Q0 2 4 732 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/a_9_8# 2 4 724 242
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/a_2_69# 2 4 775 303
+n Q0 reg8_8bitMUX2to1_0/reg8_0/Qbar0 VSS 2 4 767 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/a_2_69# VDD 2 4 783 303
+p Q0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/a_2_69# reg8_8bitMUX2to1_0/reg8_0/Qbar0 2 4 767 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/a_9_8# reg8_8bitMUX2to1_0/reg8_0/Qbar0 2 4 775 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/a_9_8# 2 4 783 242
+p reg8_8bitMUX2to1_0/reg8_0/D0 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/Dbar 2 4 622 309
+n reg8_8bitMUX2to1_0/reg8_0/D0 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/Dbar 2 4 622 242
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/a_2_8# 2 4 886 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_1/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/a_2_8# VSS 2 4 894 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 2 4 886 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 2 4 877 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_1/Dbar VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/a_9_76# 2 4 894 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 VDD 2 4 877 310
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/a_2_8# 2 4 835 242
+n reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/a_2_8# VSS 2 4 827 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 2 4 835 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 2 4 844 242
+p reg8_8bitMUX2to1_0/reg8_0/D1 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/a_9_76# 2 4 827 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 VDD 2 4 844 310
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/a_2_69# 2 4 921 303
+n reg8_8bitMUX2to1_0/reg8_0/Qbar1 Q1 VSS 2 4 929 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/a_2_69# VDD 2 4 913 303
+p reg8_8bitMUX2to1_0/reg8_0/Qbar1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/a_2_69# Q1 2 4 929 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/a_9_8# Q1 2 4 921 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/a_9_8# 2 4 913 242
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/a_2_69# 2 4 964 303
+n Q1 reg8_8bitMUX2to1_0/reg8_0/Qbar1 VSS 2 4 956 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/a_2_69# VDD 2 4 972 303
+p Q1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/a_2_69# reg8_8bitMUX2to1_0/reg8_0/Qbar1 2 4 956 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/a_9_8# reg8_8bitMUX2to1_0/reg8_0/Qbar1 2 4 964 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/a_9_8# 2 4 972 242
+p reg8_8bitMUX2to1_0/reg8_0/D1 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/Dbar 2 4 811 309
+n reg8_8bitMUX2to1_0/reg8_0/D1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/Dbar 2 4 811 242
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/a_2_8# 2 4 1076 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_2/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/a_2_8# VSS 2 4 1084 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 2 4 1076 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 2 4 1067 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_2/Dbar VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/a_9_76# 2 4 1084 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 VDD 2 4 1067 310
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/a_2_8# 2 4 1025 242
+n reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/a_2_8# VSS 2 4 1017 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 2 4 1025 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 2 4 1034 242
+p reg8_8bitMUX2to1_0/reg8_0/D2 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/a_9_76# 2 4 1017 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 VDD 2 4 1034 310
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/a_2_69# 2 4 1111 303
+n reg8_8bitMUX2to1_0/reg8_0/Qbar2 Q2 VSS 2 4 1119 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/a_2_69# VDD 2 4 1103 303
+p reg8_8bitMUX2to1_0/reg8_0/Qbar2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/a_2_69# Q2 2 4 1119 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/a_9_8# Q2 2 4 1111 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/a_9_8# 2 4 1103 242
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/a_2_69# 2 4 1154 303
+n Q2 reg8_8bitMUX2to1_0/reg8_0/Qbar2 VSS 2 4 1146 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/a_2_69# VDD 2 4 1162 303
+p Q2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/a_2_69# reg8_8bitMUX2to1_0/reg8_0/Qbar2 2 4 1146 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/a_9_8# reg8_8bitMUX2to1_0/reg8_0/Qbar2 2 4 1154 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/a_9_8# 2 4 1162 242
+p reg8_8bitMUX2to1_0/reg8_0/D2 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/Dbar 2 4 1001 309
+n reg8_8bitMUX2to1_0/reg8_0/D2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/Dbar 2 4 1001 242
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/a_2_8# 2 4 1267 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_3/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/a_2_8# VSS 2 4 1275 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 2 4 1267 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 2 4 1258 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_3/Dbar VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/a_9_76# 2 4 1275 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 VDD 2 4 1258 310
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/a_2_8# 2 4 1216 242
+n reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/a_2_8# VSS 2 4 1208 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 2 4 1216 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 2 4 1225 242
+p reg8_8bitMUX2to1_0/reg8_0/D3 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/a_9_76# 2 4 1208 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 VDD 2 4 1225 310
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/a_2_69# 2 4 1302 303
+n reg8_8bitMUX2to1_0/reg8_0/Qbar3 Q3 VSS 2 4 1310 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/a_2_69# VDD 2 4 1294 303
+p reg8_8bitMUX2to1_0/reg8_0/Qbar3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/a_2_69# Q3 2 4 1310 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/a_9_8# Q3 2 4 1302 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/a_9_8# 2 4 1294 242
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/a_2_69# 2 4 1345 303
+n Q3 reg8_8bitMUX2to1_0/reg8_0/Qbar3 VSS 2 4 1337 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/a_2_69# VDD 2 4 1353 303
+p Q3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/a_2_69# reg8_8bitMUX2to1_0/reg8_0/Qbar3 2 4 1337 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/a_9_8# reg8_8bitMUX2to1_0/reg8_0/Qbar3 2 4 1345 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/a_9_8# 2 4 1353 242
+p reg8_8bitMUX2to1_0/reg8_0/D3 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/Dbar 2 4 1192 309
+n reg8_8bitMUX2to1_0/reg8_0/D3 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/Dbar 2 4 1192 242
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/a_2_8# 2 4 1455 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_4/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/a_2_8# VSS 2 4 1463 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 2 4 1455 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 2 4 1446 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_4/Dbar VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/a_9_76# 2 4 1463 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 VDD 2 4 1446 310
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/a_2_8# 2 4 1404 242
+n reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/a_2_8# VSS 2 4 1396 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 2 4 1404 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 2 4 1413 242
+p reg8_8bitMUX2to1_0/reg8_0/D4 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/a_9_76# 2 4 1396 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 VDD 2 4 1413 310
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/a_2_69# 2 4 1490 303
+n reg8_8bitMUX2to1_0/reg8_0/Qbar4 Q4 VSS 2 4 1498 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/a_2_69# VDD 2 4 1482 303
+p reg8_8bitMUX2to1_0/reg8_0/Qbar4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/a_2_69# Q4 2 4 1498 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/a_9_8# Q4 2 4 1490 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/a_9_8# 2 4 1482 242
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/a_2_69# 2 4 1533 303
+n Q4 reg8_8bitMUX2to1_0/reg8_0/Qbar4 VSS 2 4 1525 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/a_2_69# VDD 2 4 1541 303
+p Q4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/a_2_69# reg8_8bitMUX2to1_0/reg8_0/Qbar4 2 4 1525 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/a_9_8# reg8_8bitMUX2to1_0/reg8_0/Qbar4 2 4 1533 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/a_9_8# 2 4 1541 242
+p reg8_8bitMUX2to1_0/reg8_0/D4 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/Dbar 2 4 1380 309
+n reg8_8bitMUX2to1_0/reg8_0/D4 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/Dbar 2 4 1380 242
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/a_2_8# 2 4 1644 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_5/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/a_2_8# VSS 2 4 1652 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 2 4 1644 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 2 4 1635 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_5/Dbar VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/a_9_76# 2 4 1652 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 VDD 2 4 1635 310
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/a_2_8# 2 4 1593 242
+n reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/a_2_8# VSS 2 4 1585 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 2 4 1593 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 2 4 1602 242
+p reg8_8bitMUX2to1_0/reg8_0/D5 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/a_9_76# 2 4 1585 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 VDD 2 4 1602 310
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/a_2_69# 2 4 1679 303
+n reg8_8bitMUX2to1_0/reg8_0/Qbar5 Q5 VSS 2 4 1687 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/a_2_69# VDD 2 4 1671 303
+p reg8_8bitMUX2to1_0/reg8_0/Qbar5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/a_2_69# Q5 2 4 1687 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/a_9_8# Q5 2 4 1679 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/a_9_8# 2 4 1671 242
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/a_2_69# 2 4 1722 303
+n Q5 reg8_8bitMUX2to1_0/reg8_0/Qbar5 VSS 2 4 1714 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/a_2_69# VDD 2 4 1730 303
+p Q5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/a_2_69# reg8_8bitMUX2to1_0/reg8_0/Qbar5 2 4 1714 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/a_9_8# reg8_8bitMUX2to1_0/reg8_0/Qbar5 2 4 1722 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/a_9_8# 2 4 1730 242
+p reg8_8bitMUX2to1_0/reg8_0/D5 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/Dbar 2 4 1569 309
+n reg8_8bitMUX2to1_0/reg8_0/D5 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/Dbar 2 4 1569 242
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/a_2_8# 2 4 1834 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_6/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/a_2_8# VSS 2 4 1842 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 2 4 1834 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 2 4 1825 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_6/Dbar VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/a_9_76# 2 4 1842 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 VDD 2 4 1825 310
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/a_2_8# 2 4 1783 242
+n reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/a_2_8# VSS 2 4 1775 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 2 4 1783 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 2 4 1792 242
+p reg8_8bitMUX2to1_0/reg8_0/D6 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/a_9_76# 2 4 1775 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 VDD 2 4 1792 310
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/a_2_69# 2 4 1869 303
+n reg8_8bitMUX2to1_0/reg8_0/Qbar6 Q6 VSS 2 4 1877 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/a_2_69# VDD 2 4 1861 303
+p reg8_8bitMUX2to1_0/reg8_0/Qbar6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/a_2_69# Q6 2 4 1877 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/a_9_8# Q6 2 4 1869 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/a_9_8# 2 4 1861 242
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/a_2_69# 2 4 1912 303
+n Q6 reg8_8bitMUX2to1_0/reg8_0/Qbar6 VSS 2 4 1904 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/a_2_69# VDD 2 4 1920 303
+p Q6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/a_2_69# reg8_8bitMUX2to1_0/reg8_0/Qbar6 2 4 1904 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/a_9_8# reg8_8bitMUX2to1_0/reg8_0/Qbar6 2 4 1912 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/a_9_8# 2 4 1920 242
+p reg8_8bitMUX2to1_0/reg8_0/D6 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/Dbar 2 4 1759 309
+n reg8_8bitMUX2to1_0/reg8_0/D6 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/Dbar 2 4 1759 242
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/a_2_8# 2 4 2025 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_7/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/a_2_8# VSS 2 4 2033 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 2 4 2025 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 2 4 2016 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_7/Dbar VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/a_9_76# 2 4 2033 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 VDD 2 4 2016 310
+n CLK VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/a_2_8# 2 4 1974 242
+n reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/a_2_8# VSS 2 4 1966 242
+p CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/a_9_76# reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 2 4 1974 310
+n reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/a_2_8# reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 2 4 1983 242
+p reg8_8bitMUX2to1_0/reg8_0/D7 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/a_9_76# 2 4 1966 310
+p reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 VDD 2 4 1983 310
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/a_2_69# 2 4 2060 303
+n reg8_8bitMUX2to1_0/reg8_0/Qbar7 Q7 VSS 2 4 2068 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/a_2_69# VDD 2 4 2052 303
+p reg8_8bitMUX2to1_0/reg8_0/Qbar7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/a_2_69# Q7 2 4 2068 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/a_9_8# Q7 2 4 2060 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/a_9_8# 2 4 2052 242
+p CLK VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/a_2_69# 2 4 2103 303
+n Q7 reg8_8bitMUX2to1_0/reg8_0/Qbar7 VSS 2 4 2095 242
+p reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/a_2_69# VDD 2 4 2111 303
+p Q7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/a_2_69# reg8_8bitMUX2to1_0/reg8_0/Qbar7 2 4 2095 303
+n CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/a_9_8# reg8_8bitMUX2to1_0/reg8_0/Qbar7 2 4 2103 242
+n reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/a_9_8# 2 4 2111 242
+p reg8_8bitMUX2to1_0/reg8_0/D7 VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/Dbar 2 4 1950 309
+n reg8_8bitMUX2to1_0/reg8_0/D7 VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/Dbar 2 4 1950 242
+p reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y C1 reg8_8bitMUX2to1_0/reg8_0/D1 2 8 214 305
+n reg_en C1 reg8_8bitMUX2to1_0/reg8_0/D1 2 4 214 242
+p reg_en Q1 reg8_8bitMUX2to1_0/reg8_0/D1 2 8 189 305
+n reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y Q1 reg8_8bitMUX2to1_0/reg8_0/D1 2 4 189 242
+p reg_en VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y 2 4 166 309
+n reg_en VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y 2 4 166 242
+p reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y C0 reg8_8bitMUX2to1_0/reg8_0/D0 2 8 150 305
+n reg_en C0 reg8_8bitMUX2to1_0/reg8_0/D0 2 4 150 242
+p reg_en Q0 reg8_8bitMUX2to1_0/reg8_0/D0 2 8 125 305
+n reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y Q0 reg8_8bitMUX2to1_0/reg8_0/D0 2 4 125 242
+p reg_en VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y 2 4 102 309
+n reg_en VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y 2 4 102 242
+p reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y C2 reg8_8bitMUX2to1_0/reg8_0/D2 2 8 278 305
+n reg_en C2 reg8_8bitMUX2to1_0/reg8_0/D2 2 4 278 242
+p reg_en Q2 reg8_8bitMUX2to1_0/reg8_0/D2 2 8 253 305
+n reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y Q2 reg8_8bitMUX2to1_0/reg8_0/D2 2 4 253 242
+p reg_en VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y 2 4 230 309
+n reg_en VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y 2 4 230 242
+p reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y C3 reg8_8bitMUX2to1_0/reg8_0/D3 2 8 342 305
+n reg_en C3 reg8_8bitMUX2to1_0/reg8_0/D3 2 4 342 242
+p reg_en Q3 reg8_8bitMUX2to1_0/reg8_0/D3 2 8 317 305
+n reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y Q3 reg8_8bitMUX2to1_0/reg8_0/D3 2 4 317 242
+p reg_en VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y 2 4 294 309
+n reg_en VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y 2 4 294 242
+p reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y C4 reg8_8bitMUX2to1_0/reg8_0/D4 2 8 406 305
+n reg_en C4 reg8_8bitMUX2to1_0/reg8_0/D4 2 4 406 242
+p reg_en Q4 reg8_8bitMUX2to1_0/reg8_0/D4 2 8 381 305
+n reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y Q4 reg8_8bitMUX2to1_0/reg8_0/D4 2 4 381 242
+p reg_en VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y 2 4 358 309
+n reg_en VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y 2 4 358 242
+p reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y C5 reg8_8bitMUX2to1_0/reg8_0/D5 2 8 470 305
+n reg_en C5 reg8_8bitMUX2to1_0/reg8_0/D5 2 4 470 242
+p reg_en Q5 reg8_8bitMUX2to1_0/reg8_0/D5 2 8 445 305
+n reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y Q5 reg8_8bitMUX2to1_0/reg8_0/D5 2 4 445 242
+p reg_en VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y 2 4 422 309
+n reg_en VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y 2 4 422 242
+p reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y C6 reg8_8bitMUX2to1_0/reg8_0/D6 2 8 534 305
+n reg_en C6 reg8_8bitMUX2to1_0/reg8_0/D6 2 4 534 242
+p reg_en Q6 reg8_8bitMUX2to1_0/reg8_0/D6 2 8 509 305
+n reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y Q6 reg8_8bitMUX2to1_0/reg8_0/D6 2 4 509 242
+p reg_en VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y 2 4 486 309
+n reg_en VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y 2 4 486 242
+p reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y C7 reg8_8bitMUX2to1_0/reg8_0/D7 2 8 598 305
+n reg_en C7 reg8_8bitMUX2to1_0/reg8_0/D7 2 4 598 242
+p reg_en Q7 reg8_8bitMUX2to1_0/reg8_0/D7 2 8 573 305
+n reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y Q7 reg8_8bitMUX2to1_0/reg8_0/D7 2 4 573 242
+p reg_en VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y 2 4 550 309
+n reg_en VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y 2 4 550 242
+p b_en Q1 B1 2 8 793 730
+n BUFFER8_1/INV_0/Y Q1 B1 2 4 793 667
+p b_en Q2 B2 2 8 818 730
+n BUFFER8_1/INV_0/Y Q2 B2 2 4 818 667
+p b_en Q3 B3 2 8 843 730
+n BUFFER8_1/INV_0/Y Q3 B3 2 4 843 667
+p b_en Q4 B4 2 8 868 730
+n BUFFER8_1/INV_0/Y Q4 B4 2 4 868 667
+p b_en Q5 B5 2 8 893 730
+n BUFFER8_1/INV_0/Y Q5 B5 2 4 893 667
+p b_en Q6 B6 2 8 918 730
+n BUFFER8_1/INV_0/Y Q6 B6 2 4 918 667
+p b_en Q7 B7 2 8 943 730
+n BUFFER8_1/INV_0/Y Q7 B7 2 4 943 667
+p b_en VDD BUFFER8_1/INV_0/Y 2 4 745 734
+n b_en VSS BUFFER8_1/INV_0/Y 2 4 745 667
+p b_en Q0 B0 2 8 768 730
+n BUFFER8_1/INV_0/Y Q0 B0 2 4 768 667
+C CLK VSS 20.08
+C Q3 VDD 2.93
+C reg8_8bitMUX2to1_0/reg8_0/D5 C5 2.31
+C C6 C7 6.51
+C reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 2.23
+C reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 2.23
+C B4 B5 16.30
+C reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 2.23
+C Q1 Q2 31.36
+C B6 B7 15.92
+C Q2 VDD 2.93
+C Q4 Q5 47.37
+C reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/reg8_0/D3 8.14
+C Q0 A0 2.41
+C VDD b_en 9.13
+C reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/reg8_0/D6 12.49
+C C3 C4 4.29
+C VSS reg_en 12.36
+C A1 A0 13.33
+C B2 B3 16.31
+C Q1 B1 2.30
+C reg8_8bitMUX2to1_0/reg8_0/D7 C7 2.48
+C B1 B0 14.41
+C Q1 VDD 2.76
+C reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 2.23
+C B4 B3 15.62
+C VDD Q7 21.17
+C reg8_8bitMUX2to1_0/reg8_0/D4 C4 2.17
+C A3 A4 15.79
+C Q3 B3 2.08
+C reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 2.23
+C C5 C6 5.77
+C reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 2.23
+C A4 A5 15.50
+C Q3 Q4 43.25
+C reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/reg8_0/D2 6.69
+C A3 Q3 2.08
+C A2 A3 16.08
+C CLK VDD 12.79
+C VDD Q6 3.11
+C A5 A6 15.21
+C Q6 Q7 55.66
+C reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/reg8_0/D5 11.04
+C A6 A7 14.93
+C reg8_8bitMUX2to1_0/reg8_0/D6 C6 2.38
+C A1 A2 13.09
+C Q2 B2 2.18
+C VDD Q5 2.93
+C reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/reg8_0/D1 5.25
+C reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 2.23
+C reg8_8bitMUX2to1_0/reg8_0/D3 C3 2.08
+C reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 2.23
+C Q2 Q3 35.20
+C C2 C1 2.82
+C VDD reg_en 11.97
+C A2 Q2 2.18
+C VDD VSS 2.40
+C B1 B2 13.95
+C C4 C5 5.03
+C Q4 VDD 2.93
+C Q5 Q6 51.50
+C reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/reg8_0/D4 9.61
+C Q0 Q1 25.77
+C a_en VDD 9.13
+C Q0 B0 2.41
+C C2 C3 3.56
+C reg8_8bitMUX2to1_0/reg8_0/D0 C0 2.03
+C Q0 VDD 2.93
+C reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/reg8_0/D7 13.94
+C B5 B6 15.94
+C A1 Q1 2.30
+C B0 GND 36.56
+R B0 38
+= B0 BUFFER8_1/Y0
+= B0 BUFFER8_1/TRANSMISSION_0/Y
+C B7 GND 32.60
+R B7 35
+= B7 BUFFER8_1/Y7
+= B7 BUFFER8_1/TRANSMISSION_7/Y
+C B6 GND 33.11
+R B6 36
+= B6 BUFFER8_1/Y6
+= B6 BUFFER8_1/TRANSMISSION_6/Y
+C B5 GND 33.65
+R B5 36
+= B5 BUFFER8_1/Y5
+= B5 BUFFER8_1/TRANSMISSION_5/Y
+C B4 GND 34.20
+R B4 36
+= B4 BUFFER8_1/Y4
+= B4 BUFFER8_1/TRANSMISSION_4/Y
+C BUFFER8_1/INV_0/Y GND 14.67
+R BUFFER8_1/INV_0/Y 262
+= BUFFER8_1/INV_0/Y BUFFER8_1/TRANSMISSION_4/en
+= BUFFER8_1/INV_0/Y BUFFER8_1/TRANSMISSION_5/en
+= BUFFER8_1/INV_0/Y BUFFER8_1/TRANSMISSION_6/en
+= BUFFER8_1/INV_0/Y BUFFER8_1/TRANSMISSION_7/en
+= BUFFER8_1/INV_0/Y BUFFER8_1/TRANSMISSION_3/en
+= BUFFER8_1/INV_0/Y BUFFER8_1/TRANSMISSION_0/en
+= BUFFER8_1/INV_0/Y BUFFER8_1/TRANSMISSION_1/en
+= BUFFER8_1/INV_0/Y BUFFER8_1/TRANSMISSION_2/en
+= BUFFER8_1/INV_0/Y BUFFER8_1/m1_10_n8#
+C B3 GND 34.19
+R B3 35
+= B3 BUFFER8_1/Y3
+= B3 BUFFER8_1/TRANSMISSION_3/Y
+C b_en GND 20.23
+R b_en 403
+= b_en BUFFER8_1/enb
+= b_en BUFFER8_1/TRANSMISSION_4/enb
+= b_en BUFFER8_1/TRANSMISSION_5/enb
+= b_en BUFFER8_1/TRANSMISSION_6/enb
+= b_en BUFFER8_1/TRANSMISSION_7/enb
+= b_en BUFFER8_1/INV_0/A
+= b_en BUFFER8_1/TRANSMISSION_0/enb
+= b_en BUFFER8_1/TRANSMISSION_1/enb
+= b_en BUFFER8_1/TRANSMISSION_2/enb
+= b_en BUFFER8_1/TRANSMISSION_3/enb
+C B2 GND 34.96
+R B2 36
+= B2 BUFFER8_1/Y2
+= B2 BUFFER8_1/TRANSMISSION_2/Y
+C B1 GND 35.75
+R B1 37
+= B1 BUFFER8_1/Y1
+= B1 BUFFER8_1/TRANSMISSION_1/Y
+C reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y GND 2.79
+R reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y 72
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_1/enb
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_0/en
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/m1_10_12#
+C C7 GND 15.94
+R C7 22
+= C7 reg8_8bitMUX2to1_0/D7
+= C7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/B7
+= C7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/B
+= C7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_1/A
+C reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y GND 2.79
+R reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y 72
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_1/enb
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_0/en
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/m1_10_12#
+C C6 GND 14.35
+R C6 20
+= C6 reg8_8bitMUX2to1_0/D6
+= C6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/B6
+= C6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/B
+= C6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_1/A
+C reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y GND 2.79
+R reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y 72
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_1/enb
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_0/en
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/m1_10_12#
+C C5 GND 12.81
+R C5 19
+= C5 reg8_8bitMUX2to1_0/D5
+= C5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/B5
+= C5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/B
+= C5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_1/A
+C reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y GND 2.79
+R reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y 72
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_1/enb
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_0/en
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/m1_10_12#
+C C4 GND 11.26
+R C4 18
+= C4 reg8_8bitMUX2to1_0/D4
+= C4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/B4
+= C4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/B
+= C4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_1/A
+C reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y GND 2.79
+R reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y 72
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_1/enb
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_0/en
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/m1_10_12#
+C C3 GND 9.71
+R C3 17
+= C3 reg8_8bitMUX2to1_0/D3
+= C3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/B3
+= C3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/B
+= C3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_1/A
+C reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y GND 2.79
+R reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y 72
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_1/enb
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_0/en
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/m1_10_12#
+C C2 GND 8.17
+R C2 15
+= C2 reg8_8bitMUX2to1_0/D2
+= C2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/B2
+= C2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/B
+= C2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_1/A
+C reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y GND 2.79
+R reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y 72
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_1/enb
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_0/en
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/m1_10_12#
+C reg_en GND 50.16
+R reg_en 1366
+= reg_en reg8_8bitMUX2to1_0/EN
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_1/en
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_0/enb
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/A
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_1/en
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_0/enb
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/A
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_1/en
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_0/enb
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/A
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_1/en
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_0/enb
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/A
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_1/en
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_0/enb
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/A
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_1/en
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_0/enb
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/A
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_1/en
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_0/enb
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/A
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/S
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_1/en
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_0/enb
+= reg_en reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/A
+C C0 GND 5.07
+R C0 13
+= C0 reg8_8bitMUX2to1_0/D0
+= C0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/B0
+= C0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/B
+= C0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_1/A
+C reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y GND 2.79
+R reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y 72
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_1/enb
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_0/en
+= reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/Y reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/m1_10_12#
+C C1 GND 6.62
+R C1 14
+= C1 reg8_8bitMUX2to1_0/D1
+= C1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/B1
+= C1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/B
+= C1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_1/A
+C reg8_8bitMUX2to1_0/reg8_0/Qbar7 GND 4.66
+R reg8_8bitMUX2to1_0/reg8_0/Qbar7 96
+= reg8_8bitMUX2to1_0/reg8_0/Qbar7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/Qbar
+= reg8_8bitMUX2to1_0/reg8_0/Qbar7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/Qbar7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/Qbar7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_120_38#
+C reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 GND 9.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 205
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_35_46#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/a_2_69# 15
+C Q7 GND 87.02
+R Q7 243
+= Q7 BUFFER8_1/A7
+= Q7 BUFFER8_1/TRANSMISSION_7/A
+= Q7 m1_938_505#
+= Q7 BUFFER8_0/A7
+= Q7 BUFFER8_0/TRANSMISSION_7/A
+= Q7 reg8_8bitMUX2to1_0/Q7
+= Q7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/A7
+= Q7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/A
+= Q7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_0/A
+= Q7 reg8_8bitMUX2to1_0/reg8_0/Q7
+= Q7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/Q
+= Q7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/Y
+= Q7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/C
+= Q7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_112_26#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/a_2_69# 15
+R reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 GND 10.90
+R reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 206
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_47_n24#
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/C
+C reg8_8bitMUX2to1_0/reg8_0/D7 GND 44.15
+R reg8_8bitMUX2to1_0/reg8_0/D7 263
+= reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/Y7
+= reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/Y
+= reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/m1_494_n134#
+= reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/D
+= reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/INV_0/A
+= reg8_8bitMUX2to1_0/reg8_0/D7 reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/A
+R reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_7/Dbar GND 6.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_7/Dbar 107
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_7/INV_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_7/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/A
+C VSS GND 61.43
+R VSS 1411
+= VSS BUFFER8_1/VSS
+= VSS BUFFER8_1/INV_0/VSS
+= VSS BUFFER8_0/VSS
+= VSS m1_609_n281#
+= VSS BUFFER8_0/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/VSS
+= VSS reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/m1_180_32#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_122_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_86_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_37_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_122_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_86_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_37_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/m1_369_32#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_122_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_86_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_37_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/m1_559_32#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_122_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_86_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_37_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/m1_750_32#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_122_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_86_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_37_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/m1_938_32#
+= VSS reg8_8bitMUX2to1_0/reg8_0/m1_1317_32#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_122_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_86_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_37_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_122_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_86_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_37_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/m1_1127_32#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_122_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/INV_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_86_0#
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/VSS
+= VSS reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_37_0#
+C reg8_8bitMUX2to1_0/reg8_0/Qbar6 GND 4.66
+R reg8_8bitMUX2to1_0/reg8_0/Qbar6 96
+= reg8_8bitMUX2to1_0/reg8_0/Qbar6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/Qbar
+= reg8_8bitMUX2to1_0/reg8_0/Qbar6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/Qbar6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/Qbar6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_120_38#
+C reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 GND 9.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 205
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_35_46#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/a_2_69# 15
+C Q6 GND 121.79
+R Q6 270
+= Q6 BUFFER8_1/A6
+= Q6 BUFFER8_1/TRANSMISSION_6/A
+= Q6 m1_913_497#
+= Q6 BUFFER8_0/A6
+= Q6 BUFFER8_0/TRANSMISSION_6/A
+= Q6 reg8_8bitMUX2to1_0/Q6
+= Q6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/A6
+= Q6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/A
+= Q6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_0/A
+= Q6 reg8_8bitMUX2to1_0/reg8_0/Q6
+= Q6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/Q
+= Q6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/Y
+= Q6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/C
+= Q6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_112_26#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/a_2_69# 15
+R reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 GND 10.90
+R reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 206
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_47_n24#
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/C
+C reg8_8bitMUX2to1_0/reg8_0/D6 GND 41.04
+R reg8_8bitMUX2to1_0/reg8_0/D6 261
+= reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/Y6
+= reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/Y
+= reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/m1_430_n126#
+= reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/D
+= reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/INV_0/A
+= reg8_8bitMUX2to1_0/reg8_0/D6 reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/A
+R reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_6/Dbar GND 6.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_6/Dbar 107
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_6/INV_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_6/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/A
+C reg8_8bitMUX2to1_0/reg8_0/Qbar5 GND 4.66
+R reg8_8bitMUX2to1_0/reg8_0/Qbar5 96
+= reg8_8bitMUX2to1_0/reg8_0/Qbar5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/Qbar
+= reg8_8bitMUX2to1_0/reg8_0/Qbar5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/Qbar5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/Qbar5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_120_38#
+C reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 GND 9.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 205
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_35_46#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/a_2_69# 15
+C Q5 GND 113.35
+R Q5 263
+= Q5 BUFFER8_1/A5
+= Q5 BUFFER8_1/TRANSMISSION_5/A
+= Q5 m1_888_489#
+= Q5 BUFFER8_0/A5
+= Q5 BUFFER8_0/TRANSMISSION_5/A
+= Q5 reg8_8bitMUX2to1_0/Q5
+= Q5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/A5
+= Q5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/A
+= Q5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_0/A
+= Q5 reg8_8bitMUX2to1_0/reg8_0/Q5
+= Q5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/Q
+= Q5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/Y
+= Q5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/C
+= Q5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_112_26#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/a_2_69# 15
+R reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 GND 10.90
+R reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 206
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_47_n24#
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/C
+C reg8_8bitMUX2to1_0/reg8_0/D5 GND 37.99
+R reg8_8bitMUX2to1_0/reg8_0/D5 258
+= reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/Y5
+= reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/Y
+= reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/m1_366_n118#
+= reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/D
+= reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/INV_0/A
+= reg8_8bitMUX2to1_0/reg8_0/D5 reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/A
+R reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_5/Dbar GND 6.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_5/Dbar 107
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_5/INV_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_5/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/A
+C reg8_8bitMUX2to1_0/reg8_0/Qbar4 GND 4.66
+R reg8_8bitMUX2to1_0/reg8_0/Qbar4 96
+= reg8_8bitMUX2to1_0/reg8_0/Qbar4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/Qbar
+= reg8_8bitMUX2to1_0/reg8_0/Qbar4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/Qbar4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/Qbar4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_120_38#
+C reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 GND 9.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 205
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_35_46#
+C VDD GND 924.20
+R VDD 128666
+= VDD BUFFER8_1/VDD
+= VDD BUFFER8_1/INV_0/VDD
+= VDD BUFFER8_1/TRANSMISSION_4/w_1_65#
+= VDD BUFFER8_1/w_118_65#
+= VDD BUFFER8_1/TRANSMISSION_5/w_1_65#
+= VDD BUFFER8_1/w_143_65#
+= VDD BUFFER8_1/TRANSMISSION_6/w_1_65#
+= VDD BUFFER8_1/w_168_65#
+= VDD BUFFER8_1/TRANSMISSION_7/w_1_65#
+= VDD BUFFER8_1/w_193_65#
+= VDD BUFFER8_1/w_93_65#
+= VDD BUFFER8_1/TRANSMISSION_0/w_1_65#
+= VDD BUFFER8_1/TRANSMISSION_1/w_1_65#
+= VDD BUFFER8_1/w_43_65#
+= VDD BUFFER8_1/TRANSMISSION_2/w_1_65#
+= VDD BUFFER8_1/w_68_65#
+= VDD BUFFER8_1/TRANSMISSION_3/w_1_65#
+= VDD m1_668_318#
+= VDD w_654_326#
+= VDD w_67_n60#
+= VDD BUFFER8_0/VDD
+= VDD w_954_n362#
+= VDD BUFFER8_0/INV_0/VDD
+= VDD BUFFER8_0/TRANSMISSION_4/w_1_65#
+= VDD BUFFER8_0/w_118_65#
+= VDD BUFFER8_0/TRANSMISSION_5/w_1_65#
+= VDD BUFFER8_0/w_143_65#
+= VDD BUFFER8_0/TRANSMISSION_6/w_1_65#
+= VDD BUFFER8_0/w_168_65#
+= VDD BUFFER8_0/TRANSMISSION_7/w_1_65#
+= VDD BUFFER8_0/w_193_65#
+= VDD BUFFER8_0/w_93_65#
+= VDD BUFFER8_0/TRANSMISSION_0/w_1_65#
+= VDD BUFFER8_0/TRANSMISSION_1/w_1_65#
+= VDD BUFFER8_0/w_43_65#
+= VDD BUFFER8_0/TRANSMISSION_2/w_1_65#
+= VDD BUFFER8_0/w_68_65#
+= VDD BUFFER8_0/TRANSMISSION_3/w_1_65#
+= VDD reg8_8bitMUX2to1_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_1/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_0/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/w_42_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_1/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/TRANSMISSION_0/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/w_42_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_6/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_1/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/TRANSMISSION_0/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/w_42_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_5/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_1/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_0/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/w_42_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_1/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_0/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/w_42_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_1/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_0/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/w_42_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_1/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_0/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/w_42_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/VDD
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_1/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_0/w_1_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/w_42_65#
+= VDD reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/m1_1127_116#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_122_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_86_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/w_90_90#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/m1_37_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/m1_1317_116#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_122_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_86_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/w_90_90#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/m1_37_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_122_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_86_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/w_90_90#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_37_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/w_184_98#
+= VDD reg8_8bitMUX2to1_0/reg8_0/m1_180_116#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_122_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_86_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/w_90_90#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_37_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/w_372_98#
+= VDD reg8_8bitMUX2to1_0/reg8_0/m1_369_116#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_122_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_86_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/w_90_90#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_37_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/w_563_98#
+= VDD reg8_8bitMUX2to1_0/reg8_0/m1_559_116#
+= VDD reg8_8bitMUX2to1_0/reg8_0/w_942_98#
+= VDD reg8_8bitMUX2to1_0/reg8_0/m1_938_116#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_122_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_86_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/w_90_90#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/m1_37_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_122_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_86_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/w_90_90#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_37_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/w_752_98#
+= VDD reg8_8bitMUX2to1_0/reg8_0/m1_750_116#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_122_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_86_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/w_90_90#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/INV_0/VDD
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_37_84#
+= VDD reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/VDD
+R reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/a_2_69# 15
+C Q4 GND 104.96
+R Q4 257
+= Q4 BUFFER8_1/A4
+= Q4 BUFFER8_1/TRANSMISSION_4/A
+= Q4 m1_863_481#
+= Q4 BUFFER8_0/A4
+= Q4 BUFFER8_0/TRANSMISSION_4/A
+= Q4 reg8_8bitMUX2to1_0/Q4
+= Q4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/A4
+= Q4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/A
+= Q4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_0/A
+= Q4 reg8_8bitMUX2to1_0/reg8_0/Q4
+= Q4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/Q
+= Q4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/Y
+= Q4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/C
+= Q4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_112_26#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/a_2_69# 15
+R reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 GND 10.90
+R reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 206
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_4/m1_47_n24#
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/C
+C reg8_8bitMUX2to1_0/reg8_0/D4 GND 34.96
+R reg8_8bitMUX2to1_0/reg8_0/D4 256
+= reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/Y4
+= reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/Y
+= reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_4/TRANSMISSION_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/m1_302_n110#
+= reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/D
+= reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/INV_0/A
+= reg8_8bitMUX2to1_0/reg8_0/D4 reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/A
+R reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_4/Dbar GND 6.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_4/Dbar 107
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_4/INV_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_4/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/A
+C reg8_8bitMUX2to1_0/reg8_0/Qbar3 GND 4.66
+R reg8_8bitMUX2to1_0/reg8_0/Qbar3 96
+= reg8_8bitMUX2to1_0/reg8_0/Qbar3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/Qbar
+= reg8_8bitMUX2to1_0/reg8_0/Qbar3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/Qbar3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/Qbar3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_120_38#
+C reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 GND 9.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 205
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_35_46#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/a_2_69# 15
+C Q3 GND 96.61
+R Q3 251
+= Q3 BUFFER8_1/A3
+= Q3 BUFFER8_1/TRANSMISSION_3/A
+= Q3 m1_838_473#
+= Q3 BUFFER8_0/A3
+= Q3 BUFFER8_0/TRANSMISSION_3/A
+= Q3 reg8_8bitMUX2to1_0/Q3
+= Q3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/A3
+= Q3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/A
+= Q3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_0/A
+= Q3 reg8_8bitMUX2to1_0/reg8_0/Q3
+= Q3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/Q
+= Q3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/Y
+= Q3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/C
+= Q3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_112_26#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/a_2_69# 15
+R reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 GND 10.90
+R reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 206
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_3/m1_47_n24#
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/C
+C reg8_8bitMUX2to1_0/reg8_0/D3 GND 31.96
+R reg8_8bitMUX2to1_0/reg8_0/D3 253
+= reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/Y3
+= reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/Y
+= reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_3/TRANSMISSION_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/m1_238_n102#
+= reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/D
+= reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/INV_0/A
+= reg8_8bitMUX2to1_0/reg8_0/D3 reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/A
+R reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_3/Dbar GND 6.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_3/Dbar 107
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_3/INV_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_3/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/A
+C reg8_8bitMUX2to1_0/reg8_0/Qbar2 GND 4.66
+R reg8_8bitMUX2to1_0/reg8_0/Qbar2 96
+= reg8_8bitMUX2to1_0/reg8_0/Qbar2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/Qbar
+= reg8_8bitMUX2to1_0/reg8_0/Qbar2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/Qbar2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/Qbar2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_120_38#
+C reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 GND 9.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 205
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_35_46#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/a_2_69# 15
+C Q2 GND 88.12
+R Q2 245
+= Q2 BUFFER8_1/A2
+= Q2 BUFFER8_1/TRANSMISSION_2/A
+= Q2 m1_813_464#
+= Q2 BUFFER8_0/A2
+= Q2 BUFFER8_0/TRANSMISSION_2/A
+= Q2 reg8_8bitMUX2to1_0/Q2
+= Q2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/A2
+= Q2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/A
+= Q2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_0/A
+= Q2 reg8_8bitMUX2to1_0/reg8_0/Q2
+= Q2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/Q
+= Q2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/Y
+= Q2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/C
+= Q2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_112_26#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/a_2_69# 15
+R reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 GND 10.90
+R reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 206
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_2/m1_47_n24#
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/C
+C reg8_8bitMUX2to1_0/reg8_0/D2 GND 28.89
+R reg8_8bitMUX2to1_0/reg8_0/D2 251
+= reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/Y2
+= reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/Y
+= reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_2/TRANSMISSION_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/m1_174_n94#
+= reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/D
+= reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/INV_0/A
+= reg8_8bitMUX2to1_0/reg8_0/D2 reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/A
+R reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_2/Dbar GND 6.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_2/Dbar 107
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_2/INV_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_2/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/A
+C reg8_8bitMUX2to1_0/reg8_0/Qbar1 GND 4.66
+R reg8_8bitMUX2to1_0/reg8_0/Qbar1 96
+= reg8_8bitMUX2to1_0/reg8_0/Qbar1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/Qbar
+= reg8_8bitMUX2to1_0/reg8_0/Qbar1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/Qbar1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/Qbar1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_120_38#
+C reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 GND 9.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 205
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_35_46#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/a_2_69# 15
+C Q1 GND 79.68
+R Q1 239
+= Q1 BUFFER8_1/A1
+= Q1 BUFFER8_1/TRANSMISSION_1/A
+= Q1 m1_788_455#
+= Q1 BUFFER8_0/A1
+= Q1 BUFFER8_0/TRANSMISSION_1/A
+= Q1 reg8_8bitMUX2to1_0/Q1
+= Q1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/A1
+= Q1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/A
+= Q1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_0/A
+= Q1 reg8_8bitMUX2to1_0/reg8_0/Q1
+= Q1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/Q
+= Q1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/Y
+= Q1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/C
+= Q1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_112_26#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/a_2_69# 15
+R reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 GND 10.90
+R reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 206
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/m1_47_n24#
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/C
+C reg8_8bitMUX2to1_0/reg8_0/D1 GND 25.84
+R reg8_8bitMUX2to1_0/reg8_0/D1 248
+= reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/Y1
+= reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_1/TRANSMISSION_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/m1_110_n86#
+= reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/D
+= reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/INV_0/A
+= reg8_8bitMUX2to1_0/reg8_0/D1 reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/A
+R reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_1/Dbar GND 6.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_1/Dbar 107
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_1/INV_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_1/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/A
+C reg8_8bitMUX2to1_0/reg8_0/Qbar0 GND 4.66
+R reg8_8bitMUX2to1_0/reg8_0/Qbar0 96
+= reg8_8bitMUX2to1_0/reg8_0/Qbar0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/Qbar
+= reg8_8bitMUX2to1_0/reg8_0/Qbar0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/Qbar0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/Qbar0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_120_38#
+C reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 GND 9.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 205
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/C
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y2 reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_35_46#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/a_2_69# 15
+C Q0 GND 73.69
+R Q0 234
+= Q0 BUFFER8_1/A0
+= Q0 BUFFER8_1/TRANSMISSION_0/A
+= Q0 m1_735_455#
+= Q0 BUFFER8_0/A0
+= Q0 BUFFER8_0/TRANSMISSION_0/A
+= Q0 reg8_8bitMUX2to1_0/Q0
+= Q0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/A0
+= Q0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/A
+= Q0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_0/A
+= Q0 reg8_8bitMUX2to1_0/reg8_0/Q0
+= Q0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/Q
+= Q0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/Y
+= Q0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/C
+= Q0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_112_26#
+R reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/a_2_69# 15
+R reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 GND 10.90
+R reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 206
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/A
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_0/m1_47_n24#
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Y1 reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/C
+C CLK GND 164.37
+R CLK 3168
+= CLK reg8_8bitMUX2to1_0/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/AOI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_7/OAI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/m1_1302_n8#
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/AOI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_5/OAI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/m1_1112_n8#
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/AOI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_6/OAI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/m1_923_n8#
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/AOI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_4/OAI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/m1_735_n8#
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/AOI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_2/OAI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/AOI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_3/OAI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/m1_544_n8#
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/AOI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_1/OAI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/m1_354_n8#
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/CLK
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/AOI21_1/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/B
+= CLK reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/B
+C reg8_8bitMUX2to1_0/reg8_0/D0 GND 22.85
+R reg8_8bitMUX2to1_0/reg8_0/D0 246
+= reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/Y0
+= reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_1/Y
+= reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_0/TRANSMISSION_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/m1_46_n78#
+= reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/D
+= reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/INV_0/A
+= reg8_8bitMUX2to1_0/reg8_0/D0 reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/A
+R reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/a_2_8# 18
+C reg8_8bitMUX2to1_0/reg8_0/DFF_0/Dbar GND 6.54
+R reg8_8bitMUX2to1_0/reg8_0/DFF_0/Dbar 107
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_0/INV_0/Y
+= reg8_8bitMUX2to1_0/reg8_0/DFF_0/Dbar reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/A
+C A0 GND 35.87
+R A0 36
+= A0 BUFFER8_0/Y0
+= A0 BUFFER8_0/TRANSMISSION_0/Y
+C A7 GND 31.31
+R A7 32
+= A7 BUFFER8_0/Y7
+= A7 BUFFER8_0/TRANSMISSION_7/Y
+C A6 GND 31.97
+R A6 33
+= A6 BUFFER8_0/Y6
+= A6 BUFFER8_0/TRANSMISSION_6/Y
+C A5 GND 32.62
+R A5 33
+= A5 BUFFER8_0/Y5
+= A5 BUFFER8_0/TRANSMISSION_5/Y
+C A4 GND 33.24
+R A4 34
+= A4 BUFFER8_0/Y4
+= A4 BUFFER8_0/TRANSMISSION_4/Y
+C BUFFER8_0/INV_0/Y GND 14.67
+R BUFFER8_0/INV_0/Y 262
+= BUFFER8_0/INV_0/Y BUFFER8_0/TRANSMISSION_4/en
+= BUFFER8_0/INV_0/Y BUFFER8_0/TRANSMISSION_5/en
+= BUFFER8_0/INV_0/Y BUFFER8_0/TRANSMISSION_6/en
+= BUFFER8_0/INV_0/Y BUFFER8_0/TRANSMISSION_7/en
+= BUFFER8_0/INV_0/Y BUFFER8_0/TRANSMISSION_3/en
+= BUFFER8_0/INV_0/Y BUFFER8_0/TRANSMISSION_0/en
+= BUFFER8_0/INV_0/Y BUFFER8_0/TRANSMISSION_1/en
+= BUFFER8_0/INV_0/Y BUFFER8_0/TRANSMISSION_2/en
+= BUFFER8_0/INV_0/Y BUFFER8_0/m1_10_n8#
+C A3 GND 33.92
+R A3 34
+= A3 BUFFER8_0/Y3
+= A3 BUFFER8_0/TRANSMISSION_3/Y
+C a_en GND 20.23
+R a_en 403
+= a_en BUFFER8_0/enb
+= a_en BUFFER8_0/TRANSMISSION_4/enb
+= a_en BUFFER8_0/TRANSMISSION_5/enb
+= a_en BUFFER8_0/TRANSMISSION_6/enb
+= a_en BUFFER8_0/TRANSMISSION_7/enb
+= a_en BUFFER8_0/INV_0/A
+= a_en BUFFER8_0/TRANSMISSION_0/enb
+= a_en BUFFER8_0/TRANSMISSION_1/enb
+= a_en BUFFER8_0/TRANSMISSION_2/enb
+= a_en BUFFER8_0/TRANSMISSION_3/enb
+C A2 GND 34.57
+R A2 35
+= A2 BUFFER8_0/Y2
+= A2 BUFFER8_0/TRANSMISSION_2/Y
+C A1 GND 35.24
+R A1 36
+= A1 BUFFER8_0/Y1
+= A1 BUFFER8_0/TRANSMISSION_1/Y

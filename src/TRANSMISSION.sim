@@ -1,0 +1,5 @@
+| units: 30 tech: scmos format: MIT
+n en A Y 2 4 12 8
+p enb A Y 2 8 12 71
+R en 26
+R enb 31

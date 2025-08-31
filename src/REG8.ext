@@ -1,0 +1,468 @@
+timestamp 1746070328
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use BUFFER8 BUFFER8_0 1 0 738 0 -1 -277
+use BUFFER8 BUFFER8_1 1 0 738 0 1 659
+use reg8_8bitMUX2to1 reg8_8bitMUX2to1_0 1 0 91 0 1 218
+node "a_en" 13 16410.5 0 -325 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2960 1488 0 0 0 0
+node "A7" 24 30318.9 946 -258 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5164 2590 268 142 0 0
+node "A6" 24 30970.9 921 -250 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5264 2640 300 158 0 0
+node "A5" 25 31623 896 -242 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5364 2690 332 174 0 0
+node "A4" 25 32275.1 871 -234 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5464 2740 364 190 0 0
+node "A3" 26 32927.2 846 -226 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5564 2790 396 206 0 0
+node "A2" 27 33579.3 821 -218 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5664 2840 428 222 0 0
+node "A1" 27 34241.2 796 -209 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5764 2890 464 240 0 0
+node "A0" 28 34903 771 -200 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5864 2940 500 258 0 0
+node "CLK" 31 37282.8 643 -135 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6368 3192 700 358 0 0
+node "Q7" 29 32696.9 938 -96 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5188 2602 1432 732 0 0
+node "Q6" 30 33349 913 -88 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5288 2652 1432 732 0 0
+node "Q5" 30 33981.5 888 -80 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5388 2702 1424 728 0 0
+node "Q4" 30 34653.2 863 -72 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5488 2752 1432 732 0 0
+node "reg_en" 3 2780.08 -2 -69 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 412 214 312 164 0 0
+node "Q3" 31 35305.3 838 -64 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5588 2802 1432 732 0 0
+node "Q2" 31 35957.3 813 -55 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5688 2852 1432 732 0 0
+node "Q1" 32 36550.7 788 -46 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5788 2902 1408 720 0 0
+node "Q0" 33 38099.8 735 -46 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6016 3024 1464 748 0 0
+node "C7" 1 712.71 -29 153 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "C6" 1 712.71 -29 161 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "C5" 1 712.71 -29 169 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "C4" 1 712.71 -29 177 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "C3" 1 712.71 -29 185 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "C2" 1 712.71 -29 193 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "C1" 1 712.71 -29 201 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "C0" 1 712.71 -29 210 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "VSS" 0 299.61 106 234 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "VDD" 25 1011.06 83 -42 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2844 1446 2764 1398 0 0
+node "m1_788_455#" 8 6387.55 788 455 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 560 288 1304 668 0 0
+node "m1_735_455#" 6 3869.78 735 455 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 72 1272 652 0 0
+node "m1_813_464#" 11 10213.5 813 464 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1220 618 1336 684 0 0
+node "m1_838_473#" 14 14062.3 838 473 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1884 950 1368 700 0 0
+node "m1_863_481#" 17 17842.4 863 481 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2536 1276 1400 716 0 0
+node "m1_888_489#" 20 21645.3 888 489 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3192 1604 1432 732 0 0
+node "m1_913_497#" 23 25471.2 913 497 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3852 1934 1464 748 0 0
+node "m1_938_505#" 26 29320.1 938 505 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4516 2266 1496 764 0 0
+node "B3" 27 33071.6 846 604 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5568 2800 444 238 0 0
+node "B4" 28 33063.6 871 612 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5484 2766 700 374 0 0
+node "B2" 27 33841.2 821 596 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5668 2850 540 286 0 0
+node "B5" 27 32529.1 896 620 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5384 2716 732 390 0 0
+node "B1" 28 34630.4 796 587 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5768 2900 644 338 0 0
+node "B6" 27 31984.7 921 628 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5284 2666 760 404 0 0
+node "B0" 29 35419.6 771 578 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5868 2950 748 390 0 0
+node "B7" 27 31440.3 946 636 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5184 2616 788 418 0 0
+node "m1_609_n281#" 21 13780.9 609 -281 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1060 554 3776 1896 0 0
+node "b_en" 13 16410.5 0 703 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2960 1488 0 0 0 0
+node "m1_668_318#" 9 204.48 668 318 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 304 168 1716 866 0 0
+node "w_954_n362#" 7130 338.4 954 -362 nw 0 0 0 0 40 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_67_n60#" 30137 362706 67 -60 nw 0 0 0 0 42873 2756 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_654_326#" 13490 120250 654 326 nw 0 0 0 0 14214 1092 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Q5" "Q1" 156.768
+cap "A3" "A4" 15768.4
+cap "w_654_326#" "m1_609_n281#" 619.65
+cap "A2" "A1" 13076.5
+cap "Q7" "Q1" 156.768
+cap "m1_938_505#" "B3" 156.768
+cap "m1_888_489#" "B5" 1057.21
+cap "a_en" "w_67_n60#" 619.65
+cap "B0" "m1_863_481#" 156.768
+cap "A3" "Q3" 1261.01
+cap "B6" "B3" 156.768
+cap "B4" "B5" 16327.2
+cap "A2" "Q2" 1362.91
+cap "Q4" "A3" 156.768
+cap "Q5" "A2" 156.768
+cap "Q6" "A5" 156.768
+cap "Q7" "A2" 156.768
+cap "B1" "B5" 156.768
+cap "VDD" "a_en" 156.768
+cap "B0" "m1_735_455#" 1592.19
+cap "m1_888_489#" "B3" 156.768
+cap "B0" "B2" 156.768
+cap "Q6" "CLK" 156.768
+cap "Q5" "A3" 156.768
+cap "m1_913_497#" "B2" 156.768
+cap "Q7" "A3" 156.768
+cap "Q6" "A4" 156.768
+cap "B4" "B3" 15572.1
+cap "B7" "B5" 156.768
+cap "VDD" "w_67_n60#" 22010.2
+cap "w_654_326#" "b_en" 619.65
+cap "A6" "A7" 14902.7
+cap "B1" "B3" 156.768
+cap "A0" "Q3" 156.768
+cap "C6" "C7" 334.762
+cap "m1_938_505#" "B2" 156.768
+cap "C0" "C1" 267.809
+cap "Q3" "Q6" 156.768
+cap "C4" "C3" 334.762
+cap "m1_888_489#" "m1_863_481#" 7029.99
+cap "Q7" "A6" 156.768
+cap "Q4" "A0" 156.768
+cap "B6" "B2" 156.768
+cap "Q4" "Q6" 156.768
+cap "A0" "A1" 13307.3
+cap "B4" "m1_863_481#" 1159.11
+cap "Q6" "A1" 156.768
+cap "m1_913_497#" "B0" 156.768
+cap "A2" "A3" 16057
+cap "B2" "m1_813_464#" 1362.91
+cap "B1" "m1_863_481#" 156.768
+cap "B7" "B3" 156.768
+cap "m1_609_n281#" "w_67_n60#" 962.37
+cap "A0" "Q2" 156.768
+cap "m1_938_505#" "B0" 156.768
+cap "A0" "Q5" 156.768
+cap "Q7" "A0" 156.768
+cap "Q6" "Q2" 156.768
+cap "Q5" "Q6" 15417.3
+cap "m1_888_489#" "B2" 156.768
+cap "m1_938_505#" "m1_913_497#" 10827.8
+cap "Q0" "CLK" 156.768
+cap "Q7" "Q6" 15128.7
+cap "B0" "B6" 156.768
+cap "B3" "m1_838_473#" 1261.01
+cap "A0" "Q1" 156.768
+cap "B4" "B2" 156.768
+cap "m1_913_497#" "B6" 955.313
+cap "VDD" "m1_609_n281#" 313.536
+cap "Q6" "Q1" 156.768
+cap "B0" "m1_813_464#" 156.768
+cap "B1" "B2" 13922.3
+cap "Q0" "Q3" 156.768
+cap "m1_938_505#" "B6" 156.768
+cap "m1_888_489#" "B0" 156.768
+cap "Q0" "Q4" 156.768
+cap "m1_838_473#" "m1_863_481#" 5148.4
+cap "A2" "Q6" 156.768
+cap "m1_888_489#" "m1_913_497#" 8923.13
+cap "B0" "B4" 779.315
+cap "A4" "A5" 15479.8
+cap "B3" "B5" 156.768
+cap "m1_609_n281#" "m1_668_318#" 156.768
+cap "B7" "B2" 156.768
+cap "m1_913_497#" "B4" 156.768
+cap "B0" "B1" 14388.2
+cap "w_67_n60#" "reg_en" 342.72
+cap "Q0" "Q2" 156.768
+cap "m1_913_497#" "B1" 156.768
+cap "Q0" "Q5" 156.768
+cap "C1" "C2" 334.762
+cap "Q0" "Q7" 156.768
+cap "m1_788_455#" "B0" 156.768
+cap "m1_938_505#" "B4" 156.768
+cap "A3" "Q6" 156.768
+cap "B2" "m1_838_473#" 156.768
+cap "m1_938_505#" "B1" 156.768
+cap "B4" "B6" 156.768
+cap "Q0" "Q1" 11292.4
+cap "VDD" "reg_en" 156.768
+cap "Q3" "CLK" 156.768
+cap "C6" "C5" 334.762
+cap "B7" "B0" 156.768
+cap "B1" "B6" 156.768
+cap "Q6" "A6" 955.313
+cap "Q4" "CLK" 156.768
+cap "C5" "C4" 334.762
+cap "Q5" "A5" 1057.21
+cap "B1" "m1_813_464#" 156.768
+cap "Q4" "A4" 1159.11
+cap "Q7" "A5" 156.768
+cap "B0" "m1_838_473#" 156.768
+cap "m1_888_489#" "B4" 156.768
+cap "m1_938_505#" "B7" 853.413
+cap "B2" "B5" 156.768
+cap "m1_788_455#" "m1_813_464#" 1062
+cap "B3" "m1_863_481#" 156.768
+cap "Q4" "Q3" 15994.4
+cap "m1_888_489#" "B1" 156.768
+cap "m1_668_318#" "b_en" 156.768
+cap "CLK" "Q2" 156.768
+cap "B7" "B6" 15984.8
+cap "A0" "Q6" 156.768
+cap "Q5" "CLK" 156.768
+cap "C3" "C2" 334.762
+cap "Q3" "A1" 156.768
+cap "Q7" "CLK" 156.768
+cap "B4" "B1" 156.768
+cap "Q5" "A4" 156.768
+cap "Q4" "A1" 156.768
+cap "Q7" "A4" 156.768
+cap "CLK" "Q1" 156.768
+cap "Q3" "Q2" 13057.8
+cap "Q5" "Q3" 156.768
+cap "B0" "B5" 156.768
+cap "Q7" "Q3" 156.768
+cap "CLK" "w_67_n60#" 962.37
+cap "m1_788_455#" "B1" 1477.55
+cap "B3" "B2" 16285.8
+cap "Q4" "Q2" 156.768
+cap "m1_838_473#" "m1_813_464#" 2585.74
+cap "m1_913_497#" "B5" 156.768
+cap "Q4" "Q5" 15705.9
+cap "Q4" "Q7" 156.768
+cap "A1" "Q2" 156.768
+cap "Q5" "A1" 156.768
+cap "Q3" "Q1" 156.768
+cap "B7" "B4" 156.768
+cap "Q7" "A1" 156.768
+cap "m1_938_505#" "B5" 156.768
+cap "Q4" "Q1" 156.768
+cap "B7" "B1" 156.768
+cap "VDD" "CLK" 313.536
+cap "B2" "m1_863_481#" 156.768
+cap "A1" "Q1" 1477.55
+cap "Q7" "A7" 853.413
+cap "B6" "B5" 15978.4
+cap "Q5" "Q2" 156.768
+cap "Q7" "Q2" 156.768
+cap "B0" "B3" 156.768
+cap "Q0" "A0" 1592.19
+cap "A2" "Q3" 156.768
+cap "Q7" "Q5" 156.768
+cap "B1" "m1_838_473#" 156.768
+cap "A6" "A5" 15191.2
+cap "m1_913_497#" "B3" 156.768
+cap "Q0" "Q6" 156.768
+cap "Q4" "A2" 156.768
+cap "w_654_326#" "m1_668_318#" 5722.06
+cap "Q2" "Q1" 13288.7
+cap "BUFFER8_0/TRANSMISSION_0/en" "BUFFER8_0/A0" 8.796
+cap "BUFFER8_0/Y0" "BUFFER8_0/A0" -5.68434e-14
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/Y0" 110.392
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/A3" 229.579
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/Y2" 110.392
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/Y3" 110.392
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/A4" 229.579
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/Y1" 110.392
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/A2" 229.579
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/A1" 229.579
+cap "BUFFER8_0/Y5" "BUFFER8_0/TRANSMISSION_7/en" 110.392
+cap "BUFFER8_0/A6" "BUFFER8_0/TRANSMISSION_7/en" 229.579
+cap "BUFFER8_0/A5" "BUFFER8_0/TRANSMISSION_7/en" 229.579
+cap "BUFFER8_0/Y4" "BUFFER8_0/TRANSMISSION_7/en" 110.392
+cap "BUFFER8_0/A5" "BUFFER8_0/Y5" -1.13687e-13
+cap "BUFFER8_0/A7" "BUFFER8_0/Y7" -1.13687e-13
+cap "BUFFER8_0/A4" "BUFFER8_0/Y4" -5.68434e-14
+cap "BUFFER8_0/Y6" "BUFFER8_0/TRANSMISSION_7/en" 110.392
+cap "BUFFER8_0/A7" "BUFFER8_0/TRANSMISSION_7/en" 229.579
+cap "BUFFER8_0/A6" "BUFFER8_0/Y6" -1.13687e-13
+cap "BUFFER8_0/m1_10_n8#" "Q0" 156.768
+cap "BUFFER8_0/m1_10_n8#" "Q1" 275.651
+cap "A2" "BUFFER8_0/m1_10_n8#" 216.21
+cap "A1" "BUFFER8_0/m1_10_n8#" 216.21
+cap "BUFFER8_0/m1_10_n8#" "Q4" 275.651
+cap "Q2" "BUFFER8_0/m1_10_n8#" 275.651
+cap "A0" "BUFFER8_0/m1_10_n8#" 216.21
+cap "A3" "BUFFER8_0/m1_10_n8#" 216.21
+cap "BUFFER8_0/m1_10_n8#" "Q3" 275.651
+cap "Q7" "BUFFER8_0/m1_10_n8#" 118.883
+cap "Q5" "BUFFER8_0/m1_10_n8#" 275.651
+cap "A5" "BUFFER8_0/m1_10_n8#" 216.21
+cap "Q6" "BUFFER8_0/m1_10_n8#" 275.651
+cap "BUFFER8_0/m1_10_n8#" "A6" 216.21
+cap "A4" "BUFFER8_0/m1_10_n8#" 216.21
+subcap "w_67_n60#" -359863
+cap "reg8_8bitMUX2to1_0/Q0" "w_67_n60#" 91.8
+cap "reg8_8bitMUX2to1_0/Q1" "w_67_n60#" 91.8
+cap "reg8_8bitMUX2to1_0/Q0" "VDD" 156.768
+cap "reg8_8bitMUX2to1_0/Q1" "VDD" 156.768
+cap "reg8_8bitMUX2to1_0/Q0" "w_67_n60#" 405.945
+cap "w_67_n60#" "VDD" -78.336
+cap "reg8_8bitMUX2to1_0/Q1" "w_67_n60#" 405.945
+cap "reg8_8bitMUX2to1_0/Q3" "w_67_n60#" 91.8
+cap "reg8_8bitMUX2to1_0/Q2" "w_67_n60#" 91.8
+cap "reg8_8bitMUX2to1_0/Q4" "w_67_n60#" 91.8
+cap "reg8_8bitMUX2to1_0/Q7" "w_67_n60#" 428.202
+cap "reg8_8bitMUX2to1_0/Q5" "w_67_n60#" 91.8
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q6" 91.8
+cap "reg8_8bitMUX2to1_0/Q7" "w_67_n60#" 614.727
+cap "w_67_n60#" "VDD" -235.008
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q4" 405.945
+cap "reg8_8bitMUX2to1_0/Q6" "VDD" 156.768
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q2" 405.945
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q3" 405.945
+cap "reg8_8bitMUX2to1_0/Q7" "VDD" 156.768
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q5" 405.945
+cap "reg8_8bitMUX2to1_0/Q4" "VDD" 156.768
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q6" 459
+cap "reg8_8bitMUX2to1_0/Q2" "VDD" 156.768
+cap "reg8_8bitMUX2to1_0/Q3" "VDD" 156.768
+cap "reg8_8bitMUX2to1_0/Q5" "VDD" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/m1_238_n102#" 156.768
+cap "reg8_8bitMUX2to1_0/m1_430_n126#" "m1_609_n281#" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/m1_494_n134#" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/m1_302_n110#" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/m1_366_n118#" 156.768
+cap "reg8_8bitMUX2to1_0/D2" "reg8_8bitMUX2to1_0/D1" -5.68434e-14
+cap "reg8_8bitMUX2to1_0/D5" "w_67_n60#" 91.8
+cap "reg8_8bitMUX2to1_0/D0" "reg8_8bitMUX2to1_0/D1" -1.13687e-13
+cap "reg8_8bitMUX2to1_0/D3" "w_67_n60#" 91.8
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D2" 91.8
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D7" 91.8
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D6" 91.8
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D4" 91.8
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D1" 91.8
+cap "reg8_8bitMUX2to1_0/D5" "reg8_8bitMUX2to1_0/D6" -5.68434e-14
+cap "reg8_8bitMUX2to1_0/D5" "reg8_8bitMUX2to1_0/D4" -5.68434e-14
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D0" 91.8
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q7" 422.532
+cap "reg8_8bitMUX2to1_0/D3" "reg8_8bitMUX2to1_0/D4" -5.68434e-14
+cap "reg8_8bitMUX2to1_0/D3" "reg8_8bitMUX2to1_0/D2" -5.68434e-14
+cap "reg8_8bitMUX2to1_0/D7" "reg8_8bitMUX2to1_0/D6" -5.68434e-14
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D6" 405.945
+cap "VDD" "reg8_8bitMUX2to1_0/D4" 156.768
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D1" 405.945
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D2" 405.945
+cap "VDD" "reg8_8bitMUX2to1_0/D6" 156.768
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D0" 405.945
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D3" 405.945
+cap "reg8_8bitMUX2to1_0/D1" "VDD" 156.768
+cap "w_67_n60#" "VDD" -313.344
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q7" 234.54
+cap "VDD" "reg8_8bitMUX2to1_0/D2" 156.768
+cap "reg8_8bitMUX2to1_0/D0" "VDD" 156.768
+cap "VDD" "reg8_8bitMUX2to1_0/D3" 156.768
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D7" 405.945
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D5" 405.945
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/D4" 405.945
+cap "reg8_8bitMUX2to1_0/D7" "VDD" 156.768
+cap "reg8_8bitMUX2to1_0/D5" "VDD" 156.768
+cap "reg8_8bitMUX2to1_0/m1_110_n86#" "m1_609_n281#" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/Y" 76.425
+cap "reg8_8bitMUX2to1_0/m1_174_n94#" "m1_609_n281#" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/m1_46_n78#" 156.768
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q7" 622.404
+cap "reg8_8bitMUX2to1_0/8bitMUX2to1_0/VDD" "reg8_8bitMUX2to1_0/Q7" 374.414
+subcap "w_654_326#" -109158
+cap "reg8_8bitMUX2to1_0/reg8_0/DFF_0/D" "reg8_8bitMUX2to1_0/VSS" 713.3
+cap "reg8_8bitMUX2to1_0/VSS" "reg8_8bitMUX2to1_0/8bitMUX2to1_0/MUX2to1_7/TRANSMISSION_1/Y" 687.825
+cap "reg8_8bitMUX2to1_0/VDD" "reg8_8bitMUX2to1_0/VSS" 347.712
+cap "w_67_n60#" "reg8_8bitMUX2to1_0/Q7" 10.296
+cap "reg8_8bitMUX2to1_0/Q7" "reg8_8bitMUX2to1_0/8bitMUX2to1_0/VDD" 33.4937
+subcap "w_654_326#" -114451
+cap "reg8_8bitMUX2to1_0/A2" "reg8_8bitMUX2to1_0/VDD" 396.792
+cap "reg8_8bitMUX2to1_0/A7" "reg8_8bitMUX2to1_0/VDD" 488.592
+cap "reg8_8bitMUX2to1_0/A6" "m1_609_n281#" 156.768
+cap "reg8_8bitMUX2to1_0/VDD" "reg8_8bitMUX2to1_0/A5" 396.792
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/VDD" 4.896
+cap "reg8_8bitMUX2to1_0/A3" "reg8_8bitMUX2to1_0/VDD" 396.792
+cap "reg8_8bitMUX2to1_0/VDD" "reg8_8bitMUX2to1_0/A4" 396.792
+cap "reg8_8bitMUX2to1_0/VDD" "reg8_8bitMUX2to1_0/A0" 396.792
+cap "reg8_8bitMUX2to1_0/VDD" "reg8_8bitMUX2to1_0/A1" 396.792
+cap "reg8_8bitMUX2to1_0/A2" "m1_609_n281#" 156.768
+cap "reg8_8bitMUX2to1_0/A7" "m1_609_n281#" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/A5" 156.768
+cap "reg8_8bitMUX2to1_0/A6" "reg8_8bitMUX2to1_0/VDD" 488.592
+cap "reg8_8bitMUX2to1_0/A3" "m1_609_n281#" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/A0" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/A4" 156.768
+cap "m1_609_n281#" "reg8_8bitMUX2to1_0/A1" 156.768
+cap "reg8_8bitMUX2to1_0/Q5" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" 243.657
+cap "reg8_8bitMUX2to1_0/Q0" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" 243.657
+cap "reg8_8bitMUX2to1_0/Q7" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" 335.457
+cap "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" "reg8_8bitMUX2to1_0/Q4" 243.657
+cap "reg8_8bitMUX2to1_0/Q2" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" 243.657
+cap "reg8_8bitMUX2to1_0/Q6" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" 335.457
+cap "reg8_8bitMUX2to1_0/Q3" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" 243.657
+cap "reg8_8bitMUX2to1_0/Q1" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" 243.657
+cap "BUFFER8_1/A0" "BUFFER8_1/TRANSMISSION_0/en" 165.564
+cap "BUFFER8_1/Y0" "BUFFER8_1/A0" 5.68434e-14
+cap "BUFFER8_1/A0" "BUFFER8_1/Y0" 5.68434e-14
+cap "BUFFER8_1/TRANSMISSION_4/en" "BUFFER8_1/Y0" 326.601
+cap "BUFFER8_1/A4" "BUFFER8_1/Y4" 5.68434e-14
+cap "BUFFER8_1/Y3" "BUFFER8_1/TRANSMISSION_4/en" 326.601
+cap "BUFFER8_1/Y2" "BUFFER8_1/TRANSMISSION_4/en" 326.601
+cap "BUFFER8_1/A4" "BUFFER8_1/TRANSMISSION_4/en" 505.231
+cap "BUFFER8_1/A3" "BUFFER8_1/TRANSMISSION_4/en" 505.231
+cap "BUFFER8_1/A3" "BUFFER8_1/Y3" 1.13687e-13
+cap "BUFFER8_1/Y1" "BUFFER8_1/TRANSMISSION_4/en" 326.601
+cap "BUFFER8_1/A2" "BUFFER8_1/TRANSMISSION_4/en" 505.231
+cap "BUFFER8_1/A1" "BUFFER8_1/TRANSMISSION_4/en" 505.231
+cap "BUFFER8_1/A2" "BUFFER8_1/Y2" 1.13687e-13
+cap "BUFFER8_1/A1" "BUFFER8_1/Y1" 1.13687e-13
+cap "BUFFER8_1/A6" "BUFFER8_1/Y6" 1.13687e-13
+cap "BUFFER8_1/TRANSMISSION_7/en" "BUFFER8_1/Y6" 326.601
+cap "BUFFER8_1/TRANSMISSION_7/en" "BUFFER8_1/Y5" 326.601
+cap "BUFFER8_1/A5" "BUFFER8_1/Y5" 1.13687e-13
+cap "BUFFER8_1/A4" "BUFFER8_1/Y4" 5.68434e-14
+cap "BUFFER8_1/TRANSMISSION_7/en" "BUFFER8_1/A6" 505.231
+cap "BUFFER8_1/TRANSMISSION_7/en" "BUFFER8_1/A5" 505.231
+cap "BUFFER8_1/TRANSMISSION_7/en" "BUFFER8_1/Y4" 326.601
+cap "BUFFER8_1/TRANSMISSION_7/en" "BUFFER8_1/A7" 348.463
+cap "BUFFER8_1/A7" "BUFFER8_1/Y7" 1.13687e-13
+merge "BUFFER8_0/Y0" "A0" -421.344 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -60 0 0
+merge "BUFFER8_1/VDD" "BUFFER8_1/INV_0/VDD" -2800.04 0 0 0 0 -320 -170 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "BUFFER8_1/INV_0/VDD" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/VDD"
+merge "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_1/VDD" "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD"
+merge "reg8_8bitMUX2to1_0/reg8_0/DFF_0/OAI21_0/VDD" "reg8_8bitMUX2to1_0/VDD"
+merge "reg8_8bitMUX2to1_0/VDD" "w_654_326#"
+merge "w_654_326#" "m1_668_318#"
+merge "BUFFER8_1/A0" "reg8_8bitMUX2to1_0/Q0" -554.517 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "reg8_8bitMUX2to1_0/Q0" "BUFFER8_0/A0"
+merge "BUFFER8_0/A0" "Q0"
+merge "Q0" "m1_735_455#"
+merge "reg8_8bitMUX2to1_0/8bitMUX2to1_0/VDD" "BUFFER8_0/VDD" -52645.1 0 0 0 0 -6128 -671 0 0 0 0 0 0 0 0 -82 -96 -932 -470 0 0
+merge "BUFFER8_0/VDD" "w_67_n60#"
+merge "w_67_n60#" "VDD"
+merge "BUFFER8_0/Y1" "A1" -386.208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -44 0 0
+merge "BUFFER8_1/A1" "reg8_8bitMUX2to1_0/Q1" -286.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "reg8_8bitMUX2to1_0/Q1" "BUFFER8_0/A1"
+merge "BUFFER8_0/A1" "Q1"
+merge "Q1" "m1_788_455#"
+merge "BUFFER8_0/Y2" "A2" -386.208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -44 0 0
+merge "BUFFER8_1/A2" "reg8_8bitMUX2to1_0/Q2" -286.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "reg8_8bitMUX2to1_0/Q2" "BUFFER8_0/A2"
+merge "BUFFER8_0/A2" "Q2"
+merge "Q2" "m1_813_464#"
+merge "BUFFER8_0/Y3" "A3" -386.208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -44 0 0
+merge "BUFFER8_1/A3" "reg8_8bitMUX2to1_0/Q3" -286.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "reg8_8bitMUX2to1_0/Q3" "BUFFER8_0/A3"
+merge "BUFFER8_0/A3" "Q3"
+merge "Q3" "m1_838_473#"
+merge "BUFFER8_0/w_193_65#" "w_954_n362#" -338.4 0 0 0 0 -40 -44 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "BUFFER8_1/enb" "b_en" -55.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_1/A4" "reg8_8bitMUX2to1_0/Q4" -286.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "reg8_8bitMUX2to1_0/Q4" "BUFFER8_0/A4"
+merge "BUFFER8_0/A4" "Q4"
+merge "Q4" "m1_863_481#"
+merge "BUFFER8_0/Y4" "A4" -421.344 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -60 0 0
+merge "reg8_8bitMUX2to1_0/8bitMUX2to1_0/VSS" "VSS" -299.61 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "BUFFER8_1/A6" "reg8_8bitMUX2to1_0/Q6" -286.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "reg8_8bitMUX2to1_0/Q6" "BUFFER8_0/A6"
+merge "BUFFER8_0/A6" "Q6"
+merge "Q6" "m1_913_497#"
+merge "BUFFER8_0/Y5" "A5" -386.208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -44 0 0
+merge "BUFFER8_1/A5" "reg8_8bitMUX2to1_0/Q5" -286.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "reg8_8bitMUX2to1_0/Q5" "BUFFER8_0/A5"
+merge "BUFFER8_0/A5" "Q5"
+merge "Q5" "m1_888_489#"
+merge "BUFFER8_0/Y6" "A6" -386.208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -44 0 0
+merge "BUFFER8_0/Y7" "A7" -386.208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -44 0 0
+merge "BUFFER8_1/A7" "reg8_8bitMUX2to1_0/Q7" -247.104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "reg8_8bitMUX2to1_0/Q7" "BUFFER8_0/A7"
+merge "BUFFER8_0/A7" "Q7"
+merge "Q7" "m1_938_505#"
+merge "reg8_8bitMUX2to1_0/EN" "reg_en" -105.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "BUFFER8_1/Y0" "B0" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_1/Y1" "B1" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_1/Y2" "B2" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_0/enb" "a_en" -55.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_1/VSS" "reg8_8bitMUX2to1_0/VSS" -3570.73 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -38 -1228 -622 0 0
+merge "reg8_8bitMUX2to1_0/VSS" "BUFFER8_0/VSS"
+merge "BUFFER8_0/VSS" "m1_609_n281#"
+merge "BUFFER8_1/Y3" "B3" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "reg8_8bitMUX2to1_0/D0" "C0" -544.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_1/Y4" "B4" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "reg8_8bitMUX2to1_0/D1" "C1" -544.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "reg8_8bitMUX2to1_0/CLK" "CLK" -409.248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 -88 0 0
+merge "BUFFER8_1/Y5" "B5" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "reg8_8bitMUX2to1_0/D2" "C2" -544.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_1/Y6" "B6" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "reg8_8bitMUX2to1_0/D3" "C3" -544.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_1/Y7" "B7" -220.752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "reg8_8bitMUX2to1_0/D4" "C4" -544.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "reg8_8bitMUX2to1_0/D5" "C5" -544.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "reg8_8bitMUX2to1_0/D6" "C6" -544.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "reg8_8bitMUX2to1_0/D7" "C7" -544.905 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

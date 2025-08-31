@@ -1,0 +1,47 @@
+magic
+tech scmos
+timestamp 1743107038
+<< metal1 >>
+rect 19 100 70 104
+rect 19 16 70 20
+rect 103 8 110 12
+rect -2 -14 54 -10
+rect 66 -27 72 -23
+rect 33 -42 190 -38
+<< m2contact >>
+rect 6 60 10 64
+rect 72 60 76 64
+rect 29 56 33 60
+rect 54 56 58 60
+rect 62 56 66 60
+rect 190 28 194 32
+rect 72 8 76 12
+rect 54 -14 58 -10
+rect 62 -27 66 -23
+rect 72 -27 76 -23
+rect 29 -42 33 -38
+rect 190 -42 194 -38
+<< metal2 >>
+rect 6 -27 10 60
+rect 29 -38 33 56
+rect 54 -10 58 56
+rect 62 -23 66 56
+rect 72 12 76 60
+rect 72 -23 76 8
+rect 190 -38 194 28
+use DFF  DFF_0
+timestamp 1741402036
+transform 1 0 82 0 1 16
+box -16 -32 168 92
+use MUX2to1  MUX2to1_0
+timestamp 1742770501
+transform 1 0 4 0 1 16
+box -4 -16 68 91
+<< labels >>
+rlabel metal1 40 102 40 102 1 VDD
+rlabel metal1 56 17 56 17 1 VSS
+rlabel metal2 8 -24 8 -24 1 EN
+rlabel metal1 0 -12 0 -12 1 D
+rlabel metal1 106 10 106 10 1 CLK
+rlabel metal2 192 3 192 3 1 Q
+<< end >>

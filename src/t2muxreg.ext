@@ -1,0 +1,52 @@
+timestamp 1743107038
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use MUX2to1 MUX2to1_0 1 0 4 0 1 16
+use DFF DFF_0 1 0 82 0 1 16
+node "CLK" 0 207.81 103 8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "VSS" 1 1217.61 19 16 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0 0 0
+node "D" 3 2214.14 -2 -14 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 256 144 296 156 0 0
+node "Q" 7 5688.05 29 -42 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 692 370 704 368 0 0
+node "m1_62_n27#" 4 2398.72 62 -27 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 84 712 372 0 0
+node "EN" 2 986.832 6 60 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 364 190 0 0
+node "VDD" 1 1217.61 19 100 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 110 0 0 0 0
+cap "Q" "D" 156.768
+cap "Q" "VSS" 156.768
+cap "VSS" "D" 156.768
+cap "D" "EN" 156.768
+cap "m1_62_n27#" "D" 568.412
+cap "VSS" "m1_62_n27#" 156.768
+cap "MUX2to1_0/Y" "MUX2to1_0/B" 464.856
+cap "MUX2to1_0/VSS" "MUX2to1_0/A" 69.261
+cap "MUX2to1_0/Y" "DFF_0/INV_0/Y" 280.225
+cap "MUX2to1_0/S" "MUX2to1_0/VSS" 583.877
+cap "MUX2to1_0/INV_0/Y" "MUX2to1_0/A" 8.796
+cap "MUX2to1_0/S" "MUX2to1_0/A" 156.768
+cap "MUX2to1_0/Y" "MUX2to1_0/VSS" 326.073
+cap "MUX2to1_0/VSS" "MUX2to1_0/B" 69.261
+cap "MUX2to1_0/Y" "MUX2to1_0/A" 713.3
+cap "MUX2to1_0/S" "MUX2to1_0/B" 212.596
+cap "DFF_0/m1_47_n24#" "DFF_0/Q" 156.768
+cap "MUX2to1_0/TRANSMISSION_0/Y" "MUX2to1_0/VDD" 55.4088
+cap "MUX2to1_0/B" "MUX2to1_0/VDD" 55.4088
+cap "DFF_0/INV_0/A" "MUX2to1_0/TRANSMISSION_1/Y" 46.174
+cap "MUX2to1_0/TRANSMISSION_1/Y" "MUX2to1_0/VDD" 86.1915
+cap "MUX2to1_0/TRANSMISSION_1/Y" "MUX2to1_0/B" -48.562
+cap "MUX2to1_0/A" "MUX2to1_0/VDD" 55.4088
+merge "DFF_0/CLK" "DFF_0/OAI21_1/B" -207.81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -22 0 0 0 0
+merge "DFF_0/OAI21_1/B" "CLK"
+merge "DFF_0/INV_0/A" "MUX2to1_0/TRANSMISSION_1/Y" -1562.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 -464 -248 0 0
+merge "MUX2to1_0/TRANSMISSION_1/Y" "DFF_0/D"
+merge "DFF_0/D" "MUX2to1_0/Y"
+merge "MUX2to1_0/Y" "m1_62_n27#"
+merge "DFF_0/INV_0/VDD" "MUX2to1_0/VDD" -1582.92 0 0 0 0 -114 -50 0 0 0 0 0 0 0 0 -4 -18 0 0 0 0
+merge "MUX2to1_0/VDD" "VDD"
+merge "DFF_0/VSS" "MUX2to1_0/VSS" -117.27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -18 0 0 0 0
+merge "MUX2to1_0/VSS" "VSS"
+merge "DFF_0/Q" "MUX2to1_0/A" -882.288 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 -144 -88 0 0
+merge "MUX2to1_0/A" "Q"
+merge "MUX2to1_0/S" "EN" -722.448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -224 -120 0 0
+merge "MUX2to1_0/B" "D" -394.848 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
