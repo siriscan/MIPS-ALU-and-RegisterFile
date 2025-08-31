@@ -1,0 +1,66 @@
+timestamp 1746041965
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use MUX2to1 MUX2to1_1 1 0 74 0 1 16
+use MUX2to1 MUX2to1_0 1 0 4 0 1 16
+node "Y" 0 138.96 124 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_66_0#" 2 1392.68 66 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148 82 224 120 0 0
+node "S1" 0 138.96 87 8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "S0" 0 138.96 22 8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "VSS" 2 3122.46 4 16 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 536 276 0 0 0 0
+node "C" 0 138.96 124 43 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B" 0 138.96 54 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A" 0 138.96 29 41 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "VDD" 2 3122.46 4 100 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 536 276 0 0 0 0
+cap "VSS" "m1_66_0#" 156.768
+cap "S1" "m1_66_0#" 46.174
+cap "VSS" "S0" 46.174
+cap "VSS" "S1" 46.174
+subcap "VSS" -754.2
+cap "MUX2to1_1/VDD" "MUX2to1_1/S" -1.13687e-13
+cap "MUX2to1_1/VDD" "MUX2to1_0/B" 18.4696
+cap "MUX2to1_1/VSS" "MUX2to1_0/S" 514.616
+cap "MUX2to1_1/S" "MUX2to1_1/A" 263.684
+cap "MUX2to1_1/VSS" "MUX2to1_1/A" 417.427
+cap "MUX2to1_1/INV_0/Y" "MUX2to1_1/A" -2.199
+cap "MUX2to1_1/VDD" "MUX2to1_1/A" 41.5566
+cap "MUX2to1_1/TRANSMISSION_0/Y" "MUX2to1_1/A" 216.993
+cap "MUX2to1_0/A" "MUX2to1_1/VSS" 46.174
+cap "MUX2to1_1/VDD" "MUX2to1_0/A" 18.4696
+cap "MUX2to1_1/S" "MUX2to1_1/VSS" 69.261
+cap "MUX2to1_1/VSS" "MUX2to1_0/B" 46.174
+cap "VSS" "MUX2to1_1/TRANSMISSION_1/en" 445.356
+cap "MUX2to1_1/TRANSMISSION_0/en" "MUX2to1_1/A" 2.199
+cap "MUX2to1_1/Y" "MUX2to1_1/A" 759.474
+cap "MUX2to1_1/Y" "VDD" 36.9392
+cap "MUX2to1_1/Y" "VSS" 405.884
+cap "MUX2to1_1/A" "VDD" 13.8522
+cap "MUX2to1_1/B" "VDD" 18.4696
+cap "MUX2to1_1/A" "MUX2to1_1/TRANSMISSION_1/en" 75.6705
+cap "VSS" "MUX2to1_1/A" 34.6305
+cap "MUX2to1_1/B" "VSS" 46.174
+cap "MUX2to1_0/TRANSMISSION_1/Y" "MUX2to1_1/VDD" 18.4696
+cap "MUX2to1_0/TRANSMISSION_0/Y" "MUX2to1_1/VDD" 18.4696
+cap "MUX2to1_1/VDD" "MUX2to1_0/TRANSMISSION_0/A" 18.4696
+cap "MUX2to1_0/TRANSMISSION_1/A" "MUX2to1_1/VDD" 18.4696
+cap "MUX2to1_1/VDD" "MUX2to1_1/TRANSMISSION_0/A" 4.6174
+cap "MUX2to1_1/TRANSMISSION_0/A" "VDD" 13.8522
+cap "MUX2to1_1/TRANSMISSION_0/Y" "VDD" 18.4696
+cap "MUX2to1_1/TRANSMISSION_1/Y" "VDD" 18.4696
+cap "MUX2to1_1/INV_0/VDD" "VDD" 282.87
+cap "MUX2to1_1/TRANSMISSION_1/A" "VDD" 18.4696
+merge "MUX2to1_0/S" "S0" -178.128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "MUX2to1_1/S" "S1" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "MUX2to1_0/Y" "MUX2to1_1/A" -341.856 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0
+merge "MUX2to1_1/A" "m1_66_0#"
+merge "MUX2to1_0/VSS" "MUX2to1_1/VSS" -1724.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -280 -160 0 0 0 0
+merge "MUX2to1_1/VSS" "VSS"
+merge "MUX2to1_0/VDD" "MUX2to1_1/VDD" -3114.81 0 0 0 0 -38 -42 0 0 0 0 0 0 0 0 -280 -230 0 0 0 0
+merge "MUX2to1_1/VDD" "VDD"
+merge "MUX2to1_1/Y" "Y" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "MUX2to1_0/A" "A" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "MUX2to1_0/B" "B" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "MUX2to1_1/B" "C" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0

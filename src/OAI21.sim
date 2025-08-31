@@ -1,0 +1,16 @@
+| units: 30 tech: scmos format: MIT
+n B VSS a_2_8# 2 4 15 8
+n A a_2_8# VSS 2 4 7 8
+p B a_9_76# Y 2 4 15 76
+n C a_2_8# Y 2 4 24 8
+p A VDD a_9_76# 2 4 7 76
+p C Y VDD 2 4 24 76
+R a_2_8# 18
+C C GND 2.57
+R C 95
+C B GND 2.51
+R B 95
+C A GND 2.57
+R A 95
+C VDD GND 7.63
+R VDD 1360

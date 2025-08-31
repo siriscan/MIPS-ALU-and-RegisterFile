@@ -1,0 +1,49 @@
+| units: 30 tech: scmos format: MIT
+p C VDD a_64_69# 2 4 78 69
+p A VDD a_64_69# 2 4 62 69
+n C a_2_8# Cbout 2 8 23 8
+n A a_109_8# Sb 2 4 112 8
+n B VSS a_41_8# 2 4 39 8
+n C VSS a_104_8# 2 4 102 8
+p B VDD a_41_69# 2 4 39 69
+p Cbout a_64_69# Sb 2 4 86 69
+p B a_104_69# a_109_69# 2 4 107 69
+n A VSS a_64_8# 2 4 62 8
+p B a_64_69# VDD 2 4 70 69
+n C VSS a_64_8# 2 4 78 8
+p C VDD a_104_69# 2 4 102 69
+n B VSS a_2_8# 2 8 15 8
+p A a_41_69# Cbout 2 4 44 69
+p A a_109_69# Sb 2 4 112 69
+n A a_2_8# VSS 2 8 7 8
+p B VDD a_2_57# 2 16 15 57
+n B a_104_8# a_109_8# 2 4 107 8
+n A a_41_8# Cbout 2 4 44 8
+n B a_64_8# VSS 2 4 70 8
+p A a_2_57# VDD 2 16 7 57
+p C a_2_57# Cbout 2 16 23 57
+n Cbout a_64_8# Sb 2 4 86 8
+C A VDD 4.29
+C VDD B 4.27
+C A B 5.07
+C VDD Cbout 2.40
+C A Cbout 2.93
+C VDD C 3.06
+C B C 4.35
+R a_64_8# 18
+C VSS GND 3.13
+R VSS 94
+R a_2_8# 18
+R Sb 33
+R a_64_69# 15
+R a_2_57# 20
+C Cbout GND 7.16
+R Cbout 127
+C C GND 7.56
+R C 286
+C B GND 9.58
+R B 382
+C A GND 9.38
+R A 368
+C VDD GND 57.63
+R VDD 1890

@@ -1,0 +1,190 @@
+timestamp 1743018986
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use Decoder_4x8 Decoder_4x8_0 1 0 64 0 1 64
+use INV INV_0 1 0 508 0 1 64
+use INV INV_1 1 0 396 0 1 64
+use INV INV_2 1 0 412 0 1 64
+use INV INV_3 1 0 428 0 1 64
+use INV INV_4 1 0 444 0 1 64
+use INV INV_5 1 0 460 0 1 64
+use INV INV_6 1 0 476 0 1 64
+use INV INV_7 1 0 492 0 1 64
+node "EN" 0 56.736 6 56 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "S2" 0 138.96 58 16 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "S1" 0 138.96 42 32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "S0" 0 138.96 26 48 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "VSS" 0 253.71 515 64 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0
+node "A7" 0 330.768 518 76 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "A6" 0 369.936 502 76 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "A5" 0 369.936 486 76 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "A4" 0 369.936 470 76 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "A3" 0 369.936 454 76 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "A2" 0 369.936 438 76 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "A1" 0 369.936 422 76 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "A0" 0 369.936 406 76 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "m1_390_0#" 4 4042.22 390 0 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 512 272 432 232 0 0
+node "m1_349_n56#" 7 5409.13 349 -56 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 612 322 868 450 0 0
+node "m1_308_n48#" 7 5855.58 308 -48 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 712 372 800 416 0 0
+node "m1_267_n40#" 7 6311.83 267 -40 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 812 422 736 384 0 0
+node "m1_226_n32#" 7 6768.07 226 -32 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 912 472 672 352 0 0
+node "m1_185_n24#" 7 7224.32 185 -24 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1012 522 608 320 0 0
+node "m1_144_n16#" 8 7680.56 144 -16 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1112 572 544 288 0 0
+node "m1_103_n8#" 8 8136.81 103 -8 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1212 622 480 256 0 0
+node "VDD" 0 276.66 514 148 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 28 0 0 0 0
+cap "m1_185_n24#" "A2" 305.7
+cap "m1_308_n48#" "A5" 305.7
+cap "A6" "m1_390_0#" 305.7
+cap "m1_308_n48#" "A4" 305.7
+cap "m1_226_n32#" "m1_103_n8#" 156.768
+cap "m1_226_n32#" "m1_144_n16#" 156.768
+cap "m1_308_n48#" "m1_185_n24#" 156.768
+cap "m1_185_n24#" "A1" 305.7
+cap "m1_185_n24#" "m1_390_0#" 156.768
+cap "m1_226_n32#" "m1_349_n56#" 156.768
+cap "m1_308_n48#" "m1_390_0#" 156.768
+cap "m1_267_n40#" "m1_103_n8#" 156.768
+cap "m1_267_n40#" "m1_144_n16#" 156.768
+cap "m1_267_n40#" "m1_349_n56#" 156.768
+cap "m1_144_n16#" "m1_103_n8#" 3134.99
+cap "m1_226_n32#" "A3" 305.7
+cap "m1_226_n32#" "A2" 305.7
+cap "m1_226_n32#" "m1_185_n24#" 2557.82
+cap "m1_103_n8#" "m1_349_n56#" 156.768
+cap "m1_308_n48#" "m1_226_n32#" 156.768
+cap "m1_144_n16#" "m1_349_n56#" 156.768
+cap "m1_226_n32#" "m1_390_0#" 156.768
+cap "m1_267_n40#" "A4" 305.7
+cap "m1_267_n40#" "A3" 305.7
+cap "m1_185_n24#" "m1_267_n40#" 156.768
+cap "m1_308_n48#" "m1_267_n40#" 1980.64
+cap "m1_267_n40#" "m1_390_0#" 156.768
+cap "m1_185_n24#" "m1_103_n8#" 156.768
+cap "m1_185_n24#" "m1_144_n16#" 2846.4
+cap "A7" "VSS" 156.768
+cap "A6" "m1_349_n56#" 305.7
+cap "m1_308_n48#" "m1_103_n8#" 156.768
+cap "A5" "m1_349_n56#" 305.7
+cap "m1_308_n48#" "m1_144_n16#" 156.768
+cap "m1_144_n16#" "A1" 305.7
+cap "m1_103_n8#" "A0" 305.7
+cap "m1_144_n16#" "A0" 305.7
+cap "m1_103_n8#" "m1_390_0#" 346.24
+cap "m1_144_n16#" "m1_390_0#" 156.768
+cap "m1_185_n24#" "m1_349_n56#" 156.768
+cap "m1_308_n48#" "m1_349_n56#" 1692.05
+cap "m1_349_n56#" "m1_390_0#" 156.768
+cap "m1_226_n32#" "m1_267_n40#" 2269.23
+cap "A7" "m1_390_0#" 305.7
+subcap "S0" -1074.24
+subcap "m1_103_n8#" -8459.01
+subcap "m1_103_n8#" -5743.22
+subcap "m1_390_0#" -3379.9
+cap "Decoder_4x8_0/A7" "m1_103_n8#" 509.5
+cap "Decoder_4x8_0/A7" "m1_103_n8#" 169.833
+subcap "A0" -1752.88
+cap "Decoder_4x8_0/NAND4_7/VDD" "Decoder_4x8_0/NAND4_7/Y" 80.6675
+cap "Decoder_4x8_0/NAND4_7/VDD" "Decoder_4x8_0/NAND4_7/D" -5.68434e-14
+cap "INV_1/A" "INV_1/VSS" 115.956
+cap "Decoder_4x8_0/NAND4_7/Y" "INV_1/VSS" 46.174
+cap "INV_1/A" "INV_1/Y" 15.3913
+cap "Decoder_4x8_0/NAND4_7/Y" "INV_1/A" 550.898
+subcap "A6" -830.916
+cap "Decoder_4x8_0/NAND4_7/Y" "INV_1/A" 183.633
+cap "INV_1/A" "INV_0/VSS" 73.716
+cap "INV_1/A" "INV_1/Y" 46.174
+cap "INV_0/VDD" "INV_1/A" -5.68434e-14
+cap "Decoder_4x8_0/NAND4_7/Y" "INV_0/VSS" 15.3913
+cap "INV_6/Y" "INV_0/VSS" 202.942
+cap "INV_5/Y" "INV_0/VSS" 202.942
+cap "INV_4/Y" "INV_0/VSS" 202.942
+cap "INV_3/Y" "INV_0/VSS" 202.942
+cap "INV_7/A" "INV_0/VSS" 274.992
+cap "INV_6/A" "INV_0/VSS" 274.992
+cap "INV_5/A" "INV_0/VSS" 274.992
+cap "INV_2/Y" "INV_0/VSS" 202.942
+cap "INV_1/Y" "INV_0/VSS" 202.942
+cap "INV_7/A" "INV_7/Y" 23.087
+cap "INV_7/A" "INV_6/Y" 92.348
+cap "INV_0/VDD" "Decoder_4x8_0/NAND4_7/Y" 19.2392
+cap "INV_4/A" "INV_0/VSS" 274.992
+cap "INV_3/A" "INV_0/VSS" 274.992
+cap "INV_2/A" "INV_0/VSS" 274.992
+cap "INV_6/A" "INV_6/Y" 46.174
+cap "INV_6/A" "INV_5/Y" 92.348
+cap "INV_5/A" "INV_5/Y" 46.174
+cap "INV_5/A" "INV_4/Y" 92.348
+cap "INV_0/VDD" "INV_6/Y" 46.174
+cap "INV_4/A" "INV_4/Y" 46.174
+cap "INV_4/A" "INV_3/Y" 92.348
+cap "INV_3/A" "INV_3/Y" 46.174
+cap "INV_3/A" "INV_2/Y" 92.348
+cap "INV_2/A" "INV_2/Y" 46.174
+cap "INV_0/VDD" "INV_5/Y" 46.174
+cap "INV_0/VDD" "INV_4/Y" 46.174
+cap "INV_0/VDD" "INV_3/Y" 46.174
+cap "INV_0/VDD" "INV_2/Y" 46.174
+cap "INV_0/VDD" "INV_1/Y" 46.174
+cap "INV_2/A" "INV_1/Y" 92.348
+cap "INV_0/VDD" "INV_7/A" -10.527
+cap "INV_0/VDD" "INV_6/A" -5.68434e-14
+cap "INV_0/VDD" "INV_5/A" -5.68434e-14
+cap "INV_0/VDD" "INV_4/A" -5.68434e-14
+cap "INV_0/VDD" "INV_3/A" -5.68434e-14
+cap "INV_0/VDD" "INV_2/A" -5.68434e-14
+cap "INV_0/A" "INV_0/Y" 46.174
+cap "INV_7/Y" "INV_7/A" 23.087
+cap "INV_7/Y" "INV_0/VSS" 202.942
+cap "INV_0/VSS" "INV_0/Y" 2.84217e-14
+cap "INV_7/Y" "INV_0/VDD" 46.174
+cap "INV_0/VSS" "INV_0/A" 274.992
+cap "INV_7/Y" "INV_0/A" 92.348
+merge "INV_1/A" "Decoder_4x8_0/A0" -5254.27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -800 -416 -208 -116 0 0
+merge "Decoder_4x8_0/A0" "m1_103_n8#"
+merge "INV_7/A" "Decoder_4x8_0/A6" -185.529 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -4 -10 0 0
+merge "Decoder_4x8_0/A6" "m1_349_n56#"
+merge "INV_4/A" "Decoder_4x8_0/A3" -186.264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0
+merge "Decoder_4x8_0/A3" "m1_226_n32#"
+merge "Decoder_4x8_0/S1" "S1" -49.68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -16 0 0 0 0
+merge "Decoder_4x8_0/S0" "S0" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_7/VSS" "INV_6/VSS" -211.59 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -34 0 0 0 0
+merge "INV_6/VSS" "INV_5/VSS"
+merge "INV_5/VSS" "INV_4/VSS"
+merge "INV_4/VSS" "INV_3/VSS"
+merge "INV_3/VSS" "INV_2/VSS"
+merge "INV_2/VSS" "INV_1/VSS"
+merge "INV_1/VSS" "Decoder_4x8_0/NAND4_7/VSS"
+merge "Decoder_4x8_0/NAND4_7/VSS" "INV_0/VSS"
+merge "INV_0/VSS" "VSS"
+merge "INV_4/Y" "A3" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "INV_7/VDD" "INV_6/VDD" -5018.94 0 0 0 0 -584 -287 0 0 0 0 0 0 0 0 48 -92 0 0 0 0
+merge "INV_6/VDD" "INV_5/VDD"
+merge "INV_5/VDD" "INV_4/VDD"
+merge "INV_4/VDD" "INV_3/VDD"
+merge "INV_3/VDD" "INV_2/VDD"
+merge "INV_2/VDD" "INV_1/VDD"
+merge "INV_1/VDD" "Decoder_4x8_0/NAND4_7/VDD"
+merge "Decoder_4x8_0/NAND4_7/VDD" "INV_0/VDD"
+merge "INV_0/VDD" "VDD"
+merge "INV_2/A" "Decoder_4x8_0/A1" -186.264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0
+merge "Decoder_4x8_0/A1" "m1_144_n16#"
+merge "Decoder_4x8_0/S2" "S2" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "INV_5/A" "Decoder_4x8_0/A4" -186.264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0
+merge "Decoder_4x8_0/A4" "m1_267_n40#"
+merge "INV_3/A" "Decoder_4x8_0/A2" -186.264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0
+merge "Decoder_4x8_0/A2" "m1_185_n24#"
+merge "INV_2/Y" "A1" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "INV_6/A" "Decoder_4x8_0/A5" 8.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 144 -8 0 0
+merge "Decoder_4x8_0/A5" "m1_308_n48#"
+merge "INV_0/Y" "A7" -178.128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "Decoder_4x8_0/EN" "EN" -56.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "INV_0/A" "Decoder_4x8_0/A7" -193.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 8 -16 0 0
+merge "Decoder_4x8_0/A7" "m1_390_0#"
+merge "INV_7/Y" "A6" -194.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0 0 0
+merge "INV_5/Y" "A4" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "INV_1/Y" "A0" -150.336 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -16 0 0 0 0
+merge "INV_3/Y" "A2" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "INV_6/Y" "A5" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0

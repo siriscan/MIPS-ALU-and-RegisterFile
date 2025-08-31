@@ -1,0 +1,147 @@
+timestamp 1746041965
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use NAND3 NAND3_3 1 0 87 0 1 0
+use NAND3 NAND3_2 1 0 54 0 1 0
+use NAND3 NAND3_1 1 0 21 0 1 0
+use NAND3 NAND3_0 1 0 -12 0 1 0
+use INV INV_2 1 0 -28 0 1 0
+use INV INV_1 1 0 -44 0 1 0
+use INV INV_0 1 0 -60 0 1 0
+node "VSS" 0 322.56 -54 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "A3" 1 722.448 114 12 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 240 128 0 0
+node "A2" 1 604.944 81 12 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 240 128 0 0
+node "A1" 1 565.776 48 12 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 240 128 0 0
+node "A0" 1 526.608 15 12 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 240 128 0 0
+node "m1_n50_n8#" 7 5297.54 -50 -8 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 656 376 608 344 0 0
+node "m1_n34_n24#" 6 4168.44 -34 -24 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 464 264 680 364 0 0
+node "S0" 6 5257.28 -42 -16 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 628 346 680 364 0 0
+node "EN" 1 674.496 -58 44 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 224 120 0 0
+node "S1" 8 5767.9 -26 -32 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 596 330 1008 528 0 0
+node "m1_n18_n40#" 6 3795.43 -18 -40 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 300 182 1008 528 0 0
+node "VDD" 0 322.56 -54 84 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+cap "m1_n18_n40#" "m1_n34_n24#" 1298.24
+cap "m1_n18_n40#" "A0" 1107.83
+cap "S0" "S1" 1039.57
+cap "S1" "m1_n50_n8#" 313.536
+cap "S0" "m1_n50_n8#" 2841.31
+cap "S1" "m1_n34_n24#" 2602.38
+cap "S0" "m1_n34_n24#" 2078.43
+cap "m1_n34_n24#" "m1_n50_n8#" 1122.46
+cap "A2" "S1" 971.968
+cap "VSS" "EN" 51.024
+cap "A2" "S0" 156.768
+cap "A2" "m1_n50_n8#" 401.328
+cap "S1" "A0" 156.768
+cap "S0" "A0" 156.768
+cap "A0" "m1_n50_n8#" 401.328
+cap "A1" "m1_n18_n40#" 951.067
+cap "A3" "S1" 815.2
+cap "A0" "m1_n34_n24#" 156.768
+cap "S0" "VSS" 51.024
+cap "VSS" "m1_n50_n8#" 249.116
+cap "A1" "S1" 156.768
+cap "S0" "A1" 156.768
+cap "A1" "m1_n50_n8#" 401.328
+cap "EN" "m1_n50_n8#" 305.7
+cap "A1" "m1_n34_n24#" 156.768
+cap "S1" "m1_n18_n40#" 1808.94
+cap "S0" "m1_n18_n40#" 1196.34
+cap "m1_n18_n40#" "m1_n50_n8#" 714.864
+subcap "S1" -1693.28
+cap "INV_0/A" "NAND3_1/VSS" 223.968
+cap "NAND3_1/C" "NAND3_0/Y" 30.7827
+cap "NAND3_1/A" "NAND3_1/VSS" 1546.81
+cap "NAND3_1/VSS" "NAND3_0/Y" 202.942
+cap "NAND3_1/C" "NAND3_1/VSS" 359.71
+cap "NAND3_1/B" "NAND3_1/VSS" 322.41
+cap "NAND3_1/C" "INV_2/A" 46.174
+cap "NAND3_1/A" "NAND3_0/B" -1.13687e-13
+cap "INV_2/A" "NAND3_1/VSS" 274.992
+cap "NAND3_0/B" "NAND3_1/B" 46.174
+cap "NAND3_1/A" "INV_0/A" 46.174
+cap "NAND3_1/a_9_8#" "NAND3_1/B" 24.984
+cap "NAND3_0/B" "NAND3_1/VSS" 359.71
+cap "NAND3_0/B" "INV_2/A" 92.348
+cap "NAND3_1/A" "NAND3_0/Y" 73.8784
+cap "NAND3_1/C" "NAND3_0/a_17_8#" 30.384
+cap "NAND3_1/C" "NAND3_1/A" 73.8784
+cap "NAND3_0/B" "NAND3_0/a_9_8#" 24.984
+cap "NAND3_1/A" "NAND3_1/B" 92.348
+cap "NAND3_3/A" "NAND3_3/VSS" 1315.94
+cap "NAND3_1/Y" "NAND3_3/A" 73.8784
+cap "NAND3_3/C" "NAND3_3/a_17_8#" 30.384
+cap "NAND3_2/B" "NAND3_2/a_9_8#" 24.984
+cap "NAND3_3/C" "NAND3_3/VSS" 313.536
+cap "NAND3_1/Y" "NAND3_3/VSS" 202.942
+cap "NAND3_3/VSS" "NAND3_3/Y" 156.768
+cap "NAND3_3/C" "NAND3_3/Y" 30.7827
+cap "NAND3_2/B" "NAND3_3/A" 5.68434e-14
+cap "NAND3_3/a_9_8#" "NAND3_3/B" 24.984
+cap "NAND3_2/B" "NAND3_3/VSS" 156.768
+cap "NAND3_3/C" "NAND3_2/B" -2.27374e-13
+cap "NAND3_3/B" "NAND3_1/C" -1.13687e-13
+cap "NAND3_2/Y" "NAND3_3/A" 73.8784
+cap "NAND3_3/VSS" "NAND3_1/C" 156.768
+cap "NAND3_3/C" "NAND3_2/a_17_8#" 30.384
+cap "NAND3_1/Y" "NAND3_1/C" 30.7827
+cap "NAND3_2/Y" "NAND3_3/VSS" 202.942
+cap "NAND3_3/C" "NAND3_2/Y" 30.7827
+cap "NAND3_1/a_9_8#" "NAND3_3/B" -6.588
+cap "NAND3_1/a_17_8#" "NAND3_1/C" 30.384
+cap "NAND3_3/B" "NAND3_3/A" 4.54747e-13
+cap "NAND3_3/B" "NAND3_3/VSS" 132.18
+cap "NAND3_0/C" "NAND3_0/Y" 30.7827
+cap "NAND3_1/VDD" "NAND3_0/Y" 34.74
+cap "NAND3_1/VDD" "INV_1/Y" 46.174
+cap "NAND3_1/Y" "NAND3_0/Y" 46.174
+cap "NAND3_1/VDD" "INV_0/Y" 46.174
+cap "INV_2/Y" "NAND3_0/Y" 126.978
+cap "NAND3_1/Y" "NAND3_1/VDD" 46.174
+cap "INV_2/Y" "NAND3_1/VDD" 5.68434e-14
+cap "NAND3_2/Y" "NAND3_3/Y" 46.174
+cap "NAND3_3/VDD" "NAND3_3/Y" 46.174
+cap "NAND3_1/C" "NAND3_1/Y" 30.7827
+cap "NAND3_3/C" "NAND3_3/Y" 30.7827
+cap "NAND3_1/Y" "NAND3_2/Y" 46.174
+cap "NAND3_2/Y" "NAND3_2/C" 30.7827
+cap "NAND3_3/VDD" "NAND3_2/Y" 46.174
+merge "NAND3_3/B" "INV_1/A" -676.953 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "INV_1/A" "NAND3_1/B"
+merge "NAND3_1/B" "S0"
+merge "NAND3_2/C" "NAND3_3/C" -695.232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "NAND3_3/C" "INV_2/A"
+merge "INV_2/A" "S1"
+merge "INV_0/VDD" "INV_1/VDD" -3553.2 0 0 0 0 -420 -124 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_1/VDD" "INV_2/VDD"
+merge "INV_2/VDD" "NAND3_0/VDD"
+merge "NAND3_0/VDD" "NAND3_1/VDD"
+merge "NAND3_1/VDD" "VDD"
+merge "VDD" "NAND3_2/VDD"
+merge "NAND3_2/VDD" "NAND3_3/VDD"
+merge "INV_0/VSS" "INV_1/VSS" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_1/VSS" "VSS"
+merge "VSS" "INV_2/VSS"
+merge "INV_2/VSS" "NAND3_0/VSS"
+merge "NAND3_0/VSS" "NAND3_1/VSS"
+merge "NAND3_1/VSS" "NAND3_2/VSS"
+merge "NAND3_2/VSS" "NAND3_3/VSS"
+merge "INV_2/Y" "NAND3_0/C" -743.832 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -32 0 0 0 0
+merge "NAND3_0/C" "NAND3_1/C"
+merge "NAND3_1/C" "m1_n18_n40#"
+merge "NAND3_2/A" "NAND3_3/A" -1097.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -48 0 0 0 0
+merge "NAND3_3/A" "INV_0/Y"
+merge "INV_0/Y" "NAND3_0/A"
+merge "NAND3_0/A" "NAND3_1/A"
+merge "NAND3_1/A" "m1_n50_n8#"
+merge "INV_0/A" "EN" -49.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 -8 32 0 0 0
+merge "NAND3_2/Y" "A2" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "NAND3_0/Y" "A0" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "NAND3_1/Y" "A1" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "NAND3_3/Y" "A3" -217.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "NAND3_2/B" "INV_1/Y" -764.388 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -32 0 0 0 0
+merge "INV_1/Y" "NAND3_0/B"
+merge "NAND3_0/B" "m1_n34_n24#"

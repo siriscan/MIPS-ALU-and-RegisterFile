@@ -1,0 +1,130 @@
+magic
+tech scmos
+timestamp 1744843533
+<< metal1 >>
+rect 4 84 8 88
+rect 44 84 48 88
+rect 88 84 92 88
+rect 132 84 136 88
+rect 176 84 180 88
+rect 220 84 224 88
+rect 264 84 268 88
+rect 308 84 312 88
+rect 4 0 8 4
+rect 44 0 48 4
+rect 88 0 92 4
+rect 132 0 136 4
+rect 176 0 180 4
+rect 220 0 224 4
+rect 264 0 268 4
+rect 308 0 312 4
+<< m2contact >>
+rect 15 47 19 51
+rect 59 47 63 51
+rect 103 47 107 51
+rect 147 47 151 51
+rect 191 47 195 51
+rect 235 47 239 51
+rect 279 47 283 51
+rect 323 47 327 51
+rect 7 29 11 33
+rect 51 29 55 33
+rect 95 29 99 33
+rect 139 29 143 33
+rect 183 29 187 33
+rect 227 29 231 33
+rect 271 29 275 33
+rect 315 29 319 33
+rect 38 16 42 20
+rect 82 16 86 20
+rect 126 16 130 20
+rect 170 16 174 20
+rect 214 16 218 20
+rect 258 16 262 20
+rect 302 16 306 20
+rect 346 16 350 20
+<< metal2 >>
+rect 7 -4 11 29
+rect 15 -4 19 47
+rect 38 -4 42 16
+rect 51 -4 55 29
+rect 59 -4 63 47
+rect 82 -4 86 16
+rect 95 -4 99 29
+rect 103 -4 107 47
+rect 126 -4 130 16
+rect 139 -4 143 29
+rect 147 -4 151 47
+rect 170 -4 174 16
+rect 183 -4 187 29
+rect 191 -4 195 47
+rect 214 -4 218 16
+rect 227 -4 231 29
+rect 235 -4 239 47
+rect 258 -4 262 16
+rect 271 -4 275 29
+rect 279 -4 283 47
+rect 302 -4 306 16
+rect 315 -4 319 29
+rect 323 -4 327 47
+rect 346 -4 350 16
+use OR2  OR2_7
+timestamp 1740126367
+transform 1 0 312 0 1 0
+box -4 0 45 92
+use OR2  OR2_6
+timestamp 1740126367
+transform 1 0 268 0 1 0
+box -4 0 45 92
+use OR2  OR2_5
+timestamp 1740126367
+transform 1 0 224 0 1 0
+box -4 0 45 92
+use OR2  OR2_4
+timestamp 1740126367
+transform 1 0 180 0 1 0
+box -4 0 45 92
+use OR2  OR2_3
+timestamp 1740126367
+transform 1 0 136 0 1 0
+box -4 0 45 92
+use OR2  OR2_2
+timestamp 1740126367
+transform 1 0 92 0 1 0
+box -4 0 45 92
+use OR2  OR2_1
+timestamp 1740126367
+transform 1 0 48 0 1 0
+box -4 0 45 92
+use OR2  OR2_0
+timestamp 1740126367
+transform 1 0 4 0 1 0
+box -4 0 45 92
+<< labels >>
+rlabel metal1 6 2 6 2 1 VSS
+rlabel metal1 6 86 6 86 1 VDD
+rlabel metal2 9 -2 9 -2 1 A0
+rlabel metal2 17 -2 17 -2 1 B0
+rlabel metal2 40 -2 40 -2 1 Y0
+rlabel metal2 53 -2 53 -2 1 A1
+rlabel metal2 61 -2 61 -2 1 B1
+rlabel metal2 84 -2 84 -2 1 Y1
+rlabel metal2 97 -2 97 -2 1 A2
+rlabel metal2 105 -2 105 -2 1 B2
+rlabel metal2 128 -2 128 -2 1 Y2
+rlabel metal2 141 -2 141 -2 1 A3
+rlabel metal2 149 -2 149 -2 1 B3
+rlabel metal2 172 -2 172 -2 1 Y3
+rlabel metal2 185 -2 185 -2 1 A4
+rlabel metal2 193 -2 193 -2 1 B4
+rlabel metal2 216 -2 216 -2 1 Y4
+rlabel metal2 229 -2 229 -2 1 A5
+rlabel metal2 237 -2 237 -2 1 B5
+rlabel metal2 260 -2 260 -2 1 Y5
+rlabel metal2 273 -2 273 -2 1 A6
+rlabel metal2 281 -2 281 -2 1 B6
+rlabel metal2 304 -2 304 -2 1 Y6
+rlabel metal2 317 -2 317 -2 1 A7
+rlabel metal2 325 -2 325 -2 1 B7
+rlabel metal2 348 -2 348 -2 1 Y7
+<< end >>

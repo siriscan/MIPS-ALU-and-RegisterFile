@@ -1,0 +1,52 @@
+| units: 30 tech: scmos format: MIT
+n CLK VSS OAI21_0/a_2_8# 2 4 35 8
+n D OAI21_0/a_2_8# VSS 2 4 27 8
+p CLK OAI21_0/a_9_76# Qbar 2 4 35 76
+n Q OAI21_0/a_2_8# Qbar 2 4 44 8
+p D VDD OAI21_0/a_9_76# 2 4 27 76
+p Q Qbar VDD 2 4 44 76
+n CLK VSS OAI21_1/a_2_8# 2 4 78 8
+n Dbar OAI21_1/a_2_8# VSS 2 4 86 8
+p CLK OAI21_1/a_9_76# Q 2 4 78 76
+n Qbar OAI21_1/a_2_8# Q 2 4 69 8
+p Dbar VDD OAI21_1/a_9_76# 2 4 86 76
+p Qbar Q VDD 2 4 69 76
+p D VDD Dbar 2 4 11 75
+n D VSS Dbar 2 4 11 8
+C Qbar Q 2.03
+C Q GND 4.95
+R Q 106
+= Q OAI21_0/C
+= Q OAI21_1/Y
+= Q m1_50_62#
+C VSS GND 2.28
+R VSS 54
+= VSS INV_0/VSS
+= VSS OAI21_0/VSS
+= VSS OAI21_1/VSS
+= VSS m1_53_0#
+R OAI21_1/a_2_8# 18
+C Qbar GND 5.22
+R Qbar 106
+= Qbar OAI21_0/Y
+= Qbar OAI21_1/C
+= Qbar m1_43_55#
+C CLK GND 6.79
+R CLK 199
+= CLK OAI21_0/B
+= CLK OAI21_1/B
+C Dbar GND 6.16
+R Dbar 106
+= Dbar INV_0/Y
+= Dbar OAI21_1/A
+C VDD GND 18.92
+R VDD 3458
+= VDD INV_0/VDD
+= VDD OAI21_0/VDD
+= VDD OAI21_1/VDD
+= VDD m1_53_84#
+R OAI21_0/a_2_8# 18
+C D GND 6.29
+R D 197
+= D INV_0/A
+= D OAI21_0/A

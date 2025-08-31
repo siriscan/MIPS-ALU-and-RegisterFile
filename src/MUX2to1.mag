@@ -1,0 +1,56 @@
+magic
+tech scmos
+timestamp 1746041965
+<< nwell >>
+rect 42 65 44 85
+<< metal1 >>
+rect 0 84 4 88
+rect 2 40 6 44
+rect 14 12 18 16
+rect 0 0 4 4
+rect 6 -8 43 -4
+rect 37 -16 58 -12
+<< m2contact >>
+rect 18 63 22 67
+rect 43 63 47 67
+rect 2 44 6 48
+rect 25 40 29 44
+rect 33 40 37 44
+rect 50 40 54 44
+rect 58 40 62 44
+rect 10 12 14 16
+rect 43 8 47 12
+rect 2 -8 6 -4
+rect 43 -8 47 -4
+rect 33 -16 37 -12
+rect 58 -16 62 -12
+<< metal2 >>
+rect 2 63 18 67
+rect 2 48 6 63
+rect 43 59 47 63
+rect 2 -4 6 44
+rect 10 55 47 59
+rect 10 16 14 55
+rect 33 -12 37 40
+rect 43 -4 47 8
+rect 58 -12 62 40
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 0 0 1 0
+box -4 0 20 91
+use TRANSMISSION  TRANSMISSION_0
+timestamp 1742764277
+transform 1 0 18 0 1 0
+box 0 6 25 85
+use TRANSMISSION  TRANSMISSION_1
+timestamp 1742764277
+transform 1 0 43 0 1 0
+box 0 6 25 85
+<< labels >>
+rlabel m2contact 27 42 27 42 1 A
+rlabel m2contact 52 42 52 42 1 B
+rlabel metal1 47 -14 47 -14 1 Y
+rlabel metal1 4 42 4 42 1 S
+rlabel metal1 1 2 1 2 1 VSS
+rlabel metal1 1 86 1 86 1 VDD
+<< end >>

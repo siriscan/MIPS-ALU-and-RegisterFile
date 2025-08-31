@@ -1,0 +1,120 @@
+magic
+tech scmos
+timestamp 1746041965
+<< metal1 >>
+rect -54 84 -42 88
+rect -54 0 -42 4
+rect -46 -8 -9 -4
+rect -5 -8 24 -4
+rect 28 -8 57 -4
+rect 61 -8 90 -4
+rect -38 -16 33 -12
+rect 37 -16 99 -12
+rect -30 -24 0 -20
+rect 4 -24 66 -20
+rect -22 -32 74 -28
+rect 78 -32 107 -28
+rect -14 -40 8 -36
+rect 12 -40 41 -36
+<< m2contact >>
+rect 8 54 12 58
+rect 41 54 45 58
+rect 74 54 78 58
+rect 107 54 111 58
+rect -58 44 -54 48
+rect -42 36 -38 40
+rect -26 36 -22 40
+rect 0 37 4 41
+rect 33 37 37 41
+rect 66 37 70 41
+rect 99 37 103 41
+rect -9 20 -5 24
+rect 24 20 28 24
+rect 57 20 61 24
+rect 90 20 94 24
+rect -50 12 -46 16
+rect -34 12 -30 16
+rect -18 12 -14 16
+rect 15 12 19 16
+rect 48 12 52 16
+rect 81 12 85 16
+rect 114 12 118 16
+rect -50 -8 -46 -4
+rect -9 -8 -5 -4
+rect 24 -8 28 -4
+rect 57 -8 61 -4
+rect 90 -8 94 -4
+rect -42 -16 -38 -12
+rect 33 -16 37 -12
+rect 99 -16 103 -12
+rect -34 -24 -30 -20
+rect 0 -24 4 -20
+rect 66 -24 70 -20
+rect -26 -32 -22 -28
+rect 74 -32 78 -28
+rect 107 -32 111 -28
+rect -18 -40 -14 -36
+rect 8 -40 12 -36
+rect 41 -40 45 -36
+<< metal2 >>
+rect -58 -8 -54 44
+rect -50 -4 -46 12
+rect -42 -12 -38 36
+rect -34 -20 -30 12
+rect -26 -28 -22 36
+rect -18 -36 -14 12
+rect -9 -4 -5 20
+rect 0 -20 4 37
+rect 8 -36 12 54
+rect 15 -44 19 12
+rect 24 -4 28 20
+rect 33 -12 37 37
+rect 41 -36 45 54
+rect 48 -44 52 12
+rect 57 -4 61 20
+rect 66 -20 70 37
+rect 74 -28 78 54
+rect 81 -44 85 12
+rect 90 -4 94 20
+rect 99 -12 103 37
+rect 107 -28 111 54
+rect 114 -44 118 12
+use NAND3  NAND3_3
+timestamp 1741221395
+transform 1 0 87 0 1 0
+box -5 0 38 91
+use NAND3  NAND3_2
+timestamp 1741221395
+transform 1 0 54 0 1 0
+box -5 0 38 91
+use NAND3  NAND3_1
+timestamp 1741221395
+transform 1 0 21 0 1 0
+box -5 0 38 91
+use NAND3  NAND3_0
+timestamp 1741221395
+transform 1 0 -12 0 1 0
+box -5 0 38 91
+use INV  INV_2
+timestamp 1741159900
+transform 1 0 -28 0 1 0
+box -4 0 20 91
+use INV  INV_1
+timestamp 1741159900
+transform 1 0 -44 0 1 0
+box -4 0 20 91
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 -60 0 1 0
+box -4 0 20 91
+<< labels >>
+rlabel metal2 -56 -6 -56 -6 1 EN
+rlabel metal1 -52 2 -52 2 1 VSS
+rlabel metal1 -49 86 -49 86 1 VDD
+rlabel metal1 -36 -14 -36 -14 1 S0
+rlabel metal1 -20 -30 -20 -30 1 S1
+rlabel metal2 116 -38 116 -38 1 A3
+rlabel metal2 83 -42 83 -42 1 A2
+rlabel metal2 50 -42 50 -42 1 A1
+rlabel metal2 17 -42 17 -42 1 A0
+<< end >>

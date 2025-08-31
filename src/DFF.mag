@@ -1,0 +1,110 @@
+magic
+tech scmos
+timestamp 1741402036
+<< nwell >>
+rect 90 90 168 92
+rect 126 63 132 90
+<< n_field_implant >>
+rect 41 70 49 92
+<< metal1 >>
+rect 13 84 20 88
+rect 37 84 53 88
+rect 86 84 90 88
+rect 122 84 132 88
+rect 34 69 63 73
+rect 34 62 38 69
+rect 52 58 56 66
+rect 27 54 56 58
+rect 124 48 134 52
+rect 124 42 128 48
+rect 120 38 128 42
+rect 7 28 11 32
+rect 79 28 83 32
+rect 134 30 138 38
+rect 112 26 138 30
+rect 4 0 8 4
+rect 37 0 53 4
+rect 86 0 90 4
+rect 122 0 132 4
+rect -6 -8 7 -4
+rect 20 -8 70 -4
+rect 74 -8 101 -4
+rect 105 -8 149 -4
+rect 43 -16 92 -12
+rect 51 -24 162 -20
+rect 2 -32 79 -28
+<< m2contact >>
+rect -10 44 -6 48
+rect 35 46 39 50
+rect 51 46 55 50
+rect 16 36 20 40
+rect 70 36 74 40
+rect 101 38 105 42
+rect 149 38 153 42
+rect 7 32 11 36
+rect 79 32 83 36
+rect 92 20 96 24
+rect 162 16 166 20
+rect -2 12 2 16
+rect 108 12 112 16
+rect 142 12 146 16
+rect -10 -8 -6 -4
+rect 7 -8 11 -4
+rect 16 -8 20 -4
+rect 70 -8 74 -4
+rect 101 -8 105 -4
+rect 149 -8 153 -4
+rect 39 -16 43 -12
+rect 92 -16 96 -12
+rect 47 -24 51 -20
+rect 162 -24 166 -20
+rect -2 -32 2 -28
+rect 79 -32 83 -28
+<< metal2 >>
+rect -10 -4 -6 44
+rect -2 -28 2 12
+rect 7 -4 11 32
+rect 16 -4 20 36
+rect 39 -12 43 50
+rect 47 -20 51 50
+rect 70 -4 74 36
+rect 79 -28 83 32
+rect 92 -12 96 20
+rect 101 -4 105 38
+rect 108 -16 112 12
+rect 142 -16 146 12
+rect 149 -4 153 38
+rect 162 -20 166 16
+use AOI21  AOI21_0
+timestamp 1741232169
+transform 1 0 90 0 1 0
+box -4 0 36 91
+use AOI21  AOI21_1
+timestamp 1741232169
+transform -1 0 164 0 1 0
+box -4 0 36 91
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 -12 0 1 0
+box -4 0 20 91
+use OAI21  OAI21_0
+timestamp 1741247937
+transform -1 0 86 0 1 0
+box -4 0 37 92
+use OAI21  OAI21_1
+timestamp 1741247937
+transform 1 0 4 0 1 0
+box -4 0 37 92
+<< labels >>
+rlabel metal1 36 -6 36 -6 1 CLK
+rlabel metal1 6 2 6 2 1 VSS
+rlabel metal1 16 86 16 86 1 VDD
+rlabel metal1 87 -6 87 -6 1 CLK
+rlabel metal1 128 -6 128 -6 1 CLK
+rlabel metal1 52 71 52 71 1 Y1
+rlabel metal1 52 56 52 56 1 Y2
+rlabel metal1 39 -30 39 -30 1 Dbar
+rlabel metal1 4 -6 4 -6 1 D
+rlabel metal2 110 -13 110 -13 1 Q
+rlabel metal2 144 -13 144 -13 1 Qbar
+<< end >>

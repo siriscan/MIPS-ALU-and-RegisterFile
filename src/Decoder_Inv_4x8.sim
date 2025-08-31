@@ -1,0 +1,267 @@
+| units: 30 tech: scmos format: MIT
+p INV_1/A VDD A0 2 4 403 139
+n INV_1/A VSS A0 2 4 403 72
+p INV_2/A VDD A1 2 4 419 139
+n INV_2/A VSS A1 2 4 419 72
+p INV_3/A VDD A2 2 4 435 139
+n INV_3/A VSS A2 2 4 435 72
+p INV_4/A VDD A3 2 4 451 139
+n INV_4/A VSS A3 2 4 451 72
+p INV_5/A VDD A4 2 4 467 139
+n INV_5/A VSS A4 2 4 467 72
+p S0 VDD Decoder_4x8_0/INV_1/Y 2 4 27 139
+n S0 VSS Decoder_4x8_0/INV_1/Y 2 4 27 72
+p S1 VDD Decoder_4x8_0/INV_2/Y 2 4 43 139
+n S1 VSS Decoder_4x8_0/INV_2/Y 2 4 43 72
+p S2 VDD Decoder_4x8_0/INV_3/Y 2 4 59 139
+n S2 VSS Decoder_4x8_0/INV_3/Y 2 4 59 72
+n Decoder_4x8_0/INV_3/Y Decoder_4x8_0/NAND4_0/a_17_8# Decoder_4x8_0/NAND4_0/a_25_8# 2 4 91 72
+p Decoder_4x8_0/INV_0/Y VDD INV_1/A 2 4 100 140
+n Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_0/a_25_8# INV_1/A 2 4 100 72
+n Decoder_4x8_0/INV_2/Y Decoder_4x8_0/NAND4_0/a_9_8# Decoder_4x8_0/NAND4_0/a_17_8# 2 4 83 72
+n Decoder_4x8_0/INV_1/Y VSS Decoder_4x8_0/NAND4_0/a_9_8# 2 4 75 72
+p Decoder_4x8_0/INV_2/Y VDD INV_1/A 2 4 83 140
+p Decoder_4x8_0/INV_1/Y INV_1/A VDD 2 4 75 140
+p Decoder_4x8_0/INV_3/Y INV_1/A VDD 2 4 91 140
+n Decoder_4x8_0/INV_3/Y Decoder_4x8_0/NAND4_2/a_17_8# Decoder_4x8_0/NAND4_2/a_25_8# 2 4 173 72
+p Decoder_4x8_0/INV_0/Y VDD INV_3/A 2 4 182 140
+n Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_2/a_25_8# INV_3/A 2 4 182 72
+n S1 Decoder_4x8_0/NAND4_2/a_9_8# Decoder_4x8_0/NAND4_2/a_17_8# 2 4 165 72
+n Decoder_4x8_0/INV_1/Y VSS Decoder_4x8_0/NAND4_2/a_9_8# 2 4 157 72
+p S1 VDD INV_3/A 2 4 165 140
+p Decoder_4x8_0/INV_1/Y INV_3/A VDD 2 4 157 140
+p Decoder_4x8_0/INV_3/Y INV_3/A VDD 2 4 173 140
+n Decoder_4x8_0/INV_3/Y Decoder_4x8_0/NAND4_1/a_17_8# Decoder_4x8_0/NAND4_1/a_25_8# 2 4 132 72
+p Decoder_4x8_0/INV_0/Y VDD INV_2/A 2 4 141 140
+n Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_1/a_25_8# INV_2/A 2 4 141 72
+n Decoder_4x8_0/INV_2/Y Decoder_4x8_0/NAND4_1/a_9_8# Decoder_4x8_0/NAND4_1/a_17_8# 2 4 124 72
+n S0 VSS Decoder_4x8_0/NAND4_1/a_9_8# 2 4 116 72
+p Decoder_4x8_0/INV_2/Y VDD INV_2/A 2 4 124 140
+p S0 INV_2/A VDD 2 4 116 140
+p Decoder_4x8_0/INV_3/Y INV_2/A VDD 2 4 132 140
+n Decoder_4x8_0/INV_3/Y Decoder_4x8_0/NAND4_3/a_17_8# Decoder_4x8_0/NAND4_3/a_25_8# 2 4 214 72
+p Decoder_4x8_0/INV_0/Y VDD INV_4/A 2 4 223 140
+n Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_3/a_25_8# INV_4/A 2 4 223 72
+n S1 Decoder_4x8_0/NAND4_3/a_9_8# Decoder_4x8_0/NAND4_3/a_17_8# 2 4 206 72
+n S0 VSS Decoder_4x8_0/NAND4_3/a_9_8# 2 4 198 72
+p S1 VDD INV_4/A 2 4 206 140
+p S0 INV_4/A VDD 2 4 198 140
+p Decoder_4x8_0/INV_3/Y INV_4/A VDD 2 4 214 140
+n S2 Decoder_4x8_0/NAND4_4/a_17_8# Decoder_4x8_0/NAND4_4/a_25_8# 2 4 255 72
+p Decoder_4x8_0/INV_0/Y VDD INV_5/A 2 4 264 140
+n Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_4/a_25_8# INV_5/A 2 4 264 72
+n Decoder_4x8_0/INV_2/Y Decoder_4x8_0/NAND4_4/a_9_8# Decoder_4x8_0/NAND4_4/a_17_8# 2 4 247 72
+n Decoder_4x8_0/INV_1/Y VSS Decoder_4x8_0/NAND4_4/a_9_8# 2 4 239 72
+p Decoder_4x8_0/INV_2/Y VDD INV_5/A 2 4 247 140
+p Decoder_4x8_0/INV_1/Y INV_5/A VDD 2 4 239 140
+p S2 INV_5/A VDD 2 4 255 140
+n S2 Decoder_4x8_0/NAND4_5/a_17_8# Decoder_4x8_0/NAND4_5/a_25_8# 2 4 296 72
+p Decoder_4x8_0/INV_0/Y VDD INV_6/A 2 4 305 140
+n Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_5/a_25_8# INV_6/A 2 4 305 72
+n Decoder_4x8_0/INV_2/Y Decoder_4x8_0/NAND4_5/a_9_8# Decoder_4x8_0/NAND4_5/a_17_8# 2 4 288 72
+n S0 VSS Decoder_4x8_0/NAND4_5/a_9_8# 2 4 280 72
+p Decoder_4x8_0/INV_2/Y VDD INV_6/A 2 4 288 140
+p S0 INV_6/A VDD 2 4 280 140
+p S2 INV_6/A VDD 2 4 296 140
+n S2 Decoder_4x8_0/NAND4_6/a_17_8# Decoder_4x8_0/NAND4_6/a_25_8# 2 4 337 72
+p Decoder_4x8_0/INV_0/Y VDD INV_7/A 2 4 346 140
+n Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_6/a_25_8# INV_7/A 2 4 346 72
+n S1 Decoder_4x8_0/NAND4_6/a_9_8# Decoder_4x8_0/NAND4_6/a_17_8# 2 4 329 72
+n Decoder_4x8_0/INV_1/Y VSS Decoder_4x8_0/NAND4_6/a_9_8# 2 4 321 72
+p S1 VDD INV_7/A 2 4 329 140
+p Decoder_4x8_0/INV_1/Y INV_7/A VDD 2 4 321 140
+p S2 INV_7/A VDD 2 4 337 140
+n S2 Decoder_4x8_0/NAND4_7/a_17_8# Decoder_4x8_0/NAND4_7/a_25_8# 2 4 378 72
+p Decoder_4x8_0/INV_0/Y VDD INV_0/A 2 4 387 140
+n Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_7/a_25_8# INV_0/A 2 4 387 72
+n S1 Decoder_4x8_0/NAND4_7/a_9_8# Decoder_4x8_0/NAND4_7/a_17_8# 2 4 370 72
+n S0 VSS Decoder_4x8_0/NAND4_7/a_9_8# 2 4 362 72
+p S1 VDD INV_0/A 2 4 370 140
+p S0 INV_0/A VDD 2 4 362 140
+p S2 INV_0/A VDD 2 4 378 140
+p EN VDD Decoder_4x8_0/INV_0/Y 2 4 11 139
+n EN VSS Decoder_4x8_0/INV_0/Y 2 4 11 72
+p INV_6/A VDD A5 2 4 483 139
+n INV_6/A VSS A5 2 4 483 72
+p INV_7/A VDD A6 2 4 499 139
+n INV_7/A VSS A6 2 4 499 72
+p INV_0/A VDD A7 2 4 515 139
+n INV_0/A VSS A7 2 4 515 72
+C S2 Decoder_4x8_0/INV_3/Y 3.10
+C INV_1/A INV_2/A 3.32
+C Decoder_4x8_0/INV_2/Y VDD 2.12
+C Decoder_4x8_0/INV_1/Y S1 5.30
+C S1 VDD 2.21
+C INV_3/A INV_4/A 2.74
+C Decoder_4x8_0/INV_2/Y Decoder_4x8_0/INV_3/Y 2.36
+C Decoder_4x8_0/INV_2/Y S2 5.13
+C S1 Decoder_4x8_0/INV_3/Y 2.26
+C S1 S2 2.10
+C Decoder_4x8_0/INV_0/Y VSS 5.81
+C VDD Decoder_4x8_0/INV_0/Y 3.85
+C S0 Decoder_4x8_0/INV_0/Y 5.00
+C Decoder_4x8_0/INV_1/Y VDD 2.12
+C S0 Decoder_4x8_0/INV_1/Y 4.49
+C S0 VDD 2.21
+C INV_3/A INV_2/A 3.03
+C INV_4/A INV_5/A 2.45
+C Decoder_4x8_0/INV_3/Y Decoder_4x8_0/INV_0/Y 4.52
+C S2 Decoder_4x8_0/INV_0/Y 4.52
+C Decoder_4x8_0/INV_3/Y VDD 2.07
+C S1 Decoder_4x8_0/INV_2/Y 4.04
+C INV_5/A INV_6/A 2.17
+C S2 VDD 2.21
+= A7 INV_0/Y
+= A6 INV_7/Y
+= A5 INV_6/Y
+C VSS GND 13.44
+R VSS 413
+= VSS INV_0/VSS
+= VSS INV_7/VSS
+= VSS INV_1/VSS
+= VSS INV_2/VSS
+= VSS INV_3/VSS
+= VSS INV_4/VSS
+= VSS INV_5/VSS
+= VSS INV_6/VSS
+= VSS Decoder_4x8_0/VSS
+= VSS Decoder_4x8_0/NAND4_7/VSS
+= VSS Decoder_4x8_0/NAND4_6/VSS
+= VSS Decoder_4x8_0/NAND4_5/VSS
+= VSS Decoder_4x8_0/NAND4_4/VSS
+= VSS Decoder_4x8_0/NAND4_3/VSS
+= VSS Decoder_4x8_0/NAND4_2/VSS
+= VSS Decoder_4x8_0/NAND4_1/VSS
+= VSS Decoder_4x8_0/NAND4_0/VSS
+= VSS Decoder_4x8_0/INV_3/VSS
+= VSS Decoder_4x8_0/INV_2/VSS
+= VSS Decoder_4x8_0/INV_1/VSS
+= VSS Decoder_4x8_0/INV_0/VSS
+C Decoder_4x8_0/INV_0/Y GND 25.23
+R Decoder_4x8_0/INV_0/Y 811
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_7/D
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_6/D
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_5/D
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_4/D
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_3/D
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_2/D
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_1/D
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/NAND4_0/D
+= Decoder_4x8_0/INV_0/Y Decoder_4x8_0/m1_n50_n8#
+C EN GND 2.97
+R EN 95
+= EN Decoder_4x8_0/EN
+= EN Decoder_4x8_0/INV_0/A
+C VDD GND 118.44
+R VDD 15350
+= VDD INV_0/VDD
+= VDD INV_7/VDD
+= VDD INV_1/VDD
+= VDD INV_2/VDD
+= VDD INV_3/VDD
+= VDD INV_4/VDD
+= VDD INV_5/VDD
+= VDD INV_6/VDD
+= VDD Decoder_4x8_0/VDD
+= VDD Decoder_4x8_0/NAND4_7/VDD
+= VDD Decoder_4x8_0/NAND4_6/VDD
+= VDD Decoder_4x8_0/NAND4_5/VDD
+= VDD Decoder_4x8_0/NAND4_4/VDD
+= VDD Decoder_4x8_0/NAND4_3/VDD
+= VDD Decoder_4x8_0/NAND4_2/VDD
+= VDD Decoder_4x8_0/NAND4_1/VDD
+= VDD Decoder_4x8_0/NAND4_0/VDD
+= VDD Decoder_4x8_0/INV_3/VDD
+= VDD Decoder_4x8_0/INV_2/VDD
+= VDD Decoder_4x8_0/INV_1/VDD
+= VDD Decoder_4x8_0/INV_0/VDD
+C INV_0/A GND 8.47
+R INV_0/A 129
+= INV_0/A Decoder_4x8_0/A7
+= INV_0/A m1_390_0#
+= INV_0/A Decoder_4x8_0/NAND4_7/Y
+C INV_7/A GND 9.71
+R INV_7/A 131
+= INV_7/A Decoder_4x8_0/A6
+= INV_7/A m1_349_n56#
+= INV_7/A Decoder_4x8_0/NAND4_6/Y
+C INV_6/A GND 10.13
+R INV_6/A 131
+= INV_6/A Decoder_4x8_0/A5
+= INV_6/A m1_308_n48#
+= INV_6/A Decoder_4x8_0/NAND4_5/Y
+C INV_5/A GND 10.55
+R INV_5/A 132
+= INV_5/A Decoder_4x8_0/A4
+= INV_5/A m1_267_n40#
+= INV_5/A Decoder_4x8_0/NAND4_4/Y
+C INV_4/A GND 11.00
+R INV_4/A 132
+= INV_4/A Decoder_4x8_0/A3
+= INV_4/A m1_226_n32#
+= INV_4/A Decoder_4x8_0/NAND4_3/Y
+C INV_2/A GND 11.88
+R INV_2/A 132
+= INV_2/A Decoder_4x8_0/A1
+= INV_2/A m1_144_n16#
+= INV_2/A Decoder_4x8_0/NAND4_1/Y
+C INV_3/A GND 11.42
+R INV_3/A 132
+= INV_3/A Decoder_4x8_0/A2
+= INV_3/A m1_185_n24#
+= INV_3/A Decoder_4x8_0/NAND4_2/Y
+C INV_1/A GND 7.21
+R INV_1/A 128
+= INV_1/A Decoder_4x8_0/A0
+= INV_1/A m1_103_n8#
+= INV_1/A Decoder_4x8_0/NAND4_0/Y
+C Decoder_4x8_0/INV_3/Y GND 12.53
+R Decoder_4x8_0/INV_3/Y 407
+= Decoder_4x8_0/INV_3/Y Decoder_4x8_0/NAND4_3/C
+= Decoder_4x8_0/INV_3/Y Decoder_4x8_0/NAND4_2/C
+= Decoder_4x8_0/INV_3/Y Decoder_4x8_0/NAND4_1/C
+= Decoder_4x8_0/INV_3/Y Decoder_4x8_0/NAND4_0/C
+= Decoder_4x8_0/INV_3/Y Decoder_4x8_0/m1_n2_n56#
+C S2 GND 14.35
+R S2 499
+= S2 Decoder_4x8_0/S2
+= S2 Decoder_4x8_0/NAND4_7/C
+= S2 Decoder_4x8_0/NAND4_6/C
+= S2 Decoder_4x8_0/NAND4_5/C
+= S2 Decoder_4x8_0/NAND4_4/C
+= S2 Decoder_4x8_0/INV_3/A
+C Decoder_4x8_0/INV_2/Y GND 18.22
+R Decoder_4x8_0/INV_2/Y 415
+= Decoder_4x8_0/INV_2/Y Decoder_4x8_0/NAND4_5/B
+= Decoder_4x8_0/INV_2/Y Decoder_4x8_0/NAND4_4/B
+= Decoder_4x8_0/INV_2/Y Decoder_4x8_0/NAND4_1/B
+= Decoder_4x8_0/INV_2/Y Decoder_4x8_0/NAND4_0/B
+= Decoder_4x8_0/INV_2/Y Decoder_4x8_0/m1_n18_n40#
+C S1 GND 21.92
+R S1 507
+= S1 Decoder_4x8_0/S1
+= S1 Decoder_4x8_0/NAND4_7/B
+= S1 Decoder_4x8_0/NAND4_6/B
+= S1 Decoder_4x8_0/NAND4_3/B
+= S1 Decoder_4x8_0/NAND4_2/B
+= S1 Decoder_4x8_0/INV_2/A
+C Decoder_4x8_0/INV_1/Y GND 19.00
+R Decoder_4x8_0/INV_1/Y 414
+= Decoder_4x8_0/INV_1/Y Decoder_4x8_0/NAND4_6/A
+= Decoder_4x8_0/INV_1/Y Decoder_4x8_0/NAND4_4/A
+= Decoder_4x8_0/INV_1/Y Decoder_4x8_0/NAND4_2/A
+= Decoder_4x8_0/INV_1/Y Decoder_4x8_0/NAND4_0/A
+= Decoder_4x8_0/INV_1/Y Decoder_4x8_0/m1_n34_n24#
+C S0 GND 21.64
+R S0 506
+= S0 Decoder_4x8_0/S0
+= S0 Decoder_4x8_0/NAND4_7/A
+= S0 Decoder_4x8_0/NAND4_5/A
+= S0 Decoder_4x8_0/NAND4_3/A
+= S0 Decoder_4x8_0/NAND4_1/A
+= S0 Decoder_4x8_0/INV_1/A
+= A4 INV_5/Y
+= A3 INV_4/Y
+= A2 INV_3/Y
+= A1 INV_2/Y
+= A0 INV_1/Y

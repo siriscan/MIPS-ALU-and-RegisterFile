@@ -1,0 +1,127 @@
+magic
+tech scmos
+timestamp 1743018986
+<< metal1 >>
+rect 514 148 524 152
+rect 515 64 524 68
+rect 26 48 30 52
+rect 42 32 46 36
+rect 58 16 62 20
+rect 394 0 510 4
+rect 107 -8 398 -4
+rect 148 -16 414 -12
+rect 189 -24 430 -20
+rect 230 -32 446 -28
+rect 271 -40 462 -36
+rect 312 -48 478 -44
+rect 353 -56 494 -52
+<< m2contact >>
+rect 398 100 402 104
+rect 414 100 418 104
+rect 430 100 434 104
+rect 446 100 450 104
+rect 462 100 466 104
+rect 478 100 482 104
+rect 494 100 498 104
+rect 510 100 514 104
+rect 406 76 410 80
+rect 422 76 426 80
+rect 438 76 442 80
+rect 454 76 458 80
+rect 470 76 474 80
+rect 486 76 490 80
+rect 502 76 506 80
+rect 518 76 522 80
+rect 390 0 394 4
+rect 510 0 514 4
+rect 103 -8 107 -4
+rect 398 -8 402 -4
+rect 144 -16 148 -12
+rect 414 -16 418 -12
+rect 185 -24 189 -20
+rect 430 -24 434 -20
+rect 226 -32 230 -28
+rect 446 -32 450 -28
+rect 267 -40 271 -36
+rect 462 -40 466 -36
+rect 308 -48 312 -44
+rect 478 -48 482 -44
+rect 349 -56 353 -52
+rect 494 -56 498 -52
+<< metal2 >>
+rect 6 56 10 60
+rect 103 -4 107 0
+rect 144 -12 148 0
+rect 185 -20 189 0
+rect 226 -28 230 0
+rect 267 -36 271 0
+rect 308 -44 312 0
+rect 349 -52 353 1
+rect 398 -4 402 100
+rect 406 56 410 76
+rect 414 -12 418 100
+rect 422 56 426 76
+rect 430 -20 434 100
+rect 438 56 442 76
+rect 446 -28 450 100
+rect 454 56 458 76
+rect 462 -36 466 100
+rect 470 56 474 76
+rect 478 -44 482 100
+rect 486 56 490 76
+rect 494 -52 498 100
+rect 502 56 506 76
+rect 510 4 514 100
+rect 518 56 522 76
+use INV  INV_7
+timestamp 1741159900
+transform 1 0 492 0 1 64
+box -4 0 20 91
+use INV  INV_6
+timestamp 1741159900
+transform 1 0 476 0 1 64
+box -4 0 20 91
+use INV  INV_5
+timestamp 1741159900
+transform 1 0 460 0 1 64
+box -4 0 20 91
+use INV  INV_4
+timestamp 1741159900
+transform 1 0 444 0 1 64
+box -4 0 20 91
+use INV  INV_3
+timestamp 1741159900
+transform 1 0 428 0 1 64
+box -4 0 20 91
+use INV  INV_2
+timestamp 1741159900
+transform 1 0 412 0 1 64
+box -4 0 20 91
+use INV  INV_1
+timestamp 1741159900
+transform 1 0 396 0 1 64
+box -4 0 20 91
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 508 0 1 64
+box -4 0 20 91
+use Decoder_4x8  Decoder_4x8_0
+timestamp 1742681920
+transform 1 0 64 0 1 64
+box -64 -64 336 95
+<< labels >>
+rlabel metal2 408 58 408 58 1 A0
+rlabel metal2 424 58 424 58 1 A1
+rlabel metal2 440 58 440 58 1 A2
+rlabel metal2 456 58 456 58 1 A3
+rlabel metal2 472 58 472 58 1 A4
+rlabel metal2 488 58 488 58 1 A5
+rlabel metal2 504 58 504 58 1 A6
+rlabel metal2 520 58 520 58 1 A7
+rlabel metal1 520 66 520 66 1 VSS
+rlabel metal1 518 150 518 150 1 VDD
+rlabel metal2 8 58 8 58 1 EN
+rlabel metal1 28 50 28 50 1 S0
+rlabel metal1 44 34 44 34 1 S1
+rlabel metal1 60 18 60 18 1 S2
+<< end >>

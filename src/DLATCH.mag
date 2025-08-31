@@ -1,0 +1,60 @@
+magic
+tech scmos
+timestamp 1742174015
+<< metal1 >>
+rect 12 84 20 88
+rect 53 84 61 88
+rect 50 69 72 73
+rect 50 62 54 69
+rect 60 59 64 66
+rect 43 55 64 59
+rect 15 0 23 4
+rect 53 0 61 4
+rect 10 -8 23 -4
+rect 36 -8 78 -4
+rect 18 -16 87 -12
+<< m2contact >>
+rect 6 44 10 48
+rect 32 44 36 48
+rect 51 46 55 50
+rect 59 46 63 50
+rect 78 44 82 48
+rect 23 32 27 36
+rect 87 32 91 36
+rect 14 12 18 16
+rect 6 -8 10 -4
+rect 23 -8 27 -4
+rect 32 -8 36 -4
+rect 78 -8 82 -4
+rect 14 -16 18 -12
+rect 87 -16 91 -12
+<< metal2 >>
+rect 6 -4 10 44
+rect 14 -12 18 12
+rect 23 -4 27 32
+rect 32 -4 36 44
+rect 51 -22 55 46
+rect 59 -22 63 46
+rect 78 -4 82 44
+rect 87 -12 91 32
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 4 0 1 0
+box -4 0 20 91
+use OAI21  OAI21_0
+timestamp 1741247937
+transform 1 0 20 0 1 0
+box -4 0 37 92
+use OAI21  OAI21_1
+timestamp 1741247937
+transform -1 0 94 0 1 0
+box -4 0 37 92
+<< labels >>
+rlabel metal1 16 86 16 86 1 VDD
+rlabel metal1 19 2 19 2 1 VSS
+rlabel metal1 20 -6 20 -6 1 D
+rlabel metal1 44 -6 44 -6 1 CLK
+rlabel metal1 29 -14 29 -14 1 Dbar
+rlabel metal2 53 -20 53 -20 1 Qbar
+rlabel metal2 61 -20 61 -20 1 Q
+<< end >>
