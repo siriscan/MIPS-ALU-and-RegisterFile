@@ -1,0 +1,10 @@
+Function Codes
+000: Add (A+B)
+001: Subtract (A-B)
+010: Bitwise And (A and B)
+011: Bitwise Or (A or B)
+100: Bitwise Xor (A xor B)
+101: Bitwise Nor (A nor B)
+110: Shift (Shifts A by B number of bits up to 3), RorL (0: Right 1: Left), LorA (0: Logical 1: Arithmatic)
+111: Compare (Compares A with B) Outputs GEL: Last three binary digits. Greater Equal Less.
+
