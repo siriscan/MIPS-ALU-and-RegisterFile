@@ -1,0 +1,1406 @@
+timestamp 1746489366
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use 8bitMUX3to1 8bitMUX3to1_2 1 0 2284 0 1 20
+use 8bitMUX3to1 8bitMUX3to1_1 1 0 1144 0 1 20
+use 8bitMUX3to1 8bitMUX3to1_0 1 0 4 0 1 20
+use AND2 AND2_0 1 0 -36 0 1 36
+use AND2 AND2_1 1 0 -76 0 1 36
+use AND2 AND2_2 1 0 1104 0 1 36
+use AND2 AND2_3 1 0 2244 0 1 36
+use BUFFER8 BUFFER8_0 1 0 3384 0 1 36
+node "m2_1177_44#" 0 66.528 1177 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_1073_44#" 0 66.528 1073 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_1003_44#" 0 66.528 1003 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_935_44#" 0 66.528 935 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_865_44#" 0 66.528 865 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_797_44#" 0 66.528 797 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_727_44#" 0 66.528 727 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_659_44#" 0 66.528 659 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_589_44#" 0 66.528 589 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_521_44#" 0 66.528 521 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_451_44#" 0 66.528 451 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_383_44#" 0 95.904 383 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "m2_313_44#" 0 66.528 313 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_245_44#" 0 66.528 245 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_175_44#" 0 66.528 175 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_107_44#" 0 66.528 107 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "m2_37_44#" 0 66.528 37 44 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "ENb" 65 81320.1 -72 -164 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13848 6932 976 496 0 0
+node "first7" 46 50634.5 132 -156 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8028 4022 2480 1264 0 0
+node "first6" 43 47154 132 -148 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7476 3746 2384 1216 0 0
+node "first5" 51 53889.8 132 -140 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8408 4212 3152 1608 0 0
+node "m1_2412_n136#" 27 29587 2412 -136 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4704 2360 1424 728 0 0
+node "first4" 48 50370.2 132 -132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7856 3936 3024 1544 0 0
+node "m1_2412_n128#" 26 28895.8 2412 -128 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4604 2310 1360 696 0 0
+node "first3" 45 46889.7 132 -124 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7304 3660 2896 1480 0 0
+node "m1_2412_n120#" 26 28243.7 2412 -120 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4504 2260 1296 664 0 0
+node "first2" 42 43761.8 132 -116 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6752 3384 2768 1416 0 0
+node "m1_2412_n112#" 25 27591.6 2412 -112 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4404 2210 1232 632 0 0
+node "first1" 36 38814.6 132 -108 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6200 3108 1904 976 0 0
+node "m1_2412_n104#" 24 26939.5 2412 -104 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4304 2160 1168 600 0 0
+node "first0" 33 35812.9 132 -100 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5648 2832 1824 936 0 0
+node "m1_2412_n96#" 23 26287.4 2412 -96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4204 2110 1104 568 0 0
+node "m1_2412_n88#" 23 25635.3 2412 -88 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4104 2060 1040 536 0 0
+node "m1_2412_n80#" 22 24861.1 2412 -80 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3988 2002 960 496 0 0
+node "second7" 43 51058 1272 -60 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8472 4244 1344 696 0 0
+node "second6" 45 51937.3 1272 -52 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8472 4244 1760 912 0 0
+node "A6" 21 23664.4 -74 -52 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3740 1878 1024 528 0 0
+node "second5" 45 51780.6 1272 -44 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8472 4244 1632 848 0 0
+node "A5" 18 20340.6 -74 -44 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3188 1602 960 496 0 0
+node "Y7" 2 1040.47 3592 -36 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 464 240 0 0
+node "second4" 44 51624 1272 -36 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8472 4244 1504 784 0 0
+node "A4" 16 16977.7 -74 -36 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2636 1326 896 464 0 0
+node "Y6" 2 1575.05 3567 -28 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 74 432 224 0 0
+node "second3" 44 51467.3 1272 -28 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8472 4244 1376 720 0 0
+node "A3" 24 28737.6 -74 -28 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4672 2344 832 432 0 0
+node "Y5" 3 2109.64 3542 -20 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232 124 400 208 0 0
+node "second2" 43 51310.6 1272 -20 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8472 4244 1248 656 0 0
+node "A2" 22 25447.6 -74 -20 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4120 2068 768 400 0 0
+node "Y4" 3 2644.22 3517 -12 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 332 174 368 192 0 0
+node "second1" 42 51114.8 1272 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8472 4244 1120 592 0 0
+node "A1" 19 22168.4 -74 -12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3568 1792 704 368 0 0
+node "Y3" 3 3178.8 3492 -4 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 432 224 336 176 0 0
+node "second0" 40 50205.1 1272 -4 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8472 4244 672 360 0 0
+node "A0" 16 18844.6 -74 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3016 1516 640 336 0 0
+node "Y2" 4 3713.38 3467 4 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 532 274 304 160 0 0
+node "Y1" 4 4247.96 3442 12 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 632 324 272 144 0 0
+node "Y0" 4 4782.55 3417 20 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 732 374 240 128 0 0
+node "m1_3400_36#" 4 4683.06 3400 36 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 808 412 0 0 0 0
+node "m1_2404_36#" 1 526.608 2404 36 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 160 88 0 0
+node "m1_1402_36#" 1 526.608 1402 36 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 160 88 0 0
+node "m1_1264_36#" 1 526.608 1264 36 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 160 88 0 0
+node "m1_538_36#" 1 526.608 538 36 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 160 88 0 0
+node "m1_400_36#" 1 526.608 400 36 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 160 88 0 0
+node "m1_262_36#" 1 526.608 262 36 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 160 88 0 0
+node "m1_124_36#" 1 526.608 124 36 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 160 88 0 0
+node "VSS" 0 138.96 15 36 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_2278_4#" 3 3352.77 2278 4 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 492 262 192 104 0 0
+node "m1_1138_4#" 3 3352.77 1138 4 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 492 262 192 104 0 0
+node "m1_n2_n68#" 79 85008.1 -2 -68 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13240 6636 4512 2320 0 0
+node "m1_n42_4#" 4 4231.6 -42 4 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 652 342 192 104 0 0
+node "SIGN" 2 1644.68 -74 12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 196 114 188 102 0 0
+node "RORL" 49 56923.5 -74 -76 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9348 4706 1620 834 0 0
+node "B0" 46 56273.8 -74 -84 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9472 4752 1076 554 0 0
+node "B1" 27 30737.4 -74 -92 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4912 2472 1140 586 0 0
+node "A7" 26 28072.9 -74 -60 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4308 2170 1620 834 0 0
+node "B2" 7 4026.1 -74 -100 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 352 192 1204 618 0 0
+node "m1_305_75#" 0 70.11 305 75 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 10 0 0 0 0
+node "VDD" 0 138.96 20 120 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+cap "Y2" "Y7" 156.768
+cap "Y0" "m1_2412_n136#" 156.768
+cap "B0" "second0" 313.536
+cap "m1_2278_4#" "second1" 156.768
+cap "m1_3400_36#" "m1_2412_n136#" 156.768
+cap "A0" "A4" 313.536
+cap "Y1" "Y7" 156.768
+cap "RORL" "second0" 156.768
+cap "second0" "second3" 627.072
+cap "RORL" "A0" 156.768
+cap "Y0" "Y7" 156.768
+cap "Y2" "Y6" 156.768
+cap "m1_3400_36#" "Y7" 156.768
+cap "A0" "A3" 156.768
+cap "Y1" "Y6" 156.768
+cap "m1_n2_n68#" "second2" 470.304
+cap "Y0" "Y6" 156.768
+cap "m1_n2_n68#" "A2" 627.072
+cap "m1_3400_36#" "Y6" 156.768
+cap "m1_n2_n68#" "second1" 470.304
+cap "m1_n2_n68#" "A1" 470.304
+cap "first0" "m2_1177_44#" 63.6875
+cap "m1_2412_n88#" "m1_2412_n96#" 12000.4
+cap "m1_2412_n80#" "m1_2412_n96#" 156.768
+cap "m1_2412_n80#" "m1_2412_n88#" 11665.6
+cap "second7" "m1_2412_n96#" 156.768
+cap "second7" "m1_2412_n88#" 156.768
+cap "second6" "m1_2412_n96#" 156.768
+cap "second7" "m1_2412_n80#" 156.768
+cap "second6" "m1_2412_n88#" 156.768
+cap "Y1" "Y2" 1692.05
+cap "second6" "m1_2412_n80#" 156.768
+cap "second5" "m1_2412_n96#" 156.768
+cap "Y0" "Y2" 156.768
+cap "second6" "second7" 24919.4
+cap "second5" "m1_2412_n88#" 156.768
+cap "Y0" "Y1" 1980.64
+cap "m1_3400_36#" "Y2" 156.768
+cap "second5" "m1_2412_n80#" 156.768
+cap "m1_3400_36#" "Y1" 156.768
+cap "second5" "second7" 470.304
+cap "m1_3400_36#" "Y0" 156.768
+cap "second5" "second6" 25076.2
+cap "B1" "m1_1138_4#" 462.468
+cap "m1_2412_n128#" "m1_2412_n96#" 156.768
+cap "A7" "m1_n2_n68#" 12182.1
+cap "m1_2412_n128#" "m1_2412_n88#" 156.768
+cap "B1" "m1_n2_n68#" 313.536
+cap "m1_n2_n68#" "first7" 470.304
+cap "m1_2412_n120#" "m1_2412_n96#" 156.768
+cap "m1_2412_n128#" "m1_2412_n80#" 156.768
+cap "B0" "m1_2278_4#" 462.468
+cap "m1_n2_n68#" "first6" 470.304
+cap "m1_2412_n120#" "m1_2412_n88#" 156.768
+cap "m1_n2_n68#" "first5" 627.072
+cap "m1_2412_n128#" "second7" 156.768
+cap "m2_313_44#" "A2" 63.6875
+cap "m1_2412_n112#" "m1_2412_n96#" 156.768
+cap "m1_2412_n120#" "m1_2412_n80#" 156.768
+cap "first3" "second7" 470.304
+cap "m1_2412_n128#" "second6" 156.768
+cap "m1_2412_n112#" "m1_2412_n88#" 156.768
+cap "m1_2412_n120#" "second7" 156.768
+cap "first3" "second6" 470.304
+cap "m1_n2_n68#" "first4" 627.072
+cap "m1_n2_n68#" "A5" 313.536
+cap "m1_2412_n104#" "m1_2412_n96#" 12289
+cap "m1_2412_n112#" "m1_2412_n80#" 156.768
+cap "first2" "second7" 313.536
+cap "m1_2412_n120#" "second6" 156.768
+cap "first3" "A6" 156.768
+cap "m1_2412_n128#" "second5" 768.168
+cap "m1_2412_n104#" "m1_2412_n88#" 156.768
+cap "m1_2412_n112#" "second7" 156.768
+cap "first2" "second6" 313.536
+cap "first3" "second5" 1081.7
+cap "m1_n2_n68#" "second4" 470.304
+cap "m1_2412_n104#" "m1_2412_n80#" 156.768
+cap "first1" "second7" 313.536
+cap "m1_2412_n112#" "second6" 156.768
+cap "first2" "A6" 156.768
+cap "m1_2412_n120#" "second5" 156.768
+cap "m1_2412_n104#" "second7" 156.768
+cap "first1" "second6" 313.536
+cap "first2" "second5" 313.536
+cap "m1_n2_n68#" "A4" 156.768
+cap "B0" "m1_n2_n68#" 313.536
+cap "RORL" "m1_n2_n68#" 26321
+cap "first0" "second7" 156.768
+cap "m1_2412_n104#" "second6" 156.768
+cap "first1" "A6" 156.768
+cap "m1_2412_n112#" "second5" 156.768
+cap "m1_n2_n68#" "second3" 470.304
+cap "first0" "second6" 156.768
+cap "first1" "second5" 313.536
+cap "m1_n2_n68#" "A3" 783.84
+cap "first0" "A6" 156.768
+cap "m1_2412_n104#" "second5" 156.768
+cap "first0" "second5" 156.768
+cap "m1_2278_4#" "second0" 1530.44
+cap "B2" "A6" 313.536
+cap "second2" "m1_2412_n96#" 156.768
+cap "A7" "m2_1003_44#" 63.6875
+cap "second2" "m1_2412_n88#" 156.768
+cap "m1_n42_4#" "SIGN" 714.433
+cap "m1_2412_n120#" "m1_2412_n128#" 13154.7
+cap "second2" "m1_2412_n80#" 156.768
+cap "second2" "second7" 470.304
+cap "second1" "m1_2412_n96#" 360.568
+cap "first2" "first3" 19955.7
+cap "m1_2412_n112#" "m1_2412_n128#" 156.768
+cap "second2" "second6" 627.072
+cap "second1" "m1_2412_n88#" 156.768
+cap "second1" "m1_2412_n80#" 156.768
+cap "B2" "m1_n42_4#" 156.768
+cap "m1_2412_n112#" "m1_2412_n120#" 12866.2
+cap "first1" "first3" 470.304
+cap "m1_2412_n104#" "m1_2412_n128#" 156.768
+cap "second2" "second5" 627.072
+cap "A2" "A6" 313.536
+cap "second1" "second7" 470.304
+cap "second0" "m1_n2_n68#" 470.304
+cap "second1" "second6" 627.072
+cap "A0" "m1_n2_n68#" 313.536
+cap "first1" "first2" 18362.7
+cap "m1_2412_n104#" "m1_2412_n120#" 156.768
+cap "first0" "first3" 313.536
+cap "m2_727_44#" "A5" 63.6875
+cap "second1" "second5" 627.072
+cap "A1" "A6" 156.768
+cap "m1_2412_n104#" "m1_2412_n112#" 12577.6
+cap "first0" "first2" 470.304
+cap "first0" "first1" 16613
+cap "m1_2412_n128#" "Y5" 156.768
+cap "m2_589_44#" "A4" 63.6875
+cap "B2" "SIGN" 156.768
+cap "m1_2412_n128#" "second2" 156.768
+cap "m1_2412_n120#" "Y5" 1273.75
+cap "first3" "second2" 470.304
+cap "m1_2412_n120#" "second2" 156.768
+cap "first3" "A2" 156.768
+cap "m1_2412_n128#" "Y4" 156.768
+cap "first2" "second2" 313.536
+cap "m1_2412_n128#" "second1" 156.768
+cap "m1_2412_n112#" "second2" 156.768
+cap "first2" "A2" 156.768
+cap "m1_2412_n120#" "Y4" 156.768
+cap "first3" "second1" 470.304
+cap "m2_451_44#" "A3" 63.6875
+cap "first1" "second2" 313.536
+cap "m1_2412_n120#" "second1" 156.768
+cap "first3" "A1" 156.768
+cap "m1_2412_n128#" "Y3" 156.768
+cap "m1_2412_n112#" "Y4" 1171.85
+cap "m1_2412_n104#" "second2" 462.468
+cap "first1" "A2" 156.768
+cap "first2" "second1" 313.536
+cap "first0" "second2" 462.468
+cap "m1_2412_n112#" "second1" 156.768
+cap "first2" "A1" 156.768
+cap "m1_2412_n120#" "Y3" 156.768
+cap "ENb" "m1_2412_n96#" 156.768
+cap "first0" "A2" 156.768
+cap "first1" "second1" 313.536
+cap "ENb" "m1_2412_n88#" 156.768
+cap "ENb" "m1_2412_n80#" 156.768
+cap "m1_2412_n104#" "second1" 156.768
+cap "first1" "A1" 156.768
+cap "m1_2412_n112#" "Y3" 156.768
+cap "ENb" "second7" 131.256
+cap "B2" "A2" 313.536
+cap "first0" "second1" 156.768
+cap "m1_2412_n104#" "Y3" 1069.95
+cap "first0" "A1" 156.768
+cap "m1_2412_n136#" "m1_2412_n96#" 156.768
+cap "first7" "second7" 313.536
+cap "ENb" "second6" 131.256
+cap "m1_2412_n136#" "m1_2412_n88#" 156.768
+cap "first6" "second7" 313.536
+cap "first7" "second6" 313.536
+cap "A7" "A6" 11106.7
+cap "B2" "A1" 313.536
+cap "m1_2412_n136#" "m1_2412_n80#" 156.768
+cap "first5" "second7" 1285.5
+cap "first6" "second6" 313.536
+cap "ENb" "second5" 131.256
+cap "m1_2412_n136#" "second7" 156.768
+cap "first5" "second6" 470.304
+cap "first7" "second5" 313.536
+cap "second4" "m1_2412_n96#" 156.768
+cap "first4" "second7" 470.304
+cap "m1_2412_n136#" "second6" 870.068
+cap "first5" "A6" 156.768
+cap "first6" "second5" 313.536
+cap "second4" "m1_2412_n88#" 156.768
+cap "Y4" "Y5" 826.291
+cap "first4" "second6" 1183.6
+cap "first5" "second5" 470.304
+cap "second4" "m1_2412_n80#" 156.768
+cap "first4" "A6" 156.768
+cap "m1_2412_n136#" "second5" 156.768
+cap "A5" "A6" 9356.94
+cap "second4" "second7" 470.304
+cap "second3" "m1_2412_n96#" 156.768
+cap "second1" "second2" 25076.2
+cap "A7" "m1_n42_4#" 156.768
+cap "first4" "second5" 470.304
+cap "second4" "second6" 627.072
+cap "second3" "m1_2412_n88#" 156.768
+cap "Y3" "Y5" 156.768
+cap "B0" "second7" 313.536
+cap "second3" "m1_2412_n80#" 156.768
+cap "A1" "A2" 10453.6
+cap "RORL" "second7" 808.928
+cap "B0" "second6" 313.536
+cap "RORL" "second6" 156.768
+cap "second4" "second5" 25076.2
+cap "A4" "A6" 156.768
+cap "second3" "second7" 470.304
+cap "second3" "second6" 627.072
+cap "Y3" "Y4" 1114.88
+cap "ENb" "m1_2412_n128#" 156.768
+cap "RORL" "A6" 156.768
+cap "B0" "second5" 313.536
+cap "A7" "first3" 156.768
+cap "RORL" "second5" 156.768
+cap "second3" "second5" 627.072
+cap "A3" "A6" 313.536
+cap "first7" "first3" 313.536
+cap "ENb" "m1_2412_n120#" 156.768
+cap "B1" "first3" 156.768
+cap "first6" "first3" 313.536
+cap "A7" "first2" 156.768
+cap "m1_2412_n136#" "m1_2412_n128#" 13443.3
+cap "first5" "first3" 470.304
+cap "first7" "first2" 156.768
+cap "ENb" "m1_2412_n112#" 156.768
+cap "m1_n42_4#" "A4" 156.768
+cap "B1" "first2" 156.768
+cap "first6" "first2" 313.536
+cap "A7" "SIGN" 598.663
+cap "A7" "first1" 156.768
+cap "second0" "m1_2412_n96#" 156.768
+cap "first4" "first3" 21548.7
+cap "m1_2412_n136#" "m1_2412_n120#" 156.768
+cap "first5" "first2" 313.536
+cap "first7" "first1" 156.768
+cap "ENb" "m1_2412_n104#" 156.768
+cap "B1" "first1" 156.768
+cap "first3" "A5" 156.768
+cap "second0" "m1_2412_n88#" 258.668
+cap "first6" "first1" 156.768
+cap "A7" "first0" 156.768
+cap "m1_2412_n128#" "second4" 156.768
+cap "Y2" "m1_2412_n96#" 968.05
+cap "first4" "first2" 470.304
+cap "m1_2412_n136#" "m1_2412_n112#" 156.768
+cap "first5" "first1" 313.536
+cap "first7" "first0" 156.768
+cap "second0" "m1_2412_n80#" 156.768
+cap "B1" "first0" 11908.1
+cap "first2" "A5" 156.768
+cap "first3" "second4" 470.304
+cap "first6" "first0" 156.768
+cap "second0" "second7" 470.304
+cap "Y1" "m1_2412_n96#" 156.768
+cap "m1_2412_n128#" "Y6" 1375.65
+cap "B0" "first3" 627.072
+cap "A7" "B2" 313.536
+cap "m1_2412_n120#" "second4" 666.268
+cap "first3" "A4" 156.768
+cap "Y1" "m1_2412_n88#" 866.15
+cap "first4" "first1" 313.536
+cap "m1_2412_n136#" "m1_2412_n104#" 156.768
+cap "first5" "first0" 156.768
+cap "first1" "A5" 156.768
+cap "first2" "second4" 823.036
+cap "m1_2412_n128#" "second3" 156.768
+cap "second0" "second6" 627.072
+cap "Y0" "m1_2412_n96#" 156.768
+cap "B1" "B2" 1283.19
+cap "RORL" "first3" 627.072
+cap "Y0" "m1_2412_n88#" 156.768
+cap "m1_3400_36#" "m1_2412_n96#" 156.768
+cap "m1_2412_n112#" "second4" 156.768
+cap "first2" "A4" 156.768
+cap "first3" "second3" 470.304
+cap "B0" "first2" 627.072
+cap "second0" "second5" 627.072
+cap "A0" "A6" 156.768
+cap "m1_3400_36#" "m1_2412_n88#" 156.768
+cap "first4" "first0" 313.536
+cap "first0" "A5" 156.768
+cap "first1" "second4" 313.536
+cap "m1_2412_n120#" "second3" 156.768
+cap "first3" "A3" 156.768
+cap "RORL" "first2" 627.072
+cap "m1_3400_36#" "m1_2412_n80#" 156.768
+cap "m1_2412_n104#" "second4" 156.768
+cap "first1" "A4" 156.768
+cap "first2" "second3" 313.536
+cap "B0" "first1" 470.304
+cap "B2" "A5" 313.536
+cap "first0" "second4" 156.768
+cap "m1_2412_n112#" "second3" 564.368
+cap "first2" "A3" 156.768
+cap "ENb" "second2" 131.256
+cap "RORL" "first1" 470.304
+cap "first0" "A4" 156.768
+cap "first1" "second3" 721.136
+cap "RORL" "SIGN" 156.768
+cap "m2_175_44#" "A1" 63.6875
+cap "B0" "first0" 470.304
+cap "first7" "second2" 313.536
+cap "A7" "A2" 313.536
+cap "m1_2412_n104#" "second3" 156.768
+cap "first1" "A3" 156.768
+cap "RORL" "first0" 470.304
+cap "first6" "second2" 313.536
+cap "A0" "m1_n42_4#" 1992.18
+cap "B2" "A4" 313.536
+cap "first0" "second3" 156.768
+cap "first6" "A2" 254.75
+cap "B0" "B2" 313.536
+cap "m1_2412_n136#" "Y5" 156.768
+cap "first5" "second2" 470.304
+cap "ENb" "second1" 131.256
+cap "first0" "A3" 156.768
+cap "m1_2412_n136#" "second2" 156.768
+cap "first5" "A2" 156.768
+cap "first7" "second1" 313.536
+cap "RORL" "B2" 2033.1
+cap "A7" "A1" 313.536
+cap "Y7" "Y5" 156.768
+cap "first4" "second2" 470.304
+cap "first6" "second1" 313.536
+cap "B2" "A3" 313.536
+cap "first4" "A2" 156.768
+cap "A5" "A2" 313.536
+cap "m1_2412_n136#" "Y4" 156.768
+cap "first5" "second1" 470.304
+cap "second0" "m1_2412_n128#" 156.768
+cap "second0" "first3" 470.304
+cap "first5" "A1" 152.85
+cap "second4" "second2" 627.072
+cap "m1_2412_n136#" "second1" 156.768
+cap "second0" "m1_2412_n120#" 156.768
+cap "A0" "first3" 131.256
+cap "Y2" "m1_2412_n128#" 156.768
+cap "Y6" "Y5" 537.704
+cap "Y7" "Y4" 156.768
+cap "first4" "second1" 470.304
+cap "B0" "second2" 313.536
+cap "first4" "A1" 156.768
+cap "m1_2412_n136#" "Y3" 156.768
+cap "second0" "first2" 313.536
+cap "Y1" "m1_2412_n128#" 156.768
+cap "A4" "A2" 313.536
+cap "A5" "A1" 313.536
+cap "RORL" "second2" 156.768
+cap "second3" "second2" 25076.2
+cap "second4" "second1" 627.072
+cap "second0" "m1_2412_n112#" 156.768
+cap "A0" "first2" 131.256
+cap "Y2" "m1_2412_n120#" 156.768
+cap "Y0" "m1_2412_n128#" 156.768
+cap "RORL" "A2" 156.768
+cap "Y6" "Y4" 156.768
+cap "Y7" "Y3" 156.768
+cap "second0" "first1" 313.536
+cap "Y1" "m1_2412_n120#" 156.768
+cap "m1_3400_36#" "m1_2412_n128#" 156.768
+cap "B0" "second1" 313.536
+cap "second0" "m1_2412_n104#" 156.768
+cap "A0" "first1" 131.256
+cap "Y2" "m1_2412_n112#" 156.768
+cap "Y0" "m1_2412_n120#" 156.768
+cap "A3" "A2" 12046.6
+cap "A4" "A1" 313.536
+cap "RORL" "second1" 156.768
+cap "second0" "first0" 156.768
+cap "Y1" "m1_2412_n112#" 156.768
+cap "m1_3400_36#" "m1_2412_n120#" 156.768
+cap "second3" "second1" 627.072
+cap "RORL" "A1" 156.768
+cap "A0" "first0" 131.256
+cap "Y2" "m1_2412_n104#" 156.768
+cap "Y0" "m1_2412_n112#" 156.768
+cap "Y6" "Y3" 156.768
+cap "Y1" "m1_2412_n104#" 156.768
+cap "m1_3400_36#" "m1_2412_n112#" 156.768
+cap "A3" "A1" 156.768
+cap "B2" "A0" 313.536
+cap "Y0" "m1_2412_n104#" 156.768
+cap "m1_3400_36#" "m1_2412_n104#" 156.768
+cap "second0" "second2" 627.072
+cap "Y2" "Y5" 156.768
+cap "A0" "A2" 156.768
+cap "Y1" "Y5" 156.768
+cap "first7" "ENb" 23167.8
+cap "second0" "second1" 25076.2
+cap "Y0" "Y5" 156.768
+cap "B1" "first7" 156.768
+cap "A7" "first6" 156.768
+cap "Y2" "Y4" 156.768
+cap "m1_3400_36#" "Y5" 156.768
+cap "first6" "first7" 21888.3
+cap "B1" "first6" 156.768
+cap "A7" "first5" 156.768
+cap "A0" "A1" 8860.57
+cap "Y1" "Y4" 156.768
+cap "first5" "first7" 470.304
+cap "m1_2412_n136#" "ENb" 1940.02
+cap "B1" "first5" 156.768
+cap "m1_n2_n68#" "m1_2412_n96#" 156.768
+cap "Y0" "Y4" 156.768
+cap "first5" "first6" 22045.1
+cap "m1_n2_n68#" "m1_2412_n88#" 156.768
+cap "A7" "first4" 156.768
+cap "A7" "A5" 313.536
+cap "Y2" "Y3" 1403.47
+cap "m1_3400_36#" "Y4" 156.768
+cap "first4" "first7" 313.536
+cap "B1" "first4" 156.768
+cap "m1_n2_n68#" "m1_2412_n80#" 156.768
+cap "Y1" "Y3" 156.768
+cap "first4" "first6" 470.304
+cap "ENb" "second4" 131.256
+cap "m1_n2_n68#" "second7" 23926.7
+cap "Y0" "Y3" 156.768
+cap "first4" "first5" 23141.7
+cap "m1_n2_n68#" "second6" 470.304
+cap "first7" "second4" 313.536
+cap "A7" "A4" 313.536
+cap "m1_3400_36#" "Y3" 156.768
+cap "m1_n2_n68#" "A6" 470.304
+cap "first6" "second4" 313.536
+cap "m1_305_75#" "A2" 39.192
+cap "B0" "first7" 470.304
+cap "m1_2412_n136#" "Y7" 1477.55
+cap "B1" "B0" 14442.8
+cap "A7" "RORL" 156.768
+cap "m1_n2_n68#" "second5" 470.304
+cap "first4" "A5" 156.768
+cap "first5" "second4" 470.304
+cap "ENb" "second3" 131.256
+cap "B0" "first6" 470.304
+cap "B1" "RORL" 2033.1
+cap "RORL" "first7" 1244.74
+cap "m1_2412_n136#" "second4" 156.768
+cap "first7" "second3" 313.536
+cap "A7" "A3" 470.304
+cap "B0" "first5" 627.072
+cap "RORL" "first6" 470.304
+cap "first7" "A3" 356.65
+cap "RORL" "first5" 627.072
+cap "first4" "second4" 470.304
+cap "first6" "second3" 313.536
+cap "m1_2412_n136#" "Y6" 156.768
+cap "first5" "second3" 470.304
+cap "first6" "A3" 156.768
+cap "B0" "first4" 627.072
+cap "A4" "A5" 7763.93
+cap "m1_2412_n136#" "second3" 156.768
+cap "first5" "A3" 156.768
+cap "RORL" "first4" 627.072
+cap "RORL" "A5" 156.768
+cap "m1_n42_4#" "m1_n2_n68#" 156.768
+cap "Y6" "Y7" 249.116
+cap "first4" "second3" 470.304
+cap "B0" "second4" 313.536
+cap "m1_1138_4#" "first2" 156.768
+cap "first4" "A3" 156.768
+cap "A3" "A5" 313.536
+cap "RORL" "second4" 156.768
+cap "second3" "second4" 25076.2
+cap "RORL" "A4" 156.768
+cap "RORL" "B0" 28558.2
+cap "m1_n2_n68#" "m1_2412_n128#" 156.768
+cap "B0" "second3" 313.536
+cap "A3" "A4" 7920.7
+cap "m1_n2_n68#" "first3" 627.072
+cap "RORL" "second3" 156.768
+cap "m1_1138_4#" "first0" 156.768
+cap "A0" "m2_37_44#" 63.6875
+cap "second0" "ENb" 131.256
+cap "m1_n2_n68#" "m1_2412_n120#" 156.768
+cap "RORL" "A3" 156.768
+cap "second0" "first7" 313.536
+cap "A7" "A0" 313.536
+cap "m1_n2_n68#" "first2" 627.072
+cap "second0" "first6" 313.536
+cap "m1_n2_n68#" "m1_2412_n112#" 156.768
+cap "m1_n2_n68#" "first1" 470.304
+cap "second0" "first5" 470.304
+cap "second0" "m1_2412_n136#" 156.768
+cap "m1_n2_n68#" "m1_2412_n104#" 156.768
+cap "second0" "first4" 470.304
+cap "m2_865_44#" "A6" 63.6875
+cap "m1_n2_n68#" "first0" 470.304
+cap "A0" "first4" 50.95
+cap "A0" "A5" 156.768
+cap "Y2" "m1_2412_n136#" 156.768
+cap "second0" "second4" 627.072
+cap "Y1" "m1_2412_n136#" 156.768
+cap "B2" "m1_n2_n68#" 1379.57
+subcap "A6" -21506.5
+subcap "A5" -18182.7
+subcap "A4" -14819.8
+subcap "A3" -26579.6
+subcap "A2" -23289.6
+subcap "A1" -20010.4
+subcap "A0" -16686.7
+subcap "VSS" -248.535
+subcap "m1_n42_4#" -2555.5
+subcap "SIGN" -351.36
+cap "8bitMUX3to1_0/S0" "m1_n2_n68#" 101.9
+subcap "m1_124_36#" -44.028
+cap "8bitMUX3to1_0/MUX3to1_0/MUX2to1_0/Y" "A4" 360.568
+cap "8bitMUX3to1_0/MUX3to1_0/MUX2to1_0/Y" "A0" 203.8
+cap "8bitMUX3to1_0/S1" "A0" 23.087
+cap "8bitMUX3to1_0/S0" "A4" 564.368
+cap "8bitMUX3to1_0/S0" "A0" 156.768
+cap "8bitMUX3to1_0/S0" "8bitMUX3to1_0/S1" 808.045
+subcap "m1_124_36#" -217.764
+cap "8bitMUX3to1_0/MUX3to1_1/MUX2to1_0/Y" "A1" 203.8
+cap "8bitMUX3to1_0/Y0" "A0" 25.512
+cap "8bitMUX3to1_0/MUX3to1_1/S1" "A5" 156.768
+cap "8bitMUX3to1_0/MUX3to1_1/S0" "A5" 564.368
+cap "8bitMUX3to1_0/MUX3to1_1/MUX2to1_0/Y" "A5" 360.568
+cap "8bitMUX3to1_0/MUX3to1_1/S0" "A1" 156.768
+cap "8bitMUX3to1_0/MUX3to1_1/S1" "A1" 156.768
+cap "8bitMUX3to1_0/MUX3to1_1/S1" "A0" 1142.81
+subcap "m1_262_36#" -50.364
+cap "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/Y" "A2" 203.8
+cap "8bitMUX3to1_0/MUX3to1_1/S1" "A2" 156.768
+cap "8bitMUX3to1_0/MUX3to1_2/S0" "A2" 156.768
+cap "8bitMUX3to1_0/Y1" "A0" 25.512
+cap "8bitMUX3to1_0/MUX3to1_1/S1" "A0" 738.784
+subcap "m1_400_36#" -50.364
+cap "8bitMUX3to1_0/Y2" "A0" 25.512
+cap "8bitMUX3to1_0/MUX3to1_2/S1" "A0" 727.24
+cap "8bitMUX3to1_0/MUX3to1_2/S1" "A6" 156.768
+cap "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/S" "A6" 564.368
+cap "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/Y" "A6" 360.568
+subcap "m2_521_44#" -199.008
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_0/Y" "A3" 203.8
+cap "8bitMUX3to1_0/MUX3to1_3/S1" "A7" 156.768
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_0/Y" "A7" 360.568
+cap "8bitMUX3to1_0/MUX3to1_3/S1" "A3" 156.768
+cap "8bitMUX3to1_0/MUX3to1_3/S0" "A7" 564.368
+cap "8bitMUX3to1_0/MUX3to1_3/S0" "A3" 156.768
+cap "8bitMUX3to1_0/MUX3to1_3/S1" "A0" 865.762
+subcap "m1_538_36#" -83.844
+cap "8bitMUX3to1_0/Y3" "A0" 25.512
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/S" "A0" 1015.83
+cap "8bitMUX3to1_0/MUX3to1_4/MUX2to1_0/Y" "A4" 203.8
+cap "8bitMUX3to1_0/MUX3to1_4/S0" "m1_n2_n68#" 564.368
+cap "8bitMUX3to1_0/MUX3to1_4/MUX2to1_0/Y" "m1_n2_n68#" 360.568
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/S" "m1_n2_n68#" 156.768
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/S" "A4" 156.768
+cap "8bitMUX3to1_0/MUX3to1_4/S0" "A4" 156.768
+subcap "m2_727_44#" -328.608
+cap "A0" "8bitMUX3to1_0/Y4" 615.318
+cap "A0" "8bitMUX3to1_0/MUX3to1_5/S0" 156.768
+cap "A0" "8bitMUX3to1_0/MUX3to1_4/S1" 977.279
+cap "8bitMUX3to1_0/MUX3to1_5/S1" "m1_n2_n68#" 156.768
+cap "8bitMUX3to1_0/MUX3to1_5/S1" "A5" 156.768
+cap "8bitMUX3to1_0/MUX3to1_5/S0" "m1_n2_n68#" 564.368
+cap "8bitMUX3to1_0/MUX3to1_5/S0" "A5" 156.768
+cap "8bitMUX3to1_0/MUX3to1_5/MUX2to1_0/Y" "A5" 203.8
+cap "8bitMUX3to1_0/MUX3to1_5/MUX2to1_0/Y" "m1_n2_n68#" 360.568
+cap "8bitMUX3to1_0/MUX3to1_5/S1" "A1" 700.235
+cap "8bitMUX3to1_0/MUX3to1_5/S0" "A1" 156.768
+cap "8bitMUX3to1_0/Y5" "A1" 386.043
+cap "A6" "8bitMUX3to1_0/MUX3to1_6/MUX2to1_0/Y" 203.8
+cap "m1_n2_n68#" "8bitMUX3to1_0/MUX3to1_6/S0" 564.368
+cap "m1_n2_n68#" "8bitMUX3to1_0/MUX3to1_6/MUX2to1_0/Y" 360.568
+cap "A1" "8bitMUX3to1_0/Y5" 229.275
+cap "A6" "8bitMUX3to1_0/MUX3to1_6/S0" 156.768
+cap "8bitMUX3to1_0/MUX3to1_6/S1" "m1_n2_n68#" 156.768
+cap "8bitMUX3to1_0/MUX3to1_6/S1" "A6" 156.768
+cap "A7" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/Y" 203.8
+cap "8bitMUX3to1_0/MUX3to1_6/MUX2to1_1/S" "A2" 700.235
+cap "8bitMUX3to1_0/MUX3to1_7/S0" "A2" 156.768
+cap "8bitMUX3to1_0/Y6" "A2" 615.318
+cap "m1_n2_n68#" "8bitMUX3to1_0/MUX3to1_7/S0" 67.9333
+cap "A7" "8bitMUX3to1_0/MUX3to1_6/MUX2to1_1/S" 156.768
+cap "A7" "8bitMUX3to1_0/MUX3to1_7/S0" 156.768
+cap "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/S" "m1_n2_n68#" 67.9333
+cap "RORL" "8bitMUX3to1_0/Y7" 366.84
+cap "A3" "8bitMUX3to1_0/MUX3to1_7/S1" 135.867
+cap "m1_n2_n68#" "8bitMUX3to1_0/MUX3to1_7/S1" 156.768
+cap "A3" "8bitMUX3to1_0/Y7" 615.318
+cap "m1_n2_n68#" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/Y" 360.568
+subcap "m1_1138_4#" -1178.5
+cap "first2" "8bitMUX3to1_1/S0" 564.368
+cap "first0" "8bitMUX3to1_1/S0" 156.768
+cap "m1_1138_4#" "8bitMUX3to1_1/S0" 471.292
+cap "first2" "8bitMUX3to1_1/MUX3to1_0/MUX2to1_0/Y" 360.568
+cap "first0" "8bitMUX3to1_1/MUX3to1_0/MUX2to1_0/Y" 203.8
+subcap "second6" -50835.1
+subcap "second5" -50678.4
+subcap "second4" -50521.7
+subcap "second3" -50365.1
+subcap "second2" -50208.4
+subcap "second1" -50012.6
+subcap "second0" -48032.9
+subcap "m1_1264_36#" -117.324
+cap "8bitMUX3to1_1/S1" "first1" 156.768
+cap "8bitMUX3to1_1/MUX3to1_1/S0" "first1" 156.768
+cap "first1" "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/Y" 203.8
+cap "8bitMUX3to1_1/S1" "8bitMUX3to1_1/MUX3to1_1/S0" 438.653
+cap "8bitMUX3to1_1/S1" "8bitMUX3to1_1/Y0" 542.544
+cap "8bitMUX3to1_1/MUX3to1_1/S1" "first3" 156.768
+cap "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/S" "first3" 564.368
+cap "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/Y" "first3" 360.568
+cap "8bitMUX3to1_1/MUX3to1_1/S1" "second0" 727.24
+cap "first2" "8bitMUX3to1_1/MUX3to1_2/MUX2to1_0/Y" 203.8
+cap "second0" "8bitMUX3to1_1/MUX3to1_2/S1" 888.849
+cap "first2" "8bitMUX3to1_1/MUX3to1_2/S1" 156.768
+cap "8bitMUX3to1_1/MUX3to1_2/S0" "first2" 156.768
+cap "first4" "8bitMUX3to1_1/MUX3to1_2/S1" 156.768
+cap "first4" "8bitMUX3to1_1/MUX3to1_2/MUX2to1_0/Y" 360.568
+cap "first4" "8bitMUX3to1_1/MUX3to1_2/S0" 564.368
+cap "8bitMUX3to1_1/MUX3to1_2/MUX2to1_1/S" "first5" 156.768
+cap "8bitMUX3to1_1/MUX3to1_2/MUX2to1_1/S" "first3" 156.768
+cap "8bitMUX3to1_1/MUX3to1_2/MUX2to1_1/S" "first0" 700.235
+cap "8bitMUX3to1_1/MUX3to1_3/S0" "first5" 564.368
+cap "8bitMUX3to1_1/MUX3to1_3/S0" "first0" 156.768
+cap "8bitMUX3to1_1/MUX3to1_3/S0" "first3" 156.768
+cap "first3" "8bitMUX3to1_1/MUX3to1_3/MUX2to1_0/Y" 203.8
+cap "first5" "8bitMUX3to1_1/MUX3to1_3/MUX2to1_0/Y" 360.568
+cap "first0" "8bitMUX3to1_1/Y2" 564.368
+cap "8bitMUX3to1_1/MUX3to1_2/MUX2to1_1/S" "second0" 992.741
+cap "second0" "8bitMUX3to1_1/MUX3to1_3/S1" 727.24
+cap "first1" "8bitMUX3to1_1/Y3" 564.368
+cap "first5" "8bitMUX3to1_1/MUX3to1_3/MUX2to1_0/Y" 58.2286
+cap "first1" "8bitMUX3to1_1/MUX3to1_4/S0" 156.768
+cap "first1" "8bitMUX3to1_1/MUX3to1_3/S1" 700.235
+cap "8bitMUX3to1_1/MUX3to1_4/S1" "second0" 727.24
+cap "8bitMUX3to1_1/MUX3to1_4/MUX2to1_0/Y" "first4" 203.8
+cap "8bitMUX3to1_1/MUX3to1_4/S1" "first2" 641.909
+cap "8bitMUX3to1_1/MUX3to1_4/S1" "first6" 156.768
+cap "8bitMUX3to1_1/MUX3to1_4/S0" "first2" 98.442
+cap "8bitMUX3to1_1/MUX3to1_4/MUX2to1_0/Y" "first6" 360.568
+cap "8bitMUX3to1_1/MUX3to1_4/S1" "first4" 156.768
+cap "8bitMUX3to1_1/MUX3to1_4/S0" "first6" 564.368
+cap "8bitMUX3to1_1/MUX3to1_4/S0" "first4" 156.768
+cap "8bitMUX3to1_1/Y4" "first2" 261.482
+cap "8bitMUX3to1_1/MUX3to1_5/S1" "first7" 156.768
+cap "8bitMUX3to1_1/MUX3to1_5/S1" "first5" 156.768
+cap "8bitMUX3to1_1/MUX3to1_5/S0" "first7" 564.368
+cap "8bitMUX3to1_1/MUX3to1_5/S0" "first5" 156.768
+cap "8bitMUX3to1_1/MUX3to1_5/MUX2to1_0/Y" "first5" 203.8
+cap "8bitMUX3to1_1/MUX3to1_5/MUX2to1_0/Y" "first7" 360.568
+cap "first2" "8bitMUX3to1_1/MUX3to1_5/S1" 168.681
+cap "first2" "8bitMUX3to1_1/MUX3to1_5/S0" -24.588
+cap "first2" "8bitMUX3to1_1/Y4" 383.012
+cap "second0" "8bitMUX3to1_1/MUX3to1_5/S1" 1050.46
+cap "m1_n2_n68#" "8bitMUX3to1_1/MUX3to1_6/S0" 203.8
+cap "first6" "8bitMUX3to1_1/MUX3to1_6/S0" 156.768
+cap "first6" "8bitMUX3to1_1/MUX3to1_5/S1" 156.768
+cap "first3" "8bitMUX3to1_1/MUX3to1_5/S1" 700.235
+cap "first3" "8bitMUX3to1_1/MUX3to1_6/S0" 156.768
+cap "8bitMUX3to1_1/MUX3to1_6/MUX2to1_0/Y" "first6" 203.8
+cap "8bitMUX3to1_1/Y5" "first3" 564.368
+cap "second0" "8bitMUX3to1_1/MUX3to1_5/S1" 831.132
+cap "8bitMUX3to1_1/MUX3to1_6/MUX2to1_0/S" "first4" 156.768
+cap "8bitMUX3to1_1/MUX3to1_6/S1" "second0" 727.24
+cap "8bitMUX3to1_1/MUX3to1_6/S1" "m1_n2_n68#" 156.768
+cap "8bitMUX3to1_1/MUX3to1_6/MUX2to1_0/Y" "m1_n2_n68#" 360.568
+cap "8bitMUX3to1_1/Y6" "first4" 564.368
+cap "8bitMUX3to1_1/MUX3to1_6/S1" "first4" 700.235
+cap "8bitMUX3to1_1/MUX3to1_6/MUX2to1_0/S" "m1_n2_n68#" 360.568
+cap "second0" "8bitMUX3to1_1/MUX3to1_7/S1" 773.414
+cap "8bitMUX3to1_1/MUX3to1_7/MUX2to1_0/Y" "m1_n2_n68#" 360.568
+cap "8bitMUX3to1_1/MUX3to1_7/MUX2to1_0/Y" "first7" 203.8
+cap "8bitMUX3to1_1/MUX3to1_7/S1" "m1_n2_n68#" 156.768
+cap "8bitMUX3to1_1/MUX3to1_7/S0" "m1_n2_n68#" 135.867
+cap "8bitMUX3to1_1/MUX3to1_7/S1" "first7" 156.768
+cap "8bitMUX3to1_1/MUX3to1_7/S0" "first7" 156.768
+subcap "m1_2278_4#" -2096.5
+cap "8bitMUX3to1_2/S0" "m1_2278_4#" 101.9
+cap "second0" "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/Y" 203.8
+cap "RORL" "8bitMUX3to1_1/Y7" 326.08
+cap "first5" "8bitMUX3to1_1/Y7" 564.368
+cap "first5" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/S" 135.867
+cap "second0" "8bitMUX3to1_2/S0" 156.768
+cap "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/Y" "second0" 67.9333
+cap "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/Y" "second1" 360.568
+cap "8bitMUX3to1_2/S1" "second0" 253.957
+cap "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/S" "second1" 564.368
+cap "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/S" "8bitMUX3to1_2/S1" 808.045
+cap "second1" "8bitMUX3to1_2/MUX3to1_1/MUX2to1_0/Y" 203.8
+cap "second2" "8bitMUX3to1_2/MUX3to1_1/S1" 156.768
+cap "second1" "8bitMUX3to1_2/MUX3to1_1/S1" 156.768
+cap "second2" "8bitMUX3to1_2/MUX3to1_1/MUX2to1_0/Y" 360.568
+cap "second0" "8bitMUX3to1_2/MUX3to1_1/S1" 911.937
+cap "second2" "8bitMUX3to1_2/MUX3to1_1/S0" 564.368
+cap "second1" "8bitMUX3to1_2/MUX3to1_1/S0" 156.768
+cap "second0" "8bitMUX3to1_2/MUX3to1_1/MUX2to1_1/S" 1669.89
+cap "second0" "8bitMUX3to1_2/MUX3to1_2/S0" 156.768
+cap "second3" "8bitMUX3to1_2/MUX3to1_2/S0" 564.368
+cap "second3" "8bitMUX3to1_2/MUX3to1_1/MUX2to1_1/S" 156.768
+cap "second2" "8bitMUX3to1_2/MUX3to1_1/MUX2to1_1/S" 156.768
+cap "second2" "8bitMUX3to1_2/MUX3to1_2/S0" 156.768
+cap "8bitMUX3to1_2/Y1" "second0" 564.368
+cap "8bitMUX3to1_2/MUX3to1_2/MUX2to1_0/Y" "second3" 360.568
+cap "8bitMUX3to1_2/MUX3to1_2/MUX2to1_0/Y" "second2" 203.8
+cap "second1" "8bitMUX3to1_2/MUX3to1_3/S0" 156.768
+cap "second1" "8bitMUX3to1_2/MUX3to1_2/S1" 700.235
+cap "8bitMUX3to1_2/MUX3to1_2/S1" "second0" 727.24
+cap "second3" "8bitMUX3to1_2/MUX3to1_2/MUX2to1_0/Y" 81.52
+cap "second1" "8bitMUX3to1_2/Y2" 564.368
+cap "second4" "8bitMUX3to1_2/MUX3to1_3/MUX2to1_0/Y" 360.568
+cap "second3" "8bitMUX3to1_2/MUX3to1_3/MUX2to1_0/Y" 203.8
+cap "second2" "8bitMUX3to1_2/MUX3to1_3/S1" 576.281
+cap "second2" "8bitMUX3to1_2/MUX3to1_3/S0" 32.814
+cap "8bitMUX3to1_2/MUX3to1_3/S1" "second0" 727.24
+cap "second2" "8bitMUX3to1_2/Y3" 149.271
+cap "second4" "8bitMUX3to1_2/MUX3to1_3/S1" 156.768
+cap "second3" "8bitMUX3to1_2/MUX3to1_3/S1" 156.768
+cap "second4" "8bitMUX3to1_2/MUX3to1_3/S0" 564.368
+cap "second3" "8bitMUX3to1_2/MUX3to1_3/S0" 156.768
+cap "second4" "8bitMUX3to1_2/MUX3to1_4/MUX2to1_0/Y" 203.8
+cap "second5" "8bitMUX3to1_2/MUX3to1_4/MUX2to1_0/Y" 360.568
+cap "second5" "8bitMUX3to1_2/MUX3to1_4/S0" 564.368
+cap "8bitMUX3to1_2/MUX3to1_4/S0" "second2" 41.04
+cap "8bitMUX3to1_2/Y3" "second2" 448.64
+cap "second4" "8bitMUX3to1_2/MUX3to1_4/S0" 156.768
+cap "8bitMUX3to1_2/MUX3to1_4/S1" "second0" 1073.55
+cap "second5" "8bitMUX3to1_2/MUX3to1_4/S1" 156.768
+cap "second4" "8bitMUX3to1_2/MUX3to1_4/S1" 156.768
+cap "8bitMUX3to1_2/MUX3to1_4/S1" "second2" 302.242
+cap "second3" "8bitMUX3to1_2/Y4" 564.368
+cap "second5" "8bitMUX3to1_2/MUX3to1_5/MUX2to1_0/Y" 203.8
+cap "second3" "8bitMUX3to1_2/MUX3to1_4/S1" 700.235
+cap "second0" "8bitMUX3to1_2/MUX3to1_4/S1" 808.045
+cap "second3" "8bitMUX3to1_2/MUX3to1_5/S0" 156.768
+cap "second6" "8bitMUX3to1_2/MUX3to1_5/S0" 122.28
+cap "second5" "8bitMUX3to1_2/MUX3to1_5/S0" 156.768
+cap "second5" "8bitMUX3to1_2/MUX3to1_4/S1" 156.768
+cap "second0" "8bitMUX3to1_2/MUX3to1_5/S1" 727.24
+cap "8bitMUX3to1_2/Y5" "second4" 564.368
+cap "8bitMUX3to1_2/MUX3to1_5/MUX2to1_0/Y" "second6" 360.568
+cap "8bitMUX3to1_2/MUX3to1_5/S1" "second4" 700.235
+cap "8bitMUX3to1_2/MUX3to1_5/S1" "second6" 156.768
+cap "8bitMUX3to1_2/MUX3to1_5/MUX2to1_0/S" "second4" 156.768
+cap "8bitMUX3to1_2/MUX3to1_5/MUX2to1_0/S" "second6" 564.368
+cap "8bitMUX3to1_2/MUX3to1_6/S1" "second0" 796.501
+cap "8bitMUX3to1_2/MUX3to1_6/S1" "second7" 156.768
+cap "8bitMUX3to1_2/MUX3to1_6/S1" "second6" 156.768
+cap "8bitMUX3to1_2/MUX3to1_6/S0" "second7" 564.368
+cap "8bitMUX3to1_2/MUX3to1_6/S0" "second6" 156.768
+cap "8bitMUX3to1_2/MUX3to1_6/MUX2to1_0/Y" "second7" 360.568
+cap "8bitMUX3to1_2/MUX3to1_6/MUX2to1_0/Y" "second6" 203.8
+cap "m1_n2_n68#" "8bitMUX3to1_2/MUX3to1_7/S0" 135.867
+cap "m1_n2_n68#" "8bitMUX3to1_2/MUX3to1_6/MUX2to1_1/S" 156.768
+cap "second7" "8bitMUX3to1_2/MUX3to1_6/MUX2to1_1/S" 156.768
+cap "second5" "8bitMUX3to1_2/MUX3to1_6/MUX2to1_1/S" 700.235
+cap "second5" "8bitMUX3to1_2/MUX3to1_7/S0" 156.768
+cap "second7" "8bitMUX3to1_2/MUX3to1_7/S0" 156.768
+cap "8bitMUX3to1_2/MUX3to1_7/MUX2to1_0/Y" "m1_n2_n68#" 360.568
+cap "8bitMUX3to1_2/MUX3to1_7/MUX2to1_0/Y" "second7" 203.8
+cap "8bitMUX3to1_2/Y6" "second5" 564.368
+cap "second0" "8bitMUX3to1_2/MUX3to1_6/MUX2to1_1/S" 1085.09
+subcap "Y0" -4674.26
+subcap "m1_3400_36#" -4361.4
+cap "BUFFER8_0/m1_10_n8#" "ENb" 101.9
+cap "8bitMUX3to1_2/MUX3to1_7/S1" "second6" 135.867
+cap "BUFFER8_0/m1_10_n8#" "m1_2412_n80#" 214.997
+cap "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" "BUFFER8_0/m1_10_n8#" 109.663
+cap "ENb" "8bitMUX3to1_2/Y7" 407.6
+cap "second6" "8bitMUX3to1_2/Y7" 564.368
+cap "8bitMUX3to1_2/MUX3to1_7/S1" "second0" 80.8045
+cap "BUFFER8_0/m1_10_n8#" "Y0" 88.715
+subcap "Y0" -2435.2
+cap "BUFFER8_0/m1_10_n8#" "Y1" 224.701
+cap "BUFFER8_0/m1_10_n8#" "m1_2412_n88#" 292.635
+cap "BUFFER8_0/m1_10_n8#" "Y4" 65.628
+cap "BUFFER8_0/m1_10_n8#" "m1_2412_n112#" 292.635
+cap "BUFFER8_0/m1_10_n8#" "Y3" 224.701
+cap "BUFFER8_0/m1_10_n8#" "m1_2412_n104#" 292.635
+cap "BUFFER8_0/m1_10_n8#" "Y2" 224.701
+cap "BUFFER8_0/m1_10_n8#" "m1_2412_n96#" 292.635
+cap "BUFFER8_0/m1_10_n8#" "Y0" 1230.51
+cap "BUFFER8_0/m1_10_n8#" "m1_3400_36#" 577.175
+subcap "Y6" -439.632
+subcap "Y5" -439.632
+subcap "Y4" -613.44
+cap "BUFFER8_0/m1_10_n8#" "m1_2412_n136#" 135.867
+cap "BUFFER8_0/m1_10_n8#" "m1_2412_n128#" 292.635
+cap "BUFFER8_0/m1_10_n8#" "m1_2412_n120#" 292.635
+cap "BUFFER8_0/m1_10_n8#" "Y0" 715.697
+cap "BUFFER8_0/m1_10_n8#" "m1_3400_36#" 357.848
+cap "BUFFER8_0/m1_10_n8#" "Y6" 224.701
+cap "BUFFER8_0/m1_10_n8#" "Y5" 224.701
+cap "BUFFER8_0/m1_10_n8#" "Y4" 76.1593
+cap "8bitMUX3to1_0/VSS" "AND2_0/Y" 202.942
+cap "AND2_0/Y" "8bitMUX3to1_0/S0" 296.148
+cap "AND2_0/A" "AND2_0/a_9_8#" 60.768
+cap "AND2_1/Y" "8bitMUX3to1_0/VSS" 249.116
+cap "AND2_1/A" "AND2_1/a_9_8#" 60.768
+cap "AND2_0/A" "8bitMUX3to1_0/VSS" 156.768
+cap "AND2_1/A" "8bitMUX3to1_0/VSS" 156.768
+cap "AND2_0/B" "8bitMUX3to1_0/VSS" 470.145
+cap "AND2_0/B" "AND2_1/Y" 73.8784
+cap "AND2_1/B" "8bitMUX3to1_0/VSS" 470.145
+cap "AND2_0/a_2_72#" "AND2_1/Y" 184.696
+cap "8bitMUX3to1_0/VDD" "AND2_0/Y" 57.7175
+cap "AND2_0/A" "AND2_0/a_2_72#" 61.5653
+cap "AND2_0/B" "AND2_0/A" 5.68434e-14
+cap "AND2_1/A" "AND2_1/a_2_72#" 61.5653
+cap "AND2_1/B" "AND2_1/A" 5.68434e-14
+cap "8bitMUX3to1_0/MUX3to1_0/MUX2to1_1/TRANSMISSION_1/enb" "8bitMUX3to1_0/VSS" -1.42109e-14
+cap "8bitMUX3to1_0/B0" "8bitMUX3to1_0/VSS" 156.768
+cap "8bitMUX3to1_0/B0" "8bitMUX3to1_0/S0" 212.596
+cap "8bitMUX3to1_0/S1" "8bitMUX3to1_0/VSS" 61.14
+cap "8bitMUX3to1_0/B0" "8bitMUX3to1_0/MUX3to1_0/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/A0" "8bitMUX3to1_0/VSS" 156.768
+cap "8bitMUX3to1_0/A0" "8bitMUX3to1_0/MUX3to1_0/MUX2to1_0/TRANSMISSION_0/Y" 445.812
+cap "8bitMUX3to1_0/MUX3to1_0/MUX2to1_0/TRANSMISSION_1/enb" "8bitMUX3to1_0/A0" 8.796
+cap "8bitMUX3to1_0/B1" "8bitMUX3to1_0/MUX3to1_1/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/C0" "8bitMUX3to1_0/B1" 156.768
+cap "8bitMUX3to1_0/A1" "8bitMUX3to1_0/MUX3to1_1/MUX2to1_0/TRANSMISSION_0/Y" 445.812
+cap "8bitMUX3to1_0/C0" "8bitMUX3to1_0/A1" 156.768
+cap "8bitMUX3to1_0/C0" "8bitMUX3to1_0/MUX3to1_0/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/MUX3to1_1/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_0/A1" 8.796
+cap "8bitMUX3to1_0/MUX3to1_0/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_0/C0" 212.596
+cap "8bitMUX3to1_0/MUX3to1_1/S0" "8bitMUX3to1_0/B1" 212.596
+cap "8bitMUX3to1_0/A2" "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/TRANSMISSION_0/Y" 445.812
+cap "8bitMUX3to1_0/C1" "8bitMUX3to1_0/A2" 156.768
+cap "8bitMUX3to1_0/C1" "8bitMUX3to1_0/MUX3to1_1/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_0/A2" 8.796
+cap "8bitMUX3to1_0/MUX3to1_1/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_0/C1" 212.596
+subcap "m2_313_44#" -414.108
+cap "8bitMUX3to1_0/MUX3to1_2/S1" "8bitMUX3to1_0/C2" 212.596
+cap "8bitMUX3to1_0/C2" "8bitMUX3to1_0/MUX3to1_2/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/B2" "8bitMUX3to1_0/C2" 156.768
+cap "8bitMUX3to1_0/B2" "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/TRANSMISSION_1/en" "8bitMUX3to1_0/B2" 212.596
+subcap "m2_521_44#" -414.108
+cap "8bitMUX3to1_0/B3" "8bitMUX3to1_0/MUX3to1_3/VSS" 156.768
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/A3" 445.812
+cap "8bitMUX3to1_0/B3" "8bitMUX3to1_0/MUX3to1_3/S0" 212.596
+cap "8bitMUX3to1_0/MUX3to1_3/VSS" "8bitMUX3to1_0/A3" 156.768
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_0/A3" 8.796
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_0/TRANSMISSION_1/Y" "8bitMUX3to1_0/B3" 509.5
+cap "8bitMUX3to1_0/B4" "8bitMUX3to1_0/MUX3to1_4/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/C3" "8bitMUX3to1_0/B4" 156.768
+cap "8bitMUX3to1_0/A4" "8bitMUX3to1_0/MUX3to1_4/MUX2to1_0/TRANSMISSION_0/Y" 445.812
+cap "8bitMUX3to1_0/C3" "8bitMUX3to1_0/A4" 156.768
+cap "8bitMUX3to1_0/C3" "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/MUX3to1_4/S0" "8bitMUX3to1_0/B4" 212.596
+cap "8bitMUX3to1_0/MUX3to1_4/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_0/A4" 8.796
+cap "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_0/C3" 212.596
+subcap "m2_727_44#" -1456.85
+cap "8bitMUX3to1_0/C4" "8bitMUX3to1_0/MUX3to1_4/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/MUX3to1_4/S1" "8bitMUX3to1_0/C4" 212.596
+cap "8bitMUX3to1_0/MUX3to1_5/VSS" "8bitMUX3to1_0/C4" 156.768
+cap "8bitMUX3to1_0/B5" "8bitMUX3to1_0/MUX3to1_5/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_0/B5" "8bitMUX3to1_0/MUX3to1_5/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/A5" "8bitMUX3to1_0/MUX3to1_5/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_0/A5" "8bitMUX3to1_0/MUX3to1_5/MUX2to1_0/TRANSMISSION_0/Y" 445.812
+cap "8bitMUX3to1_0/MUX3to1_5/S0" "8bitMUX3to1_0/B5" 212.596
+cap "8bitMUX3to1_0/MUX3to1_5/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_0/A5" 8.796
+cap "8bitMUX3to1_0/MUX3to1_5/MUX2to1_1/VSS" "8bitMUX3to1_0/C5" 156.768
+cap "8bitMUX3to1_0/MUX3to1_5/S1" "8bitMUX3to1_0/C5" 212.596
+cap "8bitMUX3to1_0/C5" "8bitMUX3to1_0/MUX3to1_5/MUX2to1_1/TRANSMISSION_1/Y" 254.75
+cap "8bitMUX3to1_0/B6" "8bitMUX3to1_0/MUX3to1_6/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/MUX3to1_6/VSS" "8bitMUX3to1_0/B6" 156.768
+cap "8bitMUX3to1_0/A6" "8bitMUX3to1_0/MUX3to1_6/MUX2to1_0/TRANSMISSION_0/Y" 445.812
+cap "8bitMUX3to1_0/MUX3to1_6/VSS" "8bitMUX3to1_0/A6" 156.768
+cap "8bitMUX3to1_0/C5" "8bitMUX3to1_0/MUX3to1_5/MUX2to1_1/TRANSMISSION_1/Y" 254.75
+cap "8bitMUX3to1_0/MUX3to1_6/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_0/A6" 8.796
+cap "8bitMUX3to1_0/B6" "8bitMUX3to1_0/MUX3to1_6/S0" 212.596
+cap "8bitMUX3to1_0/B7" "8bitMUX3to1_0/MUX3to1_7/S0" 101.9
+cap "8bitMUX3to1_0/A7" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/TRANSMISSION_0/Y" 445.812
+cap "8bitMUX3to1_0/MUX3to1_7/VSS" "8bitMUX3to1_0/A7" 156.768
+cap "8bitMUX3to1_0/C6" "8bitMUX3to1_0/MUX3to1_7/VSS" 156.768
+cap "8bitMUX3to1_0/C6" "8bitMUX3to1_0/MUX3to1_6/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_0/A7" 8.796
+cap "8bitMUX3to1_0/MUX3to1_6/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_0/C6" 212.596
+cap "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VSS" 92.348
+cap "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" "AND2_2/a_2_72#" 173.152
+cap "8bitMUX3to1_0/C7" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_0/C7" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "AND2_2/A" "AND2_2/a_9_8#" 60.768
+cap "AND2_2/A" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VSS" 156.768
+cap "AND2_2/B" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VSS" 470.145
+cap "8bitMUX3to1_0/B7" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_0/B7" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/TRANSMISSION_1/en" 110.696
+cap "AND2_2/A" "AND2_2/a_2_72#" 30.7827
+cap "AND2_2/B" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" 308.248
+cap "8bitMUX3to1_0/B7" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VDD" "AND2_2/a_2_72#" 11.475
+cap "8bitMUX3to1_0/MUX3to1_7/S1" "8bitMUX3to1_0/C7" 212.596
+cap "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VDD" "AND2_2/B" -5.68434e-14
+cap "AND2_2/Y" "8bitMUX3to1_1/S0" 296.148
+cap "8bitMUX3to1_1/VDD" "AND2_2/Y" 57.7175
+cap "AND2_2/A" "AND2_2/a_2_72#" 30.7827
+cap "8bitMUX3to1_1/B0" "8bitMUX3to1_1/VSS" 156.768
+cap "8bitMUX3to1_1/B0" "8bitMUX3to1_1/MUX3to1_0/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/A0" "8bitMUX3to1_1/VSS" 156.768
+cap "8bitMUX3to1_1/A0" "8bitMUX3to1_1/MUX3to1_0/MUX2to1_0/TRANSMISSION_0/Y" 445.812
+cap "8bitMUX3to1_1/MUX3to1_0/MUX2to1_0/TRANSMISSION_1/enb" "8bitMUX3to1_1/A0" 8.796
+cap "AND2_2/A" "8bitMUX3to1_1/VSS" -57.402
+cap "AND2_2/Y" "8bitMUX3to1_1/VSS" 202.942
+cap "8bitMUX3to1_1/S0" "8bitMUX3to1_1/B0" 212.596
+cap "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_1/A1" 8.796
+cap "8bitMUX3to1_1/C0" "8bitMUX3to1_1/MUX3to1_0/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/C0" "8bitMUX3to1_1/A1" 156.768
+cap "8bitMUX3to1_1/C0" "8bitMUX3to1_1/MUX3to1_0/MUX2to1_1/TRANSMISSION_1/en" 212.596
+cap "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_1/A1" 509.5
+cap "8bitMUX3to1_1/MUX3to1_1/S1" "8bitMUX3to1_1/C1" 212.596
+cap "8bitMUX3to1_1/B1" "8bitMUX3to1_1/C1" 156.768
+cap "8bitMUX3to1_1/B1" "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/TRANSMISSION_1/en" "8bitMUX3to1_1/B1" 212.596
+cap "8bitMUX3to1_1/MUX3to1_1/MUX2to1_1/TRANSMISSION_1/Y" "8bitMUX3to1_1/C1" 509.5
+cap "8bitMUX3to1_1/MUX3to1_2/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_1/A2" 8.796
+cap "8bitMUX3to1_1/A2" "8bitMUX3to1_1/MUX3to1_2/VSS" 156.768
+cap "8bitMUX3to1_1/MUX3to1_2/VSS" "8bitMUX3to1_1/B2" 156.768
+cap "8bitMUX3to1_1/MUX3to1_2/S0" "8bitMUX3to1_1/B2" 212.596
+cap "8bitMUX3to1_1/MUX3to1_2/MUX2to1_0/TRANSMISSION_1/Y" "8bitMUX3to1_1/B2" 509.5
+cap "8bitMUX3to1_1/MUX3to1_2/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_1/A2" 509.5
+cap "8bitMUX3to1_1/MUX3to1_3/VSS" "8bitMUX3to1_1/A3" 156.768
+cap "8bitMUX3to1_1/A3" "8bitMUX3to1_1/MUX3to1_3/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_1/C2" "8bitMUX3to1_1/MUX3to1_2/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/B3" "8bitMUX3to1_1/MUX3to1_3/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/MUX3to1_2/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_1/C2" 212.596
+cap "8bitMUX3to1_1/MUX3to1_3/S0" "8bitMUX3to1_1/B3" 212.596
+cap "8bitMUX3to1_1/C2" "8bitMUX3to1_1/MUX3to1_3/VSS" 156.768
+cap "8bitMUX3to1_1/B3" "8bitMUX3to1_1/MUX3to1_3/VSS" 156.768
+cap "8bitMUX3to1_1/MUX3to1_3/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_1/A3" 8.796
+cap "8bitMUX3to1_1/C3" "8bitMUX3to1_1/MUX3to1_3/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/MUX3to1_4/VSS" "8bitMUX3to1_1/C3" 156.768
+cap "8bitMUX3to1_1/MUX3to1_3/S1" "8bitMUX3to1_1/C3" 212.596
+cap "8bitMUX3to1_1/B3" "8bitMUX3to1_1/MUX3to1_3/MUX2to1_0/TRANSMISSION_1/Y" 145.571
+cap "8bitMUX3to1_1/MUX3to1_4/MUX2to1_1/VSS" "8bitMUX3to1_1/A4" 156.768
+cap "8bitMUX3to1_1/C4" "8bitMUX3to1_1/MUX3to1_4/S1" 205.999
+cap "8bitMUX3to1_1/MUX3to1_4/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_1/A4" 509.5
+cap "8bitMUX3to1_1/B4" "8bitMUX3to1_1/MUX3to1_4/S0" 212.596
+cap "8bitMUX3to1_1/C4" "8bitMUX3to1_1/MUX3to1_4/MUX2to1_1/TRANSMISSION_1/Y" 203.8
+cap "8bitMUX3to1_1/MUX3to1_4/MUX2to1_1/VSS" "8bitMUX3to1_1/C4" 98.442
+cap "8bitMUX3to1_1/B4" "8bitMUX3to1_1/MUX3to1_4/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_1/B4" "8bitMUX3to1_1/MUX3to1_4/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/MUX3to1_4/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_1/A4" 8.796
+cap "8bitMUX3to1_1/B5" "8bitMUX3to1_1/MUX3to1_5/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/A5" "8bitMUX3to1_1/MUX3to1_5/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_1/MUX3to1_5/VSS" "8bitMUX3to1_1/A5" 156.768
+cap "8bitMUX3to1_1/MUX3to1_5/VSS" "8bitMUX3to1_1/C4" -24.588
+cap "8bitMUX3to1_1/MUX3to1_4/MUX2to1_1/TRANSMISSION_1/Y" "8bitMUX3to1_1/C4" 509.5
+cap "8bitMUX3to1_1/A5" "8bitMUX3to1_1/MUX3to1_5/MUX2to1_0/TRANSMISSION_0/en" 8.796
+cap "8bitMUX3to1_1/MUX3to1_4/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_1/C4" 48.751
+cap "8bitMUX3to1_1/MUX3to1_5/VSS" "8bitMUX3to1_1/B5" 156.768
+cap "8bitMUX3to1_1/MUX3to1_5/S0" "8bitMUX3to1_1/B5" 212.596
+cap "8bitMUX3to1_1/MUX3to1_6/S0" "8bitMUX3to1_1/B6" 101.9
+cap "8bitMUX3to1_1/MUX3to1_6/VSS" "8bitMUX3to1_1/A6" 156.768
+cap "8bitMUX3to1_1/A6" "8bitMUX3to1_1/MUX3to1_6/MUX2to1_0/TRANSMISSION_0/en" 8.796
+cap "8bitMUX3to1_1/MUX3to1_6/VSS" "8bitMUX3to1_1/C5" 156.768
+cap "8bitMUX3to1_1/C5" "8bitMUX3to1_1/MUX3to1_5/MUX2to1_1/TRANSMISSION_1/en" 212.596
+cap "8bitMUX3to1_1/A6" "8bitMUX3to1_1/MUX3to1_6/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_1/C5" "8bitMUX3to1_1/MUX3to1_5/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/C6" "8bitMUX3to1_1/MUX3to1_6/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/C6" "8bitMUX3to1_1/MUX3to1_6/S1" 212.596
+cap "8bitMUX3to1_1/MUX3to1_7/VSS" "8bitMUX3to1_1/C6" 156.768
+cap "8bitMUX3to1_1/B6" "8bitMUX3to1_1/MUX3to1_6/MUX2to1_0/TRANSMISSION_1/en" 110.696
+cap "8bitMUX3to1_1/B6" "8bitMUX3to1_1/MUX3to1_7/VSS" 156.768
+cap "8bitMUX3to1_1/B6" "8bitMUX3to1_1/MUX3to1_6/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/B7" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_1/A7" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_1/A7" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_0/TRANSMISSION_0/en" 8.796
+cap "8bitMUX3to1_1/B7" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_1/A7" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_1/B7" "8bitMUX3to1_1/MUX3to1_7/S0" 212.596
+cap "8bitMUX3to1_2/A0" "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_2/VSS" "8bitMUX3to1_2/A0" 156.768
+cap "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_2/A0" 8.796
+cap "AND2_3/Y" "8bitMUX3to1_2/VSS" 202.942
+cap "AND2_3/A" "AND2_3/a_9_8#" 60.768
+cap "AND2_3/A" "8bitMUX3to1_2/VSS" 156.768
+cap "AND2_3/Y" "8bitMUX3to1_2/S0" 296.148
+cap "AND2_3/B" "8bitMUX3to1_2/VSS" 470.145
+cap "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" "8bitMUX3to1_2/VSS" 92.348
+cap "8bitMUX3to1_1/C7" "8bitMUX3to1_2/VSS" 156.768
+cap "8bitMUX3to1_1/C7" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/en" 212.596
+cap "AND2_3/B" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" 308.248
+cap "AND2_3/a_2_72#" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" 173.152
+cap "8bitMUX3to1_1/C7" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/VDD" "AND2_3/Y" 57.7175
+cap "8bitMUX3to1_2/VDD" "8bitMUX3to1_1/C7" 5.68434e-14
+cap "AND2_3/A" "AND2_3/a_2_72#" 61.5653
+cap "AND2_3/B" "AND2_3/A" 5.68434e-14
+cap "8bitMUX3to1_2/VDD" "AND2_3/a_2_72#" 11.475
+cap "8bitMUX3to1_2/VDD" "AND2_3/B" -5.68434e-14
+cap "8bitMUX3to1_2/VDD" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/enb" -1.13687e-13
+cap "8bitMUX3to1_2/B0" "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/C0" "8bitMUX3to1_2/B0" 156.768
+cap "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/TRANSMISSION_1/en" "8bitMUX3to1_2/B0" 212.596
+cap "8bitMUX3to1_2/A0" "8bitMUX3to1_2/MUX3to1_0/MUX2to1_0/TRANSMISSION_0/Y" 169.833
+cap "8bitMUX3to1_2/C0" "8bitMUX3to1_2/S1" 212.596
+cap "8bitMUX3to1_2/C0" "8bitMUX3to1_2/MUX3to1_0/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/B1" "8bitMUX3to1_2/MUX3to1_1/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/B1" "8bitMUX3to1_2/MUX3to1_1/S0" 212.596
+cap "8bitMUX3to1_2/A1" "8bitMUX3to1_2/MUX3to1_1/MUX2to1_0/TRANSMISSION_0/en" 8.796
+cap "8bitMUX3to1_2/A1" "8bitMUX3to1_2/MUX3to1_1/VSS" 156.768
+cap "8bitMUX3to1_2/MUX3to1_1/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_2/A1" 509.5
+cap "8bitMUX3to1_2/B1" "8bitMUX3to1_2/MUX3to1_1/VSS" 156.768
+cap "8bitMUX3to1_2/B2" "8bitMUX3to1_2/MUX3to1_2/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/MUX3to1_2/S0" "8bitMUX3to1_2/B2" 212.596
+cap "8bitMUX3to1_2/MUX3to1_2/VSS" "8bitMUX3to1_2/B2" 156.768
+cap "8bitMUX3to1_2/MUX3to1_1/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_2/C1" 212.596
+cap "8bitMUX3to1_2/MUX3to1_2/VSS" "8bitMUX3to1_2/A2" 156.768
+cap "8bitMUX3to1_2/MUX3to1_2/VSS" "8bitMUX3to1_2/C1" 156.768
+cap "8bitMUX3to1_2/MUX3to1_1/MUX2to1_1/TRANSMISSION_1/Y" "8bitMUX3to1_2/C1" 509.5
+cap "8bitMUX3to1_2/A2" "8bitMUX3to1_2/MUX3to1_2/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_2/MUX3to1_2/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_2/A2" 8.796
+cap "8bitMUX3to1_2/MUX3to1_3/VSS" "8bitMUX3to1_2/C2" 156.768
+cap "8bitMUX3to1_2/C2" "8bitMUX3to1_2/MUX3to1_2/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/B2" "8bitMUX3to1_2/MUX3to1_2/MUX2to1_0/TRANSMISSION_1/Y" 203.8
+cap "8bitMUX3to1_2/MUX3to1_2/S1" "8bitMUX3to1_2/C2" 212.596
+cap "8bitMUX3to1_2/MUX3to1_3/MUX2to1_1/VSS" "8bitMUX3to1_2/B3" 156.768
+cap "8bitMUX3to1_2/MUX3to1_3/MUX2to1_0/TRANSMISSION_1/Y" "8bitMUX3to1_2/B3" 509.5
+cap "8bitMUX3to1_2/MUX3to1_3/MUX2to1_1/VSS" "8bitMUX3to1_2/A3" 156.768
+cap "8bitMUX3to1_2/MUX3to1_3/S0" "8bitMUX3to1_2/B3" 212.596
+cap "8bitMUX3to1_2/MUX3to1_3/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_2/A3" 8.796
+cap "8bitMUX3to1_2/A3" "8bitMUX3to1_2/MUX3to1_3/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_2/MUX3to1_3/S1" "8bitMUX3to1_2/C3" 201.601
+cap "8bitMUX3to1_2/MUX3to1_3/MUX2to1_1/VSS" "8bitMUX3to1_2/C3" 32.814
+cap "8bitMUX3to1_2/C3" "8bitMUX3to1_2/MUX3to1_3/MUX2to1_1/TRANSMISSION_1/Y" 145.571
+cap "8bitMUX3to1_2/MUX3to1_4/VSS" "8bitMUX3to1_2/B4" 156.768
+cap "8bitMUX3to1_2/MUX3to1_4/VSS" "8bitMUX3to1_2/C3" 41.04
+cap "8bitMUX3to1_2/MUX3to1_3/MUX2to1_1/TRANSMISSION_1/Y" "8bitMUX3to1_2/C3" 509.5
+cap "8bitMUX3to1_2/MUX3to1_4/S0" "8bitMUX3to1_2/B4" 212.596
+cap "8bitMUX3to1_2/MUX3to1_3/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_2/C3" 78.624
+cap "8bitMUX3to1_2/MUX3to1_4/VSS" "8bitMUX3to1_2/A4" 156.768
+cap "8bitMUX3to1_2/A4" "8bitMUX3to1_2/MUX3to1_4/MUX2to1_0/TRANSMISSION_0/en" 8.796
+cap "8bitMUX3to1_2/B4" "8bitMUX3to1_2/MUX3to1_4/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/A4" "8bitMUX3to1_2/MUX3to1_4/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_2/MUX3to1_5/S0" "8bitMUX3to1_2/B5" 61.14
+cap "8bitMUX3to1_2/MUX3to1_5/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_2/A5" 509.5
+cap "8bitMUX3to1_2/C4" "8bitMUX3to1_2/MUX3to1_4/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/C4" "8bitMUX3to1_2/MUX3to1_5/VSS" 156.768
+cap "8bitMUX3to1_2/MUX3to1_5/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_2/A5" 8.796
+cap "8bitMUX3to1_2/C4" "8bitMUX3to1_2/MUX3to1_4/MUX2to1_1/TRANSMISSION_1/en" 212.596
+cap "8bitMUX3to1_2/A5" "8bitMUX3to1_2/MUX3to1_5/VSS" 156.768
+cap "8bitMUX3to1_2/MUX3to1_5/MUX2to1_1/VSS" "8bitMUX3to1_2/C5" 156.768
+cap "8bitMUX3to1_2/MUX3to1_5/MUX2to1_0/TRANSMISSION_1/en" "8bitMUX3to1_2/B5" 212.596
+cap "8bitMUX3to1_2/C5" "8bitMUX3to1_2/MUX3to1_5/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/MUX3to1_5/S1" "8bitMUX3to1_2/C5" 212.596
+cap "8bitMUX3to1_2/B5" "8bitMUX3to1_2/MUX3to1_5/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_2/MUX3to1_5/MUX2to1_0/TRANSMISSION_1/Y" "8bitMUX3to1_2/B5" 509.5
+cap "8bitMUX3to1_2/MUX3to1_6/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_2/A6" 8.796
+cap "8bitMUX3to1_2/A6" "8bitMUX3to1_2/MUX3to1_6/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_2/MUX3to1_6/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_2/A6" 509.5
+cap "8bitMUX3to1_2/B6" "8bitMUX3to1_2/MUX3to1_6/MUX2to1_1/VSS" 156.768
+cap "8bitMUX3to1_2/B6" "8bitMUX3to1_2/MUX3to1_6/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/B6" "8bitMUX3to1_2/MUX3to1_6/S0" 212.596
+cap "8bitMUX3to1_2/B7" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_0/TRANSMISSION_1/Y" 509.5
+cap "8bitMUX3to1_2/MUX3to1_6/MUX2to1_1/TRANSMISSION_1/en" "8bitMUX3to1_2/C6" 212.596
+cap "8bitMUX3to1_2/MUX3to1_7/S0" "8bitMUX3to1_2/B7" 212.596
+cap "8bitMUX3to1_2/MUX3to1_7/MUX2to1_0/TRANSMISSION_0/en" "8bitMUX3to1_2/A7" 8.796
+cap "8bitMUX3to1_2/MUX3to1_7/VSS" "8bitMUX3to1_2/C6" 156.768
+cap "8bitMUX3to1_2/MUX3to1_6/MUX2to1_1/TRANSMISSION_1/Y" "8bitMUX3to1_2/C6" 509.5
+cap "8bitMUX3to1_2/MUX3to1_7/VSS" "8bitMUX3to1_2/B7" 156.768
+cap "8bitMUX3to1_2/A7" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_0/TRANSMISSION_0/Y" 509.5
+cap "8bitMUX3to1_2/MUX3to1_7/VSS" "8bitMUX3to1_2/A7" 156.768
+subcap "m1_3400_36#" -2246.58
+cap "BUFFER8_0/Y0" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" 23.087
+cap "BUFFER8_0/A0" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" 46.174
+cap "BUFFER8_0/TRANSMISSION_0/en" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" 109.663
+cap "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" 46.174
+cap "8bitMUX3to1_2/C7" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" 156.768
+cap "BUFFER8_0/TRANSMISSION_0/en" "BUFFER8_0/A0" 225.087
+cap "BUFFER8_0/enb" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" 274.992
+cap "8bitMUX3to1_2/C7" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" 509.5
+cap "BUFFER8_0/enb" "BUFFER8_0/TRANSMISSION_0/en" 203.8
+cap "BUFFER8_0/enb" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" 652.798
+cap "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VDD" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/TRANSMISSION_1/Y" 46.174
+cap "8bitMUX3to1_2/MUX3to1_7/S1" "8bitMUX3to1_2/C7" 212.596
+cap "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VDD" "BUFFER8_0/enb" 4.896
+cap "BUFFER8_0/TRANSMISSION_4/en" "m1_3400_36#" 1388.94
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/Y3" 101.9
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/A4" 212.596
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/A3" 212.596
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/Y2" 101.9
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/A2" 212.596
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/Y1" 101.9
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/Y0" 101.9
+cap "BUFFER8_0/TRANSMISSION_4/en" "BUFFER8_0/A1" 212.596
+cap "BUFFER8_0/Y4" "m1_3400_36#" 23.087
+cap "BUFFER8_0/A4" "m1_3400_36#" 46.174
+cap "BUFFER8_0/Y3" "m1_3400_36#" 46.174
+cap "BUFFER8_0/A3" "m1_3400_36#" 46.174
+cap "BUFFER8_0/Y2" "m1_3400_36#" 46.174
+cap "BUFFER8_0/A2" "m1_3400_36#" 46.174
+cap "BUFFER8_0/Y1" "m1_3400_36#" 46.174
+cap "BUFFER8_0/A1" "m1_3400_36#" 46.174
+cap "BUFFER8_0/Y0" "m1_3400_36#" 23.087
+cap "BUFFER8_0/Y5" "BUFFER8_0/TRANSMISSION_7/en" 101.9
+cap "BUFFER8_0/A6" "BUFFER8_0/TRANSMISSION_7/en" 212.596
+cap "BUFFER8_0/Y7" "m1_3400_36#" 46.174
+cap "BUFFER8_0/Y6" "BUFFER8_0/TRANSMISSION_7/en" 101.9
+cap "BUFFER8_0/A7" "BUFFER8_0/TRANSMISSION_7/en" 212.596
+cap "BUFFER8_0/TRANSMISSION_7/en" "m1_3400_36#" 966.674
+cap "BUFFER8_0/A5" "m1_3400_36#" 46.174
+cap "BUFFER8_0/Y4" "m1_3400_36#" 23.087
+cap "BUFFER8_0/A6" "m1_3400_36#" 46.174
+cap "BUFFER8_0/Y5" "m1_3400_36#" 46.174
+cap "BUFFER8_0/A7" "m1_3400_36#" 46.174
+cap "BUFFER8_0/A5" "BUFFER8_0/TRANSMISSION_7/en" 212.596
+cap "BUFFER8_0/Y6" "m1_3400_36#" 46.174
+cap "BUFFER8_0/Y4" "BUFFER8_0/TRANSMISSION_7/en" 101.9
+merge "BUFFER8_0/Y5" "Y5" -220.752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "8bitMUX3to1_2/MUX3to1_0/MUX2to1_1/VSS" "8bitMUX3to1_2/C0" -379.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 -8 0 0
+merge "8bitMUX3to1_2/C0" "8bitMUX3to1_2/MUX3to1_1/VSS"
+merge "8bitMUX3to1_2/MUX3to1_1/VSS" "m1_2404_36#"
+merge "BUFFER8_0/A7" "8bitMUX3to1_2/Y7" -706.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -296 -168 0 0
+merge "8bitMUX3to1_2/Y7" "m1_2412_n136#"
+merge "8bitMUX3to1_1/A6" "8bitMUX3to1_1/B4" -1318.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -348 -230 0 0
+merge "8bitMUX3to1_1/B4" "8bitMUX3to1_0/MUX3to1_6/MUX2to1_1/TRANSMISSION_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_6/MUX2to1_1/TRANSMISSION_0/Y" "8bitMUX3to1_0/Y6"
+merge "8bitMUX3to1_0/Y6" "m2_935_44#"
+merge "m2_935_44#" "first6"
+merge "BUFFER8_0/enb" "ENb" -156.816 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "8bitMUX3to1_1/MUX3to1_0/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_1/MUX3to1_0/MUX2to1_0/Y" -23.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -18 0 0
+merge "8bitMUX3to1_1/MUX3to1_0/MUX2to1_0/Y" "m2_1177_44#"
+merge "BUFFER8_0/Y6" "Y6" -220.752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_0/Y0" "Y0" -207.576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "8bitMUX3to1_2/C1" "8bitMUX3to1_2/A0" -48378.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8260 -4146 -96 -200 0 0
+merge "8bitMUX3to1_2/A0" "8bitMUX3to1_1/Y0"
+merge "8bitMUX3to1_1/Y0" "second0"
+merge "8bitMUX3to1_2/C2" "8bitMUX3to1_2/A1" -29192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1871 -3743 -536 -322 0 0
+merge "8bitMUX3to1_2/A1" "8bitMUX3to1_2/B0"
+merge "8bitMUX3to1_2/B0" "8bitMUX3to1_1/Y1"
+merge "8bitMUX3to1_1/Y1" "second1"
+merge "AND2_2/A" "8bitMUX3to1_1/S0" -363.924 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -53 0 0
+merge "8bitMUX3to1_1/S0" "B1"
+merge "8bitMUX3to1_1/C3" "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/A" -1067.47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -184 -328 0 0
+merge "8bitMUX3to1_1/MUX3to1_1/MUX2to1_0/A" "8bitMUX3to1_1/A1"
+merge "8bitMUX3to1_1/A1" "8bitMUX3to1_0/MUX3to1_1/MUX2to1_1/TRANSMISSION_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_1/MUX2to1_1/TRANSMISSION_0/Y" "8bitMUX3to1_0/Y1"
+merge "8bitMUX3to1_0/Y1" "m2_245_44#"
+merge "m2_245_44#" "first1"
+merge "8bitMUX3to1_0/MUX3to1_1/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/MUX3to1_1/MUX2to1_0/Y" -23.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -18 0 0
+merge "8bitMUX3to1_0/MUX3to1_1/MUX2to1_0/Y" "m2_175_44#"
+merge "BUFFER8_0/Y7" "Y7" -220.752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "8bitMUX3to1_2/C3" "8bitMUX3to1_2/A2" -1959.91 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -556 -322 0 0
+merge "8bitMUX3to1_2/A2" "8bitMUX3to1_2/B1"
+merge "8bitMUX3to1_2/B1" "8bitMUX3to1_1/Y2"
+merge "8bitMUX3to1_1/Y2" "second2"
+merge "8bitMUX3to1_0/MUX3to1_0/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/MUX3to1_0/MUX2to1_0/Y" -23.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -18 0 0
+merge "8bitMUX3to1_0/MUX3to1_0/MUX2to1_0/Y" "m2_37_44#"
+merge "BUFFER8_0/Y1" "Y1" -220.752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "AND2_1/VDD" "AND2_0/VDD" -4230.9 0 0 0 0 -485 -140 0 0 0 0 0 0 0 0 -12 -32 0 0 0 0
+merge "AND2_0/VDD" "8bitMUX3to1_0/VDD"
+merge "8bitMUX3to1_0/VDD" "VDD"
+merge "8bitMUX3to1_0/C0" "8bitMUX3to1_0/MUX3to1_1/VSS" -636.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -56 0 -8 0 0
+merge "8bitMUX3to1_0/MUX3to1_1/VSS" "AND2_1/VSS"
+merge "AND2_1/VSS" "AND2_0/VSS"
+merge "AND2_0/VSS" "8bitMUX3to1_0/VSS"
+merge "8bitMUX3to1_0/VSS" "VSS"
+merge "VSS" "m1_124_36#"
+merge "AND2_3/B" "AND2_2/B" -773.928 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "AND2_2/B" "AND2_1/B"
+merge "AND2_1/B" "RORL"
+merge "8bitMUX3to1_1/C4" "8bitMUX3to1_1/A2" -1974.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -540 -338 0 0
+merge "8bitMUX3to1_1/A2" "8bitMUX3to1_1/B0"
+merge "8bitMUX3to1_1/B0" "8bitMUX3to1_0/MUX3to1_2/MUX2to1_1/TRANSMISSION_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_2/MUX2to1_1/TRANSMISSION_0/Y" "8bitMUX3to1_0/Y2"
+merge "8bitMUX3to1_0/Y2" "m2_383_44#"
+merge "m2_383_44#" "first2"
+merge "BUFFER8_0/Y2" "Y2" -220.752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "8bitMUX3to1_2/C4" "8bitMUX3to1_2/A3" -1426.34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -151 -322 0 0
+merge "8bitMUX3to1_2/A3" "8bitMUX3to1_2/B2"
+merge "8bitMUX3to1_2/B2" "8bitMUX3to1_1/Y3"
+merge "8bitMUX3to1_1/Y3" "second3"
+merge "8bitMUX3to1_2/C5" "8bitMUX3to1_2/A4" -1946.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -536 -322 0 0
+merge "8bitMUX3to1_2/A4" "8bitMUX3to1_2/B3"
+merge "8bitMUX3to1_2/B3" "8bitMUX3to1_1/Y4"
+merge "8bitMUX3to1_1/Y4" "second4"
+merge "8bitMUX3to1_1/MUX3to1_1/MUX2to1_1/VSS" "8bitMUX3to1_1/C1" -379.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 -8 0 0
+merge "8bitMUX3to1_1/C1" "8bitMUX3to1_1/MUX3to1_2/VSS"
+merge "8bitMUX3to1_1/MUX3to1_2/VSS" "m1_1402_36#"
+merge "8bitMUX3to1_0/MUX3to1_5/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/MUX3to1_5/MUX2to1_0/Y" -55.728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -18 0 0
+merge "8bitMUX3to1_0/MUX3to1_5/MUX2to1_0/Y" "m2_727_44#"
+merge "8bitMUX3to1_0/MUX3to1_6/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/MUX3to1_6/MUX2to1_0/Y" -23.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -18 0 0
+merge "8bitMUX3to1_0/MUX3to1_6/MUX2to1_0/Y" "m2_865_44#"
+merge "BUFFER8_0/Y3" "Y3" -220.752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "8bitMUX3to1_0/A7" "8bitMUX3to1_0/B3" -724.176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -16 0 0
+merge "8bitMUX3to1_0/B3" "AND2_0/A"
+merge "AND2_0/A" "A7"
+merge "AND2_2/Y" "8bitMUX3to1_1/S1" -273.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "8bitMUX3to1_1/S1" "m1_1138_4#"
+merge "8bitMUX3to1_2/C6" "8bitMUX3to1_2/A5" -1973.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -556 -322 0 0
+merge "8bitMUX3to1_2/A5" "8bitMUX3to1_2/B4"
+merge "8bitMUX3to1_2/B4" "8bitMUX3to1_1/Y5"
+merge "8bitMUX3to1_1/Y5" "second5"
+merge "AND2_3/VDD" "8bitMUX3to1_2/VDD" -5342.67 0 0 0 0 -621 -192 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "8bitMUX3to1_2/VDD" "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/w_42_65#"
+merge "8bitMUX3to1_1/MUX3to1_7/MUX2to1_1/w_42_65#" "AND2_2/VDD"
+merge "AND2_2/VDD" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VDD"
+merge "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VDD" "8bitMUX3to1_1/VDD"
+merge "8bitMUX3to1_1/A7" "8bitMUX3to1_1/B5" -1318.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -348 -230 0 0
+merge "8bitMUX3to1_1/B5" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/TRANSMISSION_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/TRANSMISSION_0/Y" "8bitMUX3to1_0/Y7"
+merge "8bitMUX3to1_0/Y7" "m2_1073_44#"
+merge "m2_1073_44#" "first7"
+merge "AND2_3/VSS" "8bitMUX3to1_1/MUX3to1_7/VSS" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "8bitMUX3to1_1/MUX3to1_7/VSS" "8bitMUX3to1_2/VSS"
+merge "BUFFER8_0/Y4" "Y4" -207.576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "AND2_2/VSS" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VSS" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "8bitMUX3to1_0/MUX3to1_7/MUX2to1_1/VSS" "8bitMUX3to1_1/VSS"
+merge "AND2_0/B" "SIGN" -257.976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "8bitMUX3to1_2/C7" "8bitMUX3to1_2/A6" -1669.34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -331 -322 0 0
+merge "8bitMUX3to1_2/A6" "8bitMUX3to1_2/B5"
+merge "8bitMUX3to1_2/B5" "8bitMUX3to1_1/Y6"
+merge "8bitMUX3to1_1/Y6" "second6"
+merge "AND2_3/Y" "8bitMUX3to1_2/S1" -273.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "8bitMUX3to1_2/S1" "m1_2278_4#"
+merge "8bitMUX3to1_1/C0" "8bitMUX3to1_1/MUX3to1_1/VSS" -379.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 -8 0 0
+merge "8bitMUX3to1_1/MUX3to1_1/VSS" "m1_1264_36#"
+merge "8bitMUX3to1_2/A7" "8bitMUX3to1_2/B6" -1334.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -376 -220 0 0
+merge "8bitMUX3to1_2/B6" "8bitMUX3to1_1/Y7"
+merge "8bitMUX3to1_1/Y7" "second7"
+merge "BUFFER8_0/A4" "8bitMUX3to1_2/Y4" 501.048 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 -62 0 0
+merge "8bitMUX3to1_2/Y4" "m1_2412_n112#"
+merge "BUFFER8_0/A1" "8bitMUX3to1_2/Y1" -422.352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -84 -62 0 0
+merge "8bitMUX3to1_2/Y1" "m1_2412_n88#"
+merge "AND2_1/Y" "8bitMUX3to1_0/MUX3to1_1/S1" -273.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "8bitMUX3to1_0/MUX3to1_1/S1" "8bitMUX3to1_0/S1"
+merge "8bitMUX3to1_0/S1" "m1_n42_4#"
+merge "8bitMUX3to1_2/B7" "8bitMUX3to1_1/B7" -1885.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 -56 0 0
+merge "8bitMUX3to1_1/B7" "8bitMUX3to1_1/B6"
+merge "8bitMUX3to1_1/B6" "8bitMUX3to1_0/B7"
+merge "8bitMUX3to1_0/B7" "8bitMUX3to1_0/B6"
+merge "8bitMUX3to1_0/B6" "8bitMUX3to1_0/B5"
+merge "8bitMUX3to1_0/B5" "8bitMUX3to1_0/B4"
+merge "8bitMUX3to1_0/B4" "AND2_0/Y"
+merge "AND2_0/Y" "m1_n2_n68#"
+merge "BUFFER8_0/VSS" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" -5396.53 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -732 -569 0 0 0 0
+merge "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VSS" "m1_3400_36#"
+merge "8bitMUX3to1_0/C1" "8bitMUX3to1_0/MUX3to1_2/VSS" -379.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 -8 0 0
+merge "8bitMUX3to1_0/MUX3to1_2/VSS" "m1_262_36#"
+merge "8bitMUX3to1_1/C6" "8bitMUX3to1_1/A4" -1835.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -438 -332 0 0
+merge "8bitMUX3to1_1/A4" "8bitMUX3to1_1/B2"
+merge "8bitMUX3to1_1/B2" "8bitMUX3to1_0/MUX3to1_4/MUX2to1_1/TRANSMISSION_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_4/MUX2to1_1/TRANSMISSION_0/Y" "8bitMUX3to1_0/Y4"
+merge "8bitMUX3to1_0/Y4" "m2_659_44#"
+merge "m2_659_44#" "first4"
+merge "8bitMUX3to1_0/MUX3to1_4/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/MUX3to1_4/MUX2to1_0/Y" -23.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -18 0 0
+merge "8bitMUX3to1_0/MUX3to1_4/MUX2to1_0/Y" "m2_589_44#"
+merge "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/Y" -23.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -18 0 0
+merge "8bitMUX3to1_0/MUX3to1_7/MUX2to1_0/Y" "m2_1003_44#"
+merge "8bitMUX3to1_1/C5" "8bitMUX3to1_1/A3" -1943.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -518 -332 0 0
+merge "8bitMUX3to1_1/A3" "8bitMUX3to1_1/B1"
+merge "8bitMUX3to1_1/B1" "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/TRANSMISSION_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/TRANSMISSION_0/Y" "8bitMUX3to1_0/Y3"
+merge "8bitMUX3to1_0/Y3" "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/Y"
+merge "8bitMUX3to1_0/MUX3to1_3/MUX2to1_1/Y" "m2_521_44#"
+merge "m2_521_44#" "first3"
+merge "8bitMUX3to1_0/A4" "8bitMUX3to1_0/B0" -476.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "8bitMUX3to1_0/B0" "A4"
+merge "8bitMUX3to1_0/MUX3to1_2/MUX2to1_1/VSS" "8bitMUX3to1_0/C2" -379.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 -8 0 0
+merge "8bitMUX3to1_0/C2" "8bitMUX3to1_0/MUX3to1_3/VSS"
+merge "8bitMUX3to1_0/MUX3to1_3/VSS" "m1_400_36#"
+merge "8bitMUX3to1_0/A5" "8bitMUX3to1_0/B1" -476.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "8bitMUX3to1_0/B1" "A5"
+merge "8bitMUX3to1_0/C4" "8bitMUX3to1_0/A0" -476.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "8bitMUX3to1_0/A0" "A0"
+merge "8bitMUX3to1_1/C2" "8bitMUX3to1_1/A0" -1443.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -420 -238 0 0
+merge "8bitMUX3to1_1/A0" "8bitMUX3to1_0/MUX3to1_0/MUX2to1_1/Y"
+merge "8bitMUX3to1_0/MUX3to1_0/MUX2to1_1/Y" "8bitMUX3to1_0/MUX3to1_0/MUX2to1_1/TRANSMISSION_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_0/MUX2to1_1/TRANSMISSION_0/Y" "8bitMUX3to1_0/Y0"
+merge "8bitMUX3to1_0/Y0" "8bitMUX3to1_0/MUX3to1_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_0/Y" "m2_107_44#"
+merge "m2_107_44#" "first0"
+merge "BUFFER8_0/A0" "8bitMUX3to1_2/Y0" -600.084 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -184 -118 0 0
+merge "8bitMUX3to1_2/Y0" "m1_2412_n80#"
+merge "8bitMUX3to1_0/C3" "8bitMUX3to1_0/MUX3to1_4/VSS" -379.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 -8 0 0
+merge "8bitMUX3to1_0/MUX3to1_4/VSS" "m1_538_36#"
+merge "8bitMUX3to1_0/A6" "8bitMUX3to1_0/B2" -476.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "8bitMUX3to1_0/B2" "A6"
+merge "8bitMUX3to1_0/C5" "8bitMUX3to1_0/A1" -476.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "8bitMUX3to1_0/A1" "A1"
+merge "8bitMUX3to1_0/C6" "8bitMUX3to1_0/A2" -541.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 -16 0 0
+merge "8bitMUX3to1_0/A2" "m1_305_75#"
+merge "m1_305_75#" "A2"
+merge "BUFFER8_0/A2" "8bitMUX3to1_2/Y2" -422.352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -84 -62 0 0
+merge "8bitMUX3to1_2/Y2" "m1_2412_n96#"
+merge "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/Y" -31.428 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -18 0 0
+merge "8bitMUX3to1_0/MUX3to1_2/MUX2to1_0/Y" "m2_313_44#"
+merge "8bitMUX3to1_0/C7" "8bitMUX3to1_0/A3" -476.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "8bitMUX3to1_0/A3" "A3"
+merge "BUFFER8_0/A3" "8bitMUX3to1_2/Y3" -384.552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -62 0 0
+merge "8bitMUX3to1_2/Y3" "m1_2412_n104#"
+merge "AND2_3/A" "8bitMUX3to1_2/S0" -665.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -180 -102 0 0
+merge "8bitMUX3to1_2/S0" "B0"
+merge "8bitMUX3to1_0/MUX3to1_3/MUX2to1_0/TRANSMISSION_0/Y" "8bitMUX3to1_0/MUX3to1_3/MUX2to1_0/Y" -23.328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -18 0 0
+merge "8bitMUX3to1_0/MUX3to1_3/MUX2to1_0/Y" "m2_451_44#"
+merge "BUFFER8_0/A6" "8bitMUX3to1_2/Y6" -745.488 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -296 -168 0 0
+merge "8bitMUX3to1_2/Y6" "m1_2412_n128#"
+merge "8bitMUX3to1_1/C7" "8bitMUX3to1_1/A5" -1532 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -213 -332 0 0
+merge "8bitMUX3to1_1/A5" "8bitMUX3to1_1/B3"
+merge "8bitMUX3to1_1/B3" "8bitMUX3to1_0/MUX3to1_5/MUX2to1_1/TRANSMISSION_0/Y"
+merge "8bitMUX3to1_0/MUX3to1_5/MUX2to1_1/TRANSMISSION_0/Y" "8bitMUX3to1_0/Y5"
+merge "8bitMUX3to1_0/Y5" "m2_797_44#"
+merge "m2_797_44#" "first5"
+merge "BUFFER8_0/A5" "8bitMUX3to1_2/Y5" -784.656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -296 -168 0 0
+merge "8bitMUX3to1_2/Y5" "m1_2412_n120#"
+merge "AND2_1/A" "8bitMUX3to1_0/S0" -861.408 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -376 -200 0 0
+merge "8bitMUX3to1_0/S0" "B2"
+merge "BUFFER8_0/VDD" "8bitMUX3to1_2/MUX3to1_7/MUX2to1_1/VDD" -1360.67 0 0 0 0 -152 -54 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

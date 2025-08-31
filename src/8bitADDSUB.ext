@@ -1,0 +1,833 @@
+timestamp 1746041965
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use INV INV_0 1 0 235 0 1 37
+use 1bitAddSub 1bitAddSub_0 1 0 80 0 1 0
+use 1bitAddSub 1bitAddSub_1 1 0 331 0 1 0
+use INV INV_1 1 0 486 0 1 37
+use 1bitAddSub 1bitAddSub_2 1 0 582 0 1 0
+use INV INV_2 1 0 737 0 1 37
+use 1bitAddSub 1bitAddSub_3 1 0 833 0 1 0
+use INV INV_3 1 0 988 0 1 37
+use 1bitAddSub 1bitAddSub_4 1 0 1084 0 1 0
+use INV INV_4 1 0 1239 0 1 37
+use 1bitAddSub 1bitAddSub_5 1 0 1335 0 1 0
+use INV INV_5 1 0 1490 0 1 37
+use 1bitAddSub 1bitAddSub_6 1 0 1586 0 1 0
+use INV INV_6 1 0 1741 0 1 37
+use 1bitAddSub 1bitAddSub_7 1 0 1837 0 1 0
+use XOR2 XOR2_0 1 0 2040 0 1 37
+use INV INV_7 1 0 1992 0 1 37
+use BUFFER BUFFER_0 1 0 2080 0 1 37
+use BUFFER8 BUFFER8_0 1 0 2119 0 1 37
+node "m2_2086_81#" 1 360.288 2086 81 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 140 78 0 0
+node "A7" 34 42977.8 6 -74 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7384 3700 396 206 0 0
+node "A6" 30 37178.2 6 -66 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6380 3198 364 190 0 0
+node "A5" 25 31378.5 6 -58 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5376 2696 332 174 0 0
+node "A4" 20 25539.8 6 -50 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4372 2194 284 150 0 0
+node "D7" 2 1079.64 2327 -43 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 496 256 0 0
+node "A3" 16 19740.1 6 -42 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3368 1692 252 134 0 0
+node "D6" 3 1614.22 2302 -35 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 74 464 240 0 0
+node "A2" 11 13940.5 6 -34 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2364 1190 220 118 0 0
+node "D5" 3 2148.8 2277 -27 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232 124 432 224 0 0
+node "A1" 7 8219.23 6 -26 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1360 688 220 118 0 0
+node "D4" 3 2683.39 2252 -19 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 332 174 400 208 0 0
+node "A0" 2 2380.45 6 -18 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 356 186 156 86 0 0
+node "D3" 4 3217.97 2227 -11 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 432 224 368 192 0 0
+node "enb" 38 48622.2 6 -10 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8320 4168 364 190 0 0
+node "D2" 4 3752.55 2202 -3 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 532 274 336 176 0 0
+node "D1" 4 4287.13 2177 5 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 632 324 304 160 0 0
+node "K" 3 2849.33 6 6 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 400 208 216 116 0 0
+node "D0" 4 4821.71 2152 13 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 732 374 272 144 0 0
+node "Overflow" 5 5638.43 2113 21 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 888 452 208 112 0 0
+node "m1_2135_37#" 4 4683.06 2135 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 808 412 0 0 0 0
+node "VSS" 0 138.96 10 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_2074_29#" 2 1607.99 2074 29 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 156 94 272 152 0 0
+node "m1_1986_n74#" 11 9890.19 1986 -74 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1364 698 1128 580 0 0
+node "m1_1751_6#" 3 3182.33 1751 6 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 464 248 188 102 0 0
+node "m1_1735_n66#" 15 14998.6 1735 -66 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2268 1150 1064 548 0 0
+node "m1_1500_6#" 3 3205.28 1500 6 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 468 250 188 102 0 0
+node "m1_1484_n58#" 19 20106.9 1484 -58 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3172 1602 1000 516 0 0
+node "m1_1249_6#" 3 3182.33 1249 6 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 464 248 188 102 0 0
+node "m1_1233_n50#" 22 25215.3 1233 -50 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4076 2054 936 484 0 0
+node "m1_998_6#" 3 3182.33 998 6 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 464 248 188 102 0 0
+node "m1_982_n42#" 26 30323.6 982 -42 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4980 2506 872 452 0 0
+node "m1_747_6#" 3 3182.33 747 6 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 464 248 188 102 0 0
+node "m1_731_n34#" 30 35432 731 -34 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5884 2958 808 420 0 0
+node "m1_496_6#" 3 3182.33 496 6 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 464 248 188 102 0 0
+node "m1_480_n26#" 33 40540.4 480 -26 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6788 3410 744 388 0 0
+node "m1_245_6#" 3 3182.33 245 6 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 464 248 188 102 0 0
+node "m1_229_n18#" 37 45517.8 229 -18 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7676 3854 664 348 0 0
+node "m1_177_n2#" 43 47366.4 177 -2 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7468 3750 2004 1074 0 0
+node "B7" 35 42633.2 6 -138 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7164 3598 780 398 0 0
+node "B6" 30 36794.4 6 -130 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6160 3096 748 382 0 0
+node "B5" 26 30955.6 6 -122 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5156 2594 716 366 0 0
+node "B4" 21 25116.8 6 -114 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4152 2092 684 350 0 0
+node "B3" 17 19278 6 -106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3148 1590 652 334 0 0
+node "m1_321_53#" 0 138.96 321 53 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B2" 12 13439.2 6 -98 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2144 1088 620 318 0 0
+node "m1_321_59#" 0 70.11 321 59 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 10 0 0 0 0
+node "m1_364_61#" 0 138.96 364 61 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B1" 8 7600.45 6 -90 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1140 586 588 302 0 0
+node "m1_245_57#" 0 138.96 245 57 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B0" 3 1800.83 6 -82 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 84 556 286 0 0
+node "m1_453_69#" 0 138.96 453 69 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_1960_29#" 2 1493.82 1960 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 192 104 0 0
+node "m1_1709_29#" 2 1493.82 1709 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 192 104 0 0
+node "m1_1458_29#" 2 1493.82 1458 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 192 104 0 0
+node "m1_1207_29#" 2 1493.82 1207 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 192 104 0 0
+node "m1_956_29#" 2 1493.82 956 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 192 104 0 0
+node "m1_705_29#" 2 1493.82 705 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 192 104 0 0
+node "m1_453_29#" 2 1516.77 453 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 102 192 104 0 0
+node "m1_203_29#" 2 1493.82 203 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 192 104 0 0
+node "m1_2006_77#" 0 138.96 2006 77 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_2135_121#" 4 2428.74 2135 121 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 808 412 0 0 0 0
+node "VDD" 0 138.96 10 121 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "w_2135_121#" 36007 6835.68 2135 121 nw 0 0 0 0 808 412 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "A2" "A1" 3924.79
+cap "D5" "D3" 156.768
+cap "D5" "D4" 826.291
+cap "B7" "m1_177_n2#" 156.768
+cap "m1_2135_37#" "m1_1735_n66#" 156.768
+cap "m1_2135_37#" "D2" 156.768
+cap "m1_1751_6#" "m1_177_n2#" 1449.64
+cap "m1_1735_n66#" "m1_177_n2#" 156.768
+cap "enb" "m1_177_n2#" 21390.1
+cap "A4" "A5" 12617
+cap "m1_1207_29#" "m1_1249_6#" 305.7
+cap "B3" "B4" 8923.13
+cap "m1_1207_29#" "m1_1233_n50#" 462.468
+cap "A7" "m1_731_n34#" 156.768
+cap "B6" "m1_480_n26#" 156.768
+cap "enb" "A6" 156.768
+cap "enb" "A5" 156.768
+cap "B2" "A4" 156.768
+cap "A4" "B1" 156.768
+cap "m1_982_n42#" "A7" 156.768
+cap "m1_229_n18#" "m1_1986_n74#" 156.768
+cap "m1_229_n18#" "m1_480_n26#" 19365.2
+cap "m1_177_n2#" "m1_747_6#" 1449.64
+cap "B6" "B5" 14718
+cap "D0" "D1" 1980.64
+cap "B0" "A4" 156.768
+cap "D0" "D7" 156.768
+cap "Overflow" "D1" 156.768
+cap "B0" "K" 156.768
+cap "Overflow" "D7" 156.768
+cap "B5" "m1_229_n18#" 156.768
+cap "m1_229_n18#" "A2" 156.768
+cap "B2" "enb" 156.768
+cap "enb" "B1" 156.768
+cap "m1_1233_n50#" "m1_731_n34#" 156.768
+cap "D4" "D1" 156.768
+cap "D3" "D1" 156.768
+cap "A0" "K" 156.768
+cap "D4" "D7" 156.768
+cap "D3" "D7" 156.768
+cap "D0" "m1_1735_n66#" 156.768
+cap "m1_731_n34#" "m1_1484_n58#" 156.768
+cap "B0" "enb" 156.768
+cap "D0" "D2" 156.768
+cap "m1_731_n34#" "m1_705_29#" 462.468
+cap "Overflow" "m1_1735_n66#" 156.768
+cap "Overflow" "D2" 156.768
+cap "B3" "A3" 156.768
+cap "A7" "m1_177_n2#" 156.768
+cap "m1_1233_n50#" "m1_982_n42#" 11584.8
+cap "enb" "A1" 156.768
+cap "enb" "A0" 1184.14
+cap "m1_480_n26#" "m1_1986_n74#" 156.768
+cap "m1_1735_n66#" "D4" 156.768
+cap "m1_1735_n66#" "D3" 156.768
+cap "m1_982_n42#" "m1_1484_n58#" 156.768
+cap "D2" "D4" 156.768
+cap "D2" "D3" 1403.47
+cap "B4" "m1_731_n34#" 156.768
+cap "A2" "m1_480_n26#" 1507.36
+cap "A7" "A6" 18411.9
+cap "B5" "m1_480_n26#" 156.768
+cap "D5" "m1_1986_n74#" 156.768
+cap "m1_998_6#" "B4" 156.768
+cap "m1_982_n42#" "B4" 156.768
+cap "m1_1233_n50#" "m1_2135_37#" 156.768
+cap "B3" "m1_731_n34#" 156.768
+cap "m1_1249_6#" "m1_177_n2#" 1449.64
+cap "m1_2135_37#" "m1_1484_n58#" 156.768
+cap "m1_1233_n50#" "m1_177_n2#" 156.768
+cap "m1_1500_6#" "m1_177_n2#" 1461.18
+cap "B6" "B7" 17615.4
+cap "m1_229_n18#" "A4" 156.768
+cap "m1_1484_n58#" "m1_177_n2#" 156.768
+cap "B2" "A7" 156.768
+cap "A7" "B1" 156.768
+cap "m1_245_6#" "m1_245_57#" 46.174
+cap "B6" "enb" 156.768
+cap "m1_229_n18#" "B7" 156.768
+cap "B0" "A7" 387.638
+cap "m1_1233_n50#" "A6" 156.768
+cap "m1_1500_6#" "A6" 156.768
+cap "m1_1249_6#" "A5" 156.768
+cap "m1_1233_n50#" "A5" 1507.36
+cap "m1_1484_n58#" "A6" 1507.36
+cap "m1_731_n34#" "A3" 1507.36
+cap "m1_229_n18#" "m1_1735_n66#" 156.768
+cap "m1_229_n18#" "enb" 21593
+cap "B4" "m1_177_n2#" 156.768
+cap "m1_453_29#" "m1_480_n26#" 462.468
+cap "m1_480_n26#" "D1" 968.05
+cap "B3" "m1_177_n2#" 156.768
+cap "m1_1986_n74#" "D1" 156.768
+cap "B4" "A6" 156.768
+cap "m1_480_n26#" "A4" 156.768
+cap "m1_1986_n74#" "D7" 1579.45
+cap "B4" "A5" 156.768
+cap "m1_1233_n50#" "D0" 156.768
+cap "B7" "m1_480_n26#" 156.768
+cap "m1_1233_n50#" "Overflow" 156.768
+cap "D0" "m1_1484_n58#" 156.768
+cap "D5" "D1" 156.768
+cap "m1_2074_29#" "enb" 462.468
+cap "Overflow" "m1_1484_n58#" 156.768
+cap "m1_1986_n74#" "m1_1735_n66#" 3758.34
+cap "B3" "A6" 156.768
+cap "D5" "D7" 156.768
+cap "m1_480_n26#" "m1_1735_n66#" 156.768
+cap "m1_1986_n74#" "enb" 156.768
+cap "m1_480_n26#" "enb" 156.768
+cap "B3" "A5" 156.768
+cap "m1_1233_n50#" "D3" 156.768
+cap "m1_1986_n74#" "D2" 156.768
+cap "m1_1986_n74#" "m1_1960_29#" 462.468
+cap "m1_1233_n50#" "D4" 1273.75
+cap "m1_2135_37#" "D6" 156.768
+cap "m1_982_n42#" "m1_731_n34#" 14193.7
+cap "m1_1484_n58#" "D4" 156.768
+cap "m1_1484_n58#" "D3" 156.768
+cap "B5" "enb" 156.768
+cap "A2" "enb" 156.768
+cap "m1_177_n2#" "A3" 156.768
+cap "B6" "A7" 156.768
+cap "D5" "m1_1735_n66#" 156.768
+cap "D5" "D2" 156.768
+cap "m1_1709_29#" "m1_1751_6#" 305.7
+cap "B3" "B2" 6025.71
+cap "m1_229_n18#" "A7" 156.768
+cap "m1_1709_29#" "m1_1735_n66#" 462.468
+cap "m1_956_29#" "m1_998_6#" 305.7
+cap "m1_956_29#" "m1_982_n42#" 462.468
+cap "m1_2135_37#" "m1_731_n34#" 156.768
+cap "m1_731_n34#" "m1_177_n2#" 156.768
+cap "m1_1233_n50#" "B6" 156.768
+cap "m1_982_n42#" "m1_2135_37#" 156.768
+cap "B6" "m1_1500_6#" 156.768
+cap "B6" "m1_1484_n58#" 156.768
+cap "m1_998_6#" "m1_177_n2#" 1449.64
+cap "B2" "A3" 156.768
+cap "B1" "A3" 156.768
+cap "D7" "D1" 156.768
+cap "m1_1233_n50#" "m1_229_n18#" 156.768
+cap "m1_982_n42#" "m1_177_n2#" 156.768
+cap "A7" "m1_480_n26#" 156.768
+cap "m1_731_n34#" "A6" 156.768
+cap "m1_229_n18#" "m1_1484_n58#" 156.768
+cap "B0" "A3" 156.768
+cap "m1_731_n34#" "A5" 156.768
+cap "D0" "D6" 156.768
+cap "Overflow" "D6" 156.768
+cap "B5" "A7" 156.768
+cap "enb" "A4" 156.768
+cap "m1_1735_n66#" "D1" 156.768
+cap "D2" "D1" 1692.05
+cap "m1_982_n42#" "A6" 156.768
+cap "B7" "m1_1751_6#" 156.768
+cap "D2" "D7" 156.768
+cap "B7" "m1_1735_n66#" 156.768
+cap "m1_982_n42#" "A5" 156.768
+cap "D4" "D6" 156.768
+cap "D3" "D6" 156.768
+cap "B7" "enb" 156.768
+cap "B4" "m1_229_n18#" 156.768
+cap "m1_1735_n66#" "enb" 156.768
+cap "D0" "m1_731_n34#" 156.768
+cap "m1_1735_n66#" "D2" 156.768
+cap "Overflow" "m1_731_n34#" 156.768
+cap "m1_1233_n50#" "m1_1986_n74#" 156.768
+cap "m1_1233_n50#" "m1_480_n26#" 156.768
+cap "m1_496_6#" "m1_177_n2#" 1449.64
+cap "m1_1986_n74#" "m1_1484_n58#" 156.768
+cap "B3" "m1_229_n18#" 156.768
+cap "m1_480_n26#" "m1_1484_n58#" 156.768
+cap "m1_1249_6#" "B5" 156.768
+cap "m1_1233_n50#" "B5" 156.768
+cap "m1_982_n42#" "D0" 156.768
+cap "m1_177_n2#" "A6" 156.768
+cap "m1_982_n42#" "Overflow" 156.768
+cap "m1_177_n2#" "A5" 156.768
+cap "D5" "m1_1484_n58#" 1375.65
+cap "B4" "m1_480_n26#" 156.768
+cap "m1_982_n42#" "D3" 1171.85
+cap "B5" "B4" 11820.5
+cap "m1_229_n18#" "A3" 156.768
+cap "m1_2135_37#" "D0" 156.768
+cap "A5" "A6" 15514.5
+cap "B2" "m1_177_n2#" 156.768
+cap "m1_177_n2#" "B1" 156.768
+cap "B3" "m1_480_n26#" 156.768
+cap "A7" "B7" 156.768
+cap "B2" "m1_496_6#" 156.768
+cap "A7" "m1_1751_6#" 156.768
+cap "m1_2135_37#" "D4" 156.768
+cap "m1_2135_37#" "D3" 156.768
+cap "A7" "m1_1735_n66#" 1507.36
+cap "B6" "m1_731_n34#" 156.768
+cap "A7" "enb" 156.768
+cap "B2" "A6" 156.768
+cap "A1" "m1_177_n2#" 156.768
+cap "B1" "A6" 156.768
+cap "B2" "A5" 156.768
+cap "m1_1458_29#" "m1_1500_6#" 305.7
+cap "B1" "A5" 156.768
+cap "m1_229_n18#" "m1_731_n34#" 156.768
+cap "m1_1458_29#" "m1_1484_n58#" 462.468
+cap "B0" "A6" 156.768
+cap "w_2135_121#" "m1_2135_121#" 2254.32
+cap "B0" "A5" 156.768
+cap "B6" "m1_982_n42#" 156.768
+cap "m1_1233_n50#" "D1" 156.768
+cap "m1_480_n26#" "A3" 156.768
+cap "m1_1484_n58#" "D1" 156.768
+cap "m1_1986_n74#" "D6" 156.768
+cap "m1_1233_n50#" "B7" 156.768
+cap "B2" "B1" 3128.29
+cap "m1_982_n42#" "m1_229_n18#" 156.768
+cap "A2" "A3" 6822.21
+cap "B7" "m1_1484_n58#" 156.768
+cap "m1_1233_n50#" "enb" 156.768
+cap "B0" "B1" 230.87
+cap "m1_1233_n50#" "m1_1735_n66#" 156.768
+cap "D5" "D6" 537.704
+cap "m1_1233_n50#" "D2" 156.768
+cap "m1_1735_n66#" "m1_1484_n58#" 6367.17
+cap "B4" "A4" 156.768
+cap "m1_1484_n58#" "enb" 156.768
+cap "Overflow" "D0" 2269.23
+cap "m1_1484_n58#" "D2" 156.768
+cap "A1" "B1" 156.768
+cap "m1_731_n34#" "m1_1986_n74#" 156.768
+cap "m1_480_n26#" "m1_731_n34#" 16802.5
+cap "B6" "m1_177_n2#" 156.768
+cap "m1_2135_37#" "m1_229_n18#" 156.768
+cap "B0" "A0" 156.768
+cap "B0" "A1" 156.768
+cap "D0" "D4" 156.768
+cap "D0" "D3" 156.768
+cap "m1_229_n18#" "m1_203_29#" 462.468
+cap "B3" "A4" 156.768
+cap "Overflow" "D3" 156.768
+cap "B5" "m1_731_n34#" 156.768
+cap "B4" "enb" 156.768
+cap "m1_229_n18#" "m1_177_n2#" 156.768
+cap "Overflow" "D4" 156.768
+cap "m1_982_n42#" "m1_1986_n74#" 156.768
+cap "m1_982_n42#" "m1_480_n26#" 156.768
+cap "A1" "A0" 1027.37
+cap "B6" "A6" 156.768
+cap "m1_705_29#" "m1_747_6#" 305.7
+cap "D4" "D3" 1114.88
+cap "m1_245_6#" "m1_203_29#" 305.7
+cap "m1_982_n42#" "B5" 156.768
+cap "B3" "enb" 156.768
+cap "m1_229_n18#" "A6" 156.768
+cap "m1_245_6#" "m1_177_n2#" 1449.64
+cap "m1_229_n18#" "A5" 156.768
+cap "m1_2135_37#" "m1_1986_n74#" 156.768
+cap "m1_2135_37#" "m1_480_n26#" 156.768
+cap "A4" "A3" 9719.63
+cap "D6" "D1" 156.768
+cap "m1_1233_n50#" "A7" 156.768
+cap "m1_1986_n74#" "m1_177_n2#" 156.768
+cap "m1_480_n26#" "m1_177_n2#" 156.768
+cap "D7" "D6" 249.116
+cap "A7" "m1_1484_n58#" 156.768
+cap "B2" "m1_229_n18#" 156.768
+cap "m1_2135_37#" "D5" 156.768
+cap "m1_229_n18#" "B1" 156.768
+cap "B3" "m1_747_6#" 156.768
+cap "enb" "A3" 156.768
+cap "B5" "m1_177_n2#" 156.768
+cap "A2" "m1_177_n2#" 156.768
+cap "m1_321_59#" "m1_321_53#" 92.348
+cap "m1_1735_n66#" "D6" 1477.55
+cap "m1_229_n18#" "Overflow" 156.768
+cap "A2" "m1_496_6#" 156.768
+cap "m1_480_n26#" "A6" 156.768
+cap "D2" "D6" 156.768
+cap "B4" "A7" 156.768
+cap "m1_731_n34#" "A4" 156.768
+cap "m1_480_n26#" "A5" 156.768
+cap "m1_731_n34#" "D1" 156.768
+cap "m1_229_n18#" "A1" 1507.36
+cap "m1_245_6#" "B1" 156.768
+cap "B5" "A6" 156.768
+cap "B7" "m1_731_n34#" 156.768
+cap "B5" "A5" 156.768
+cap "m1_998_6#" "A4" 156.768
+cap "m1_982_n42#" "A4" 1507.36
+cap "m1_982_n42#" "D1" 156.768
+cap "B3" "A7" 156.768
+cap "m1_1233_n50#" "m1_1484_n58#" 8976
+cap "m1_731_n34#" "m1_1735_n66#" 156.768
+cap "m1_731_n34#" "enb" 156.768
+cap "A3" "m1_747_6#" 156.768
+cap "m1_731_n34#" "D2" 1069.95
+cap "B2" "m1_480_n26#" 156.768
+cap "m1_245_6#" "A1" 156.768
+cap "m1_982_n42#" "B7" 156.768
+cap "Overflow" "m1_2074_29#" 560.45
+cap "D0" "m1_1986_n74#" 156.768
+cap "D0" "m1_480_n26#" 156.768
+cap "B2" "A2" 156.768
+cap "A2" "B1" 156.768
+cap "Overflow" "m1_1986_n74#" 156.768
+cap "Overflow" "m1_480_n26#" 156.768
+cap "m1_982_n42#" "m1_1735_n66#" 156.768
+cap "m1_982_n42#" "enb" 156.768
+cap "m1_982_n42#" "D2" 156.768
+cap "m1_453_29#" "m1_496_6#" 305.7
+cap "B0" "A2" 156.768
+cap "D0" "D5" 156.768
+cap "m1_2135_37#" "D1" 156.768
+cap "m1_1986_n74#" "D4" 156.768
+cap "m1_1986_n74#" "D3" 156.768
+cap "m1_2135_37#" "D7" 156.768
+cap "Overflow" "D5" 156.768
+cap "VSS" "K" 51.024
+cap "B6" "m1_229_n18#" 156.768
+cap "m1_177_n2#" "A4" 156.768
+subcap "A1" -6038.35
+subcap "enb" -46441.4
+cap "1bitAddSub_0/XOR2_0/Y" "1bitAddSub_0/A" 258.668
+cap "1bitAddSub_0/B" "1bitAddSub_0/VSS" 321.166
+cap "1bitAddSub_0/B" "1bitAddSub_0/XOR2_0/INV_0/Y" 103.892
+cap "1bitAddSub_0/B" "1bitAddSub_0/XOR2_0/INV_1/Y" 103.892
+cap "1bitAddSub_0/K" "1bitAddSub_0/XOR2_0/Y" 461.74
+cap "1bitAddSub_0/K" "1bitAddSub_0/VSS" 223.968
+cap "1bitAddSub_0/K" "1bitAddSub_0/B" 171.829
+subcap "m1_177_n2#" -44368.7
+cap "1bitAddSub_0/FullAddr_0/B" "1bitAddSub_0/C" 92.348
+cap "1bitAddSub_0/A" "1bitAddSub_0/FullAddr_0/B" 40.76
+subcap "m1_245_6#" -1203.52
+subcap "m1_203_29#" -340.506
+cap "1bitAddSub_1/K" "1bitAddSub_1/B" 171.829
+cap "1bitAddSub_0/Cbout" "INV_0/VSS" 667.471
+cap "1bitAddSub_1/XOR2_0/INV_0/Y" "1bitAddSub_1/B" 103.892
+cap "INV_0/VSS" "INV_0/Y" 156.768
+cap "INV_0/VSS" "1bitAddSub_0/S" 202.942
+cap "1bitAddSub_1/B" "1bitAddSub_1/XOR2_0/INV_1/Y" 103.892
+cap "1bitAddSub_1/K" "INV_0/VSS" 274.992
+cap "1bitAddSub_1/B" "INV_0/VSS" 321.166
+cap "1bitAddSub_1/A" "1bitAddSub_1/FullAddr_0/B" 258.668
+cap "m1_177_n2#" "1bitAddSub_1/C" 496.37
+cap "1bitAddSub_1/C" "1bitAddSub_1/FullAddr_0/B" 554.088
+subcap "m1_496_6#" -2373.97
+cap "1bitAddSub_2/K" "1bitAddSub_1/FullAddr_0/C" 369.392
+cap "1bitAddSub_1/INV_0/VSS" "INV_1/Y" 156.768
+cap "1bitAddSub_1/INV_0/VSS" "1bitAddSub_1/S" 202.942
+cap "1bitAddSub_1/Cbout" "1bitAddSub_1/INV_0/VSS" 667.471
+subcap "m1_496_6#" -767.421
+cap "1bitAddSub_2/A" "1bitAddSub_2/XOR2_0/Y" 207.718
+cap "1bitAddSub_2/K" "1bitAddSub_2/B" 171.829
+cap "INV_1/Y" "1bitAddSub_2/XOR2_0/Y" 430.957
+cap "1bitAddSub_2/B" "INV_1/VSS" 321.166
+cap "1bitAddSub_2/B" "1bitAddSub_2/XOR2_0/INV_0/Y" 103.892
+cap "1bitAddSub_2/B" "1bitAddSub_2/XOR2_0/INV_1/Y" 103.892
+cap "1bitAddSub_2/K" "INV_1/VSS" 274.992
+cap "1bitAddSub_2/A" "1bitAddSub_2/FullAddr_0/B" 50.95
+cap "1bitAddSub_2/FullAddr_0/B" "1bitAddSub_2/C" 123.131
+cap "m1_177_n2#" "1bitAddSub_2/C" 865.762
+subcap "m1_747_6#" -1249.42
+subcap "m1_705_29#" -294.606
+cap "1bitAddSub_2/INV_0/VSS" "1bitAddSub_2/Cbout" 667.471
+cap "1bitAddSub_3/K" "1bitAddSub_2/INV_0/VSS" 274.992
+cap "1bitAddSub_2/INV_0/VSS" "INV_2/Y" 156.768
+cap "1bitAddSub_2/INV_0/VSS" "1bitAddSub_2/S" 202.942
+cap "1bitAddSub_3/B" "1bitAddSub_2/INV_0/VSS" 321.166
+cap "1bitAddSub_3/B" "1bitAddSub_3/XOR2_0/INV_0/Y" 103.892
+cap "1bitAddSub_3/B" "1bitAddSub_3/XOR2_0/INV_1/Y" 103.892
+cap "1bitAddSub_3/K" "1bitAddSub_3/B" 171.829
+cap "1bitAddSub_3/C" "m1_177_n2#" 473.283
+cap "1bitAddSub_3/A" "1bitAddSub_3/FullAddr_0/B" 258.668
+cap "1bitAddSub_3/C" "1bitAddSub_3/FullAddr_0/B" 554.088
+subcap "m1_998_6#" -2791.68
+cap "1bitAddSub_3/Cbout" "1bitAddSub_3/INV_0/VSS" 667.471
+cap "1bitAddSub_3/INV_0/VSS" "INV_3/Y" 65.628
+cap "1bitAddSub_3/INV_0/VSS" "1bitAddSub_3/S" 202.942
+cap "1bitAddSub_3/FullAddr_0/C" "m1_177_n2#" 392.479
+subcap "m1_998_6#" -495.297
+cap "1bitAddSub_4/XOR2_0/Y" "1bitAddSub_4/A" 207.718
+cap "INV_3/Y" "1bitAddSub_4/XOR2_0/Y" 400.175
+cap "INV_3/VSS" "INV_3/Y" 65.628
+cap "INV_3/VSS" "1bitAddSub_4/B" 321.166
+cap "1bitAddSub_4/XOR2_0/INV_0/Y" "1bitAddSub_4/B" 103.892
+cap "1bitAddSub_4/XOR2_0/INV_1/Y" "1bitAddSub_4/B" 103.892
+cap "INV_3/VSS" "1bitAddSub_4/K" 274.992
+cap "1bitAddSub_4/K" "1bitAddSub_4/B" 171.829
+cap "1bitAddSub_4/C" "m1_177_n2#" 865.762
+cap "1bitAddSub_4/FullAddr_0/B" "1bitAddSub_4/C" 153.913
+cap "1bitAddSub_4/A" "1bitAddSub_4/FullAddr_0/B" 50.95
+subcap "m1_1249_6#" -1295.32
+subcap "m1_1207_29#" -248.706
+cap "1bitAddSub_4/INV_0/VSS" "1bitAddSub_4/S" 202.942
+cap "1bitAddSub_5/K" "1bitAddSub_4/INV_0/VSS" 274.992
+cap "1bitAddSub_5/B" "1bitAddSub_4/INV_0/VSS" 321.166
+cap "1bitAddSub_5/K" "1bitAddSub_5/B" 171.829
+cap "1bitAddSub_4/INV_0/VSS" "1bitAddSub_4/Cbout" 667.471
+cap "1bitAddSub_4/INV_0/VSS" "INV_4/Y" 156.768
+cap "1bitAddSub_5/B" "1bitAddSub_5/XOR2_0/INV_0/Y" 103.892
+cap "1bitAddSub_5/B" "1bitAddSub_5/XOR2_0/INV_1/Y" 103.892
+cap "1bitAddSub_5/C" "1bitAddSub_5/FullAddr_0/B" 554.088
+cap "1bitAddSub_5/C" "m1_177_n2#" 450.196
+cap "1bitAddSub_5/A" "1bitAddSub_5/FullAddr_0/B" 258.668
+subcap "m1_1500_6#" -3022.91
+cap "1bitAddSub_5/FullAddr_0/C" "m1_177_n2#" 415.566
+cap "1bitAddSub_5/INV_0/VSS" "1bitAddSub_5/S" 202.942
+cap "1bitAddSub_5/INV_0/VSS" "1bitAddSub_5/Cbout" 667.471
+subcap "m1_1500_6#" -193.716
+cap "INV_5/Y" "1bitAddSub_6/XOR2_0/Y" 369.392
+cap "INV_5/VSS" "INV_5/Y" 156.768
+cap "1bitAddSub_6/K" "1bitAddSub_6/B" 171.829
+cap "1bitAddSub_6/XOR2_0/INV_0/Y" "1bitAddSub_6/B" 103.892
+cap "1bitAddSub_6/XOR2_0/INV_1/Y" "1bitAddSub_6/B" 103.892
+cap "INV_5/VSS" "1bitAddSub_6/K" 274.992
+cap "INV_5/VSS" "1bitAddSub_6/B" 321.166
+cap "1bitAddSub_6/XOR2_0/Y" "1bitAddSub_6/A" 139.202
+cap "1bitAddSub_6/FullAddr_0/B" "1bitAddSub_6/C" 184.696
+cap "1bitAddSub_6/C" "m1_177_n2#" 854.219
+cap "1bitAddSub_6/FullAddr_0/B" "1bitAddSub_6/A" 77.312
+cap "1bitAddSub_6/A" "1bitAddSub_6/C" -2.13163e-14
+subcap "m1_1751_6#" -1341.22
+subcap "m1_1709_29#" -202.806
+cap "1bitAddSub_6/INV_0/VSS" "1bitAddSub_6/Cbout" 667.471
+cap "1bitAddSub_7/XOR2_0/INV_0/Y" "1bitAddSub_7/B" 103.892
+cap "1bitAddSub_7/XOR2_0/INV_1/Y" "1bitAddSub_7/B" 103.892
+cap "1bitAddSub_6/INV_0/VSS" "INV_6/Y" 156.768
+cap "1bitAddSub_7/K" "1bitAddSub_7/B" 171.829
+cap "1bitAddSub_6/INV_0/VSS" "1bitAddSub_7/K" 274.992
+cap "1bitAddSub_6/INV_0/VSS" "1bitAddSub_6/S" 202.942
+cap "1bitAddSub_6/INV_0/VSS" "1bitAddSub_7/B" 321.166
+cap "1bitAddSub_7/C" "m1_177_n2#" 427.109
+cap "1bitAddSub_7/C" "1bitAddSub_7/FullAddr_0/B" 554.088
+cap "1bitAddSub_7/A" "1bitAddSub_7/FullAddr_0/B" 258.668
+cap "1bitAddSub_7/INV_0/VSS" "1bitAddSub_7/Cbout" 667.471
+cap "1bitAddSub_7/FullAddr_0/C" "m1_177_n2#" 438.653
+cap "1bitAddSub_7/INV_0/VSS" "1bitAddSub_7/S" 202.942
+subcap "m1_2074_29#" -132.318
+cap "XOR2_0/VSS" "enb" 274.992
+cap "XOR2_0/VSS" "XOR2_0/Y" 479.986
+cap "XOR2_0/VSS" "INV_7/Y" 46.174
+cap "XOR2_0/B" "XOR2_0/VSS" 321.166
+cap "XOR2_0/B" "XOR2_0/INV_0/Y" 103.892
+cap "XOR2_0/B" "XOR2_0/INV_1/Y" 103.892
+cap "XOR2_0/A" "INV_7/Y" 23.087
+cap "XOR2_0/A" "XOR2_0/B" 171.829
+subcap "Overflow" -3378.08
+subcap "m1_2135_37#" -2317.32
+cap "BUFFER8_0/TRANSMISSION_2/A" "m1_731_n34#" 266.856
+cap "BUFFER8_0/TRANSMISSION_1/Y" "D1" 266.856
+cap "BUFFER8_0/TRANSMISSION_1/A" "m1_480_n26#" 266.856
+cap "BUFFER_0/INV_0/VSS" "BUFFER8_0/TRANSMISSION_0/Y" 46.174
+cap "BUFFER_0/INV_0/VSS" "BUFFER8_0/TRANSMISSION_0/A" 46.174
+cap "BUFFER8_0/TRANSMISSION_2/en" "BUFFER_0/INV_0/VSS" 1156.21
+cap "BUFFER_0/TRANSMISSION_0/Y" "BUFFER_0/INV_0/VSS" 46.174
+cap "BUFFER_0/TRANSMISSION_0/en" "m1_2074_29#" 8.796
+cap "Overflow" "BUFFER_0/INV_0/VSS" 156.768
+cap "Overflow" "BUFFER8_0/TRANSMISSION_2/en" 819.588
+cap "m1_2074_29#" "BUFFER_0/INV_0/VSS" 260.659
+cap "BUFFER8_0/TRANSMISSION_2/A" "BUFFER_0/INV_0/VSS" 46.174
+cap "BUFFER8_0/TRANSMISSION_1/Y" "BUFFER_0/INV_0/VSS" 46.174
+cap "BUFFER8_0/TRANSMISSION_1/A" "BUFFER_0/INV_0/VSS" 46.174
+cap "BUFFER8_0/TRANSMISSION_0/Y" "D0" 266.856
+cap "Overflow" "BUFFER_0/TRANSMISSION_0/Y" 266.856
+cap "BUFFER8_0/TRANSMISSION_0/A" "m1_229_n18#" 216.852
+cap "m1_2074_29#" "BUFFER_0/TRANSMISSION_0/A" 266.856
+cap "BUFFER8_0/TRANSMISSION_2/en" "m1_731_n34#" 505.231
+cap "BUFFER8_0/TRANSMISSION_2/en" "D1" 326.601
+cap "BUFFER8_0/TRANSMISSION_2/en" "D0" 326.601
+cap "BUFFER8_0/TRANSMISSION_2/en" "m1_480_n26#" 505.231
+cap "BUFFER8_0/TRANSMISSION_2/en" "m1_229_n18#" 440.084
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_2/Y" 46.174
+cap "BUFFER8_0/TRANSMISSION_5/Y" "D5" 266.856
+cap "BUFFER8_0/TRANSMISSION_5/A" "m1_1484_n58#" 266.856
+cap "BUFFER8_0/TRANSMISSION_6/en" "Overflow" 1154.35
+cap "BUFFER8_0/TRANSMISSION_6/en" "m1_2135_37#" 1966.12
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_4/Y" 46.174
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_4/A" 46.174
+cap "BUFFER8_0/TRANSMISSION_2/Y" "D2" 266.856
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_5/Y" 46.174
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_5/A" 46.174
+cap "BUFFER8_0/TRANSMISSION_6/en" "D3" 326.601
+cap "BUFFER8_0/TRANSMISSION_6/en" "D2" 326.601
+cap "BUFFER8_0/TRANSMISSION_6/en" "m1_982_n42#" 505.231
+cap "BUFFER8_0/TRANSMISSION_6/A" "m1_1735_n66#" 266.856
+cap "BUFFER8_0/TRANSMISSION_3/Y" "m1_2135_37#" 46.174
+cap "BUFFER8_0/TRANSMISSION_3/A" "m1_2135_37#" 46.174
+cap "BUFFER8_0/TRANSMISSION_6/en" "D5" 326.601
+cap "BUFFER8_0/TRANSMISSION_6/en" "m1_1735_n66#" 505.231
+cap "BUFFER8_0/TRANSMISSION_6/en" "m1_1484_n58#" 505.231
+cap "BUFFER8_0/TRANSMISSION_6/en" "D4" 326.601
+cap "BUFFER8_0/TRANSMISSION_6/en" "m1_1233_n50#" 505.231
+cap "BUFFER8_0/TRANSMISSION_3/Y" "D3" 266.856
+cap "BUFFER8_0/TRANSMISSION_6/A" "m1_2135_37#" 46.174
+cap "BUFFER8_0/TRANSMISSION_3/A" "m1_982_n42#" 266.856
+cap "BUFFER8_0/TRANSMISSION_4/Y" "D4" 266.856
+cap "BUFFER8_0/TRANSMISSION_4/A" "m1_1233_n50#" 266.856
+cap "D6" "BUFFER8_0/TRANSMISSION_7/en" 326.601
+cap "BUFFER8_0/TRANSMISSION_7/en" "m1_1986_n74#" 348.463
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_7/Y" 46.174
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_7/A" 46.174
+cap "BUFFER8_0/TRANSMISSION_7/en" "Overflow" 184.696
+cap "m1_1986_n74#" "BUFFER8_0/TRANSMISSION_7/A" 266.856
+cap "BUFFER8_0/TRANSMISSION_7/Y" "D7" 266.856
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_6/Y" 46.174
+cap "m1_2135_37#" "BUFFER8_0/TRANSMISSION_7/en" 387.638
+cap "D6" "BUFFER8_0/TRANSMISSION_6/Y" 266.856
+cap "1bitAddSub_0/B" "1bitAddSub_0/XOR2_0/INV_0/Y" 57.7175
+cap "1bitAddSub_0/B" "1bitAddSub_0/XOR2_0/INV_1/Y" 57.7175
+cap "1bitAddSub_0/B" "1bitAddSub_0/K" 98.764
+cap "INV_0/A" "INV_0/Y" 46.174
+cap "INV_0/A" "1bitAddSub_0/INV_0/Y" 92.348
+cap "INV_0/VDD" "1bitAddSub_0/INV_0/Y" 46.174
+cap "1bitAddSub_1/B" "1bitAddSub_1/XOR2_0/INV_1/Y" 57.7175
+cap "1bitAddSub_1/K" "1bitAddSub_1/B" 98.764
+cap "1bitAddSub_1/B" "1bitAddSub_1/XOR2_0/INV_0/Y" 57.7175
+subcap "m1_321_53#" -21.33
+cap "1bitAddSub_1/INV_0/Y" "1bitAddSub_1/INV_0/VDD" 46.174
+cap "INV_1/A" "INV_1/Y" 46.174
+cap "INV_1/A" "1bitAddSub_1/INV_0/Y" 92.348
+cap "1bitAddSub_2/B" "1bitAddSub_2/K" 98.764
+cap "1bitAddSub_2/B" "1bitAddSub_2/XOR2_0/INV_0/Y" 57.7175
+cap "1bitAddSub_2/B" "1bitAddSub_2/XOR2_0/INV_1/Y" 57.7175
+cap "INV_2/A" "INV_2/Y" 46.174
+cap "INV_2/A" "1bitAddSub_2/INV_0/Y" 92.348
+cap "1bitAddSub_3/K" "1bitAddSub_3/B" 98.764
+cap "1bitAddSub_2/INV_0/VDD" "1bitAddSub_2/INV_0/Y" 46.174
+cap "1bitAddSub_3/B" "1bitAddSub_3/XOR2_0/INV_0/Y" 57.7175
+cap "1bitAddSub_3/B" "1bitAddSub_3/XOR2_0/INV_1/Y" 57.7175
+cap "1bitAddSub_3/INV_0/VDD" "1bitAddSub_3/INV_0/Y" 46.174
+cap "INV_3/A" "1bitAddSub_3/INV_0/Y" 92.348
+cap "INV_3/Y" "INV_3/A" 46.174
+cap "INV_3/Y" "INV_3/A" 15.3913
+cap "1bitAddSub_4/B" "1bitAddSub_4/K" 98.764
+cap "1bitAddSub_4/B" "1bitAddSub_4/XOR2_0/INV_0/Y" 57.7175
+cap "1bitAddSub_4/B" "1bitAddSub_4/XOR2_0/INV_1/Y" 57.7175
+cap "1bitAddSub_5/B" "1bitAddSub_5/XOR2_0/INV_0/Y" 57.7175
+cap "1bitAddSub_5/B" "1bitAddSub_5/XOR2_0/INV_1/Y" 57.7175
+cap "1bitAddSub_5/K" "1bitAddSub_5/B" 98.764
+cap "INV_4/A" "INV_4/Y" 46.174
+cap "INV_4/A" "1bitAddSub_4/INV_0/Y" 92.348
+cap "1bitAddSub_4/INV_0/VDD" "1bitAddSub_4/INV_0/Y" 46.174
+cap "1bitAddSub_5/INV_0/VDD" "1bitAddSub_5/INV_0/Y" 46.174
+cap "INV_5/Y" "INV_5/A" 23.087
+cap "1bitAddSub_5/INV_0/Y" "INV_5/A" 92.348
+cap "INV_5/Y" "INV_5/A" 23.087
+cap "1bitAddSub_6/B" "1bitAddSub_6/K" 98.764
+cap "1bitAddSub_6/B" "1bitAddSub_6/XOR2_0/INV_0/Y" 57.7175
+cap "1bitAddSub_6/B" "1bitAddSub_6/XOR2_0/INV_1/Y" 57.7175
+cap "INV_6/A" "INV_6/Y" 46.174
+cap "INV_6/A" "1bitAddSub_6/INV_0/Y" 92.348
+cap "1bitAddSub_6/INV_0/VDD" "1bitAddSub_6/INV_0/Y" 46.174
+cap "1bitAddSub_7/B" "1bitAddSub_7/XOR2_0/INV_0/Y" 57.7175
+cap "1bitAddSub_7/B" "1bitAddSub_7/XOR2_0/INV_1/Y" 57.7175
+cap "1bitAddSub_7/K" "1bitAddSub_7/B" 98.764
+subcap "m1_2006_77#" -440.28
+cap "INV_7/A" "INV_7/Y" 23.087
+cap "INV_7/A" "1bitAddSub_7/INV_0/Y" 92.348
+cap "1bitAddSub_7/INV_0/VDD" "1bitAddSub_7/INV_0/Y" 46.174
+cap "BUFFER_0/ENb" "BUFFER_0/INV_0/Y" 156.768
+cap "BUFFER_0/ENb" "XOR2_0/Y" 92.348
+cap "XOR2_0/VDD" "XOR2_0/a_2_68#" 57.7175
+cap "XOR2_0/B" "XOR2_0/INV_0/Y" 57.7175
+cap "XOR2_0/B" "XOR2_0/INV_1/Y" 57.7175
+cap "INV_7/A" "XOR2_0/A" 23.087
+cap "XOR2_0/A" "XOR2_0/B" 98.764
+cap "XOR2_0/VDD" "BUFFER_0/ENb" 53.856
+cap "XOR2_0/VDD" "XOR2_0/A" 46.174
+cap "BUFFER8_0/A2" "BUFFER8_0/Y2" 1.42109e-14
+cap "BUFFER8_0/A1" "BUFFER8_0/Y1" 2.84217e-14
+cap "BUFFER_0/A" "BUFFER_0/Y" -5.68434e-14
+cap "BUFFER_0/INV_0/VDD" "BUFFER8_0/A2" 36.9392
+cap "BUFFER_0/INV_0/VDD" "BUFFER8_0/Y1" 36.9392
+cap "BUFFER_0/INV_0/VDD" "BUFFER8_0/A1" 36.9392
+cap "BUFFER8_0/enb" "BUFFER_0/Y" 300.066
+cap "BUFFER8_0/enb" "BUFFER_0/A" 207.718
+cap "BUFFER_0/INV_0/VDD" "BUFFER8_0/Y0" 36.9392
+cap "BUFFER_0/INV_0/VDD" "BUFFER8_0/A0" 36.9392
+cap "BUFFER_0/INV_0/VDD" "BUFFER_0/Y" 46.174
+cap "BUFFER_0/INV_0/VDD" "BUFFER8_0/enb" 4.896
+cap "BUFFER8_0/A3" "BUFFER8_0/Y3" 2.84217e-14
+cap "BUFFER8_0/A6" "BUFFER8_0/Y6" 1.42109e-14
+cap "BUFFER8_0/A6" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/Y5" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/A5" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/Y4" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/A5" "BUFFER8_0/Y5" 2.84217e-14
+cap "BUFFER8_0/A4" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/Y3" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/A4" "BUFFER8_0/Y4" 2.84217e-14
+cap "BUFFER8_0/A2" "BUFFER8_0/Y2" 1.42109e-14
+cap "BUFFER8_0/A3" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/Y2" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/w_168_65#" "m1_2135_121#" 589.5
+cap "BUFFER8_0/A6" "BUFFER8_0/Y6" 1.42109e-14
+cap "BUFFER8_0/w_193_65#" "m1_2135_121#" 218.115
+cap "BUFFER8_0/Y6" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/Y7" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/A7" "m1_2135_121#" 36.9392
+cap "BUFFER8_0/A7" "BUFFER8_0/Y7" 2.84217e-14
+merge "BUFFER8_0/enb" "BUFFER_0/ENb" -272.34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0
+merge "BUFFER_0/ENb" "m2_2086_81#"
+merge "m2_2086_81#" "enb"
+merge "BUFFER8_0/w_193_65#" "BUFFER8_0/w_168_65#" -5346.36 0 0 0 0 -366 -466 0 0 0 0 0 0 0 0 -548 -294 0 0 0 0
+merge "BUFFER8_0/w_168_65#" "BUFFER8_0/VDD"
+merge "BUFFER8_0/VDD" "BUFFER_0/INV_0/VDD"
+merge "BUFFER_0/INV_0/VDD" "w_2135_121#"
+merge "w_2135_121#" "m1_2135_121#"
+merge "BUFFER8_0/Y0" "D0" -120.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "INV_1/A" "1bitAddSub_1/Cbout" 206.874 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 -18 264 0 0 0
+merge "1bitAddSub_1/Cbout" "m1_453_29#"
+merge "BUFFER8_0/A7" "1bitAddSub_7/S" -943.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -380 -202 0 0
+merge "1bitAddSub_7/S" "m1_1986_n74#"
+merge "1bitAddSub_6/C" "INV_5/Y" -319.77 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -30 0 0 0 0
+merge "INV_5/Y" "m1_1500_6#"
+merge "BUFFER8_0/A0" "1bitAddSub_0/S" -609.516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -168 -96 0 0
+merge "1bitAddSub_0/S" "m1_229_n18#"
+merge "1bitAddSub_2/C" "1bitAddSub_2/FullAddr_0/C" -296.82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -28 0 0 0 0
+merge "1bitAddSub_2/FullAddr_0/C" "INV_1/Y"
+merge "INV_1/Y" "m1_496_6#"
+merge "1bitAddSub_1/VDD" "1bitAddSub_0/INV_0/VDD" -2561.58 0 0 0 0 -300 -124 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "1bitAddSub_0/INV_0/VDD" "INV_0/VDD"
+merge "1bitAddSub_1/VSS" "1bitAddSub_0/INV_0/VSS" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "1bitAddSub_0/INV_0/VSS" "INV_0/VSS"
+merge "BUFFER8_0/Y1" "D1" -120.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "1bitAddSub_5/VDD" "INV_4/VDD" -2561.58 0 0 0 0 -300 -124 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_4/VDD" "1bitAddSub_4/INV_0/VDD"
+merge "INV_7/A" "1bitAddSub_7/Cbout" -37.476 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 -16 66 0 0 0
+merge "1bitAddSub_7/Cbout" "m1_1960_29#"
+merge "1bitAddSub_5/VSS" "INV_4/VSS" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_4/VSS" "1bitAddSub_4/INV_0/VSS"
+merge "1bitAddSub_2/VDD" "INV_1/VDD" -2128.05 0 0 0 0 -250 -124 0 0 0 0 0 0 0 0 8 -16 0 0 0 0
+merge "INV_1/VDD" "1bitAddSub_1/INV_0/VDD"
+merge "1bitAddSub_2/VSS" "INV_1/VSS" -72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -16 0 0 0 0
+merge "INV_1/VSS" "1bitAddSub_1/INV_0/VSS"
+merge "1bitAddSub_5/C" "INV_4/Y" -273.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "INV_4/Y" "m1_1249_6#"
+merge "XOR2_0/B" "1bitAddSub_7/K" -24459.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4000 -2016 0 -64 0 0
+merge "1bitAddSub_7/K" "1bitAddSub_6/K"
+merge "1bitAddSub_6/K" "1bitAddSub_5/K"
+merge "1bitAddSub_5/K" "1bitAddSub_4/K"
+merge "1bitAddSub_4/K" "1bitAddSub_3/K"
+merge "1bitAddSub_3/K" "1bitAddSub_2/K"
+merge "1bitAddSub_2/K" "1bitAddSub_1/K"
+merge "1bitAddSub_1/K" "1bitAddSub_0/C"
+merge "1bitAddSub_0/C" "1bitAddSub_0/FullAddr_0/C"
+merge "1bitAddSub_0/FullAddr_0/C" "1bitAddSub_0/K"
+merge "1bitAddSub_0/K" "K"
+merge "K" "m1_177_n2#"
+merge "BUFFER8_0/Y2" "D2" -120.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "1bitAddSub_6/A" "A6" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "INV_6/A" "1bitAddSub_6/Cbout" -215.856 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "1bitAddSub_6/Cbout" "m1_1709_29#"
+merge "1bitAddSub_6/B" "B6" -168.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_0/Y3" "D3" -120.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_0/A5" "1bitAddSub_5/S" -679.176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -168 -96 0 0
+merge "1bitAddSub_5/S" "m1_1484_n58#"
+merge "INV_5/A" "1bitAddSub_5/Cbout" 96.264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 -16 132 0 0 0
+merge "1bitAddSub_5/Cbout" "m1_1458_29#"
+merge "BUFFER8_0/Y4" "D4" -120.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "XOR2_0/A" "INV_7/Y" -46.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 -16 0 0 0 0
+merge "INV_7/Y" "m1_2006_77#"
+merge "BUFFER_0/VDD" "INV_7/VDD" -2448.72 0 0 0 0 -300 -132 0 0 0 0 0 0 0 0 32 -16 0 0 0 0
+merge "INV_7/VDD" "1bitAddSub_7/INV_0/VDD"
+merge "1bitAddSub_7/INV_0/VDD" "XOR2_0/INV_1/VDD"
+merge "XOR2_0/INV_1/VDD" "XOR2_0/VDD"
+merge "BUFFER_0/VSS" "INV_7/VSS" -5.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 -16 0 0 0 0
+merge "INV_7/VSS" "1bitAddSub_7/INV_0/VSS"
+merge "1bitAddSub_7/INV_0/VSS" "XOR2_0/INV_1/VSS"
+merge "XOR2_0/INV_1/VSS" "XOR2_0/VSS"
+merge "BUFFER8_0/A6" "1bitAddSub_6/S" -422.676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 22 -96 0 0
+merge "1bitAddSub_6/S" "m1_1735_n66#"
+merge "1bitAddSub_3/C" "INV_2/Y" -273.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "INV_2/Y" "m1_747_6#"
+merge "BUFFER8_0/Y5" "D5" -120.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "1bitAddSub_4/A" "A4" -56.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "INV_4/A" "1bitAddSub_4/Cbout" -137.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 -16 0 0 0 0
+merge "1bitAddSub_4/Cbout" "m1_1207_29#"
+merge "1bitAddSub_1/FullAddr_0/Sb" "m1_453_69#" -60.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -16 0 0 0 0
+merge "1bitAddSub_4/C" "INV_3/Y" -255.672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "INV_3/Y" "m1_998_6#"
+merge "1bitAddSub_0/VDD" "VDD" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "1bitAddSub_0/VSS" "VSS" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "BUFFER8_0/Y6" "D6" -120.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "INV_2/A" "1bitAddSub_2/Cbout" -160.056 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -16 0 0 0 0
+merge "1bitAddSub_2/Cbout" "m1_705_29#"
+merge "INV_3/A" "1bitAddSub_3/Cbout" 118.404 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 -16 198 0 0 0
+merge "1bitAddSub_3/Cbout" "m1_956_29#"
+merge "1bitAddSub_4/B" "B4" -168.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_0/A3" "1bitAddSub_3/S" -679.176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -168 -96 0 0
+merge "1bitAddSub_3/S" "m1_982_n42#"
+merge "BUFFER8_0/Y7" "D7" -120.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "1bitAddSub_7/C" "INV_6/Y" -273.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "INV_6/Y" "m1_1751_6#"
+merge "1bitAddSub_1/C" "INV_0/Y" -401.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -40 0 0 0 0
+merge "INV_0/Y" "m1_245_6#"
+merge "m1_245_6#" "m1_245_57#"
+merge "1bitAddSub_2/A" "A2" -56.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER_0/A" "XOR2_0/Y" -1281.13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -136 -94 -63 -134 0 0
+merge "XOR2_0/Y" "m1_2074_29#"
+merge "1bitAddSub_2/B" "B2" -168.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_0/A1" "1bitAddSub_1/S" -679.176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -168 -96 0 0
+merge "1bitAddSub_1/S" "m1_480_n26#"
+merge "INV_0/A" "1bitAddSub_0/Cbout" -182.376 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -16 0 0 0 0
+merge "1bitAddSub_0/Cbout" "m1_203_29#"
+merge "1bitAddSub_4/VDD" "1bitAddSub_4/XOR2_0/INV_1/VDD" -2.52 0 0 0 0 0 -124 0 0 0 0 0 0 0 0 16 -16 0 0 0 0
+merge "1bitAddSub_4/XOR2_0/INV_1/VDD" "INV_3/VDD"
+merge "INV_3/VDD" "1bitAddSub_3/INV_0/VDD"
+merge "1bitAddSub_1/XOR2_0/Y" "1bitAddSub_1/FullAddr_0/B" -248.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 -54 0 0 0 0
+merge "1bitAddSub_1/FullAddr_0/B" "m1_321_59#"
+merge "m1_321_59#" "m1_321_53#"
+merge "1bitAddSub_4/VSS" "INV_3/VSS" -49.68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -16 0 0 0 0
+merge "INV_3/VSS" "1bitAddSub_3/INV_0/VSS"
+merge "BUFFER_0/Y" "Overflow" -68.184 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "1bitAddSub_0/A" "A0" -56.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "1bitAddSub_0/B" "B0" -168.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "BUFFER8_0/A2" "1bitAddSub_2/S" -565.776 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -84 -96 0 0
+merge "1bitAddSub_2/S" "m1_731_n34#"
+merge "1bitAddSub_1/FullAddr_0/Cbout" "m1_364_61#" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "BUFFER8_0/VSS" "BUFFER_0/INV_0/VSS" -3262.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -548 -294 0 0 0 0
+merge "BUFFER_0/INV_0/VSS" "m1_2135_37#"
+merge "1bitAddSub_7/VDD" "INV_6/VDD" -2561.58 0 0 0 0 -300 -124 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_6/VDD" "1bitAddSub_6/INV_0/VDD"
+merge "1bitAddSub_7/VSS" "INV_6/VSS" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_6/VSS" "1bitAddSub_6/INV_0/VSS"
+merge "1bitAddSub_1/B" "B1" -168.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "1bitAddSub_7/A" "A7" -95.904 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "1bitAddSub_1/A" "A1" -135.072 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0
+merge "1bitAddSub_3/VDD" "INV_2/VDD" -2561.58 0 0 0 0 -300 -124 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_2/VDD" "1bitAddSub_2/INV_0/VDD"
+merge "1bitAddSub_7/B" "B7" -168.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "1bitAddSub_3/VSS" "INV_2/VSS" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "INV_2/VSS" "1bitAddSub_2/INV_0/VSS"
+merge "BUFFER8_0/A4" "1bitAddSub_4/S" -679.176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -168 -96 0 0
+merge "1bitAddSub_4/S" "m1_1233_n50#"
+merge "1bitAddSub_3/B" "B3" -168.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "1bitAddSub_6/VDD" "1bitAddSub_6/XOR2_0/INV_1/VDD" 8.01 0 0 0 0 0 -124 0 0 0 0 0 0 0 0 24 -16 0 0 0 0
+merge "1bitAddSub_6/XOR2_0/INV_1/VDD" "INV_5/VDD"
+merge "INV_5/VDD" "1bitAddSub_5/INV_0/VDD"
+merge "1bitAddSub_3/A" "A3" -56.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "1bitAddSub_5/A" "A5" -95.904 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "1bitAddSub_5/B" "B5" -168.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "1bitAddSub_6/VSS" "INV_5/VSS" -27.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 -16 0 0 0 0
+merge "INV_5/VSS" "1bitAddSub_5/INV_0/VSS"

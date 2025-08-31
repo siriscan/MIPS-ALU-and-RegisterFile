@@ -1,0 +1,156 @@
+magic
+tech scmos
+timestamp 1746041965
+<< nwell >>
+rect 43 65 44 85
+rect 68 65 69 85
+rect 93 65 94 85
+rect 118 65 119 85
+rect 143 65 144 85
+rect 168 65 169 85
+rect 193 65 194 85
+<< metal1 >>
+rect 0 84 4 88
+rect 2 40 6 44
+rect 25 40 29 44
+rect 33 40 37 44
+rect 50 40 54 44
+rect 58 40 62 44
+rect 75 40 79 44
+rect 83 40 87 44
+rect 100 40 104 44
+rect 108 40 112 44
+rect 125 40 129 44
+rect 133 40 137 44
+rect 150 40 154 44
+rect 158 40 162 44
+rect 175 40 179 44
+rect 183 40 187 44
+rect 200 40 204 44
+rect 208 40 212 44
+rect 14 12 18 16
+rect 0 0 4 4
+rect 14 -8 43 -4
+rect 47 -8 68 -4
+rect 72 -8 93 -4
+rect 97 -8 118 -4
+rect 122 -8 143 -4
+rect 147 -8 168 -4
+rect 172 -8 193 -4
+<< m2contact >>
+rect 18 63 22 67
+rect 43 63 47 67
+rect 68 63 72 67
+rect 93 63 97 67
+rect 118 63 122 67
+rect 143 63 147 67
+rect 168 63 172 67
+rect 193 63 197 67
+rect 2 44 6 48
+rect 21 40 25 44
+rect 37 40 41 44
+rect 46 40 50 44
+rect 62 40 66 44
+rect 71 40 75 44
+rect 87 40 91 44
+rect 96 40 100 44
+rect 112 40 116 44
+rect 121 40 125 44
+rect 137 40 141 44
+rect 146 40 150 44
+rect 162 40 166 44
+rect 171 40 175 44
+rect 187 40 191 44
+rect 196 40 200 44
+rect 212 40 216 44
+rect 10 12 14 16
+rect 43 8 47 12
+rect 68 8 72 12
+rect 93 8 97 12
+rect 118 8 122 12
+rect 143 8 147 12
+rect 168 8 172 12
+rect 193 8 197 12
+rect 10 -8 14 -4
+rect 43 -8 47 -4
+rect 68 -8 72 -4
+rect 93 -8 97 -4
+rect 118 -8 122 -4
+rect 143 -8 147 -4
+rect 168 -8 172 -4
+rect 193 -8 197 -4
+<< metal2 >>
+rect 2 63 18 67
+rect 22 63 43 67
+rect 47 63 68 67
+rect 72 63 93 67
+rect 97 63 118 67
+rect 122 63 143 67
+rect 147 63 168 67
+rect 172 63 193 67
+rect 2 48 6 63
+rect 10 -4 14 12
+rect 43 -4 47 8
+rect 68 -4 72 8
+rect 93 -4 97 8
+rect 118 -4 122 8
+rect 143 -4 147 8
+rect 168 -4 172 8
+rect 193 -4 197 8
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 0 0 1 0
+box -4 0 20 91
+use TRANSMISSION  TRANSMISSION_0
+timestamp 1742764277
+transform 1 0 18 0 1 0
+box 0 6 25 85
+use TRANSMISSION  TRANSMISSION_1
+timestamp 1742764277
+transform 1 0 43 0 1 0
+box 0 6 25 85
+use TRANSMISSION  TRANSMISSION_2
+timestamp 1742764277
+transform 1 0 68 0 1 0
+box 0 6 25 85
+use TRANSMISSION  TRANSMISSION_3
+timestamp 1742764277
+transform 1 0 93 0 1 0
+box 0 6 25 85
+use TRANSMISSION  TRANSMISSION_4
+timestamp 1742764277
+transform 1 0 118 0 1 0
+box 0 6 25 85
+use TRANSMISSION  TRANSMISSION_5
+timestamp 1742764277
+transform 1 0 143 0 1 0
+box 0 6 25 85
+use TRANSMISSION  TRANSMISSION_6
+timestamp 1742764277
+transform 1 0 168 0 1 0
+box 0 6 25 85
+use TRANSMISSION  TRANSMISSION_7
+timestamp 1742764277
+transform 1 0 193 0 1 0
+box 0 6 25 85
+<< labels >>
+rlabel metal1 1 2 1 2 1 VSS
+rlabel metal1 1 86 1 86 1 VDD
+rlabel metal1 3 41 3 41 1 enb
+rlabel metal1 26 42 26 42 1 A0
+rlabel metal1 35 42 35 42 1 Y0
+rlabel metal1 52 42 52 42 1 A1
+rlabel metal1 60 42 60 42 1 Y1
+rlabel metal1 77 42 77 42 1 A2
+rlabel metal1 85 42 85 42 1 Y2
+rlabel metal1 102 42 102 42 1 A3
+rlabel metal1 110 42 110 42 1 Y3
+rlabel metal1 127 42 127 42 1 A4
+rlabel metal1 135 42 135 42 1 Y4
+rlabel metal1 152 42 152 42 1 A5
+rlabel metal1 160 42 160 42 1 Y5
+rlabel metal1 177 42 177 42 1 A6
+rlabel metal1 202 42 202 42 1 A7
+rlabel metal1 185 42 185 42 1 Y6
+rlabel metal1 210 42 210 42 1 Y7
+<< end >>

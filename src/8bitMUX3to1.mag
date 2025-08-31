@@ -1,0 +1,186 @@
+magic
+tech scmos
+timestamp 1746408420
+<< metal1 >>
+rect 0 100 1100 104
+rect 25 32 29 36
+rect 50 33 54 37
+rect 120 33 124 37
+rect 163 33 167 37
+rect 188 33 192 37
+rect 258 33 262 37
+rect 301 33 305 37
+rect 326 33 330 37
+rect 396 33 400 37
+rect 439 33 443 37
+rect 464 33 468 37
+rect 534 33 538 37
+rect 577 33 581 37
+rect 602 33 606 37
+rect 672 33 676 37
+rect 715 33 719 37
+rect 740 33 744 37
+rect 810 33 814 37
+rect 853 33 857 37
+rect 878 33 882 37
+rect 948 33 952 37
+rect 991 33 995 37
+rect 1016 33 1020 37
+rect 1086 33 1090 37
+rect 0 16 103 20
+rect 107 16 1100 20
+rect 6 8 10 12
+rect 76 8 80 12
+rect 47 -8 140 -4
+rect 185 -8 278 -4
+rect 323 -8 416 -4
+rect 461 -8 554 -4
+rect 599 -8 692 -4
+rect 737 -8 830 -4
+rect 875 -8 968 -4
+rect 117 -16 210 -12
+rect 255 -16 348 -12
+rect 393 -16 486 -12
+rect 531 -16 624 -12
+rect 669 -16 762 -12
+rect 807 -16 900 -12
+rect 945 -16 1038 -12
+<< m2contact >>
+rect 43 -8 47 -4
+rect 140 -8 144 -4
+rect 181 -8 185 -4
+rect 278 -8 282 -4
+rect 319 -8 323 -4
+rect 416 -8 420 -4
+rect 457 -8 461 -4
+rect 554 -8 558 -4
+rect 595 -8 599 -4
+rect 692 -8 696 -4
+rect 733 -8 737 -4
+rect 830 -8 834 -4
+rect 871 -8 875 -4
+rect 968 -8 972 -4
+rect 113 -16 117 -12
+rect 210 -16 214 -12
+rect 251 -16 255 -12
+rect 348 -16 352 -12
+rect 389 -16 393 -12
+rect 486 -16 490 -12
+rect 527 -16 531 -12
+rect 624 -16 628 -12
+rect 665 -16 669 -12
+rect 762 -16 766 -12
+rect 803 -16 807 -12
+rect 900 -16 904 -12
+rect 941 -16 945 -12
+rect 1038 -16 1042 -12
+<< metal2 >>
+rect 103 29 107 32
+rect 171 24 175 29
+rect 309 24 313 29
+rect 43 -4 47 8
+rect 113 -12 117 8
+rect 128 -20 132 0
+rect 140 -4 144 8
+rect 181 -4 185 8
+rect 210 -12 214 8
+rect 251 -12 255 8
+rect 266 -20 270 0
+rect 278 -4 282 8
+rect 319 -4 323 8
+rect 348 -12 352 8
+rect 389 -12 393 8
+rect 404 -20 408 0
+rect 416 -4 420 8
+rect 457 -4 461 8
+rect 486 -12 490 8
+rect 527 -12 531 8
+rect 542 -20 546 0
+rect 554 -4 558 8
+rect 595 -4 599 8
+rect 624 -12 628 8
+rect 665 -12 669 8
+rect 680 -20 684 0
+rect 692 -4 696 8
+rect 733 -4 737 8
+rect 762 -12 766 8
+rect 803 -12 807 8
+rect 818 -20 822 0
+rect 830 -4 834 8
+rect 871 -4 875 8
+rect 900 -12 904 8
+rect 941 -12 945 8
+rect 956 -20 960 0
+rect 968 -4 972 8
+rect 1038 -12 1042 8
+rect 1094 -20 1098 0
+use MUX3to1  MUX3to1_0
+timestamp 1746041965
+transform 1 0 -4 0 1 0
+box 0 0 142 107
+use MUX3to1  MUX3to1_1
+timestamp 1746041965
+transform 1 0 134 0 1 0
+box 0 0 142 107
+use MUX3to1  MUX3to1_2
+timestamp 1746041965
+transform 1 0 272 0 1 0
+box 0 0 142 107
+use MUX3to1  MUX3to1_3
+timestamp 1746041965
+transform 1 0 410 0 1 0
+box 0 0 142 107
+use MUX3to1  MUX3to1_4
+timestamp 1746041965
+transform 1 0 548 0 1 0
+box 0 0 142 107
+use MUX3to1  MUX3to1_5
+timestamp 1746041965
+transform 1 0 686 0 1 0
+box 0 0 142 107
+use MUX3to1  MUX3to1_6
+timestamp 1746041965
+transform 1 0 824 0 1 0
+box 0 0 142 107
+use MUX3to1  MUX3to1_7
+timestamp 1746041965
+transform 1 0 962 0 1 0
+box 0 0 142 107
+<< labels >>
+rlabel metal1 10 102 10 102 1 VDD
+rlabel metal1 9 18 9 18 1 VSS
+rlabel metal1 78 10 78 10 1 S1
+rlabel metal1 8 10 8 10 1 S0
+rlabel metal2 130 -18 130 -18 1 Y0
+rlabel metal2 268 -18 268 -18 1 Y1
+rlabel metal2 406 -18 406 -18 1 Y2
+rlabel metal2 544 -18 544 -18 1 Y3
+rlabel metal2 682 -18 682 -18 1 Y4
+rlabel metal2 820 -18 820 -18 1 Y5
+rlabel metal2 958 -18 958 -18 1 Y6
+rlabel metal2 1096 -17 1096 -17 1 Y7
+rlabel metal1 27 34 27 34 1 A0
+rlabel metal1 52 35 52 35 1 B0
+rlabel metal1 122 35 122 35 1 C0
+rlabel metal1 165 35 165 35 1 A1
+rlabel metal1 190 35 190 35 1 B1
+rlabel metal1 260 35 260 35 1 C1
+rlabel metal1 303 35 303 35 1 A2
+rlabel metal1 328 35 328 35 1 B2
+rlabel metal1 398 35 398 35 1 C2
+rlabel metal1 441 35 441 35 1 A3
+rlabel metal1 466 35 466 35 1 B3
+rlabel metal1 536 35 536 35 1 C3
+rlabel metal1 579 35 579 35 1 A4
+rlabel metal1 604 35 604 35 1 B4
+rlabel metal1 674 35 674 35 1 C4
+rlabel metal1 717 35 717 35 1 A5
+rlabel metal1 742 35 742 35 1 B5
+rlabel metal1 812 35 812 35 1 C5
+rlabel metal1 855 35 855 35 1 A6
+rlabel metal1 880 35 880 35 1 B6
+rlabel metal1 950 35 950 35 1 C6
+rlabel metal1 993 35 993 35 1 A7
+rlabel metal1 1018 35 1018 35 1 B7
+rlabel metal1 1088 35 1088 35 1 C7
+<< end >>

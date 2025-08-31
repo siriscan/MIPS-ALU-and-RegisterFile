@@ -1,0 +1,693 @@
+| units: 30 tech: scmos format: MIT
+n INV_1/A VSS INV_1/Y 2 4 493 45
+p INV_1/A VDD INV_1/Y 2 4 493 112
+n INV_2/A VSS INV_2/Y 2 4 744 45
+p INV_2/A VDD INV_2/Y 2 4 744 112
+n BUFFER8_0/INV_0/Y BUFFER8_0/A1 D1 2 4 2174 45
+p enb BUFFER8_0/A1 D1 2 8 2174 108
+n BUFFER8_0/INV_0/Y BUFFER8_0/A2 D2 2 4 2199 45
+p enb BUFFER8_0/A2 D2 2 8 2199 108
+n BUFFER8_0/INV_0/Y BUFFER8_0/A3 D3 2 4 2224 45
+p enb BUFFER8_0/A3 D3 2 8 2224 108
+n BUFFER8_0/INV_0/Y BUFFER8_0/A4 D4 2 4 2249 45
+p enb BUFFER8_0/A4 D4 2 8 2249 108
+n BUFFER8_0/INV_0/Y BUFFER8_0/A5 D5 2 4 2274 45
+p enb BUFFER8_0/A5 D5 2 8 2274 108
+n BUFFER8_0/INV_0/Y BUFFER8_0/A7 D7 2 4 2324 45
+p enb BUFFER8_0/A7 D7 2 8 2324 108
+n BUFFER8_0/INV_0/Y BUFFER8_0/A6 D6 2 4 2299 45
+p enb BUFFER8_0/A6 D6 2 8 2299 108
+n BUFFER8_0/INV_0/Y BUFFER8_0/A0 D0 2 4 2149 45
+p enb BUFFER8_0/A0 D0 2 8 2149 108
+n enb VSS BUFFER8_0/INV_0/Y 2 4 2126 45
+p enb VDD BUFFER8_0/INV_0/Y 2 4 2126 112
+n INV_3/A VSS INV_3/Y 2 4 995 45
+p INV_3/A VDD INV_3/Y 2 4 995 112
+n INV_5/A VSS INV_5/Y 2 4 1497 45
+p INV_5/A VDD INV_5/Y 2 4 1497 112
+n INV_4/A VSS INV_4/Y 2 4 1246 45
+p INV_4/A VDD INV_4/Y 2 4 1246 112
+n INV_6/A VSS INV_6/Y 2 4 1748 45
+p INV_6/A VDD INV_6/Y 2 4 1748 112
+n INV_7/A VSS INV_7/Y 2 4 1999 45
+p INV_7/A VDD INV_7/Y 2 4 1999 112
+n BUFFER_0/INV_0/Y XOR2_0/Y Overflow 2 4 2110 45
+p enb XOR2_0/Y Overflow 2 8 2110 108
+n enb VSS BUFFER_0/INV_0/Y 2 4 2087 45
+p enb VDD BUFFER_0/INV_0/Y 2 4 2087 112
+p 1bitAddSub_0/XOR2_0/Y 1bitAddSub_0/FullAddr_0/a_64_69# VDD 2 4 157 106
+n A0 1bitAddSub_0/FullAddr_0/a_2_8# VSS 2 8 94 45
+n 1bitAddSub_0/XOR2_0/Y VSS 1bitAddSub_0/FullAddr_0/a_41_8# 2 4 126 45
+n INV_0/A 1bitAddSub_0/FullAddr_0/a_64_8# 1bitAddSub_0/INV_0/A 2 4 173 45
+n 1bitAddSub_0/XOR2_0/Y 1bitAddSub_0/FullAddr_0/a_104_8# 1bitAddSub_0/FullAddr_0/a_109_8# 2 4 194 45
+n 1bitAddSub_0/XOR2_0/Y 1bitAddSub_0/FullAddr_0/a_64_8# VSS 2 4 157 45
+n K 1bitAddSub_0/FullAddr_0/a_2_8# INV_0/A 2 8 110 45
+p A0 1bitAddSub_0/FullAddr_0/a_109_69# 1bitAddSub_0/INV_0/A 2 4 199 106
+p A0 1bitAddSub_0/FullAddr_0/a_2_57# VDD 2 16 94 94
+n K VSS 1bitAddSub_0/FullAddr_0/a_104_8# 2 4 189 45
+p 1bitAddSub_0/XOR2_0/Y VDD 1bitAddSub_0/FullAddr_0/a_2_57# 2 16 102 94
+p 1bitAddSub_0/XOR2_0/Y 1bitAddSub_0/FullAddr_0/a_104_69# 1bitAddSub_0/FullAddr_0/a_109_69# 2 4 194 106
+p K VDD 1bitAddSub_0/FullAddr_0/a_64_69# 2 4 165 106
+p A0 1bitAddSub_0/FullAddr_0/a_41_69# INV_0/A 2 4 131 106
+p K VDD 1bitAddSub_0/FullAddr_0/a_104_69# 2 4 189 106
+n A0 1bitAddSub_0/FullAddr_0/a_41_8# INV_0/A 2 4 131 45
+n A0 1bitAddSub_0/FullAddr_0/a_109_8# 1bitAddSub_0/INV_0/A 2 4 199 45
+p A0 VDD 1bitAddSub_0/FullAddr_0/a_64_69# 2 4 149 106
+p 1bitAddSub_0/XOR2_0/Y VDD 1bitAddSub_0/FullAddr_0/a_41_69# 2 4 126 106
+p K 1bitAddSub_0/FullAddr_0/a_2_57# INV_0/A 2 16 110 94
+p INV_0/A 1bitAddSub_0/FullAddr_0/a_64_69# 1bitAddSub_0/INV_0/A 2 4 173 106
+n K VSS 1bitAddSub_0/FullAddr_0/a_64_8# 2 4 165 45
+n A0 VSS 1bitAddSub_0/FullAddr_0/a_64_8# 2 4 149 45
+n 1bitAddSub_0/XOR2_0/Y VSS 1bitAddSub_0/FullAddr_0/a_2_8# 2 8 102 45
+n K VSS 1bitAddSub_0/XOR2_0/INV_1/Y 2 4 11 45
+p K VDD 1bitAddSub_0/XOR2_0/INV_1/Y 2 4 11 112
+n B0 VSS 1bitAddSub_0/XOR2_0/INV_0/Y 2 4 27 45
+p B0 VDD 1bitAddSub_0/XOR2_0/INV_0/Y 2 4 27 112
+n K 1bitAddSub_0/XOR2_0/Y 1bitAddSub_0/XOR2_0/a_9_8# 2 4 43 45
+p 1bitAddSub_0/XOR2_0/INV_0/Y 1bitAddSub_0/XOR2_0/a_2_68# 1bitAddSub_0/XOR2_0/Y 2 4 59 105
+n 1bitAddSub_0/XOR2_0/INV_0/Y VSS 1bitAddSub_0/XOR2_0/a_25_8# 2 4 59 45
+n 1bitAddSub_0/XOR2_0/INV_1/Y 1bitAddSub_0/XOR2_0/a_25_8# 1bitAddSub_0/XOR2_0/Y 2 4 67 45
+p 1bitAddSub_0/XOR2_0/INV_1/Y 1bitAddSub_0/XOR2_0/Y 1bitAddSub_0/XOR2_0/a_2_68# 2 4 67 105
+p K 1bitAddSub_0/XOR2_0/a_2_68# VDD 2 4 43 105
+p B0 VDD 1bitAddSub_0/XOR2_0/a_2_68# 2 4 51 105
+n B0 1bitAddSub_0/XOR2_0/a_9_8# VSS 2 4 51 45
+n 1bitAddSub_0/INV_0/A VSS BUFFER8_0/A0 2 4 226 45
+p 1bitAddSub_0/INV_0/A VDD BUFFER8_0/A0 2 4 226 112
+p 1bitAddSub_2/XOR2_0/Y 1bitAddSub_2/FullAddr_0/a_64_69# VDD 2 4 659 106
+n A2 1bitAddSub_2/FullAddr_0/a_2_8# VSS 2 8 596 45
+n 1bitAddSub_2/XOR2_0/Y VSS 1bitAddSub_2/FullAddr_0/a_41_8# 2 4 628 45
+n INV_2/A 1bitAddSub_2/FullAddr_0/a_64_8# 1bitAddSub_2/INV_0/A 2 4 675 45
+n 1bitAddSub_2/XOR2_0/Y 1bitAddSub_2/FullAddr_0/a_104_8# 1bitAddSub_2/FullAddr_0/a_109_8# 2 4 696 45
+n 1bitAddSub_2/XOR2_0/Y 1bitAddSub_2/FullAddr_0/a_64_8# VSS 2 4 659 45
+n INV_1/Y 1bitAddSub_2/FullAddr_0/a_2_8# INV_2/A 2 8 612 45
+p A2 1bitAddSub_2/FullAddr_0/a_109_69# 1bitAddSub_2/INV_0/A 2 4 701 106
+p A2 1bitAddSub_2/FullAddr_0/a_2_57# VDD 2 16 596 94
+n INV_1/Y VSS 1bitAddSub_2/FullAddr_0/a_104_8# 2 4 691 45
+p 1bitAddSub_2/XOR2_0/Y VDD 1bitAddSub_2/FullAddr_0/a_2_57# 2 16 604 94
+p 1bitAddSub_2/XOR2_0/Y 1bitAddSub_2/FullAddr_0/a_104_69# 1bitAddSub_2/FullAddr_0/a_109_69# 2 4 696 106
+p INV_1/Y VDD 1bitAddSub_2/FullAddr_0/a_64_69# 2 4 667 106
+p A2 1bitAddSub_2/FullAddr_0/a_41_69# INV_2/A 2 4 633 106
+p INV_1/Y VDD 1bitAddSub_2/FullAddr_0/a_104_69# 2 4 691 106
+n A2 1bitAddSub_2/FullAddr_0/a_41_8# INV_2/A 2 4 633 45
+n A2 1bitAddSub_2/FullAddr_0/a_109_8# 1bitAddSub_2/INV_0/A 2 4 701 45
+p A2 VDD 1bitAddSub_2/FullAddr_0/a_64_69# 2 4 651 106
+p 1bitAddSub_2/XOR2_0/Y VDD 1bitAddSub_2/FullAddr_0/a_41_69# 2 4 628 106
+p INV_1/Y 1bitAddSub_2/FullAddr_0/a_2_57# INV_2/A 2 16 612 94
+p INV_2/A 1bitAddSub_2/FullAddr_0/a_64_69# 1bitAddSub_2/INV_0/A 2 4 675 106
+n INV_1/Y VSS 1bitAddSub_2/FullAddr_0/a_64_8# 2 4 667 45
+n A2 VSS 1bitAddSub_2/FullAddr_0/a_64_8# 2 4 651 45
+n 1bitAddSub_2/XOR2_0/Y VSS 1bitAddSub_2/FullAddr_0/a_2_8# 2 8 604 45
+n K VSS 1bitAddSub_2/XOR2_0/INV_1/Y 2 4 513 45
+p K VDD 1bitAddSub_2/XOR2_0/INV_1/Y 2 4 513 112
+n B2 VSS 1bitAddSub_2/XOR2_0/INV_0/Y 2 4 529 45
+p B2 VDD 1bitAddSub_2/XOR2_0/INV_0/Y 2 4 529 112
+n K 1bitAddSub_2/XOR2_0/Y 1bitAddSub_2/XOR2_0/a_9_8# 2 4 545 45
+p 1bitAddSub_2/XOR2_0/INV_0/Y 1bitAddSub_2/XOR2_0/a_2_68# 1bitAddSub_2/XOR2_0/Y 2 4 561 105
+n 1bitAddSub_2/XOR2_0/INV_0/Y VSS 1bitAddSub_2/XOR2_0/a_25_8# 2 4 561 45
+n 1bitAddSub_2/XOR2_0/INV_1/Y 1bitAddSub_2/XOR2_0/a_25_8# 1bitAddSub_2/XOR2_0/Y 2 4 569 45
+p 1bitAddSub_2/XOR2_0/INV_1/Y 1bitAddSub_2/XOR2_0/Y 1bitAddSub_2/XOR2_0/a_2_68# 2 4 569 105
+p K 1bitAddSub_2/XOR2_0/a_2_68# VDD 2 4 545 105
+p B2 VDD 1bitAddSub_2/XOR2_0/a_2_68# 2 4 553 105
+n B2 1bitAddSub_2/XOR2_0/a_9_8# VSS 2 4 553 45
+n 1bitAddSub_2/INV_0/A VSS BUFFER8_0/A2 2 4 728 45
+p 1bitAddSub_2/INV_0/A VDD BUFFER8_0/A2 2 4 728 112
+p 1bitAddSub_1/XOR2_0/Y 1bitAddSub_1/FullAddr_0/a_64_69# VDD 2 4 408 106
+n A1 1bitAddSub_1/FullAddr_0/a_2_8# VSS 2 8 345 45
+n 1bitAddSub_1/XOR2_0/Y VSS 1bitAddSub_1/FullAddr_0/a_41_8# 2 4 377 45
+n INV_1/A 1bitAddSub_1/FullAddr_0/a_64_8# 1bitAddSub_1/INV_0/A 2 4 424 45
+n 1bitAddSub_1/XOR2_0/Y 1bitAddSub_1/FullAddr_0/a_104_8# 1bitAddSub_1/FullAddr_0/a_109_8# 2 4 445 45
+n 1bitAddSub_1/XOR2_0/Y 1bitAddSub_1/FullAddr_0/a_64_8# VSS 2 4 408 45
+n INV_0/Y 1bitAddSub_1/FullAddr_0/a_2_8# INV_1/A 2 8 361 45
+p A1 1bitAddSub_1/FullAddr_0/a_109_69# 1bitAddSub_1/INV_0/A 2 4 450 106
+p A1 1bitAddSub_1/FullAddr_0/a_2_57# VDD 2 16 345 94
+n INV_0/Y VSS 1bitAddSub_1/FullAddr_0/a_104_8# 2 4 440 45
+p 1bitAddSub_1/XOR2_0/Y VDD 1bitAddSub_1/FullAddr_0/a_2_57# 2 16 353 94
+p 1bitAddSub_1/XOR2_0/Y 1bitAddSub_1/FullAddr_0/a_104_69# 1bitAddSub_1/FullAddr_0/a_109_69# 2 4 445 106
+p INV_0/Y VDD 1bitAddSub_1/FullAddr_0/a_64_69# 2 4 416 106
+p A1 1bitAddSub_1/FullAddr_0/a_41_69# INV_1/A 2 4 382 106
+p INV_0/Y VDD 1bitAddSub_1/FullAddr_0/a_104_69# 2 4 440 106
+n A1 1bitAddSub_1/FullAddr_0/a_41_8# INV_1/A 2 4 382 45
+n A1 1bitAddSub_1/FullAddr_0/a_109_8# 1bitAddSub_1/INV_0/A 2 4 450 45
+p A1 VDD 1bitAddSub_1/FullAddr_0/a_64_69# 2 4 400 106
+p 1bitAddSub_1/XOR2_0/Y VDD 1bitAddSub_1/FullAddr_0/a_41_69# 2 4 377 106
+p INV_0/Y 1bitAddSub_1/FullAddr_0/a_2_57# INV_1/A 2 16 361 94
+p INV_1/A 1bitAddSub_1/FullAddr_0/a_64_69# 1bitAddSub_1/INV_0/A 2 4 424 106
+n INV_0/Y VSS 1bitAddSub_1/FullAddr_0/a_64_8# 2 4 416 45
+n A1 VSS 1bitAddSub_1/FullAddr_0/a_64_8# 2 4 400 45
+n 1bitAddSub_1/XOR2_0/Y VSS 1bitAddSub_1/FullAddr_0/a_2_8# 2 8 353 45
+n K VSS 1bitAddSub_1/XOR2_0/INV_1/Y 2 4 262 45
+p K VDD 1bitAddSub_1/XOR2_0/INV_1/Y 2 4 262 112
+n B1 VSS 1bitAddSub_1/XOR2_0/INV_0/Y 2 4 278 45
+p B1 VDD 1bitAddSub_1/XOR2_0/INV_0/Y 2 4 278 112
+n K 1bitAddSub_1/XOR2_0/Y 1bitAddSub_1/XOR2_0/a_9_8# 2 4 294 45
+p 1bitAddSub_1/XOR2_0/INV_0/Y 1bitAddSub_1/XOR2_0/a_2_68# 1bitAddSub_1/XOR2_0/Y 2 4 310 105
+n 1bitAddSub_1/XOR2_0/INV_0/Y VSS 1bitAddSub_1/XOR2_0/a_25_8# 2 4 310 45
+n 1bitAddSub_1/XOR2_0/INV_1/Y 1bitAddSub_1/XOR2_0/a_25_8# 1bitAddSub_1/XOR2_0/Y 2 4 318 45
+p 1bitAddSub_1/XOR2_0/INV_1/Y 1bitAddSub_1/XOR2_0/Y 1bitAddSub_1/XOR2_0/a_2_68# 2 4 318 105
+p K 1bitAddSub_1/XOR2_0/a_2_68# VDD 2 4 294 105
+p B1 VDD 1bitAddSub_1/XOR2_0/a_2_68# 2 4 302 105
+n B1 1bitAddSub_1/XOR2_0/a_9_8# VSS 2 4 302 45
+n 1bitAddSub_1/INV_0/A VSS BUFFER8_0/A1 2 4 477 45
+p 1bitAddSub_1/INV_0/A VDD BUFFER8_0/A1 2 4 477 112
+p 1bitAddSub_3/XOR2_0/Y 1bitAddSub_3/FullAddr_0/a_64_69# VDD 2 4 910 106
+n A3 1bitAddSub_3/FullAddr_0/a_2_8# VSS 2 8 847 45
+n 1bitAddSub_3/XOR2_0/Y VSS 1bitAddSub_3/FullAddr_0/a_41_8# 2 4 879 45
+n INV_3/A 1bitAddSub_3/FullAddr_0/a_64_8# 1bitAddSub_3/INV_0/A 2 4 926 45
+n 1bitAddSub_3/XOR2_0/Y 1bitAddSub_3/FullAddr_0/a_104_8# 1bitAddSub_3/FullAddr_0/a_109_8# 2 4 947 45
+n 1bitAddSub_3/XOR2_0/Y 1bitAddSub_3/FullAddr_0/a_64_8# VSS 2 4 910 45
+n INV_2/Y 1bitAddSub_3/FullAddr_0/a_2_8# INV_3/A 2 8 863 45
+p A3 1bitAddSub_3/FullAddr_0/a_109_69# 1bitAddSub_3/INV_0/A 2 4 952 106
+p A3 1bitAddSub_3/FullAddr_0/a_2_57# VDD 2 16 847 94
+n INV_2/Y VSS 1bitAddSub_3/FullAddr_0/a_104_8# 2 4 942 45
+p 1bitAddSub_3/XOR2_0/Y VDD 1bitAddSub_3/FullAddr_0/a_2_57# 2 16 855 94
+p 1bitAddSub_3/XOR2_0/Y 1bitAddSub_3/FullAddr_0/a_104_69# 1bitAddSub_3/FullAddr_0/a_109_69# 2 4 947 106
+p INV_2/Y VDD 1bitAddSub_3/FullAddr_0/a_64_69# 2 4 918 106
+p A3 1bitAddSub_3/FullAddr_0/a_41_69# INV_3/A 2 4 884 106
+p INV_2/Y VDD 1bitAddSub_3/FullAddr_0/a_104_69# 2 4 942 106
+n A3 1bitAddSub_3/FullAddr_0/a_41_8# INV_3/A 2 4 884 45
+n A3 1bitAddSub_3/FullAddr_0/a_109_8# 1bitAddSub_3/INV_0/A 2 4 952 45
+p A3 VDD 1bitAddSub_3/FullAddr_0/a_64_69# 2 4 902 106
+p 1bitAddSub_3/XOR2_0/Y VDD 1bitAddSub_3/FullAddr_0/a_41_69# 2 4 879 106
+p INV_2/Y 1bitAddSub_3/FullAddr_0/a_2_57# INV_3/A 2 16 863 94
+p INV_3/A 1bitAddSub_3/FullAddr_0/a_64_69# 1bitAddSub_3/INV_0/A 2 4 926 106
+n INV_2/Y VSS 1bitAddSub_3/FullAddr_0/a_64_8# 2 4 918 45
+n A3 VSS 1bitAddSub_3/FullAddr_0/a_64_8# 2 4 902 45
+n 1bitAddSub_3/XOR2_0/Y VSS 1bitAddSub_3/FullAddr_0/a_2_8# 2 8 855 45
+n K VSS 1bitAddSub_3/XOR2_0/INV_1/Y 2 4 764 45
+p K VDD 1bitAddSub_3/XOR2_0/INV_1/Y 2 4 764 112
+n B3 VSS 1bitAddSub_3/XOR2_0/INV_0/Y 2 4 780 45
+p B3 VDD 1bitAddSub_3/XOR2_0/INV_0/Y 2 4 780 112
+n K 1bitAddSub_3/XOR2_0/Y 1bitAddSub_3/XOR2_0/a_9_8# 2 4 796 45
+p 1bitAddSub_3/XOR2_0/INV_0/Y 1bitAddSub_3/XOR2_0/a_2_68# 1bitAddSub_3/XOR2_0/Y 2 4 812 105
+n 1bitAddSub_3/XOR2_0/INV_0/Y VSS 1bitAddSub_3/XOR2_0/a_25_8# 2 4 812 45
+n 1bitAddSub_3/XOR2_0/INV_1/Y 1bitAddSub_3/XOR2_0/a_25_8# 1bitAddSub_3/XOR2_0/Y 2 4 820 45
+p 1bitAddSub_3/XOR2_0/INV_1/Y 1bitAddSub_3/XOR2_0/Y 1bitAddSub_3/XOR2_0/a_2_68# 2 4 820 105
+p K 1bitAddSub_3/XOR2_0/a_2_68# VDD 2 4 796 105
+p B3 VDD 1bitAddSub_3/XOR2_0/a_2_68# 2 4 804 105
+n B3 1bitAddSub_3/XOR2_0/a_9_8# VSS 2 4 804 45
+n 1bitAddSub_3/INV_0/A VSS BUFFER8_0/A3 2 4 979 45
+p 1bitAddSub_3/INV_0/A VDD BUFFER8_0/A3 2 4 979 112
+p 1bitAddSub_4/XOR2_0/Y 1bitAddSub_4/FullAddr_0/a_64_69# VDD 2 4 1161 106
+n A4 1bitAddSub_4/FullAddr_0/a_2_8# VSS 2 8 1098 45
+n 1bitAddSub_4/XOR2_0/Y VSS 1bitAddSub_4/FullAddr_0/a_41_8# 2 4 1130 45
+n INV_4/A 1bitAddSub_4/FullAddr_0/a_64_8# 1bitAddSub_4/INV_0/A 2 4 1177 45
+n 1bitAddSub_4/XOR2_0/Y 1bitAddSub_4/FullAddr_0/a_104_8# 1bitAddSub_4/FullAddr_0/a_109_8# 2 4 1198 45
+n 1bitAddSub_4/XOR2_0/Y 1bitAddSub_4/FullAddr_0/a_64_8# VSS 2 4 1161 45
+n INV_3/Y 1bitAddSub_4/FullAddr_0/a_2_8# INV_4/A 2 8 1114 45
+p A4 1bitAddSub_4/FullAddr_0/a_109_69# 1bitAddSub_4/INV_0/A 2 4 1203 106
+p A4 1bitAddSub_4/FullAddr_0/a_2_57# VDD 2 16 1098 94
+n INV_3/Y VSS 1bitAddSub_4/FullAddr_0/a_104_8# 2 4 1193 45
+p 1bitAddSub_4/XOR2_0/Y VDD 1bitAddSub_4/FullAddr_0/a_2_57# 2 16 1106 94
+p 1bitAddSub_4/XOR2_0/Y 1bitAddSub_4/FullAddr_0/a_104_69# 1bitAddSub_4/FullAddr_0/a_109_69# 2 4 1198 106
+p INV_3/Y VDD 1bitAddSub_4/FullAddr_0/a_64_69# 2 4 1169 106
+p A4 1bitAddSub_4/FullAddr_0/a_41_69# INV_4/A 2 4 1135 106
+p INV_3/Y VDD 1bitAddSub_4/FullAddr_0/a_104_69# 2 4 1193 106
+n A4 1bitAddSub_4/FullAddr_0/a_41_8# INV_4/A 2 4 1135 45
+n A4 1bitAddSub_4/FullAddr_0/a_109_8# 1bitAddSub_4/INV_0/A 2 4 1203 45
+p A4 VDD 1bitAddSub_4/FullAddr_0/a_64_69# 2 4 1153 106
+p 1bitAddSub_4/XOR2_0/Y VDD 1bitAddSub_4/FullAddr_0/a_41_69# 2 4 1130 106
+p INV_3/Y 1bitAddSub_4/FullAddr_0/a_2_57# INV_4/A 2 16 1114 94
+p INV_4/A 1bitAddSub_4/FullAddr_0/a_64_69# 1bitAddSub_4/INV_0/A 2 4 1177 106
+n INV_3/Y VSS 1bitAddSub_4/FullAddr_0/a_64_8# 2 4 1169 45
+n A4 VSS 1bitAddSub_4/FullAddr_0/a_64_8# 2 4 1153 45
+n 1bitAddSub_4/XOR2_0/Y VSS 1bitAddSub_4/FullAddr_0/a_2_8# 2 8 1106 45
+n K VSS 1bitAddSub_4/XOR2_0/INV_1/Y 2 4 1015 45
+p K VDD 1bitAddSub_4/XOR2_0/INV_1/Y 2 4 1015 112
+n B4 VSS 1bitAddSub_4/XOR2_0/INV_0/Y 2 4 1031 45
+p B4 VDD 1bitAddSub_4/XOR2_0/INV_0/Y 2 4 1031 112
+n K 1bitAddSub_4/XOR2_0/Y 1bitAddSub_4/XOR2_0/a_9_8# 2 4 1047 45
+p 1bitAddSub_4/XOR2_0/INV_0/Y 1bitAddSub_4/XOR2_0/a_2_68# 1bitAddSub_4/XOR2_0/Y 2 4 1063 105
+n 1bitAddSub_4/XOR2_0/INV_0/Y VSS 1bitAddSub_4/XOR2_0/a_25_8# 2 4 1063 45
+n 1bitAddSub_4/XOR2_0/INV_1/Y 1bitAddSub_4/XOR2_0/a_25_8# 1bitAddSub_4/XOR2_0/Y 2 4 1071 45
+p 1bitAddSub_4/XOR2_0/INV_1/Y 1bitAddSub_4/XOR2_0/Y 1bitAddSub_4/XOR2_0/a_2_68# 2 4 1071 105
+p K 1bitAddSub_4/XOR2_0/a_2_68# VDD 2 4 1047 105
+p B4 VDD 1bitAddSub_4/XOR2_0/a_2_68# 2 4 1055 105
+n B4 1bitAddSub_4/XOR2_0/a_9_8# VSS 2 4 1055 45
+n 1bitAddSub_4/INV_0/A VSS BUFFER8_0/A4 2 4 1230 45
+p 1bitAddSub_4/INV_0/A VDD BUFFER8_0/A4 2 4 1230 112
+p 1bitAddSub_5/XOR2_0/Y 1bitAddSub_5/FullAddr_0/a_64_69# VDD 2 4 1412 106
+n A5 1bitAddSub_5/FullAddr_0/a_2_8# VSS 2 8 1349 45
+n 1bitAddSub_5/XOR2_0/Y VSS 1bitAddSub_5/FullAddr_0/a_41_8# 2 4 1381 45
+n INV_5/A 1bitAddSub_5/FullAddr_0/a_64_8# 1bitAddSub_5/INV_0/A 2 4 1428 45
+n 1bitAddSub_5/XOR2_0/Y 1bitAddSub_5/FullAddr_0/a_104_8# 1bitAddSub_5/FullAddr_0/a_109_8# 2 4 1449 45
+n 1bitAddSub_5/XOR2_0/Y 1bitAddSub_5/FullAddr_0/a_64_8# VSS 2 4 1412 45
+n INV_4/Y 1bitAddSub_5/FullAddr_0/a_2_8# INV_5/A 2 8 1365 45
+p A5 1bitAddSub_5/FullAddr_0/a_109_69# 1bitAddSub_5/INV_0/A 2 4 1454 106
+p A5 1bitAddSub_5/FullAddr_0/a_2_57# VDD 2 16 1349 94
+n INV_4/Y VSS 1bitAddSub_5/FullAddr_0/a_104_8# 2 4 1444 45
+p 1bitAddSub_5/XOR2_0/Y VDD 1bitAddSub_5/FullAddr_0/a_2_57# 2 16 1357 94
+p 1bitAddSub_5/XOR2_0/Y 1bitAddSub_5/FullAddr_0/a_104_69# 1bitAddSub_5/FullAddr_0/a_109_69# 2 4 1449 106
+p INV_4/Y VDD 1bitAddSub_5/FullAddr_0/a_64_69# 2 4 1420 106
+p A5 1bitAddSub_5/FullAddr_0/a_41_69# INV_5/A 2 4 1386 106
+p INV_4/Y VDD 1bitAddSub_5/FullAddr_0/a_104_69# 2 4 1444 106
+n A5 1bitAddSub_5/FullAddr_0/a_41_8# INV_5/A 2 4 1386 45
+n A5 1bitAddSub_5/FullAddr_0/a_109_8# 1bitAddSub_5/INV_0/A 2 4 1454 45
+p A5 VDD 1bitAddSub_5/FullAddr_0/a_64_69# 2 4 1404 106
+p 1bitAddSub_5/XOR2_0/Y VDD 1bitAddSub_5/FullAddr_0/a_41_69# 2 4 1381 106
+p INV_4/Y 1bitAddSub_5/FullAddr_0/a_2_57# INV_5/A 2 16 1365 94
+p INV_5/A 1bitAddSub_5/FullAddr_0/a_64_69# 1bitAddSub_5/INV_0/A 2 4 1428 106
+n INV_4/Y VSS 1bitAddSub_5/FullAddr_0/a_64_8# 2 4 1420 45
+n A5 VSS 1bitAddSub_5/FullAddr_0/a_64_8# 2 4 1404 45
+n 1bitAddSub_5/XOR2_0/Y VSS 1bitAddSub_5/FullAddr_0/a_2_8# 2 8 1357 45
+n K VSS 1bitAddSub_5/XOR2_0/INV_1/Y 2 4 1266 45
+p K VDD 1bitAddSub_5/XOR2_0/INV_1/Y 2 4 1266 112
+n B5 VSS 1bitAddSub_5/XOR2_0/INV_0/Y 2 4 1282 45
+p B5 VDD 1bitAddSub_5/XOR2_0/INV_0/Y 2 4 1282 112
+n K 1bitAddSub_5/XOR2_0/Y 1bitAddSub_5/XOR2_0/a_9_8# 2 4 1298 45
+p 1bitAddSub_5/XOR2_0/INV_0/Y 1bitAddSub_5/XOR2_0/a_2_68# 1bitAddSub_5/XOR2_0/Y 2 4 1314 105
+n 1bitAddSub_5/XOR2_0/INV_0/Y VSS 1bitAddSub_5/XOR2_0/a_25_8# 2 4 1314 45
+n 1bitAddSub_5/XOR2_0/INV_1/Y 1bitAddSub_5/XOR2_0/a_25_8# 1bitAddSub_5/XOR2_0/Y 2 4 1322 45
+p 1bitAddSub_5/XOR2_0/INV_1/Y 1bitAddSub_5/XOR2_0/Y 1bitAddSub_5/XOR2_0/a_2_68# 2 4 1322 105
+p K 1bitAddSub_5/XOR2_0/a_2_68# VDD 2 4 1298 105
+p B5 VDD 1bitAddSub_5/XOR2_0/a_2_68# 2 4 1306 105
+n B5 1bitAddSub_5/XOR2_0/a_9_8# VSS 2 4 1306 45
+n 1bitAddSub_5/INV_0/A VSS BUFFER8_0/A5 2 4 1481 45
+p 1bitAddSub_5/INV_0/A VDD BUFFER8_0/A5 2 4 1481 112
+p 1bitAddSub_6/XOR2_0/Y 1bitAddSub_6/FullAddr_0/a_64_69# VDD 2 4 1663 106
+n A6 1bitAddSub_6/FullAddr_0/a_2_8# VSS 2 8 1600 45
+n 1bitAddSub_6/XOR2_0/Y VSS 1bitAddSub_6/FullAddr_0/a_41_8# 2 4 1632 45
+n INV_6/A 1bitAddSub_6/FullAddr_0/a_64_8# 1bitAddSub_6/INV_0/A 2 4 1679 45
+n 1bitAddSub_6/XOR2_0/Y 1bitAddSub_6/FullAddr_0/a_104_8# 1bitAddSub_6/FullAddr_0/a_109_8# 2 4 1700 45
+n 1bitAddSub_6/XOR2_0/Y 1bitAddSub_6/FullAddr_0/a_64_8# VSS 2 4 1663 45
+n INV_5/Y 1bitAddSub_6/FullAddr_0/a_2_8# INV_6/A 2 8 1616 45
+p A6 1bitAddSub_6/FullAddr_0/a_109_69# 1bitAddSub_6/INV_0/A 2 4 1705 106
+p A6 1bitAddSub_6/FullAddr_0/a_2_57# VDD 2 16 1600 94
+n INV_5/Y VSS 1bitAddSub_6/FullAddr_0/a_104_8# 2 4 1695 45
+p 1bitAddSub_6/XOR2_0/Y VDD 1bitAddSub_6/FullAddr_0/a_2_57# 2 16 1608 94
+p 1bitAddSub_6/XOR2_0/Y 1bitAddSub_6/FullAddr_0/a_104_69# 1bitAddSub_6/FullAddr_0/a_109_69# 2 4 1700 106
+p INV_5/Y VDD 1bitAddSub_6/FullAddr_0/a_64_69# 2 4 1671 106
+p A6 1bitAddSub_6/FullAddr_0/a_41_69# INV_6/A 2 4 1637 106
+p INV_5/Y VDD 1bitAddSub_6/FullAddr_0/a_104_69# 2 4 1695 106
+n A6 1bitAddSub_6/FullAddr_0/a_41_8# INV_6/A 2 4 1637 45
+n A6 1bitAddSub_6/FullAddr_0/a_109_8# 1bitAddSub_6/INV_0/A 2 4 1705 45
+p A6 VDD 1bitAddSub_6/FullAddr_0/a_64_69# 2 4 1655 106
+p 1bitAddSub_6/XOR2_0/Y VDD 1bitAddSub_6/FullAddr_0/a_41_69# 2 4 1632 106
+p INV_5/Y 1bitAddSub_6/FullAddr_0/a_2_57# INV_6/A 2 16 1616 94
+p INV_6/A 1bitAddSub_6/FullAddr_0/a_64_69# 1bitAddSub_6/INV_0/A 2 4 1679 106
+n INV_5/Y VSS 1bitAddSub_6/FullAddr_0/a_64_8# 2 4 1671 45
+n A6 VSS 1bitAddSub_6/FullAddr_0/a_64_8# 2 4 1655 45
+n 1bitAddSub_6/XOR2_0/Y VSS 1bitAddSub_6/FullAddr_0/a_2_8# 2 8 1608 45
+n K VSS 1bitAddSub_6/XOR2_0/INV_1/Y 2 4 1517 45
+p K VDD 1bitAddSub_6/XOR2_0/INV_1/Y 2 4 1517 112
+n B6 VSS 1bitAddSub_6/XOR2_0/INV_0/Y 2 4 1533 45
+p B6 VDD 1bitAddSub_6/XOR2_0/INV_0/Y 2 4 1533 112
+n K 1bitAddSub_6/XOR2_0/Y 1bitAddSub_6/XOR2_0/a_9_8# 2 4 1549 45
+p 1bitAddSub_6/XOR2_0/INV_0/Y 1bitAddSub_6/XOR2_0/a_2_68# 1bitAddSub_6/XOR2_0/Y 2 4 1565 105
+n 1bitAddSub_6/XOR2_0/INV_0/Y VSS 1bitAddSub_6/XOR2_0/a_25_8# 2 4 1565 45
+n 1bitAddSub_6/XOR2_0/INV_1/Y 1bitAddSub_6/XOR2_0/a_25_8# 1bitAddSub_6/XOR2_0/Y 2 4 1573 45
+p 1bitAddSub_6/XOR2_0/INV_1/Y 1bitAddSub_6/XOR2_0/Y 1bitAddSub_6/XOR2_0/a_2_68# 2 4 1573 105
+p K 1bitAddSub_6/XOR2_0/a_2_68# VDD 2 4 1549 105
+p B6 VDD 1bitAddSub_6/XOR2_0/a_2_68# 2 4 1557 105
+n B6 1bitAddSub_6/XOR2_0/a_9_8# VSS 2 4 1557 45
+n 1bitAddSub_6/INV_0/A VSS BUFFER8_0/A6 2 4 1732 45
+p 1bitAddSub_6/INV_0/A VDD BUFFER8_0/A6 2 4 1732 112
+p 1bitAddSub_7/XOR2_0/Y 1bitAddSub_7/FullAddr_0/a_64_69# VDD 2 4 1914 106
+n A7 1bitAddSub_7/FullAddr_0/a_2_8# VSS 2 8 1851 45
+n 1bitAddSub_7/XOR2_0/Y VSS 1bitAddSub_7/FullAddr_0/a_41_8# 2 4 1883 45
+n INV_7/A 1bitAddSub_7/FullAddr_0/a_64_8# 1bitAddSub_7/INV_0/A 2 4 1930 45
+n 1bitAddSub_7/XOR2_0/Y 1bitAddSub_7/FullAddr_0/a_104_8# 1bitAddSub_7/FullAddr_0/a_109_8# 2 4 1951 45
+n 1bitAddSub_7/XOR2_0/Y 1bitAddSub_7/FullAddr_0/a_64_8# VSS 2 4 1914 45
+n INV_6/Y 1bitAddSub_7/FullAddr_0/a_2_8# INV_7/A 2 8 1867 45
+p A7 1bitAddSub_7/FullAddr_0/a_109_69# 1bitAddSub_7/INV_0/A 2 4 1956 106
+p A7 1bitAddSub_7/FullAddr_0/a_2_57# VDD 2 16 1851 94
+n INV_6/Y VSS 1bitAddSub_7/FullAddr_0/a_104_8# 2 4 1946 45
+p 1bitAddSub_7/XOR2_0/Y VDD 1bitAddSub_7/FullAddr_0/a_2_57# 2 16 1859 94
+p 1bitAddSub_7/XOR2_0/Y 1bitAddSub_7/FullAddr_0/a_104_69# 1bitAddSub_7/FullAddr_0/a_109_69# 2 4 1951 106
+p INV_6/Y VDD 1bitAddSub_7/FullAddr_0/a_64_69# 2 4 1922 106
+p A7 1bitAddSub_7/FullAddr_0/a_41_69# INV_7/A 2 4 1888 106
+p INV_6/Y VDD 1bitAddSub_7/FullAddr_0/a_104_69# 2 4 1946 106
+n A7 1bitAddSub_7/FullAddr_0/a_41_8# INV_7/A 2 4 1888 45
+n A7 1bitAddSub_7/FullAddr_0/a_109_8# 1bitAddSub_7/INV_0/A 2 4 1956 45
+p A7 VDD 1bitAddSub_7/FullAddr_0/a_64_69# 2 4 1906 106
+p 1bitAddSub_7/XOR2_0/Y VDD 1bitAddSub_7/FullAddr_0/a_41_69# 2 4 1883 106
+p INV_6/Y 1bitAddSub_7/FullAddr_0/a_2_57# INV_7/A 2 16 1867 94
+p INV_7/A 1bitAddSub_7/FullAddr_0/a_64_69# 1bitAddSub_7/INV_0/A 2 4 1930 106
+n INV_6/Y VSS 1bitAddSub_7/FullAddr_0/a_64_8# 2 4 1922 45
+n A7 VSS 1bitAddSub_7/FullAddr_0/a_64_8# 2 4 1906 45
+n 1bitAddSub_7/XOR2_0/Y VSS 1bitAddSub_7/FullAddr_0/a_2_8# 2 8 1859 45
+n K VSS 1bitAddSub_7/XOR2_0/INV_1/Y 2 4 1768 45
+p K VDD 1bitAddSub_7/XOR2_0/INV_1/Y 2 4 1768 112
+n B7 VSS 1bitAddSub_7/XOR2_0/INV_0/Y 2 4 1784 45
+p B7 VDD 1bitAddSub_7/XOR2_0/INV_0/Y 2 4 1784 112
+n K 1bitAddSub_7/XOR2_0/Y 1bitAddSub_7/XOR2_0/a_9_8# 2 4 1800 45
+p 1bitAddSub_7/XOR2_0/INV_0/Y 1bitAddSub_7/XOR2_0/a_2_68# 1bitAddSub_7/XOR2_0/Y 2 4 1816 105
+n 1bitAddSub_7/XOR2_0/INV_0/Y VSS 1bitAddSub_7/XOR2_0/a_25_8# 2 4 1816 45
+n 1bitAddSub_7/XOR2_0/INV_1/Y 1bitAddSub_7/XOR2_0/a_25_8# 1bitAddSub_7/XOR2_0/Y 2 4 1824 45
+p 1bitAddSub_7/XOR2_0/INV_1/Y 1bitAddSub_7/XOR2_0/Y 1bitAddSub_7/XOR2_0/a_2_68# 2 4 1824 105
+p K 1bitAddSub_7/XOR2_0/a_2_68# VDD 2 4 1800 105
+p B7 VDD 1bitAddSub_7/XOR2_0/a_2_68# 2 4 1808 105
+n B7 1bitAddSub_7/XOR2_0/a_9_8# VSS 2 4 1808 45
+n 1bitAddSub_7/INV_0/A VSS BUFFER8_0/A7 2 4 1983 45
+p 1bitAddSub_7/INV_0/A VDD BUFFER8_0/A7 2 4 1983 112
+n INV_7/Y VSS XOR2_0/INV_1/Y 2 4 2015 45
+p INV_7/Y VDD XOR2_0/INV_1/Y 2 4 2015 112
+n K VSS XOR2_0/INV_0/Y 2 4 2031 45
+p K VDD XOR2_0/INV_0/Y 2 4 2031 112
+n INV_7/Y XOR2_0/Y XOR2_0/a_9_8# 2 4 2047 45
+p XOR2_0/INV_0/Y XOR2_0/a_2_68# XOR2_0/Y 2 4 2063 105
+n XOR2_0/INV_0/Y VSS XOR2_0/a_25_8# 2 4 2063 45
+n XOR2_0/INV_1/Y XOR2_0/a_25_8# XOR2_0/Y 2 4 2071 45
+p XOR2_0/INV_1/Y XOR2_0/Y XOR2_0/a_2_68# 2 4 2071 105
+p INV_7/Y XOR2_0/a_2_68# VDD 2 4 2047 105
+p K VDD XOR2_0/a_2_68# 2 4 2055 105
+n K XOR2_0/a_9_8# VSS 2 4 2055 45
+n INV_0/A VSS INV_0/Y 2 4 242 45
+p INV_0/A VDD INV_0/Y 2 4 242 112
+C Overflow D0 2.27
+C BUFFER8_0/INV_0/Y VSS 3.83
+C A0 1bitAddSub_0/XOR2_0/Y 6.33
+C A2 INV_2/A 3.51
+C INV_1/Y INV_2/A 3.13
+C A1 INV_1/A 3.51
+C A2 A1 3.92
+C A2 A3 6.82
+C A3 INV_3/A 3.51
+C A0 VDD 4.27
+C D4 BUFFER8_0/A4 2.09
+C INV_2/Y INV_3/A 3.13
+C A4 INV_4/A 3.51
+C A3 A4 9.72
+C INV_3/Y INV_4/A 3.13
+C A5 INV_5/A 3.51
+C D5 BUFFER8_0/A5 2.20
+C A4 A5 12.62
+C K INV_0/A 3.20
+C INV_4/Y INV_5/A 3.13
+C A6 INV_6/A 3.51
+C A5 A6 15.51
+C INV_5/Y INV_6/A 3.13
+C A7 INV_7/A 3.51
+C A6 A7 18.41
+C K INV_1/Y 2.32
+C D7 BUFFER8_0/A7 2.40
+C INV_6/Y INV_7/A 3.13
+C BUFFER8_0/A0 BUFFER8_0/A1 19.37
+C K INV_2/Y 2.32
+C D6 BUFFER8_0/A6 2.30
+C BUFFER8_0/A2 BUFFER8_0/A1 16.80
+C K INV_3/Y 2.32
+C INV_1/A INV_0/Y 3.13
+C BUFFER8_0/A2 BUFFER8_0/A3 14.19
+C K INV_4/Y 2.32
+C K INV_5/Y 2.32
+C K INV_6/Y 2.32
+C BUFFER8_0/A3 BUFFER8_0/A4 11.58
+C BUFFER8_0/A4 BUFFER8_0/A5 8.98
+C 1bitAddSub_0/XOR2_0/Y VDD 4.73
+C BUFFER8_0/A5 BUFFER8_0/A6 6.37
+C VDD 1bitAddSub_2/XOR2_0/Y 4.73
+C VDD 1bitAddSub_1/XOR2_0/Y 4.73
+C BUFFER8_0/A6 BUFFER8_0/A7 3.76
+C K INV_0/Y 2.32
+C VDD 1bitAddSub_3/XOR2_0/Y 4.73
+C enb K 21.39
+C VDD 1bitAddSub_4/XOR2_0/Y 4.73
+C VDD 1bitAddSub_5/XOR2_0/Y 4.73
+C VDD 1bitAddSub_6/XOR2_0/Y 4.73
+C VDD 1bitAddSub_7/XOR2_0/Y 4.73
+C A0 INV_0/A 3.51
+C B2 B1 3.13
+C B2 B3 6.03
+C Overflow BUFFER8_0/INV_0/Y 2.16
+C B3 B4 8.92
+C B4 B5 11.82
+C B5 B6 14.72
+C B6 B7 17.62
+C A2 1bitAddSub_2/XOR2_0/Y 6.29
+C INV_1/Y 1bitAddSub_2/XOR2_0/Y 5.92
+C A1 1bitAddSub_1/XOR2_0/Y 6.29
+C INV_0/A VDD 2.87
+C VDD INV_2/A 2.87
+C A3 1bitAddSub_3/XOR2_0/Y 6.29
+C VDD INV_1/A 2.87
+C A2 VDD 4.27
+C INV_2/Y 1bitAddSub_3/XOR2_0/Y 5.92
+C VDD INV_3/A 2.87
+C VDD A1 4.27
+C A4 1bitAddSub_4/XOR2_0/Y 6.29
+C INV_1/Y VDD 3.40
+C VDD INV_4/A 2.87
+C VDD A3 4.27
+C INV_3/Y 1bitAddSub_4/XOR2_0/Y 5.92
+C VDD INV_5/A 2.87
+C VDD A4 4.27
+C A5 1bitAddSub_5/XOR2_0/Y 6.29
+C VDD INV_2/Y 3.40
+C VDD INV_6/A 2.87
+C K 1bitAddSub_0/XOR2_0/Y 6.16
+C VDD A5 4.27
+C VDD INV_3/Y 3.40
+C INV_4/Y 1bitAddSub_5/XOR2_0/Y 5.92
+C VDD INV_7/A 2.87
+C VDD A6 4.27
+C A6 1bitAddSub_6/XOR2_0/Y 6.25
+C INV_0/A VSS 2.61
+C VDD INV_4/Y 3.40
+C VDD A7 4.27
+C INV_2/A VSS 2.61
+C VDD INV_5/Y 3.40
+C INV_5/Y 1bitAddSub_6/XOR2_0/Y 5.92
+C A7 1bitAddSub_7/XOR2_0/Y 6.29
+C INV_1/A VSS 2.61
+C VDD INV_6/Y 3.40
+C enb BUFFER8_0/A0 21.99
+C 1bitAddSub_0/INV_0/A VDD 2.11
+C INV_3/A VSS 2.61
+C INV_6/Y 1bitAddSub_7/XOR2_0/Y 5.92
+C 1bitAddSub_2/INV_0/A VDD 2.11
+C INV_4/A VSS 2.61
+C VDD 1bitAddSub_1/INV_0/A 2.11
+C K VDD 12.87
+C VSS INV_5/A 2.61
+C VDD 1bitAddSub_3/INV_0/A 2.11
+C 1bitAddSub_1/XOR2_0/Y INV_0/Y 5.92
+C VSS INV_6/A 2.61
+C VDD 1bitAddSub_4/INV_0/A 2.11
+C VSS INV_7/A 2.61
+C VDD 1bitAddSub_5/INV_0/A 2.11
+C VDD 1bitAddSub_6/INV_0/A 2.11
+C VDD 1bitAddSub_7/INV_0/A 2.11
+C VDD INV_0/Y 3.40
+C enb VDD 9.79
+C K VSS 3.15
+C INV_0/Y GND 10.91
+R INV_0/Y 297
+R XOR2_0/a_2_68# 25
+C XOR2_0/INV_0/Y GND 3.49
+R XOR2_0/INV_0/Y 94
+C XOR2_0/INV_1/Y GND 3.66
+R XOR2_0/INV_1/Y 94
+C INV_7/Y GND 6.11
+R INV_7/Y 193
+C INV_7/A GND 11.49
+R INV_7/A 228
+C BUFFER8_0/A7 GND 11.54
+R BUFFER8_0/A7 42
+C 1bitAddSub_7/INV_0/A GND 4.43
+R 1bitAddSub_7/INV_0/A 127
+C 1bitAddSub_7/XOR2_0/Y GND 12.29
+R 1bitAddSub_7/XOR2_0/Y 405
+R 1bitAddSub_7/XOR2_0/a_2_68# 25
+C 1bitAddSub_7/XOR2_0/INV_0/Y GND 3.49
+R 1bitAddSub_7/XOR2_0/INV_0/Y 94
+C B7 GND 47.79
+R B7 220
+C 1bitAddSub_7/XOR2_0/INV_1/Y GND 3.66
+R 1bitAddSub_7/XOR2_0/INV_1/Y 94
+R 1bitAddSub_7/FullAddr_0/a_64_8# 18
+R 1bitAddSub_7/FullAddr_0/a_2_8# 18
+R 1bitAddSub_7/FullAddr_0/a_64_69# 15
+R 1bitAddSub_7/FullAddr_0/a_2_57# 20
+C INV_6/Y GND 10.63
+R INV_6/Y 297
+C A7 GND 52.54
+R A7 402
+C INV_6/A GND 11.29
+R INV_6/A 229
+C BUFFER8_0/A6 GND 17.66
+R BUFFER8_0/A6 46
+C 1bitAddSub_6/INV_0/A GND 4.43
+R 1bitAddSub_6/INV_0/A 127
+C 1bitAddSub_6/XOR2_0/Y GND 12.29
+R 1bitAddSub_6/XOR2_0/Y 405
+R 1bitAddSub_6/XOR2_0/a_2_68# 25
+C 1bitAddSub_6/XOR2_0/INV_0/Y GND 3.49
+R 1bitAddSub_6/XOR2_0/INV_0/Y 94
+C B6 GND 41.95
+R B6 216
+C 1bitAddSub_6/XOR2_0/INV_1/Y GND 3.66
+R 1bitAddSub_6/XOR2_0/INV_1/Y 94
+R 1bitAddSub_6/FullAddr_0/a_64_8# 18
+R 1bitAddSub_6/FullAddr_0/a_2_8# 18
+R 1bitAddSub_6/FullAddr_0/a_64_69# 15
+R 1bitAddSub_6/FullAddr_0/a_2_57# 20
+C INV_5/Y GND 8.78
+R INV_5/Y 297
+C A6 GND 46.74
+R A6 397
+C INV_5/A GND 11.49
+R INV_5/A 228
+C BUFFER8_0/A5 GND 22.77
+R BUFFER8_0/A5 51
+C 1bitAddSub_5/INV_0/A GND 4.43
+R 1bitAddSub_5/INV_0/A 127
+C 1bitAddSub_5/XOR2_0/Y GND 12.29
+R 1bitAddSub_5/XOR2_0/Y 405
+R 1bitAddSub_5/XOR2_0/a_2_68# 25
+C VSS GND 73.72
+R VSS 1784
+C 1bitAddSub_5/XOR2_0/INV_0/Y GND 3.49
+R 1bitAddSub_5/XOR2_0/INV_0/Y 94
+C B5 GND 36.11
+R B5 211
+C 1bitAddSub_5/XOR2_0/INV_1/Y GND 3.66
+R 1bitAddSub_5/XOR2_0/INV_1/Y 94
+R 1bitAddSub_5/FullAddr_0/a_64_8# 18
+R 1bitAddSub_5/FullAddr_0/a_2_8# 18
+R 1bitAddSub_5/FullAddr_0/a_64_69# 15
+R 1bitAddSub_5/FullAddr_0/a_2_57# 20
+C INV_4/Y GND 10.68
+R INV_4/Y 297
+C A5 GND 40.94
+R A5 393
+C INV_4/A GND 11.24
+R INV_4/A 229
+C BUFFER8_0/A4 GND 27.88
+R BUFFER8_0/A4 54
+C 1bitAddSub_4/INV_0/A GND 4.43
+R 1bitAddSub_4/INV_0/A 127
+C 1bitAddSub_4/XOR2_0/Y GND 12.29
+R 1bitAddSub_4/XOR2_0/Y 405
+R 1bitAddSub_4/XOR2_0/a_2_68# 25
+C 1bitAddSub_4/XOR2_0/INV_0/Y GND 3.49
+R 1bitAddSub_4/XOR2_0/INV_0/Y 94
+C B4 GND 30.27
+R B4 207
+C 1bitAddSub_4/XOR2_0/INV_1/Y GND 3.66
+R 1bitAddSub_4/XOR2_0/INV_1/Y 94
+R 1bitAddSub_4/FullAddr_0/a_64_8# 18
+R 1bitAddSub_4/FullAddr_0/a_2_8# 18
+R 1bitAddSub_4/FullAddr_0/a_64_69# 15
+R 1bitAddSub_4/FullAddr_0/a_2_57# 20
+C INV_3/Y GND 8.68
+R INV_3/Y 297
+C A4 GND 35.10
+R A4 388
+C INV_3/A GND 11.49
+R INV_3/A 228
+C BUFFER8_0/A3 GND 31.97
+R BUFFER8_0/A3 58
+C 1bitAddSub_3/INV_0/A GND 4.43
+R 1bitAddSub_3/INV_0/A 127
+C 1bitAddSub_3/XOR2_0/Y GND 12.29
+R 1bitAddSub_3/XOR2_0/Y 405
+R 1bitAddSub_3/XOR2_0/a_2_68# 25
+C 1bitAddSub_3/XOR2_0/INV_0/Y GND 3.49
+R 1bitAddSub_3/XOR2_0/INV_0/Y 94
+C B3 GND 24.44
+R B3 202
+C 1bitAddSub_3/XOR2_0/INV_1/Y GND 3.66
+R 1bitAddSub_3/XOR2_0/INV_1/Y 94
+R 1bitAddSub_3/FullAddr_0/a_64_8# 18
+R 1bitAddSub_3/FullAddr_0/a_2_8# 18
+R 1bitAddSub_3/FullAddr_0/a_64_69# 15
+R 1bitAddSub_3/FullAddr_0/a_2_57# 20
+C INV_2/Y GND 10.72
+R INV_2/Y 297
+C A3 GND 29.30
+R A3 383
+C INV_1/A GND 11.66
+R INV_1/A 227
+C BUFFER8_0/A1 GND 43.20
+R BUFFER8_0/A1 65
+C 1bitAddSub_1/INV_0/A GND 4.57
+R 1bitAddSub_1/INV_0/A 127
+C 1bitAddSub_1/XOR2_0/Y GND 12.48
+R 1bitAddSub_1/XOR2_0/Y 405
+R 1bitAddSub_1/XOR2_0/a_2_68# 25
+C 1bitAddSub_1/XOR2_0/INV_0/Y GND 3.49
+R 1bitAddSub_1/XOR2_0/INV_0/Y 94
+C B1 GND 12.76
+R B1 193
+C 1bitAddSub_1/XOR2_0/INV_1/Y GND 3.66
+R 1bitAddSub_1/XOR2_0/INV_1/Y 94
+R 1bitAddSub_1/FullAddr_0/a_64_8# 18
+R 1bitAddSub_1/FullAddr_0/a_2_8# 18
+R 1bitAddSub_1/FullAddr_0/a_64_69# 15
+R 1bitAddSub_1/FullAddr_0/a_2_57# 20
+C A1 GND 11.74
+R A1 374
+C INV_2/A GND 11.20
+R INV_2/A 229
+C VDD GND 876.46
+R VDD 88076
+C BUFFER8_0/A2 GND 38.10
+R BUFFER8_0/A2 61
+C 1bitAddSub_2/INV_0/A GND 4.43
+R 1bitAddSub_2/INV_0/A 127
+C 1bitAddSub_2/XOR2_0/Y GND 12.29
+R 1bitAddSub_2/XOR2_0/Y 405
+R 1bitAddSub_2/XOR2_0/a_2_68# 25
+C 1bitAddSub_2/XOR2_0/INV_0/Y GND 3.49
+R 1bitAddSub_2/XOR2_0/INV_0/Y 94
+C B2 GND 18.60
+R B2 198
+C 1bitAddSub_2/XOR2_0/INV_1/Y GND 3.66
+R 1bitAddSub_2/XOR2_0/INV_1/Y 94
+R 1bitAddSub_2/FullAddr_0/a_64_8# 18
+R 1bitAddSub_2/FullAddr_0/a_2_8# 18
+R 1bitAddSub_2/FullAddr_0/a_64_69# 15
+R 1bitAddSub_2/FullAddr_0/a_2_57# 20
+C INV_1/Y GND 8.83
+R INV_1/Y 297
+C A2 GND 23.50
+R A2 379
+C INV_0/A GND 11.15
+R INV_0/A 229
+C BUFFER8_0/A0 GND 48.18
+R BUFFER8_0/A0 69
+C 1bitAddSub_0/INV_0/A GND 4.43
+R 1bitAddSub_0/INV_0/A 127
+C 1bitAddSub_0/XOR2_0/Y GND 12.29
+R 1bitAddSub_0/XOR2_0/Y 405
+R 1bitAddSub_0/XOR2_0/a_2_68# 25
+C 1bitAddSub_0/XOR2_0/INV_0/Y GND 3.49
+R 1bitAddSub_0/XOR2_0/INV_0/Y 94
+C B0 GND 6.96
+R B0 189
+C 1bitAddSub_0/XOR2_0/INV_1/Y GND 3.66
+R 1bitAddSub_0/XOR2_0/INV_1/Y 94
+C K GND 61.91
+R K 2029
+R 1bitAddSub_0/FullAddr_0/a_64_8# 18
+R 1bitAddSub_0/FullAddr_0/a_2_8# 18
+R 1bitAddSub_0/FullAddr_0/a_64_69# 15
+R 1bitAddSub_0/FullAddr_0/a_2_57# 20
+C A0 GND 11.94
+R A0 370
+C BUFFER_0/INV_0/Y GND 2.09
+R BUFFER_0/INV_0/Y 34
+C Overflow GND 3.70
+R Overflow 13
+C XOR2_0/Y GND 4.37
+R XOR2_0/Y 46
+C BUFFER8_0/INV_0/Y GND 15.09
+R BUFFER8_0/INV_0/Y 262
+C enb GND 12.46
+R enb 565
+C D0 GND 6.34
+R D0 13
+C D6 GND 3.13
+R D6 11
+C D7 GND 2.60
+R D7 11
+C D5 GND 3.67
+R D5 12
+C D4 GND 4.20
+R D4 12
+C D3 GND 4.74
+R D3 12
+C D2 GND 5.27
+R D2 12
+C D1 GND 5.81
+R D1 13

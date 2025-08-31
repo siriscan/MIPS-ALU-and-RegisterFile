@@ -1,0 +1,107 @@
+magic
+tech scmos
+timestamp 1746552068
+<< metal1 >>
+rect 10 100 412 104
+rect -3 92 396 96
+rect 59 40 63 51
+rect -3 8 396 12
+rect 18 0 412 4
+<< m2contact >>
+rect 6 100 10 104
+rect 6 52 10 56
+rect 22 44 26 48
+rect 73 44 77 48
+rect 124 44 128 48
+rect 175 44 179 48
+rect 226 44 230 48
+rect 277 44 281 48
+rect 328 44 332 48
+rect 379 44 383 48
+rect 14 20 18 24
+rect 59 20 63 24
+rect 110 20 114 24
+rect 132 20 136 24
+rect 161 20 165 24
+rect 212 20 216 24
+rect 263 20 267 24
+rect 314 20 318 24
+rect 365 20 369 24
+rect 416 20 420 24
+rect 14 0 18 4
+<< metal2 >>
+rect 6 56 10 100
+rect 14 4 18 20
+rect 22 -4 26 44
+rect 59 -4 63 20
+rect 73 -4 77 44
+rect 110 -4 114 20
+rect 124 -4 128 44
+rect 161 -4 165 20
+rect 175 -4 179 44
+rect 212 -4 216 20
+rect 226 -4 230 44
+rect 263 -4 267 20
+rect 277 -4 281 44
+rect 314 -4 318 20
+rect 328 -4 332 44
+rect 365 -4 369 20
+rect 379 -4 383 44
+rect 416 -4 420 20
+use BUFFER2  BUFFER2_0
+timestamp 1746550931
+transform 1 0 16 0 1 8
+box 0 -8 71 96
+use BUFFER2  BUFFER2_1
+timestamp 1746550931
+transform 1 0 67 0 1 8
+box 0 -8 71 96
+use BUFFER2  BUFFER2_2
+timestamp 1746550931
+transform 1 0 118 0 1 8
+box 0 -8 71 96
+use BUFFER2  BUFFER2_3
+timestamp 1746550931
+transform 1 0 169 0 1 8
+box 0 -8 71 96
+use BUFFER2  BUFFER2_4
+timestamp 1746550931
+transform 1 0 220 0 1 8
+box 0 -8 71 96
+use BUFFER2  BUFFER2_5
+timestamp 1746550931
+transform 1 0 271 0 1 8
+box 0 -8 71 96
+use BUFFER2  BUFFER2_6
+timestamp 1746550931
+transform 1 0 322 0 1 8
+box 0 -8 71 96
+use BUFFER2  BUFFER2_7
+timestamp 1746550931
+transform 1 0 373 0 1 8
+box 0 -8 71 96
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 4 0 1 8
+box -4 0 20 91
+<< labels >>
+rlabel metal2 8 59 8 59 1 en
+rlabel metal2 24 -2 24 -2 1 A0
+rlabel metal2 61 -2 61 -2 1 Y0
+rlabel metal2 75 -2 75 -2 1 A1
+rlabel metal2 112 -1 112 -1 1 Y1
+rlabel metal2 126 -2 126 -2 1 A2
+rlabel metal2 163 -2 163 -2 1 Y2
+rlabel metal2 177 -2 177 -2 1 A3
+rlabel metal2 214 -2 214 -2 1 Y3
+rlabel metal2 228 -2 228 -2 1 A4
+rlabel metal2 265 -2 265 -2 1 Y4
+rlabel metal2 279 -2 279 -2 1 A5
+rlabel metal2 316 -2 316 -2 1 Y5
+rlabel metal2 330 -2 330 -2 1 A6
+rlabel metal2 367 -2 367 -2 1 Y6
+rlabel metal2 418 -2 418 -2 1 Y7
+rlabel metal2 381 -2 381 -2 1 A7
+rlabel metal1 -2 94 -2 94 3 VDD
+rlabel metal1 -2 10 -2 10 3 VSS
+<< end >>

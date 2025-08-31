@@ -1,0 +1,66 @@
+| units: 30 tech: scmos format: MIT
+p B VDD Bbar 2 4 27 75
+n B VSS Bbar 2 4 27 8
+n Greater VSS Equal 2 4 131 8
+n Less Equal VSS 2 4 123 8
+p Greater NOR2_0/a_9_76# Equal 2 4 131 76
+p Less VDD NOR2_0/a_9_76# 2 4 123 76
+p AND2_0/a_2_72# VDD Less 2 4 67 76
+p Abar VDD AND2_0/a_2_72# 2 8 51 72
+n Abar AND2_0/a_9_8# AND2_0/a_2_72# 2 8 51 8
+p B AND2_0/a_2_72# VDD 2 8 43 72
+n B VSS AND2_0/a_9_8# 2 8 43 8
+n AND2_0/a_2_72# VSS Less 2 4 67 8
+p AND2_1/a_2_72# VDD Greater 2 4 107 76
+p A VDD AND2_1/a_2_72# 2 8 91 72
+n A AND2_1/a_9_8# AND2_1/a_2_72# 2 8 91 8
+p Bbar AND2_1/a_2_72# VDD 2 8 83 72
+n Bbar VSS AND2_1/a_9_8# 2 8 83 8
+n AND2_1/a_2_72# VSS Greater 2 4 107 8
+p A VDD Abar 2 4 11 75
+n A VSS Abar 2 4 11 8
+C VSS GND 3.78
+R VSS 118
+= VSS AND2_0/VSS
+= VSS NOR2_0/VSS
+= VSS AND2_1/VSS
+= VSS INV_1/VSS
+= VSS INV_0/VSS
+C Abar GND 4.77
+R Abar 105
+= Abar AND2_0/A
+= Abar INV_0/Y
+C A GND 7.56
+R A 198
+= A AND2_1/A
+= A INV_0/A
+C VDD GND 30.63
+R VDD 4286
+= VDD AND2_0/VDD
+= VDD NOR2_0/VDD
+= VDD INV_1/VDD
+= VDD AND2_1/VDD
+= VDD INV_0/VDD
+C AND2_1/a_2_72# GND 3.85
+R AND2_1/a_2_72# 116
+C Less GND 5.93
+R Less 111
+= Less NOR2_0/A
+= Less AND2_0/Y
+C AND2_0/a_2_72# GND 3.85
+R AND2_0/a_2_72# 116
+C Equal GND 2.24
+R Equal 22
+= Equal NOR2_0/Y
+C Greater GND 5.35
+R Greater 106
+= Greater AND2_1/Y
+= Greater NOR2_0/B
+C Bbar GND 5.29
+R Bbar 110
+= Bbar AND2_1/B
+= Bbar INV_1/Y
+C B GND 6.20
+R B 201
+= B AND2_0/B
+= B INV_1/A

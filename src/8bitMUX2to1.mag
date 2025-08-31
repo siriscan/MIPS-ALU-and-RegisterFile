@@ -1,0 +1,92 @@
+magic
+tech scmos
+timestamp 1746042099
+<< metal1 >>
+rect 4 100 516 104
+rect 29 37 33 43
+rect 54 36 58 41
+rect 93 35 97 40
+rect 118 35 122 40
+rect 157 35 161 40
+rect 182 35 186 40
+rect 221 35 225 40
+rect 246 34 250 39
+rect 285 35 289 40
+rect 310 34 314 39
+rect 349 35 353 40
+rect 374 36 378 41
+rect 413 35 417 40
+rect 438 35 442 40
+rect 477 35 481 40
+rect 502 35 506 40
+rect 4 16 516 20
+rect 6 8 499 12
+rect 50 0 54 4
+rect 114 0 118 4
+rect 178 0 182 4
+rect 242 0 246 4
+rect 306 0 310 4
+rect 370 0 374 4
+rect 434 0 438 4
+rect 498 0 502 4
+use MUX2to1  MUX2to1_0
+timestamp 1746041965
+transform 1 0 4 0 1 16
+box -4 -16 68 91
+use MUX2to1  MUX2to1_1
+timestamp 1746041965
+transform 1 0 68 0 1 16
+box -4 -16 68 91
+use MUX2to1  MUX2to1_2
+timestamp 1746041965
+transform 1 0 132 0 1 16
+box -4 -16 68 91
+use MUX2to1  MUX2to1_3
+timestamp 1746041965
+transform 1 0 196 0 1 16
+box -4 -16 68 91
+use MUX2to1  MUX2to1_4
+timestamp 1746041965
+transform 1 0 260 0 1 16
+box -4 -16 68 91
+use MUX2to1  MUX2to1_5
+timestamp 1746041965
+transform 1 0 324 0 1 16
+box -4 -16 68 91
+use MUX2to1  MUX2to1_6
+timestamp 1746041965
+transform 1 0 388 0 1 16
+box -4 -16 68 91
+use MUX2to1  MUX2to1_7
+timestamp 1746041965
+transform 1 0 452 0 1 16
+box -4 -16 68 91
+<< labels >>
+rlabel metal1 5 18 5 18 1 VSS
+rlabel metal1 8 102 8 102 1 VDD
+rlabel metal1 13 10 13 10 1 S
+rlabel metal1 52 2 52 2 1 Y0
+rlabel metal1 116 2 116 2 1 Y1
+rlabel metal1 180 2 180 2 1 Y2
+rlabel metal1 244 2 244 2 1 Y3
+rlabel metal1 308 2 308 2 1 Y4
+rlabel metal1 372 2 372 2 1 Y5
+rlabel metal1 436 2 436 2 1 Y6
+rlabel metal1 500 2 500 2 1 Y7
+rlabel metal1 31 39 31 39 1 A0
+rlabel metal1 95 37 95 37 1 A1
+rlabel metal1 159 37 159 37 1 A2
+rlabel metal1 223 37 223 37 1 A3
+rlabel metal1 287 37 287 37 1 A4
+rlabel metal1 351 37 351 37 1 A5
+rlabel metal1 415 37 415 37 1 A6
+rlabel metal1 479 37 479 37 1 A7
+rlabel metal1 504 37 504 37 1 B7
+rlabel metal1 440 37 440 37 1 B6
+rlabel metal1 376 38 376 38 1 B5
+rlabel metal1 312 36 312 36 1 B4
+rlabel metal1 248 36 248 36 1 B3
+rlabel metal1 184 37 184 37 1 B2
+rlabel metal1 120 37 120 37 1 B1
+rlabel metal1 56 38 56 38 1 B0
+<< end >>

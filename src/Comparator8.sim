@@ -1,0 +1,665 @@
+| units: 30 tech: scmos format: MIT
+n INV_1/A VSS Greater 2 4 2123 184
+p INV_1/A VDD Greater 2 4 2123 251
+n BUFFER8_0/INV_0/Y Equal Y1 2 4 2227 184
+p enb Equal Y1 2 8 2227 247
+n BUFFER8_0/INV_0/Y Greater Y2 2 4 2252 184
+p enb Greater Y2 2 8 2252 247
+n BUFFER8_0/INV_0/Y VSS Y3 2 4 2277 184
+p enb VSS Y3 2 8 2277 247
+n BUFFER8_0/INV_0/Y VSS Y4 2 4 2302 184
+p enb VSS Y4 2 8 2302 247
+n BUFFER8_0/INV_0/Y VSS Y5 2 4 2327 184
+p enb VSS Y5 2 8 2327 247
+n BUFFER8_0/INV_0/Y VSS Y6 2 4 2352 184
+p enb VSS Y6 2 8 2352 247
+n BUFFER8_0/INV_0/Y VSS Y7 2 4 2377 184
+p enb VSS Y7 2 8 2377 247
+n enb VSS BUFFER8_0/INV_0/Y 2 4 2179 184
+p enb VDD BUFFER8_0/INV_0/Y 2 4 2179 251
+n BUFFER8_0/INV_0/Y Less Y0 2 4 2202 184
+p enb Less Y0 2 8 2202 247
+n AND2_0/B VSS AND2_0/a_9_8# 2 8 2139 184
+p AND2_0/B AND2_0/a_2_72# VDD 2 8 2139 248
+p AND2_0/A VDD AND2_0/a_2_72# 2 8 2147 248
+n AND2_0/a_2_72# VSS Equal 2 4 2163 184
+p AND2_0/a_2_72# VDD Equal 2 4 2163 252
+n AND2_0/A AND2_0/a_9_8# AND2_0/a_2_72# 2 8 2147 184
+n Comparator4_0/INV_1/A VSS AOI21_0/B 2 4 1009 184
+p Comparator4_0/INV_1/A VDD AOI21_0/B 2 4 1009 251
+n B3 VSS Comparator4_0/Comparator1_0/Bbar 2 4 23 184
+p B3 VDD Comparator4_0/Comparator1_0/Bbar 2 4 23 251
+p Comparator4_0/NOR4_1/A Comparator4_0/Comparator1_0/NOR2_0/a_9_76# Comparator4_0/AND2_3/B 2 4 127 252
+n Comparator4_0/NOR4_0/A Comparator4_0/AND2_3/B VSS 2 4 119 184
+n Comparator4_0/NOR4_1/A VSS Comparator4_0/AND2_3/B 2 4 127 184
+p Comparator4_0/NOR4_0/A VDD Comparator4_0/Comparator1_0/NOR2_0/a_9_76# 2 4 119 252
+n B3 VSS Comparator4_0/Comparator1_0/AND2_0/a_9_8# 2 8 39 184
+p B3 Comparator4_0/Comparator1_0/AND2_0/a_2_72# VDD 2 8 39 248
+p Comparator4_0/Comparator1_0/Abar VDD Comparator4_0/Comparator1_0/AND2_0/a_2_72# 2 8 47 248
+n Comparator4_0/Comparator1_0/AND2_0/a_2_72# VSS Comparator4_0/NOR4_0/A 2 4 63 184
+p Comparator4_0/Comparator1_0/AND2_0/a_2_72# VDD Comparator4_0/NOR4_0/A 2 4 63 252
+n Comparator4_0/Comparator1_0/Abar Comparator4_0/Comparator1_0/AND2_0/a_9_8# Comparator4_0/Comparator1_0/AND2_0/a_2_72# 2 8 47 184
+n Comparator4_0/Comparator1_0/Bbar VSS Comparator4_0/Comparator1_0/AND2_1/a_9_8# 2 8 79 184
+p Comparator4_0/Comparator1_0/Bbar Comparator4_0/Comparator1_0/AND2_1/a_2_72# VDD 2 8 79 248
+p A3 VDD Comparator4_0/Comparator1_0/AND2_1/a_2_72# 2 8 87 248
+n Comparator4_0/Comparator1_0/AND2_1/a_2_72# VSS Comparator4_0/NOR4_1/A 2 4 103 184
+p Comparator4_0/Comparator1_0/AND2_1/a_2_72# VDD Comparator4_0/NOR4_1/A 2 4 103 252
+n A3 Comparator4_0/Comparator1_0/AND2_1/a_9_8# Comparator4_0/Comparator1_0/AND2_1/a_2_72# 2 8 87 184
+n A3 VSS Comparator4_0/Comparator1_0/Abar 2 4 7 184
+p A3 VDD Comparator4_0/Comparator1_0/Abar 2 4 7 251
+n B2 VSS Comparator4_0/Comparator1_1/Bbar 2 4 159 184
+p B2 VDD Comparator4_0/Comparator1_1/Bbar 2 4 159 251
+p Comparator4_0/AND2_3/A Comparator4_0/Comparator1_1/NOR2_0/a_9_76# Comparator4_0/AND2_1/A 2 4 263 252
+n Comparator4_0/AND2_0/A Comparator4_0/AND2_1/A VSS 2 4 255 184
+n Comparator4_0/AND2_3/A VSS Comparator4_0/AND2_1/A 2 4 263 184
+p Comparator4_0/AND2_0/A VDD Comparator4_0/Comparator1_1/NOR2_0/a_9_76# 2 4 255 252
+n B2 VSS Comparator4_0/Comparator1_1/AND2_0/a_9_8# 2 8 175 184
+p B2 Comparator4_0/Comparator1_1/AND2_0/a_2_72# VDD 2 8 175 248
+p Comparator4_0/Comparator1_1/Abar VDD Comparator4_0/Comparator1_1/AND2_0/a_2_72# 2 8 183 248
+n Comparator4_0/Comparator1_1/AND2_0/a_2_72# VSS Comparator4_0/AND2_0/A 2 4 199 184
+p Comparator4_0/Comparator1_1/AND2_0/a_2_72# VDD Comparator4_0/AND2_0/A 2 4 199 252
+n Comparator4_0/Comparator1_1/Abar Comparator4_0/Comparator1_1/AND2_0/a_9_8# Comparator4_0/Comparator1_1/AND2_0/a_2_72# 2 8 183 184
+n Comparator4_0/Comparator1_1/Bbar VSS Comparator4_0/Comparator1_1/AND2_1/a_9_8# 2 8 215 184
+p Comparator4_0/Comparator1_1/Bbar Comparator4_0/Comparator1_1/AND2_1/a_2_72# VDD 2 8 215 248
+p A2 VDD Comparator4_0/Comparator1_1/AND2_1/a_2_72# 2 8 223 248
+n Comparator4_0/Comparator1_1/AND2_1/a_2_72# VSS Comparator4_0/AND2_3/A 2 4 239 184
+p Comparator4_0/Comparator1_1/AND2_1/a_2_72# VDD Comparator4_0/AND2_3/A 2 4 239 252
+n A2 Comparator4_0/Comparator1_1/AND2_1/a_9_8# Comparator4_0/Comparator1_1/AND2_1/a_2_72# 2 8 223 184
+n A2 VSS Comparator4_0/Comparator1_1/Abar 2 4 143 184
+p A2 VDD Comparator4_0/Comparator1_1/Abar 2 4 143 251
+n B1 VSS Comparator4_0/Comparator1_2/Bbar 2 4 295 184
+p B1 VDD Comparator4_0/Comparator1_2/Bbar 2 4 295 251
+p Comparator4_0/AND2_4/A Comparator4_0/Comparator1_2/NOR2_0/a_9_76# Comparator4_0/AND2_5/A 2 4 399 252
+n Comparator4_0/AND2_2/A Comparator4_0/AND2_5/A VSS 2 4 391 184
+n Comparator4_0/AND2_4/A VSS Comparator4_0/AND2_5/A 2 4 399 184
+p Comparator4_0/AND2_2/A VDD Comparator4_0/Comparator1_2/NOR2_0/a_9_76# 2 4 391 252
+n B1 VSS Comparator4_0/Comparator1_2/AND2_0/a_9_8# 2 8 311 184
+p B1 Comparator4_0/Comparator1_2/AND2_0/a_2_72# VDD 2 8 311 248
+p Comparator4_0/Comparator1_2/Abar VDD Comparator4_0/Comparator1_2/AND2_0/a_2_72# 2 8 319 248
+n Comparator4_0/Comparator1_2/AND2_0/a_2_72# VSS Comparator4_0/AND2_2/A 2 4 335 184
+p Comparator4_0/Comparator1_2/AND2_0/a_2_72# VDD Comparator4_0/AND2_2/A 2 4 335 252
+n Comparator4_0/Comparator1_2/Abar Comparator4_0/Comparator1_2/AND2_0/a_9_8# Comparator4_0/Comparator1_2/AND2_0/a_2_72# 2 8 319 184
+n Comparator4_0/Comparator1_2/Bbar VSS Comparator4_0/Comparator1_2/AND2_1/a_9_8# 2 8 351 184
+p Comparator4_0/Comparator1_2/Bbar Comparator4_0/Comparator1_2/AND2_1/a_2_72# VDD 2 8 351 248
+p A1 VDD Comparator4_0/Comparator1_2/AND2_1/a_2_72# 2 8 359 248
+n Comparator4_0/Comparator1_2/AND2_1/a_2_72# VSS Comparator4_0/AND2_4/A 2 4 375 184
+p Comparator4_0/Comparator1_2/AND2_1/a_2_72# VDD Comparator4_0/AND2_4/A 2 4 375 252
+n A1 Comparator4_0/Comparator1_2/AND2_1/a_9_8# Comparator4_0/Comparator1_2/AND2_1/a_2_72# 2 8 359 184
+n A1 VSS Comparator4_0/Comparator1_2/Abar 2 4 279 184
+p A1 VDD Comparator4_0/Comparator1_2/Abar 2 4 279 251
+n B0 VSS Comparator4_0/Comparator1_3/Bbar 2 4 431 184
+p B0 VDD Comparator4_0/Comparator1_3/Bbar 2 4 431 251
+p Comparator4_0/AND2_7/A Comparator4_0/Comparator1_3/NOR2_0/a_9_76# Comparator4_0/AND2_8/A 2 4 535 252
+n Comparator4_0/AND2_6/A Comparator4_0/AND2_8/A VSS 2 4 527 184
+n Comparator4_0/AND2_7/A VSS Comparator4_0/AND2_8/A 2 4 535 184
+p Comparator4_0/AND2_6/A VDD Comparator4_0/Comparator1_3/NOR2_0/a_9_76# 2 4 527 252
+n B0 VSS Comparator4_0/Comparator1_3/AND2_0/a_9_8# 2 8 447 184
+p B0 Comparator4_0/Comparator1_3/AND2_0/a_2_72# VDD 2 8 447 248
+p Comparator4_0/Comparator1_3/Abar VDD Comparator4_0/Comparator1_3/AND2_0/a_2_72# 2 8 455 248
+n Comparator4_0/Comparator1_3/AND2_0/a_2_72# VSS Comparator4_0/AND2_6/A 2 4 471 184
+p Comparator4_0/Comparator1_3/AND2_0/a_2_72# VDD Comparator4_0/AND2_6/A 2 4 471 252
+n Comparator4_0/Comparator1_3/Abar Comparator4_0/Comparator1_3/AND2_0/a_9_8# Comparator4_0/Comparator1_3/AND2_0/a_2_72# 2 8 455 184
+n Comparator4_0/Comparator1_3/Bbar VSS Comparator4_0/Comparator1_3/AND2_1/a_9_8# 2 8 487 184
+p Comparator4_0/Comparator1_3/Bbar Comparator4_0/Comparator1_3/AND2_1/a_2_72# VDD 2 8 487 248
+p A0 VDD Comparator4_0/Comparator1_3/AND2_1/a_2_72# 2 8 495 248
+n Comparator4_0/Comparator1_3/AND2_1/a_2_72# VSS Comparator4_0/AND2_7/A 2 4 511 184
+p Comparator4_0/Comparator1_3/AND2_1/a_2_72# VDD Comparator4_0/AND2_7/A 2 4 511 252
+n A0 Comparator4_0/Comparator1_3/AND2_1/a_9_8# Comparator4_0/Comparator1_3/AND2_1/a_2_72# 2 8 495 184
+n A0 VSS Comparator4_0/Comparator1_3/Abar 2 4 415 184
+p A0 VDD Comparator4_0/Comparator1_3/Abar 2 4 415 251
+n Comparator4_0/AND2_3/B VSS Comparator4_0/AND2_0/a_9_8# 2 8 551 184
+p Comparator4_0/AND2_3/B Comparator4_0/AND2_0/a_2_72# VDD 2 8 551 248
+p Comparator4_0/AND2_0/A VDD Comparator4_0/AND2_0/a_2_72# 2 8 559 248
+n Comparator4_0/AND2_0/a_2_72# VSS Comparator4_0/NOR4_0/B 2 4 575 184
+p Comparator4_0/AND2_0/a_2_72# VDD Comparator4_0/NOR4_0/B 2 4 575 252
+n Comparator4_0/AND2_0/A Comparator4_0/AND2_0/a_9_8# Comparator4_0/AND2_0/a_2_72# 2 8 559 184
+n Comparator4_0/AND2_3/B VSS Comparator4_0/AND2_1/a_9_8# 2 8 591 184
+p Comparator4_0/AND2_3/B Comparator4_0/AND2_1/a_2_72# VDD 2 8 591 248
+p Comparator4_0/AND2_1/A VDD Comparator4_0/AND2_1/a_2_72# 2 8 599 248
+n Comparator4_0/AND2_1/a_2_72# VSS Comparator4_0/AND2_5/B 2 4 615 184
+p Comparator4_0/AND2_1/a_2_72# VDD Comparator4_0/AND2_5/B 2 4 615 252
+n Comparator4_0/AND2_1/A Comparator4_0/AND2_1/a_9_8# Comparator4_0/AND2_1/a_2_72# 2 8 599 184
+n Comparator4_0/AND2_5/B VSS Comparator4_0/AND2_2/a_9_8# 2 8 631 184
+p Comparator4_0/AND2_5/B Comparator4_0/AND2_2/a_2_72# VDD 2 8 631 248
+p Comparator4_0/AND2_2/A VDD Comparator4_0/AND2_2/a_2_72# 2 8 639 248
+n Comparator4_0/AND2_2/a_2_72# VSS Comparator4_0/NOR4_0/C 2 4 655 184
+p Comparator4_0/AND2_2/a_2_72# VDD Comparator4_0/NOR4_0/C 2 4 655 252
+n Comparator4_0/AND2_2/A Comparator4_0/AND2_2/a_9_8# Comparator4_0/AND2_2/a_2_72# 2 8 639 184
+n Comparator4_0/AND2_3/B VSS Comparator4_0/AND2_3/a_9_8# 2 8 671 184
+p Comparator4_0/AND2_3/B Comparator4_0/AND2_3/a_2_72# VDD 2 8 671 248
+p Comparator4_0/AND2_3/A VDD Comparator4_0/AND2_3/a_2_72# 2 8 679 248
+n Comparator4_0/AND2_3/a_2_72# VSS Comparator4_0/NOR4_1/B 2 4 695 184
+p Comparator4_0/AND2_3/a_2_72# VDD Comparator4_0/NOR4_1/B 2 4 695 252
+n Comparator4_0/AND2_3/A Comparator4_0/AND2_3/a_9_8# Comparator4_0/AND2_3/a_2_72# 2 8 679 184
+n Comparator4_0/AND2_5/B VSS Comparator4_0/AND2_4/a_9_8# 2 8 711 184
+p Comparator4_0/AND2_5/B Comparator4_0/AND2_4/a_2_72# VDD 2 8 711 248
+p Comparator4_0/AND2_4/A VDD Comparator4_0/AND2_4/a_2_72# 2 8 719 248
+n Comparator4_0/AND2_4/a_2_72# VSS Comparator4_0/NOR4_1/C 2 4 735 184
+p Comparator4_0/AND2_4/a_2_72# VDD Comparator4_0/NOR4_1/C 2 4 735 252
+n Comparator4_0/AND2_4/A Comparator4_0/AND2_4/a_9_8# Comparator4_0/AND2_4/a_2_72# 2 8 719 184
+n Comparator4_0/AND2_5/B VSS Comparator4_0/AND2_5/a_9_8# 2 8 751 184
+p Comparator4_0/AND2_5/B Comparator4_0/AND2_5/a_2_72# VDD 2 8 751 248
+p Comparator4_0/AND2_5/A VDD Comparator4_0/AND2_5/a_2_72# 2 8 759 248
+n Comparator4_0/AND2_5/a_2_72# VSS Comparator4_0/AND2_8/B 2 4 775 184
+p Comparator4_0/AND2_5/a_2_72# VDD Comparator4_0/AND2_8/B 2 4 775 252
+n Comparator4_0/AND2_5/A Comparator4_0/AND2_5/a_9_8# Comparator4_0/AND2_5/a_2_72# 2 8 759 184
+n Comparator4_0/AND2_8/B VSS Comparator4_0/AND2_6/a_9_8# 2 8 791 184
+p Comparator4_0/AND2_8/B Comparator4_0/AND2_6/a_2_72# VDD 2 8 791 248
+p Comparator4_0/AND2_6/A VDD Comparator4_0/AND2_6/a_2_72# 2 8 799 248
+n Comparator4_0/AND2_6/a_2_72# VSS Comparator4_0/NOR4_0/D 2 4 815 184
+p Comparator4_0/AND2_6/a_2_72# VDD Comparator4_0/NOR4_0/D 2 4 815 252
+n Comparator4_0/AND2_6/A Comparator4_0/AND2_6/a_9_8# Comparator4_0/AND2_6/a_2_72# 2 8 799 184
+n Comparator4_0/AND2_8/B VSS Comparator4_0/AND2_7/a_9_8# 2 8 831 184
+p Comparator4_0/AND2_8/B Comparator4_0/AND2_7/a_2_72# VDD 2 8 831 248
+p Comparator4_0/AND2_7/A VDD Comparator4_0/AND2_7/a_2_72# 2 8 839 248
+n Comparator4_0/AND2_7/a_2_72# VSS Comparator4_0/NOR4_1/D 2 4 855 184
+p Comparator4_0/AND2_7/a_2_72# VDD Comparator4_0/NOR4_1/D 2 4 855 252
+n Comparator4_0/AND2_7/A Comparator4_0/AND2_7/a_9_8# Comparator4_0/AND2_7/a_2_72# 2 8 839 184
+n Comparator4_0/AND2_8/B VSS Comparator4_0/AND2_8/a_9_8# 2 8 871 184
+p Comparator4_0/AND2_8/B Comparator4_0/AND2_8/a_2_72# VDD 2 8 871 248
+p Comparator4_0/AND2_8/A VDD Comparator4_0/AND2_8/a_2_72# 2 8 879 248
+n Comparator4_0/AND2_8/a_2_72# VSS AND2_0/A 2 4 895 184
+p Comparator4_0/AND2_8/a_2_72# VDD AND2_0/A 2 4 895 252
+n Comparator4_0/AND2_8/A Comparator4_0/AND2_8/a_9_8# Comparator4_0/AND2_8/a_2_72# 2 8 879 184
+p Comparator4_0/NOR4_0/D Comparator4_0/NOR4_0/a_25_76# Comparator4_0/INV_1/A 2 4 936 252
+p Comparator4_0/NOR4_0/B Comparator4_0/NOR4_0/a_9_76# Comparator4_0/NOR4_0/a_17_76# 2 4 919 252
+n Comparator4_0/NOR4_0/A Comparator4_0/INV_1/A VSS 2 4 911 184
+n Comparator4_0/NOR4_0/C Comparator4_0/INV_1/A VSS 2 4 927 184
+n Comparator4_0/NOR4_0/D VSS Comparator4_0/INV_1/A 2 4 936 184
+p Comparator4_0/NOR4_0/C Comparator4_0/NOR4_0/a_17_76# Comparator4_0/NOR4_0/a_25_76# 2 4 927 252
+n Comparator4_0/NOR4_0/B VSS Comparator4_0/INV_1/A 2 4 919 184
+p Comparator4_0/NOR4_0/A VDD Comparator4_0/NOR4_0/a_9_76# 2 4 911 252
+p Comparator4_0/NOR4_1/D Comparator4_0/NOR4_1/a_25_76# Comparator4_0/INV_0/A 2 4 977 252
+p Comparator4_0/NOR4_1/B Comparator4_0/NOR4_1/a_9_76# Comparator4_0/NOR4_1/a_17_76# 2 4 960 252
+n Comparator4_0/NOR4_1/A Comparator4_0/INV_0/A VSS 2 4 952 184
+n Comparator4_0/NOR4_1/C Comparator4_0/INV_0/A VSS 2 4 968 184
+n Comparator4_0/NOR4_1/D VSS Comparator4_0/INV_0/A 2 4 977 184
+p Comparator4_0/NOR4_1/C Comparator4_0/NOR4_1/a_17_76# Comparator4_0/NOR4_1/a_25_76# 2 4 968 252
+n Comparator4_0/NOR4_1/B VSS Comparator4_0/INV_0/A 2 4 960 184
+p Comparator4_0/NOR4_1/A VDD Comparator4_0/NOR4_1/a_9_76# 2 4 952 252
+n Comparator4_0/INV_0/A VSS AOI21_1/B 2 4 993 184
+p Comparator4_0/INV_0/A VDD AOI21_1/B 2 4 993 251
+n Comparator4_1/INV_1/A VSS AOI21_0/C 2 4 2027 184
+p Comparator4_1/INV_1/A VDD AOI21_0/C 2 4 2027 251
+n B7 VSS Comparator4_1/Comparator1_0/Bbar 2 4 1041 184
+p B7 VDD Comparator4_1/Comparator1_0/Bbar 2 4 1041 251
+p Comparator4_1/NOR4_1/A Comparator4_1/Comparator1_0/NOR2_0/a_9_76# Comparator4_1/AND2_3/B 2 4 1145 252
+n Comparator4_1/NOR4_0/A Comparator4_1/AND2_3/B VSS 2 4 1137 184
+n Comparator4_1/NOR4_1/A VSS Comparator4_1/AND2_3/B 2 4 1145 184
+p Comparator4_1/NOR4_0/A VDD Comparator4_1/Comparator1_0/NOR2_0/a_9_76# 2 4 1137 252
+n B7 VSS Comparator4_1/Comparator1_0/AND2_0/a_9_8# 2 8 1057 184
+p B7 Comparator4_1/Comparator1_0/AND2_0/a_2_72# VDD 2 8 1057 248
+p Comparator4_1/Comparator1_0/Abar VDD Comparator4_1/Comparator1_0/AND2_0/a_2_72# 2 8 1065 248
+n Comparator4_1/Comparator1_0/AND2_0/a_2_72# VSS Comparator4_1/NOR4_0/A 2 4 1081 184
+p Comparator4_1/Comparator1_0/AND2_0/a_2_72# VDD Comparator4_1/NOR4_0/A 2 4 1081 252
+n Comparator4_1/Comparator1_0/Abar Comparator4_1/Comparator1_0/AND2_0/a_9_8# Comparator4_1/Comparator1_0/AND2_0/a_2_72# 2 8 1065 184
+n Comparator4_1/Comparator1_0/Bbar VSS Comparator4_1/Comparator1_0/AND2_1/a_9_8# 2 8 1097 184
+p Comparator4_1/Comparator1_0/Bbar Comparator4_1/Comparator1_0/AND2_1/a_2_72# VDD 2 8 1097 248
+p A7 VDD Comparator4_1/Comparator1_0/AND2_1/a_2_72# 2 8 1105 248
+n Comparator4_1/Comparator1_0/AND2_1/a_2_72# VSS Comparator4_1/NOR4_1/A 2 4 1121 184
+p Comparator4_1/Comparator1_0/AND2_1/a_2_72# VDD Comparator4_1/NOR4_1/A 2 4 1121 252
+n A7 Comparator4_1/Comparator1_0/AND2_1/a_9_8# Comparator4_1/Comparator1_0/AND2_1/a_2_72# 2 8 1105 184
+n A7 VSS Comparator4_1/Comparator1_0/Abar 2 4 1025 184
+p A7 VDD Comparator4_1/Comparator1_0/Abar 2 4 1025 251
+n B6 VSS Comparator4_1/Comparator1_1/Bbar 2 4 1177 184
+p B6 VDD Comparator4_1/Comparator1_1/Bbar 2 4 1177 251
+p Comparator4_1/AND2_3/A Comparator4_1/Comparator1_1/NOR2_0/a_9_76# Comparator4_1/AND2_1/A 2 4 1281 252
+n Comparator4_1/AND2_0/A Comparator4_1/AND2_1/A VSS 2 4 1273 184
+n Comparator4_1/AND2_3/A VSS Comparator4_1/AND2_1/A 2 4 1281 184
+p Comparator4_1/AND2_0/A VDD Comparator4_1/Comparator1_1/NOR2_0/a_9_76# 2 4 1273 252
+n B6 VSS Comparator4_1/Comparator1_1/AND2_0/a_9_8# 2 8 1193 184
+p B6 Comparator4_1/Comparator1_1/AND2_0/a_2_72# VDD 2 8 1193 248
+p Comparator4_1/Comparator1_1/Abar VDD Comparator4_1/Comparator1_1/AND2_0/a_2_72# 2 8 1201 248
+n Comparator4_1/Comparator1_1/AND2_0/a_2_72# VSS Comparator4_1/AND2_0/A 2 4 1217 184
+p Comparator4_1/Comparator1_1/AND2_0/a_2_72# VDD Comparator4_1/AND2_0/A 2 4 1217 252
+n Comparator4_1/Comparator1_1/Abar Comparator4_1/Comparator1_1/AND2_0/a_9_8# Comparator4_1/Comparator1_1/AND2_0/a_2_72# 2 8 1201 184
+n Comparator4_1/Comparator1_1/Bbar VSS Comparator4_1/Comparator1_1/AND2_1/a_9_8# 2 8 1233 184
+p Comparator4_1/Comparator1_1/Bbar Comparator4_1/Comparator1_1/AND2_1/a_2_72# VDD 2 8 1233 248
+p A6 VDD Comparator4_1/Comparator1_1/AND2_1/a_2_72# 2 8 1241 248
+n Comparator4_1/Comparator1_1/AND2_1/a_2_72# VSS Comparator4_1/AND2_3/A 2 4 1257 184
+p Comparator4_1/Comparator1_1/AND2_1/a_2_72# VDD Comparator4_1/AND2_3/A 2 4 1257 252
+n A6 Comparator4_1/Comparator1_1/AND2_1/a_9_8# Comparator4_1/Comparator1_1/AND2_1/a_2_72# 2 8 1241 184
+n A6 VSS Comparator4_1/Comparator1_1/Abar 2 4 1161 184
+p A6 VDD Comparator4_1/Comparator1_1/Abar 2 4 1161 251
+n B5 VSS Comparator4_1/Comparator1_2/Bbar 2 4 1313 184
+p B5 VDD Comparator4_1/Comparator1_2/Bbar 2 4 1313 251
+p Comparator4_1/AND2_4/A Comparator4_1/Comparator1_2/NOR2_0/a_9_76# Comparator4_1/AND2_5/A 2 4 1417 252
+n Comparator4_1/AND2_2/A Comparator4_1/AND2_5/A VSS 2 4 1409 184
+n Comparator4_1/AND2_4/A VSS Comparator4_1/AND2_5/A 2 4 1417 184
+p Comparator4_1/AND2_2/A VDD Comparator4_1/Comparator1_2/NOR2_0/a_9_76# 2 4 1409 252
+n B5 VSS Comparator4_1/Comparator1_2/AND2_0/a_9_8# 2 8 1329 184
+p B5 Comparator4_1/Comparator1_2/AND2_0/a_2_72# VDD 2 8 1329 248
+p Comparator4_1/Comparator1_2/Abar VDD Comparator4_1/Comparator1_2/AND2_0/a_2_72# 2 8 1337 248
+n Comparator4_1/Comparator1_2/AND2_0/a_2_72# VSS Comparator4_1/AND2_2/A 2 4 1353 184
+p Comparator4_1/Comparator1_2/AND2_0/a_2_72# VDD Comparator4_1/AND2_2/A 2 4 1353 252
+n Comparator4_1/Comparator1_2/Abar Comparator4_1/Comparator1_2/AND2_0/a_9_8# Comparator4_1/Comparator1_2/AND2_0/a_2_72# 2 8 1337 184
+n Comparator4_1/Comparator1_2/Bbar VSS Comparator4_1/Comparator1_2/AND2_1/a_9_8# 2 8 1369 184
+p Comparator4_1/Comparator1_2/Bbar Comparator4_1/Comparator1_2/AND2_1/a_2_72# VDD 2 8 1369 248
+p A5 VDD Comparator4_1/Comparator1_2/AND2_1/a_2_72# 2 8 1377 248
+n Comparator4_1/Comparator1_2/AND2_1/a_2_72# VSS Comparator4_1/AND2_4/A 2 4 1393 184
+p Comparator4_1/Comparator1_2/AND2_1/a_2_72# VDD Comparator4_1/AND2_4/A 2 4 1393 252
+n A5 Comparator4_1/Comparator1_2/AND2_1/a_9_8# Comparator4_1/Comparator1_2/AND2_1/a_2_72# 2 8 1377 184
+n A5 VSS Comparator4_1/Comparator1_2/Abar 2 4 1297 184
+p A5 VDD Comparator4_1/Comparator1_2/Abar 2 4 1297 251
+n B4 VSS Comparator4_1/Comparator1_3/Bbar 2 4 1449 184
+p B4 VDD Comparator4_1/Comparator1_3/Bbar 2 4 1449 251
+p Comparator4_1/AND2_7/A Comparator4_1/Comparator1_3/NOR2_0/a_9_76# Comparator4_1/AND2_8/A 2 4 1553 252
+n Comparator4_1/AND2_6/A Comparator4_1/AND2_8/A VSS 2 4 1545 184
+n Comparator4_1/AND2_7/A VSS Comparator4_1/AND2_8/A 2 4 1553 184
+p Comparator4_1/AND2_6/A VDD Comparator4_1/Comparator1_3/NOR2_0/a_9_76# 2 4 1545 252
+n B4 VSS Comparator4_1/Comparator1_3/AND2_0/a_9_8# 2 8 1465 184
+p B4 Comparator4_1/Comparator1_3/AND2_0/a_2_72# VDD 2 8 1465 248
+p Comparator4_1/Comparator1_3/Abar VDD Comparator4_1/Comparator1_3/AND2_0/a_2_72# 2 8 1473 248
+n Comparator4_1/Comparator1_3/AND2_0/a_2_72# VSS Comparator4_1/AND2_6/A 2 4 1489 184
+p Comparator4_1/Comparator1_3/AND2_0/a_2_72# VDD Comparator4_1/AND2_6/A 2 4 1489 252
+n Comparator4_1/Comparator1_3/Abar Comparator4_1/Comparator1_3/AND2_0/a_9_8# Comparator4_1/Comparator1_3/AND2_0/a_2_72# 2 8 1473 184
+n Comparator4_1/Comparator1_3/Bbar VSS Comparator4_1/Comparator1_3/AND2_1/a_9_8# 2 8 1505 184
+p Comparator4_1/Comparator1_3/Bbar Comparator4_1/Comparator1_3/AND2_1/a_2_72# VDD 2 8 1505 248
+p A4 VDD Comparator4_1/Comparator1_3/AND2_1/a_2_72# 2 8 1513 248
+n Comparator4_1/Comparator1_3/AND2_1/a_2_72# VSS Comparator4_1/AND2_7/A 2 4 1529 184
+p Comparator4_1/Comparator1_3/AND2_1/a_2_72# VDD Comparator4_1/AND2_7/A 2 4 1529 252
+n A4 Comparator4_1/Comparator1_3/AND2_1/a_9_8# Comparator4_1/Comparator1_3/AND2_1/a_2_72# 2 8 1513 184
+n A4 VSS Comparator4_1/Comparator1_3/Abar 2 4 1433 184
+p A4 VDD Comparator4_1/Comparator1_3/Abar 2 4 1433 251
+n Comparator4_1/AND2_3/B VSS Comparator4_1/AND2_0/a_9_8# 2 8 1569 184
+p Comparator4_1/AND2_3/B Comparator4_1/AND2_0/a_2_72# VDD 2 8 1569 248
+p Comparator4_1/AND2_0/A VDD Comparator4_1/AND2_0/a_2_72# 2 8 1577 248
+n Comparator4_1/AND2_0/a_2_72# VSS Comparator4_1/NOR4_0/B 2 4 1593 184
+p Comparator4_1/AND2_0/a_2_72# VDD Comparator4_1/NOR4_0/B 2 4 1593 252
+n Comparator4_1/AND2_0/A Comparator4_1/AND2_0/a_9_8# Comparator4_1/AND2_0/a_2_72# 2 8 1577 184
+n Comparator4_1/AND2_3/B VSS Comparator4_1/AND2_1/a_9_8# 2 8 1609 184
+p Comparator4_1/AND2_3/B Comparator4_1/AND2_1/a_2_72# VDD 2 8 1609 248
+p Comparator4_1/AND2_1/A VDD Comparator4_1/AND2_1/a_2_72# 2 8 1617 248
+n Comparator4_1/AND2_1/a_2_72# VSS Comparator4_1/AND2_5/B 2 4 1633 184
+p Comparator4_1/AND2_1/a_2_72# VDD Comparator4_1/AND2_5/B 2 4 1633 252
+n Comparator4_1/AND2_1/A Comparator4_1/AND2_1/a_9_8# Comparator4_1/AND2_1/a_2_72# 2 8 1617 184
+n Comparator4_1/AND2_5/B VSS Comparator4_1/AND2_2/a_9_8# 2 8 1649 184
+p Comparator4_1/AND2_5/B Comparator4_1/AND2_2/a_2_72# VDD 2 8 1649 248
+p Comparator4_1/AND2_2/A VDD Comparator4_1/AND2_2/a_2_72# 2 8 1657 248
+n Comparator4_1/AND2_2/a_2_72# VSS Comparator4_1/NOR4_0/C 2 4 1673 184
+p Comparator4_1/AND2_2/a_2_72# VDD Comparator4_1/NOR4_0/C 2 4 1673 252
+n Comparator4_1/AND2_2/A Comparator4_1/AND2_2/a_9_8# Comparator4_1/AND2_2/a_2_72# 2 8 1657 184
+n Comparator4_1/AND2_3/B VSS Comparator4_1/AND2_3/a_9_8# 2 8 1689 184
+p Comparator4_1/AND2_3/B Comparator4_1/AND2_3/a_2_72# VDD 2 8 1689 248
+p Comparator4_1/AND2_3/A VDD Comparator4_1/AND2_3/a_2_72# 2 8 1697 248
+n Comparator4_1/AND2_3/a_2_72# VSS Comparator4_1/NOR4_1/B 2 4 1713 184
+p Comparator4_1/AND2_3/a_2_72# VDD Comparator4_1/NOR4_1/B 2 4 1713 252
+n Comparator4_1/AND2_3/A Comparator4_1/AND2_3/a_9_8# Comparator4_1/AND2_3/a_2_72# 2 8 1697 184
+n Comparator4_1/AND2_5/B VSS Comparator4_1/AND2_4/a_9_8# 2 8 1729 184
+p Comparator4_1/AND2_5/B Comparator4_1/AND2_4/a_2_72# VDD 2 8 1729 248
+p Comparator4_1/AND2_4/A VDD Comparator4_1/AND2_4/a_2_72# 2 8 1737 248
+n Comparator4_1/AND2_4/a_2_72# VSS Comparator4_1/NOR4_1/C 2 4 1753 184
+p Comparator4_1/AND2_4/a_2_72# VDD Comparator4_1/NOR4_1/C 2 4 1753 252
+n Comparator4_1/AND2_4/A Comparator4_1/AND2_4/a_9_8# Comparator4_1/AND2_4/a_2_72# 2 8 1737 184
+n Comparator4_1/AND2_5/B VSS Comparator4_1/AND2_5/a_9_8# 2 8 1769 184
+p Comparator4_1/AND2_5/B Comparator4_1/AND2_5/a_2_72# VDD 2 8 1769 248
+p Comparator4_1/AND2_5/A VDD Comparator4_1/AND2_5/a_2_72# 2 8 1777 248
+n Comparator4_1/AND2_5/a_2_72# VSS Comparator4_1/AND2_8/B 2 4 1793 184
+p Comparator4_1/AND2_5/a_2_72# VDD Comparator4_1/AND2_8/B 2 4 1793 252
+n Comparator4_1/AND2_5/A Comparator4_1/AND2_5/a_9_8# Comparator4_1/AND2_5/a_2_72# 2 8 1777 184
+n Comparator4_1/AND2_8/B VSS Comparator4_1/AND2_6/a_9_8# 2 8 1809 184
+p Comparator4_1/AND2_8/B Comparator4_1/AND2_6/a_2_72# VDD 2 8 1809 248
+p Comparator4_1/AND2_6/A VDD Comparator4_1/AND2_6/a_2_72# 2 8 1817 248
+n Comparator4_1/AND2_6/a_2_72# VSS Comparator4_1/NOR4_0/D 2 4 1833 184
+p Comparator4_1/AND2_6/a_2_72# VDD Comparator4_1/NOR4_0/D 2 4 1833 252
+n Comparator4_1/AND2_6/A Comparator4_1/AND2_6/a_9_8# Comparator4_1/AND2_6/a_2_72# 2 8 1817 184
+n Comparator4_1/AND2_8/B VSS Comparator4_1/AND2_7/a_9_8# 2 8 1849 184
+p Comparator4_1/AND2_8/B Comparator4_1/AND2_7/a_2_72# VDD 2 8 1849 248
+p Comparator4_1/AND2_7/A VDD Comparator4_1/AND2_7/a_2_72# 2 8 1857 248
+n Comparator4_1/AND2_7/a_2_72# VSS Comparator4_1/NOR4_1/D 2 4 1873 184
+p Comparator4_1/AND2_7/a_2_72# VDD Comparator4_1/NOR4_1/D 2 4 1873 252
+n Comparator4_1/AND2_7/A Comparator4_1/AND2_7/a_9_8# Comparator4_1/AND2_7/a_2_72# 2 8 1857 184
+n Comparator4_1/AND2_8/B VSS Comparator4_1/AND2_8/a_9_8# 2 8 1889 184
+p Comparator4_1/AND2_8/B Comparator4_1/AND2_8/a_2_72# VDD 2 8 1889 248
+p Comparator4_1/AND2_8/A VDD Comparator4_1/AND2_8/a_2_72# 2 8 1897 248
+n Comparator4_1/AND2_8/a_2_72# VSS AND2_0/B 2 4 1913 184
+p Comparator4_1/AND2_8/a_2_72# VDD AND2_0/B 2 4 1913 252
+n Comparator4_1/AND2_8/A Comparator4_1/AND2_8/a_9_8# Comparator4_1/AND2_8/a_2_72# 2 8 1897 184
+p Comparator4_1/NOR4_0/D Comparator4_1/NOR4_0/a_25_76# Comparator4_1/INV_1/A 2 4 1954 252
+p Comparator4_1/NOR4_0/B Comparator4_1/NOR4_0/a_9_76# Comparator4_1/NOR4_0/a_17_76# 2 4 1937 252
+n Comparator4_1/NOR4_0/A Comparator4_1/INV_1/A VSS 2 4 1929 184
+n Comparator4_1/NOR4_0/C Comparator4_1/INV_1/A VSS 2 4 1945 184
+n Comparator4_1/NOR4_0/D VSS Comparator4_1/INV_1/A 2 4 1954 184
+p Comparator4_1/NOR4_0/C Comparator4_1/NOR4_0/a_17_76# Comparator4_1/NOR4_0/a_25_76# 2 4 1945 252
+n Comparator4_1/NOR4_0/B VSS Comparator4_1/INV_1/A 2 4 1937 184
+p Comparator4_1/NOR4_0/A VDD Comparator4_1/NOR4_0/a_9_76# 2 4 1929 252
+p Comparator4_1/NOR4_1/D Comparator4_1/NOR4_1/a_25_76# Comparator4_1/INV_0/A 2 4 1995 252
+p Comparator4_1/NOR4_1/B Comparator4_1/NOR4_1/a_9_76# Comparator4_1/NOR4_1/a_17_76# 2 4 1978 252
+n Comparator4_1/NOR4_1/A Comparator4_1/INV_0/A VSS 2 4 1970 184
+n Comparator4_1/NOR4_1/C Comparator4_1/INV_0/A VSS 2 4 1986 184
+n Comparator4_1/NOR4_1/D VSS Comparator4_1/INV_0/A 2 4 1995 184
+p Comparator4_1/NOR4_1/C Comparator4_1/NOR4_1/a_17_76# Comparator4_1/NOR4_1/a_25_76# 2 4 1986 252
+n Comparator4_1/NOR4_1/B VSS Comparator4_1/INV_0/A 2 4 1978 184
+p Comparator4_1/NOR4_1/A VDD Comparator4_1/NOR4_1/a_9_76# 2 4 1970 252
+n Comparator4_1/INV_0/A VSS AOI21_1/C 2 4 2011 184
+p Comparator4_1/INV_0/A VDD AOI21_1/C 2 4 2011 251
+n AND2_0/B VSS AOI21_0/a_9_8# 2 4 2043 184
+n AOI21_0/C INV_0/A VSS 2 4 2059 184
+p AND2_0/B AOI21_0/a_2_69# VDD 2 4 2043 245
+p AOI21_0/B VDD AOI21_0/a_2_69# 2 4 2051 245
+p AOI21_0/C AOI21_0/a_2_69# INV_0/A 2 4 2059 245
+n AOI21_0/B AOI21_0/a_9_8# INV_0/A 2 4 2051 184
+n AND2_0/B VSS AOI21_1/a_9_8# 2 4 2091 184
+n AOI21_1/C INV_1/A VSS 2 4 2107 184
+p AND2_0/B AOI21_1/a_2_69# VDD 2 4 2091 245
+p AOI21_1/B VDD AOI21_1/a_2_69# 2 4 2099 245
+p AOI21_1/C AOI21_1/a_2_69# INV_1/A 2 4 2107 245
+n AOI21_1/B AOI21_1/a_9_8# INV_1/A 2 4 2099 184
+n INV_0/A VSS Less 2 4 2075 184
+p INV_0/A VDD Less 2 4 2075 251
+C AOI21_0/B AOI21_1/B 3.41
+C Comparator4_0/NOR4_0/B VSS 4.40
+C Comparator4_0/NOR4_0/B Comparator4_0/NOR4_0/C 4.03
+C Comparator4_1/AND2_2/A Comparator4_1/AND2_1/A 3.17
+C Comparator4_1/AND2_6/A Comparator4_1/AND2_7/A 5.00
+C VSS Comparator4_1/NOR4_0/B 4.40
+C Comparator4_1/AND2_8/A Comparator4_1/AND2_7/A 4.84
+C Comparator4_1/AND2_3/A Comparator4_1/AND2_4/A 3.63
+C B0 A7 5.10
+C Comparator4_1/AND2_0/A Comparator4_1/AND2_1/A 4.06
+C Comparator4_0/NOR4_0/C Comparator4_0/NOR4_1/B 2.81
+C Comparator4_0/AND2_3/A Comparator4_0/AND2_4/A 3.63
+C Comparator4_0/AND2_8/A A6 3.94
+C A1 A0 2.88
+C enb AND2_0/A 14.52
+C enb B7 10.30
+C Comparator4_1/AND2_5/A Comparator4_1/AND2_4/A 5.03
+C Comparator4_0/AND2_3/B Comparator4_0/NOR4_1/A 8.46
+C A7 A4 6.17
+C Comparator4_0/AND2_1/A Comparator4_0/AND2_2/A 3.17
+C B1 B0 3.53
+C Comparator4_1/NOR4_0/B Comparator4_1/NOR4_0/C 4.03
+C B7 B6 12.89
+C Comparator4_0/AND2_1/A Comparator4_0/AND2_0/A 4.06
+C A0 A4 2.08
+C B5 B4 15.59
+C Comparator4_0/AND2_5/A Comparator4_0/AND2_6/A 3.45
+C AOI21_0/B Comparator4_1/AND2_8/A 3.94
+C A6 A7 12.40
+C Comparator4_1/NOR4_0/C Comparator4_1/NOR4_1/B 2.81
+C A5 A4 15.97
+C Comparator4_0/NOR4_1/A Comparator4_0/NOR4_1/C 2.64
+C Comparator4_1/NOR4_1/A Comparator4_1/NOR4_1/C 2.64
+C Comparator4_0/NOR4_0/A Comparator4_0/NOR4_1/A 11.02
+C Comparator4_1/AND2_3/B Comparator4_1/AND2_0/A 5.75
+C B5 B6 14.24
+C Comparator4_1/AND2_3/A Comparator4_1/AND2_2/A 3.47
+C Comparator4_1/AND2_3/B Comparator4_1/NOR4_1/A 8.46
+C BUFFER8_0/INV_0/Y VSS 6.13
+C Comparator4_0/AND2_6/A Comparator4_0/AND2_7/A 5.00
+C BUFFER8_0/INV_0/Y Y0 2.28
+C enb VSS 2.14
+C A6 A5 8.59
+C Comparator4_0/AND2_8/A Comparator4_0/AND2_7/A 4.84
+C Comparator4_0/AND2_3/A Comparator4_0/AND2_2/A 3.47
+C Comparator4_1/NOR4_1/A Comparator4_1/NOR4_0/A 11.02
+C Comparator4_1/AND2_5/A Comparator4_1/AND2_6/A 3.45
+C AOI21_0/B A4 2.97
+C Comparator4_0/AND2_5/A Comparator4_0/AND2_4/A 5.03
+C enb VDD 8.30
+C Comparator4_0/AND2_3/B Comparator4_0/AND2_0/A 5.75
+C INV_0/A GND 4.13
+R INV_0/A 103
+R AOI21_1/a_2_69# 15
+R AOI21_0/a_2_69# 15
+C Comparator4_1/NOR4_0/D GND 5.02
+R Comparator4_1/NOR4_0/D 105
+C Comparator4_1/AND2_8/B GND 12.18
+R Comparator4_1/AND2_8/B 320
+C Comparator4_1/AND2_5/B GND 13.17
+R Comparator4_1/AND2_5/B 321
+C AOI21_1/C GND 4.24
+R AOI21_1/C 99
+C Comparator4_1/INV_0/A GND 4.75
+R Comparator4_1/INV_0/A 127
+C Comparator4_1/INV_1/A GND 4.69
+R Comparator4_1/INV_1/A 129
+C AND2_0/B GND 10.08
+R AND2_0/B 309
+C Comparator4_1/AND2_8/a_2_72# GND 3.85
+R Comparator4_1/AND2_8/a_2_72# 116
+C Comparator4_1/NOR4_1/D GND 4.78
+R Comparator4_1/NOR4_1/D 105
+C Comparator4_1/AND2_7/a_2_72# GND 3.85
+R Comparator4_1/AND2_7/a_2_72# 116
+C Comparator4_1/AND2_6/a_2_72# GND 3.85
+R Comparator4_1/AND2_6/a_2_72# 116
+C Comparator4_1/AND2_5/a_2_72# GND 3.85
+R Comparator4_1/AND2_5/a_2_72# 116
+C Comparator4_1/NOR4_1/C GND 10.54
+R Comparator4_1/NOR4_1/C 107
+C Comparator4_1/AND2_4/a_2_72# GND 3.85
+R Comparator4_1/AND2_4/a_2_72# 116
+C Comparator4_1/NOR4_1/B GND 10.72
+R Comparator4_1/NOR4_1/B 107
+C Comparator4_1/AND2_3/a_2_72# GND 3.85
+R Comparator4_1/AND2_3/a_2_72# 116
+C Comparator4_1/NOR4_0/C GND 10.85
+R Comparator4_1/NOR4_0/C 108
+C Comparator4_1/AND2_2/a_2_72# GND 3.85
+R Comparator4_1/AND2_2/a_2_72# 116
+C Comparator4_1/AND2_1/a_2_72# GND 3.85
+R Comparator4_1/AND2_1/a_2_72# 116
+C Comparator4_1/NOR4_0/B GND 4.41
+R Comparator4_1/NOR4_0/B 104
+C Comparator4_1/AND2_0/a_2_72# GND 3.85
+R Comparator4_1/AND2_0/a_2_72# 116
+C Comparator4_1/AND2_7/A GND 17.24
+R Comparator4_1/AND2_7/A 216
+C Comparator4_1/Comparator1_3/AND2_1/a_2_72# GND 3.85
+R Comparator4_1/Comparator1_3/AND2_1/a_2_72# 116
+R A4 228
+C Comparator4_1/Comparator1_3/Bbar GND 5.79
+R Comparator4_1/Comparator1_3/Bbar 110
+C Comparator4_1/AND2_6/A GND 16.58
+R Comparator4_1/AND2_6/A 206
+C Comparator4_1/Comparator1_3/AND2_0/a_2_72# GND 3.85
+R Comparator4_1/Comparator1_3/AND2_0/a_2_72# 116
+C Comparator4_1/Comparator1_3/Abar GND 5.26
+R Comparator4_1/Comparator1_3/Abar 105
+C B4 GND 19.62
+R B4 230
+C Comparator4_1/AND2_8/A GND 14.53
+R Comparator4_1/AND2_8/A 127
+C Comparator4_1/AND2_4/A GND 17.30
+R Comparator4_1/AND2_4/A 215
+C Comparator4_1/Comparator1_2/AND2_1/a_2_72# GND 3.85
+R Comparator4_1/Comparator1_2/AND2_1/a_2_72# 116
+R A5 225
+C Comparator4_1/Comparator1_2/Bbar GND 5.79
+R Comparator4_1/Comparator1_2/Bbar 110
+C Comparator4_1/AND2_2/A GND 16.47
+R Comparator4_1/AND2_2/A 219
+C Comparator4_1/Comparator1_2/AND2_0/a_2_72# GND 3.85
+R Comparator4_1/Comparator1_2/AND2_0/a_2_72# 116
+C Comparator4_1/Comparator1_2/Abar GND 5.26
+R Comparator4_1/Comparator1_2/Abar 105
+C B5 GND 16.65
+R B5 227
+C Comparator4_1/AND2_5/A GND 14.80
+R Comparator4_1/AND2_5/A 119
+C Comparator4_1/AND2_3/A GND 19.50
+R Comparator4_1/AND2_3/A 217
+C Comparator4_1/Comparator1_1/AND2_1/a_2_72# GND 3.85
+R Comparator4_1/Comparator1_1/AND2_1/a_2_72# 116
+C A6 GND 14.24
+R A6 221
+C Comparator4_1/Comparator1_1/Bbar GND 5.79
+R Comparator4_1/Comparator1_1/Bbar 110
+C VSS GND 71.69
+R VSS 2149
+C Comparator4_1/AND2_0/A GND 17.77
+R Comparator4_1/AND2_0/A 218
+C Comparator4_1/Comparator1_1/AND2_0/a_2_72# GND 3.85
+R Comparator4_1/Comparator1_1/AND2_0/a_2_72# 116
+C Comparator4_1/Comparator1_1/Abar GND 5.26
+R Comparator4_1/Comparator1_1/Abar 105
+C B6 GND 13.61
+R B6 225
+C VDD GND 645.45
+R VDD 108712
+C Comparator4_1/AND2_1/A GND 13.61
+R Comparator4_1/AND2_1/A 125
+C Comparator4_1/NOR4_1/A GND 11.77
+R Comparator4_1/NOR4_1/A 216
+C Comparator4_1/Comparator1_0/AND2_1/a_2_72# GND 3.85
+R Comparator4_1/Comparator1_0/AND2_1/a_2_72# 116
+C A7 GND 11.33
+R A7 219
+C Comparator4_1/Comparator1_0/Bbar GND 5.79
+R Comparator4_1/Comparator1_0/Bbar 110
+C Comparator4_1/NOR4_0/A GND 10.28
+R Comparator4_1/NOR4_0/A 219
+C Comparator4_1/Comparator1_0/AND2_0/a_2_72# GND 3.85
+R Comparator4_1/Comparator1_0/AND2_0/a_2_72# 116
+C Comparator4_1/Comparator1_0/Abar GND 5.26
+R Comparator4_1/Comparator1_0/Abar 105
+C B7 GND 10.64
+R B7 223
+C Comparator4_1/AND2_3/B GND 25.33
+R Comparator4_1/AND2_3/B 345
+C AOI21_0/C GND 5.13
+R AOI21_0/C 98
+C Comparator4_0/NOR4_0/D GND 5.02
+R Comparator4_0/NOR4_0/D 105
+C Comparator4_0/AND2_8/B GND 12.18
+R Comparator4_0/AND2_8/B 320
+C Comparator4_0/AND2_5/B GND 13.17
+R Comparator4_0/AND2_5/B 321
+R AOI21_1/B 117
+C Comparator4_0/INV_0/A GND 4.75
+R Comparator4_0/INV_0/A 127
+C Comparator4_0/INV_1/A GND 4.69
+R Comparator4_0/INV_1/A 129
+C AND2_0/A GND 35.59
+R AND2_0/A 134
+C Comparator4_0/AND2_8/a_2_72# GND 3.85
+R Comparator4_0/AND2_8/a_2_72# 116
+C Comparator4_0/NOR4_1/D GND 4.78
+R Comparator4_0/NOR4_1/D 105
+C Comparator4_0/AND2_7/a_2_72# GND 3.85
+R Comparator4_0/AND2_7/a_2_72# 116
+C Comparator4_0/AND2_6/a_2_72# GND 3.85
+R Comparator4_0/AND2_6/a_2_72# 116
+C Comparator4_0/AND2_5/a_2_72# GND 3.85
+R Comparator4_0/AND2_5/a_2_72# 116
+C Comparator4_0/NOR4_1/C GND 10.54
+R Comparator4_0/NOR4_1/C 107
+C Comparator4_0/AND2_4/a_2_72# GND 3.85
+R Comparator4_0/AND2_4/a_2_72# 116
+C Comparator4_0/NOR4_1/B GND 10.72
+R Comparator4_0/NOR4_1/B 107
+C Comparator4_0/AND2_3/a_2_72# GND 3.85
+R Comparator4_0/AND2_3/a_2_72# 116
+C Comparator4_0/NOR4_0/C GND 10.85
+R Comparator4_0/NOR4_0/C 108
+C Comparator4_0/AND2_2/a_2_72# GND 3.85
+R Comparator4_0/AND2_2/a_2_72# 116
+C Comparator4_0/AND2_1/a_2_72# GND 3.85
+R Comparator4_0/AND2_1/a_2_72# 116
+C Comparator4_0/NOR4_0/B GND 4.41
+R Comparator4_0/NOR4_0/B 104
+C Comparator4_0/AND2_0/a_2_72# GND 3.85
+R Comparator4_0/AND2_0/a_2_72# 116
+C Comparator4_0/AND2_7/A GND 17.24
+R Comparator4_0/AND2_7/A 216
+C Comparator4_0/Comparator1_3/AND2_1/a_2_72# GND 3.85
+R Comparator4_0/Comparator1_3/AND2_1/a_2_72# 116
+C A0 GND 18.69
+R A0 208
+C Comparator4_0/Comparator1_3/Bbar GND 5.79
+R Comparator4_0/Comparator1_3/Bbar 110
+C Comparator4_0/AND2_6/A GND 16.58
+R Comparator4_0/AND2_6/A 206
+C Comparator4_0/Comparator1_3/AND2_0/a_2_72# GND 3.85
+R Comparator4_0/Comparator1_3/AND2_0/a_2_72# 116
+C Comparator4_0/Comparator1_3/Abar GND 5.26
+R Comparator4_0/Comparator1_3/Abar 105
+C B0 GND 17.58
+R B0 211
+C Comparator4_0/AND2_8/A GND 14.53
+R Comparator4_0/AND2_8/A 127
+C Comparator4_0/AND2_4/A GND 17.30
+R Comparator4_0/AND2_4/A 215
+C Comparator4_0/Comparator1_2/AND2_1/a_2_72# GND 3.85
+R Comparator4_0/Comparator1_2/AND2_1/a_2_72# 116
+C A1 GND 15.21
+R A1 205
+C Comparator4_0/Comparator1_2/Bbar GND 5.79
+R Comparator4_0/Comparator1_2/Bbar 110
+C Comparator4_0/AND2_2/A GND 16.47
+R Comparator4_0/AND2_2/A 219
+C Comparator4_0/Comparator1_2/AND2_0/a_2_72# GND 3.85
+R Comparator4_0/Comparator1_2/AND2_0/a_2_72# 116
+C Comparator4_0/Comparator1_2/Abar GND 5.26
+R Comparator4_0/Comparator1_2/Abar 105
+C B1 GND 14.61
+R B1 209
+C Comparator4_0/AND2_5/A GND 14.80
+R Comparator4_0/AND2_5/A 119
+C Comparator4_0/AND2_3/A GND 19.50
+R Comparator4_0/AND2_3/A 217
+C Comparator4_0/Comparator1_1/AND2_1/a_2_72# GND 3.85
+R Comparator4_0/Comparator1_1/AND2_1/a_2_72# 116
+C A2 GND 12.19
+R A2 202
+C Comparator4_0/Comparator1_1/Bbar GND 5.79
+R Comparator4_0/Comparator1_1/Bbar 110
+C Comparator4_0/AND2_0/A GND 17.77
+R Comparator4_0/AND2_0/A 218
+C Comparator4_0/Comparator1_1/AND2_0/a_2_72# GND 3.85
+R Comparator4_0/Comparator1_1/AND2_0/a_2_72# 116
+C Comparator4_0/Comparator1_1/Abar GND 5.26
+R Comparator4_0/Comparator1_1/Abar 105
+C B2 GND 11.56
+R B2 206
+C Comparator4_0/AND2_1/A GND 13.61
+R Comparator4_0/AND2_1/A 125
+C Comparator4_0/NOR4_1/A GND 11.77
+R Comparator4_0/NOR4_1/A 216
+C Comparator4_0/Comparator1_0/AND2_1/a_2_72# GND 3.85
+R Comparator4_0/Comparator1_0/AND2_1/a_2_72# 116
+C A3 GND 9.29
+R A3 200
+C Comparator4_0/Comparator1_0/Bbar GND 5.79
+R Comparator4_0/Comparator1_0/Bbar 110
+C Comparator4_0/NOR4_0/A GND 10.28
+R Comparator4_0/NOR4_0/A 219
+C Comparator4_0/Comparator1_0/AND2_0/a_2_72# GND 3.85
+R Comparator4_0/Comparator1_0/AND2_0/a_2_72# 116
+C Comparator4_0/Comparator1_0/Abar GND 5.26
+R Comparator4_0/Comparator1_0/Abar 105
+C B3 GND 8.60
+R B3 204
+C Comparator4_0/AND2_3/B GND 25.33
+R Comparator4_0/AND2_3/B 345
+C AOI21_0/B GND 6.68
+R AOI21_0/B 101
+C AND2_0/a_2_72# GND 3.85
+R AND2_0/a_2_72# 116
+R Y0 11
+C Less GND 4.39
+R Less 37
+C Y7 GND 2.56
+R Y7 11
+C Y6 GND 2.54
+R Y6 11
+C Y5 GND 3.07
+R Y5 12
+C Y4 GND 3.61
+R Y4 12
+C BUFFER8_0/INV_0/Y GND 15.09
+R BUFFER8_0/INV_0/Y 262
+C Y3 GND 4.70
+R Y3 12
+C enb GND 59.37
+R enb 433
+C Y2 GND 5.23
+R Y2 12
+C Greater GND 6.59
+R Greater 38
+C Y1 GND 5.77
+C Equal GND 4.99
+R Equal 36
+C INV_1/A GND 4.13
+R INV_1/A 103

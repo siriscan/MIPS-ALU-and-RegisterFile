@@ -1,0 +1,450 @@
+timestamp 1746041965
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use AND2 AND2_0 1 0 2132 0 1 176
+use AOI21 AOI21_0 1 0 2036 0 1 176
+use AOI21 AOI21_1 1 0 2084 0 1 176
+use BUFFER8 BUFFER8_0 1 0 2172 0 1 176
+use Comparator4 Comparator4_0 1 0 0 0 1 136
+use Comparator4 Comparator4_1 1 0 1018 0 1 136
+use INV INV_0 1 0 2068 0 1 176
+use INV INV_1 1 0 2116 0 1 176
+node "enb" 43 52693.6 2 -40 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8720 4376 1120 576 0 0
+node "B7" 19 24169.8 2 -32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4152 2084 128 72 0 0
+node "B3" 0 138.96 6 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B6" 19 24142.7 2 -24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4136 2084 144 80 0 0
+node "B2" 0 138.96 6 8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B5" 19 23959.1 2 -16 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4104 2068 144 80 0 0
+node "B1" 0 138.96 6 16 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B4" 19 23858.5 2 -8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4088 2060 144 80 0 0
+node "B0" 0 138.96 6 24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A7" 18 23802.6 2 32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4088 2052 128 72 0 0
+node "A3" 0 138.96 9 64 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A6" 19 23858.5 2 40 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4088 2060 144 80 0 0
+node "A2" 0 138.96 9 72 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A5" 20 24424.3 2 48 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4104 2076 416 224 0 0
+node "A1" 0 138.96 9 80 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A4" 20 24424.3 2 56 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4104 2076 416 224 0 0
+node "A0" 0 138.96 9 88 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Y7" 2 1040.47 2380 104 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 464 240 0 0
+node "Y6" 2 1575.05 2355 112 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 74 432 224 0 0
+node "Y5" 3 2109.64 2330 120 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232 124 400 208 0 0
+node "Y4" 3 2644.22 2305 128 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 332 174 368 192 0 0
+node "Y3" 3 3178.8 2280 136 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 432 224 336 176 0 0
+node "Y2" 4 3713.38 2255 144 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 532 274 304 160 0 0
+node "Y1" 4 4247.96 2230 152 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 632 324 272 144 0 0
+node "Y0" 4 4782.55 2205 160 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 732 374 240 128 0 0
+node "VSS" 0 506.16 0 176 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 48 0 0 0 0
+node "Equal" 3 2455.92 2166 152 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 256 144 432 232 0 0
+node "Greater" 5 4065.17 2126 144 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 516 274 496 264 0 0
+node "Less" 4 3692.47 2078 160 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 492 262 352 192 0 0
+node "m1_2187_176#" 7 6164.01 2187 176 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 892 494 400 240 0 0
+node "m1_1916_112#" 10 7906.05 1916 112 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 940 502 1100 582 0 0
+node "m1_898_n40#" 29 32416.7 898 -40 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5012 2522 1636 834 0 0
+node "m1_996_104#" 26 28466.5 996 104 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4444 2246 1256 652 0 0
+node "m1_1012_96#" 24 26655 1012 96 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4188 2118 1116 582 0 0
+node "m1_2014_152#" 3 3040.99 2014 152 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 416 224 264 148 0 0
+node "m1_2030_168#" 2 1454.69 2030 168 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 96 200 116 0 0
+node "m1_2114_224#" 0 322.56 2114 224 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "m1_2066_224#" 0 322.56 2066 224 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "m1_2187_260#" 4 2440.53 2187 260 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 812 414 0 0 0 0
+node "VDD" 0 212.22 0 260 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "w_2187_260#" 36185 6869.52 2187 260 nw 0 0 0 0 812 414 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_0_260#" 2496 473.76 0 260 nw 0 0 0 0 56 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_1012_96#" "m1_2030_168#" 156.768
+cap "m1_1012_96#" "A4" 92.348
+cap "Y0" "Y1" 1980.64
+cap "m1_2014_152#" "Less" 572.334
+cap "B4" "m1_898_n40#" 156.768
+cap "m1_898_n40#" "Greater" 156.768
+cap "B4" "A5" 152.85
+cap "B6" "B7" 12195.5
+cap "Y6" "Y0" 156.768
+cap "A7" "m1_898_n40#" 156.768
+cap "A7" "A5" 313.536
+cap "Y0" "Y4" 156.768
+cap "B2" "B1" 46.174
+cap "Greater" "Y1" 399.182
+cap "Y5" "Y3" 156.768
+cap "m1_2187_176#" "Y1" 156.768
+cap "Less" "m1_898_n40#" 156.768
+cap "Y6" "m1_2187_176#" 411.518
+cap "w_2187_260#" "m1_2187_260#" 2265.48
+cap "m1_1012_96#" "m1_1916_112#" 1053.49
+cap "A7" "B0" 46.174
+cap "m1_996_104#" "m1_1916_112#" 1053.49
+cap "B2" "B3" 46.174
+cap "m1_2187_176#" "Y4" 411.518
+cap "Y0" "Y7" 156.768
+cap "A4" "A7" 6016.02
+cap "Y0" "Y2" 156.768
+cap "w_0_260#" "VDD" 156.24
+cap "Y3" "Y1" 156.768
+cap "Equal" "enb" 666.268
+cap "m1_1012_96#" "m1_996_104#" 3407.19
+cap "Y3" "Y6" 156.768
+cap "B4" "B3" 46.174
+cap "Y3" "Y4" 1114.88
+cap "Greater" "Y2" 1014.22
+cap "Y7" "m1_2187_176#" 411.518
+cap "Y5" "Y1" 156.768
+cap "B5" "B6" 12154.1
+cap "A6" "A7" 12010.8
+cap "m1_2187_176#" "Y2" 156.768
+cap "Y5" "Y6" 537.704
+cap "m1_1916_112#" "Greater" 645.888
+cap "m1_898_n40#" "A5" 156.768
+cap "Y5" "Y4" 826.291
+cap "enb" "Greater" 156.768
+cap "B5" "B4" 12061.8
+cap "Less" "m1_1916_112#" 721.136
+cap "Equal" "Y0" 399.182
+cap "Y3" "Y7" 156.768
+cap "m1_898_n40#" "B7" 1795.94
+cap "Y3" "Y2" 1403.47
+cap "Less" "enb" 156.768
+cap "Y6" "Y1" 156.768
+cap "Equal" "Greater" 692.61
+cap "Y5" "Y7" 156.768
+cap "Y4" "Y1" 156.768
+cap "A4" "m1_898_n40#" 156.768
+cap "Y5" "Y2" 156.768
+cap "Equal" "m1_2187_176#" 156.768
+cap "A4" "A5" 13093.4
+cap "Y6" "Y4" 156.768
+cap "Less" "m1_996_104#" 156.768
+cap "m1_2014_152#" "m1_1916_112#" 313.536
+cap "Y0" "Greater" 156.768
+cap "Equal" "Less" 514.616
+cap "Y0" "m1_2187_176#" 156.768
+cap "A2" "A3" 46.174
+cap "A6" "m1_898_n40#" 156.768
+cap "A2" "A1" 46.174
+cap "A6" "A5" 6820.88
+cap "A7" "B4" 92.348
+cap "A1" "A0" 46.174
+cap "m1_898_n40#" "m1_1916_112#" 1210.06
+cap "B0" "B1" 46.174
+cap "Y7" "Y1" 156.768
+cap "m1_1012_96#" "m1_2014_152#" 156.768
+cap "m1_2187_176#" "Greater" 156.768
+cap "Y2" "Y1" 1692.05
+cap "Y6" "Y7" 249.116
+cap "m1_2014_152#" "m1_996_104#" 156.768
+cap "m1_898_n40#" "enb" 14515
+cap "Y6" "Y2" 156.768
+cap "Y7" "Y4" 156.768
+cap "Y3" "Y0" 156.768
+cap "Less" "Greater" 156.768
+cap "B5" "m1_898_n40#" 156.768
+cap "Y4" "Y2" 156.768
+cap "Less" "m1_2187_176#" 156.768
+cap "A4" "A3" 46.174
+cap "Y5" "Y0" 156.768
+cap "A4" "A6" 313.536
+cap "B7" "enb" 10296.8
+cap "Y3" "m1_2187_176#" 411.518
+cap "m1_2030_168#" "m1_1916_112#" 207.718
+cap "B6" "m1_898_n40#" 156.768
+cap "Y7" "Y2" 156.768
+cap "Equal" "Y1" 912.324
+cap "Y5" "m1_2187_176#" 411.518
+subcap "B7" -21988.9
+subcap "B6" -21961.8
+subcap "B5" -21778.2
+subcap "B4" -21677.7
+subcap "A7" -21621.7
+subcap "A6" -21677.7
+subcap "A5" -22243.4
+subcap "A4" -25473.3
+cap "A7" "Comparator4_0/B3" 156.768
+cap "A6" "Comparator4_0/B3" 156.768
+cap "A5" "Comparator4_0/B3" 156.768
+cap "Comparator4_0/B2" "Comparator4_0/B3" -46.174
+cap "A7" "Comparator4_0/B0" 1038.91
+cap "Comparator4_0/B1" "Comparator4_0/B0" -46.174
+cap "Comparator4_0/B3" "B4" 184.696
+cap "Comparator4_0/B1" "Comparator4_0/B2" -46.174
+cap "A7" "Comparator4_0/B0" 1154.35
+cap "A6" "Comparator4_0/B2" 156.768
+cap "Comparator4_0/B2" "A7" 156.768
+cap "A5" "Comparator4_0/B2" 156.768
+cap "A7" "Comparator4_0/B0" 1154.35
+cap "A5" "Comparator4_0/B1" 156.768
+cap "A6" "Comparator4_0/B1" 156.768
+cap "Comparator4_0/B1" "A7" 156.768
+cap "A7" "Comparator4_0/B0" 1154.35
+cap "Comparator4_0/B0" "A6" 156.768
+cap "Comparator4_0/B0" "A5" 156.768
+cap "Comparator4_0/B0" "A7" 549.247
+cap "A5" "Comparator4_0/m1_514_n80#" 48.562
+cap "A6" "Comparator4_0/m1_538_n88#" 669.523
+cap "A6" "Comparator4_0/m1_538_n88#" 1154.35
+cap "A6" "Comparator4_0/m1_538_n88#" 1154.35
+cap "Comparator4_0/m1_538_n88#" "A6" 958.111
+cap "Comparator4_1/B0" "A7" 46.174
+cap "Comparator4_1/B3" "Comparator4_1/B1" 131.256
+cap "Comparator4_1/B2" "Comparator4_1/B1" 131.256
+cap "Comparator4_1/B2" "Comparator4_1/B3" 309.618
+cap "Comparator4_1/B0" "Comparator4_1/B1" 5.68434e-14
+cap "m1_996_104#" "Comparator4_1/B1" 387.638
+cap "m1_996_104#" "Comparator4_1/B0" 156.768
+cap "m1_996_104#" "Comparator4_1/B1" 184.696
+cap "Comparator4_1/B0" "m1_1012_96#" 156.768
+cap "m1_1012_96#" "Comparator4_1/m1_538_n88#" 461.74
+cap "Comparator4_1/m1_538_n88#" "m1_1012_96#" 1154.35
+cap "m1_1012_96#" "Comparator4_1/m1_538_n88#" 1154.35
+cap "Comparator4_1/m1_538_n88#" "m1_1012_96#" 1154.35
+cap "Comparator4_1/m1_538_n88#" "m1_1012_96#" 11.5435
+subcap "A5" -23870.2
+subcap "A4" -22243.4
+cap "A4" "Comparator4_0/B3" 156.768
+cap "Comparator4_0/A3" "A4" 80.8045
+cap "Comparator4_0/A1" "Comparator4_0/A2" -46.174
+cap "Comparator4_0/A1" "Comparator4_0/A0" -46.174
+cap "Comparator4_0/A3" "Comparator4_0/A2" 7.10543e-15
+cap "Comparator4_0/B2" "A4" 156.768
+cap "Comparator4_0/A0" "A4" 715.697
+cap "Comparator4_0/B1" "A4" 156.768
+cap "A4" "Comparator4_0/A0" 1154.35
+cap "A4" "Comparator4_0/A0" 207.783
+cap "Comparator4_0/m1_474_n72#" "A4" 253.957
+cap "Comparator4_0/B0" "A4" 156.768
+cap "A4" "Comparator4_0/m1_514_n80#" 97.124
+cap "A4" "Comparator4_0/m1_474_n72#" 161.609
+cap "A5" "Comparator4_0/m1_514_n80#" 48.562
+subcap "m1_996_104#" -28382.2
+subcap "m1_996_104#" -25699.5
+subcap "m1_1012_96#" -24216
+cap "Comparator4_1/A0" "Comparator4_1/A1" -2.27374e-13
+cap "Comparator4_0/Less" "Comparator4_1/A0" 877.306
+cap "Comparator4_1/Comparator1_0/B" "Comparator4_0/Less" 156.768
+cap "Comparator4_0/Greater" "Comparator4_1/A3" 156.768
+cap "Comparator4_1/A2" "Comparator4_1/A3" 178.362
+cap "Comparator4_1/Comparator1_0/B" "Comparator4_0/Greater" 156.768
+cap "Comparator4_1/A2" "Comparator4_1/A1" -2.27374e-13
+cap "Comparator4_1/A3" "Comparator4_1/A1" 25.512
+cap "Comparator4_1/A3" "Comparator4_1/A0" 25.512
+cap "Comparator4_1/A3" "Comparator4_0/Less" 870.068
+cap "m1_996_104#" "Comparator4_1/A2" 156.768
+cap "m1_1012_96#" "Comparator4_1/A2" 156.768
+cap "Comparator4_1/B2" "m1_996_104#" 156.768
+cap "Comparator4_1/A0" "m1_1012_96#" 1154.35
+cap "Comparator4_1/B2" "m1_1012_96#" 156.768
+cap "Comparator4_1/m1_242_n48#" "m1_1012_96#" 572.334
+cap "m1_996_104#" "Comparator4_1/m1_266_n32#" 97.124
+cap "m1_1012_96#" "Comparator4_1/m1_266_n32#" 138.522
+cap "m1_996_104#" "Comparator4_1/A0" 156.768
+cap "Comparator4_1/A0" "m1_1012_96#" 692.61
+cap "m1_996_104#" "Comparator4_1/A1" 156.768
+cap "m1_996_104#" "Comparator4_1/m1_202_n24#" 692.61
+cap "Comparator4_1/A1" "m1_1012_96#" 156.768
+cap "Comparator4_1/m1_242_n48#" "m1_996_104#" 313.536
+cap "Comparator4_1/m1_242_n48#" "m1_1012_96#" 791.66
+cap "Comparator4_1/A1" "m1_1012_96#" -57.402
+cap "m1_1012_96#" "Comparator4_1/m1_266_n32#" 634.892
+cap "Comparator4_1/B1" "m1_1012_96#" 156.768
+cap "Comparator4_1/m1_338_n40#" "m1_1012_96#" 77.6992
+cap "m1_1012_96#" "Comparator4_1/A0" 156.768
+subcap "m1_1916_112#" -5971.16
+cap "Comparator4_1/Equal" "Comparator4_1/m1_738_n16#" 819.588
+subcap "m1_2014_152#" -2503.76
+cap "Comparator4_1/Less" "m1_1916_112#" 509.574
+cap "m1_1916_112#" "Comparator4_1/Greater" 51.024
+subcap "Y0" -6856.87
+subcap "Y6" -557.136
+subcap "Y5" -557.136
+subcap "Y4" -557.136
+cap "Comparator4_1/Comparator1_0/A" "Comparator4_0/INV_1/Y" 601.848
+cap "Comparator4_1/Comparator1_0/INV_1/VDD" "Comparator4_0/INV_1/Y" 11.5435
+cap "Comparator4_0/INV_1/VSS" "Comparator4_0/INV_1/Y" 46.174
+subcap "Less" -1826.74
+cap "AOI21_0/Y" "AOI21_0/C" 81.975
+cap "INV_0/VDD" "AOI21_0/B" 5.68434e-14
+cap "INV_0/VDD" "INV_0/Y" 34.425
+cap "INV_0/VDD" "AOI21_0/Y" 11.5435
+cap "INV_0/VDD" "AOI21_0/C" 34.425
+cap "INV_0/VDD" "Comparator4_1/INV_1/A" -5.68434e-14
+cap "AOI21_1/B" "AOI21_1/Y" 15.3913
+cap "AOI21_1/B" "AOI21_1/a_9_8#" 14.184
+cap "AOI21_0/B" "AOI21_0/a_9_8#" 30.384
+cap "AOI21_1/B" "AOI21_0/VSS" 32.814
+cap "AOI21_1/A" "AOI21_0/VSS" 274.992
+cap "AOI21_0/B" "AOI21_0/VSS" 156.768
+cap "INV_0/Y" "AOI21_0/VSS" 202.942
+cap "AOI21_0/C" "AOI21_0/VSS" 690.558
+cap "INV_0/Y" "AOI21_1/a_2_69#" 138.522
+cap "AOI21_0/A" "AOI21_0/VSS" 274.992
+cap "AOI21_1/A" "AOI21_1/B" 1.13687e-13
+cap "INV_0/Y" "AOI21_1/A" 92.348
+cap "AOI21_0/C" "AOI21_0/a_2_69#" 138.522
+cap "AOI21_0/C" "AOI21_0/B" 2.84217e-14
+cap "Comparator4_1/INV_0/Y" "AOI21_0/C" 156.768
+cap "AOI21_0/Y" "AOI21_0/B" 61.5653
+cap "AOI21_0/Y" "INV_0/Y" 92.348
+cap "AOI21_0/C" "AOI21_0/A" 550.898
+subcap "m1_2187_176#" -3647.97
+subcap "w_2187_260#" -42.75
+cap "AND2_0/VSS" "BUFFER8_0/TRANSMISSION_0/en" 92.348
+cap "BUFFER8_0/enb" "BUFFER8_0/TRANSMISSION_0/en" 305.7
+cap "BUFFER8_0/enb" "AND2_0/VSS" 274.992
+cap "AND2_0/Y" "AND2_0/VSS" 202.942
+cap "AOI21_1/B" "AOI21_1/a_9_8#" 14.004
+cap "AOI21_1/B" "AND2_0/VSS" 98.442
+cap "AND2_0/Y" "BUFFER8_0/enb" 92.348
+cap "AOI21_1/C" "AND2_0/VSS" 274.992
+cap "INV_1/Y" "AND2_0/VSS" 249.116
+cap "AOI21_1/A" "AOI21_1/B" 2.84217e-14
+cap "AND2_0/A" "AND2_0/a_9_8#" 60.768
+cap "AND2_0/A" "AND2_0/VSS" 156.768
+cap "AND2_0/B" "AND2_0/VSS" 443.76
+cap "AND2_0/a_2_72#" "INV_1/Y" 138.522
+cap "AOI21_1/VDD" "AND2_0/Y" 11.5435
+cap "AND2_0/B" "INV_1/Y" 73.8784
+cap "AOI21_1/Y" "AOI21_1/B" 61.5653
+cap "AOI21_1/Y" "INV_1/Y" 92.348
+cap "AOI21_1/VDD" "AOI21_1/a_2_69#" 5.68434e-14
+cap "AND2_0/A" "AND2_0/a_2_72#" 61.5653
+cap "AOI21_1/Y" "AOI21_1/C" 81.975
+cap "AOI21_1/VDD" "AOI21_1/C" 1.13687e-13
+cap "AOI21_1/VDD" "AOI21_1/B" 5.68434e-14
+cap "AND2_0/B" "AND2_0/A" -1.13687e-13
+cap "AOI21_1/VDD" "AOI21_1/Y" 11.5435
+cap "BUFFER8_0/TRANSMISSION_0/en" "BUFFER8_0/A0" 533.71
+subcap "Y0" -1036.82
+subcap "m1_2187_176#" -2640.83
+subcap "m1_2187_260#" -4672.53
+cap "BUFFER8_0/Y3" "BUFFER8_0/TRANSMISSION_4/en" 326.601
+cap "BUFFER8_0/Y2" "BUFFER8_0/TRANSMISSION_4/en" 326.601
+cap "BUFFER8_0/A3" "BUFFER8_0/TRANSMISSION_4/en" 2280.61
+cap "BUFFER8_0/A2" "BUFFER8_0/TRANSMISSION_4/en" 505.231
+cap "BUFFER8_0/A0" "BUFFER8_0/TRANSMISSION_4/en" -13.0445
+cap "BUFFER8_0/Y2" "BUFFER8_0/A3" 46.174
+cap "BUFFER8_0/A3" "BUFFER8_0/Y3" 46.174
+cap "BUFFER8_0/A2" "BUFFER8_0/A3" 46.174
+cap "BUFFER8_0/Y1" "BUFFER8_0/A3" 46.174
+cap "BUFFER8_0/Y1" "BUFFER8_0/TRANSMISSION_4/en" 326.601
+cap "BUFFER8_0/Y0" "BUFFER8_0/TRANSMISSION_4/en" 1377.06
+cap "BUFFER8_0/A1" "BUFFER8_0/TRANSMISSION_4/en" 505.231
+cap "BUFFER8_0/A0" "BUFFER8_0/TRANSMISSION_0/en" 0.861
+cap "BUFFER8_0/A1" "BUFFER8_0/A3" 46.174
+cap "BUFFER8_0/Y0" "BUFFER8_0/A3" 46.174
+cap "BUFFER8_0/A0" "BUFFER8_0/A3" 46.174
+cap "BUFFER8_0/Y0" "BUFFER8_0/A1" -2.84217e-14
+cap "BUFFER8_0/A4" "BUFFER8_0/Y4" 46.174
+cap "BUFFER8_0/w_193_65#" "BUFFER8_0/A4" -5.68434e-14
+cap "BUFFER8_0/TRANSMISSION_7/enb" "BUFFER8_0/A4" -1.25056e-12
+cap "BUFFER8_0/TRANSMISSION_7/en" "Y0" 842.676
+cap "BUFFER8_0/Y6" "BUFFER8_0/TRANSMISSION_7/en" 326.601
+cap "BUFFER8_0/Y5" "BUFFER8_0/TRANSMISSION_7/en" 326.601
+cap "BUFFER8_0/Y4" "BUFFER8_0/TRANSMISSION_7/en" 326.601
+cap "BUFFER8_0/A4" "BUFFER8_0/TRANSMISSION_7/en" 2199.99
+cap "BUFFER8_0/A4" "BUFFER8_0/Y7" 46.174
+cap "BUFFER8_0/A4" "BUFFER8_0/Y6" 46.174
+cap "BUFFER8_0/A4" "BUFFER8_0/Y5" 46.174
+cap "Comparator4_0/INV_1/Y" "Comparator4_1/VDD" 34.6305
+cap "AND2_0/VDD" "AND2_0/Y" 46.174
+cap "AND2_0/a_2_72#" "INV_1/Y" 34.6305
+subcap "m1_2187_260#" -1797.98
+cap "BUFFER8_0/TRANSMISSION_2/A" "BUFFER8_0/INV_0/VDD" 36.9392
+cap "BUFFER8_0/TRANSMISSION_1/Y" "BUFFER8_0/INV_0/VDD" 36.9392
+cap "BUFFER8_0/TRANSMISSION_0/Y" "BUFFER8_0/INV_0/VDD" 36.9392
+cap "w_2187_260#" "BUFFER8_0/INV_0/VDD" 589.5
+cap "BUFFER8_0/TRANSMISSION_2/Y" "BUFFER8_0/INV_0/VDD" 36.9392
+cap "BUFFER8_0/TRANSMISSION_0/A" "BUFFER8_0/INV_0/VDD" 36.9392
+cap "BUFFER8_0/TRANSMISSION_3/Y" "BUFFER8_0/INV_0/VDD" 36.9392
+cap "BUFFER8_0/TRANSMISSION_3/A" "BUFFER8_0/INV_0/VDD" 36.9392
+cap "BUFFER8_0/TRANSMISSION_1/A" "BUFFER8_0/INV_0/VDD" 36.9392
+cap "BUFFER8_0/TRANSMISSION_6/Y" "m1_2187_260#" 36.9392
+cap "BUFFER8_0/TRANSMISSION_4/Y" "m1_2187_260#" 36.9392
+cap "BUFFER8_0/TRANSMISSION_6/A" "m1_2187_260#" 36.9392
+cap "BUFFER8_0/TRANSMISSION_7/Y" "m1_2187_260#" 36.9392
+cap "BUFFER8_0/TRANSMISSION_7/A" "m1_2187_260#" 36.9392
+cap "w_2187_260#" "m1_2187_260#" 554.13
+cap "m1_2187_260#" "BUFFER8_0/TRANSMISSION_4/A" 36.9392
+cap "BUFFER8_0/TRANSMISSION_5/Y" "m1_2187_260#" 36.9392
+cap "BUFFER8_0/TRANSMISSION_5/A" "m1_2187_260#" 36.9392
+merge "BUFFER8_0/Y5" "Y5" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_0/A7" "BUFFER8_0/A6" -1153.71 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -114 0 0 0 0
+merge "BUFFER8_0/A6" "BUFFER8_0/A5"
+merge "BUFFER8_0/A5" "BUFFER8_0/INV_0/VSS"
+merge "BUFFER8_0/INV_0/VSS" "BUFFER8_0/A4"
+merge "BUFFER8_0/A4" "BUFFER8_0/A3"
+merge "BUFFER8_0/A3" "INV_1/VSS"
+merge "INV_1/VSS" "INV_0/VSS"
+merge "INV_0/VSS" "Comparator4_1/INV_0/VSS"
+merge "Comparator4_1/INV_0/VSS" "AOI21_0/VSS"
+merge "AOI21_0/VSS" "AOI21_1/VSS"
+merge "AOI21_1/VSS" "BUFFER8_0/VSS"
+merge "BUFFER8_0/VSS" "AND2_0/VSS"
+merge "AND2_0/VSS" "m1_2187_176#"
+merge "BUFFER8_0/VDD" "BUFFER8_0/w_193_65#" -28158.7 96 0 -34 -33 -3573 -1103 0 0 0 0 0 0 0 0 1020 -278 0 0 0 0
+merge "BUFFER8_0/w_193_65#" "INV_1/VDD"
+merge "INV_1/VDD" "INV_0/VDD"
+merge "INV_0/VDD" "Comparator4_1/INV_0/VDD"
+merge "Comparator4_1/INV_0/VDD" "AOI21_0/VDD"
+merge "AOI21_0/VDD" "AOI21_1/VDD"
+merge "AOI21_1/VDD" "BUFFER8_0/INV_0/VDD"
+merge "BUFFER8_0/INV_0/VDD" "AND2_0/VDD"
+merge "AND2_0/VDD" "w_2187_260#"
+merge "w_2187_260#" "m1_2187_260#"
+merge "BUFFER8_0/Y6" "Y6" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_0/Y0" "Y0" -2394.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -368 -188 0 -8 0 0
+merge "AND2_0/B" "AOI21_1/A" -2320.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -212 -134 -160 -92 0 0
+merge "AOI21_1/A" "AOI21_0/A"
+merge "AOI21_0/A" "Comparator4_1/Equal"
+merge "Comparator4_1/Equal" "m1_1916_112#"
+merge "INV_1/A" "AOI21_1/Y" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "AOI21_1/Y" "m1_2114_224#"
+merge "BUFFER8_0/Y7" "Y7" -220.752 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_0/Y1" "Y1" -1869.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -184 -186 0 -8 0 0
+merge "AOI21_0/B" "Comparator4_0/INV_1/Y" 8245.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4596 -522 -432 -366 0 0
+merge "Comparator4_0/INV_1/Y" "Comparator4_0/Less"
+merge "Comparator4_0/Less" "m1_1012_96#"
+merge "BUFFER8_0/Y2" "Y2" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "INV_0/A" "AOI21_0/Y" -94.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "AOI21_0/Y" "m1_2066_224#"
+merge "Comparator4_1/INV_1/Y" "AOI21_0/C" -299.025 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 -16 0 0
+merge "AOI21_0/C" "m1_2030_168#"
+merge "AND2_0/A" "Comparator4_0/Equal" -265.104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0
+merge "Comparator4_0/Equal" "m1_898_n40#"
+merge "AOI21_1/C" "Comparator4_1/INV_0/Y" -264.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -32 -20 0 0
+merge "Comparator4_1/INV_0/Y" "Comparator4_1/Greater"
+merge "Comparator4_1/Greater" "m1_2014_152#"
+merge "BUFFER8_0/Y3" "Y3" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "Comparator4_0/VDD" "Comparator4_0/Comparator1_0/INV_1/VDD" -1503.54 64 0 -10 -14 -274 -89 0 0 0 0 0 0 0 0 304 -48 0 0 0 0
+merge "Comparator4_0/Comparator1_0/INV_1/VDD" "w_0_260#"
+merge "w_0_260#" "VDD"
+merge "BUFFER8_0/Y4" "Y4" -259.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "Comparator4_0/VSS" "VSS" -506.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -48 0 0 0 0
+merge "BUFFER8_0/A0" "INV_0/Y" -376.857 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 -8 0 0
+merge "INV_0/Y" "Less"
+merge "Comparator4_0/B0" "B0" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "BUFFER8_0/enb" "enb" -151.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "Comparator4_0/B1" "B1" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "Comparator4_0/A0" "A0" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "Comparator4_0/B2" "B2" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "Comparator4_0/A1" "A1" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "BUFFER8_0/A2" "INV_1/Y" -486 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 -8 0 0
+merge "INV_1/Y" "Greater"
+merge "Comparator4_0/B3" "B3" -256.464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "Comparator4_0/A2" "A2" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "AOI21_1/B" "Comparator4_0/Greater" -4907.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -736 -380 -224 -124 0 0
+merge "Comparator4_0/Greater" "m1_996_104#"
+merge "Comparator4_0/A3" "A3" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "Comparator4_1/B0" "B4" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "Comparator4_1/B1" "B5" -208.512 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "Comparator4_1/A0" "A4" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "Comparator4_1/VSS" "Comparator4_0/INV_1/VSS" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "Comparator4_1/B2" "B6" -195.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "Comparator4_1/A1" "A5" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "Comparator4_1/B3" "B7" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "Comparator4_1/A2" "A6" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "Comparator4_1/A3" "A7" -122.256 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "BUFFER8_0/A1" "AND2_0/Y" -486 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 -8 0 0
+merge "AND2_0/Y" "Equal"
+merge "Comparator4_1/VDD" "Comparator4_1/Comparator1_0/INV_1/VDD" -1015.2 0 0 0 0 -120 -38 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "Comparator4_1/Comparator1_0/INV_1/VDD" "Comparator4_0/INV_0/VDD"

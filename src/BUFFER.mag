@@ -1,0 +1,32 @@
+magic
+tech scmos
+timestamp 1746041965
+<< metal1 >>
+rect 6 84 10 88
+rect 16 84 39 88
+rect 14 12 18 16
+rect 6 0 10 4
+rect 16 0 39 4
+<< m2contact >>
+rect 18 63 22 67
+rect 2 44 6 48
+rect 25 36 29 40
+rect 33 36 37 40
+<< metal2 >>
+rect 2 63 18 67
+rect 2 48 6 63
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 0 0 1 0
+box -4 0 20 91
+use TRANSMISSION  TRANSMISSION_0
+timestamp 1742764277
+transform 1 0 18 0 1 0
+box 0 6 25 85
+<< labels >>
+rlabel m2contact 4 46 4 46 1 ENb
+rlabel m2contact 27 38 27 38 1 A
+rlabel m2contact 35 38 35 38 1 Y
+rlabel metal1 7 2 7 2 1 VSS
+rlabel metal1 7 86 7 86 1 VDD
+<< end >>

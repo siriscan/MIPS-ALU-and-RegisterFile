@@ -1,0 +1,25 @@
+| units: 30 tech: scmos format: MIT
+p A VDD INV_0/Y 2 4 11 75
+n A VSS INV_0/Y 2 4 11 8
+p INV_0/Y VDD a_29_75# 2 4 27 75
+p en a_29_75# Y 2 4 37 75
+n enb a_29_8# Y 2 4 37 8
+n INV_0/Y VSS a_29_8# 2 4 27 8
+R VSS 20
+= VSS INV_0/VSS
+= VSS a_22_8#
+R enb 22
+R Y 11
+R en 25
+C VDD GND 15.02
+R VDD 2084
+= VDD INV_0/VDD
+= VDD a_22_75#
+= VDD w_20_84#
+= VDD w_10_84#
+C INV_0/Y GND 3.66
+R INV_0/Y 102
+= INV_0/Y a_26_62#
+C A GND 2.48
+R A 94
+= A INV_0/A

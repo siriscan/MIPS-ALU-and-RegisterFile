@@ -1,0 +1,85 @@
+magic
+tech scmos
+timestamp 1746041965
+<< metal1 >>
+rect 57 84 68 88
+rect 53 0 60 4
+rect 10 -8 87 -4
+rect 18 -16 47 -12
+rect 74 -16 119 -12
+rect 26 -24 39 -20
+rect 114 -24 127 -20
+rect 34 -32 79 -28
+<< m2contact >>
+rect 127 55 131 59
+rect 6 44 10 48
+rect 22 44 26 48
+rect 47 41 51 45
+rect 87 41 91 45
+rect 39 27 43 31
+rect 79 27 83 31
+rect 119 29 123 33
+rect 14 12 18 16
+rect 30 12 34 16
+rect 70 12 74 16
+rect 110 12 114 16
+rect 134 12 138 16
+rect 6 -8 10 -4
+rect 87 -8 91 -4
+rect 14 -16 18 -12
+rect 47 -16 51 -12
+rect 70 -16 74 -12
+rect 119 -16 123 -12
+rect 22 -24 26 -20
+rect 39 -24 43 -20
+rect 110 -24 114 -20
+rect 127 -24 131 -20
+rect 30 -32 34 -28
+rect 79 -32 83 -28
+<< metal2 >>
+rect 6 -4 10 44
+rect 14 -12 18 12
+rect 22 -20 26 44
+rect 30 -28 34 12
+rect 39 -20 43 27
+rect 47 -12 51 41
+rect 70 -12 74 12
+rect 70 -40 74 -16
+rect 79 -28 83 27
+rect 87 -4 91 41
+rect 110 -20 114 12
+rect 119 -12 123 29
+rect 127 -20 131 55
+rect 110 -40 114 -24
+rect 134 -40 138 12
+use NOR2  NOR2_0
+timestamp 1741140807
+transform 1 0 116 0 1 0
+box -4 0 28 92
+use INV  INV_1
+timestamp 1741159900
+transform 1 0 20 0 1 0
+box -4 0 20 91
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 4 0 1 0
+box -4 0 20 91
+use AND2  AND2_1
+timestamp 1740126148
+transform 1 0 76 0 1 0
+box -5 0 45 92
+use AND2  AND2_0
+timestamp 1740126148
+transform 1 0 36 0 1 0
+box -5 0 45 92
+<< labels >>
+rlabel metal1 12 -6 12 -6 1 A
+rlabel metal1 20 -14 20 -14 1 Abar
+rlabel metal1 28 -22 28 -22 1 B
+rlabel metal1 36 -30 36 -30 1 Bbar
+rlabel metal2 72 -38 72 -38 1 Less
+rlabel metal2 112 -38 112 -38 1 Greater
+rlabel metal1 57 2 57 2 1 VSS
+rlabel metal1 62 86 62 86 1 VDD
+rlabel metal2 136 -38 136 -38 1 Equal
+<< end >>

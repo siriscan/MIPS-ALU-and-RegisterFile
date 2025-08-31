@@ -1,0 +1,63 @@
+timestamp 1746041965
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use XOR2 XOR2_0 1 0 -44 0 1 37
+use INV INV_0 1 0 139 0 1 37
+use FullAddr FullAddr_0 1 0 7 0 1 37
+node "K" 0 56.736 -78 60 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "B" 0 213.408 -78 67 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 48 0 0
+node "C" 0 138.96 30 6 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A" 0 138.96 15 21 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Cbout" 0 138.96 119 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_4_29#" 0 138.96 4 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_128_37#" 0 299.61 128 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "VSS" 2 2043.81 -80 37 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 348 182 0 0 0 0
+node "S" 0 138.96 149 49 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_n10_13#" 1 1169.77 -10 13 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 82 160 88 0 0
+node "m1_137_77#" 0 203.472 137 77 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 28 22 0 0
+node "m1_128_121#" 0 138.96 128 121 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "VDD" 2 1883.16 -80 121 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 348 182 0 0 0 0
+node "w_131_103#" 2546 1480.5 131 103 nw 0 0 0 0 175 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n1_92#" 3972 2309.58 -1 92 nw 0 0 0 0 273 92 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VSS" "m1_n10_13#" 156.768
+cap "VDD" "w_n1_92#" 160.65
+cap "B" "K" 67.9333
+cap "m1_128_121#" "w_131_103#" 160.65
+cap "VSS" "m1_4_29#" 34.6305
+cap "m1_n10_13#" "A" 46.174
+cap "XOR2_0/INV_1/Y" "XOR2_0/B" 156.768
+cap "w_n1_92#" "XOR2_0/INV_1/Y" -1.13687e-13
+cap "XOR2_0/Y" "FullAddr_0/A" 46.174
+cap "w_n1_92#" "FullAddr_0/VDD" -5.895
+cap "XOR2_0/Y" "FullAddr_0/Cbout" 203.8
+cap "XOR2_0/Y" "XOR2_0/VSS" -2.84217e-14
+cap "w_n1_92#" "FullAddr_0/a_2_57#" -5.68434e-14
+cap "FullAddr_0/Cbout" "XOR2_0/VSS" 202.942
+cap "XOR2_0/A" "XOR2_0/B" 467.129
+subcap "Cbout" -46.53
+cap "FullAddr_0/VDD" "FullAddr_0/A" -10.527
+cap "FullAddr_0/VDD" "INV_0/A" -2.84217e-14
+merge "XOR2_0/A" "K" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "FullAddr_0/VDD" "XOR2_0/VDD" -1145.88 0 0 0 0 -124 -92 0 0 0 0 0 0 0 0 32 -16 0 0 0 0
+merge "XOR2_0/VDD" "w_n1_92#"
+merge "w_n1_92#" "INV_0/VDD"
+merge "INV_0/VDD" "w_131_103#"
+merge "w_131_103#" "VDD"
+merge "VDD" "m1_128_121#"
+merge "FullAddr_0/B" "XOR2_0/Y" -234.072 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "XOR2_0/Y" "m1_n10_13#"
+merge "FullAddr_0/A" "A" -127.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 0 0 0 0
+merge "FullAddr_0/C" "C" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "FullAddr_0/Sb" "INV_0/A" -73.512 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0
+merge "INV_0/A" "m1_137_77#"
+merge "INV_0/VSS" "FullAddr_0/VSS" -5.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 -16 0 0 0 0
+merge "FullAddr_0/VSS" "XOR2_0/VSS"
+merge "XOR2_0/VSS" "VSS"
+merge "VSS" "m1_128_37#"
+merge "INV_0/Y" "S" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "FullAddr_0/Cbout" "m1_4_29#" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "m1_4_29#" "Cbout"
+merge "XOR2_0/B" "B" -115.488 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0

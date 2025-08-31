@@ -1,0 +1,48 @@
+magic
+tech scmos
+timestamp 1746041965
+<< nwell >>
+rect -1 92 6 131
+rect 131 103 138 128
+<< metal1 >>
+rect -80 121 7 125
+rect 128 121 139 125
+rect 149 49 153 53
+rect -80 37 7 41
+rect 128 37 139 41
+rect 4 29 8 33
+rect 119 29 123 33
+rect 15 21 19 25
+rect -6 13 19 17
+rect 30 6 34 10
+<< m2contact >>
+rect 137 77 141 81
+rect -10 49 -6 53
+rect -10 13 -6 17
+<< metal2 >>
+rect 137 74 141 77
+rect -78 67 -58 71
+rect -78 60 -74 64
+rect -10 17 -6 49
+use FullAddr  FullAddr_0
+timestamp 1745340019
+transform 1 0 7 0 1 37
+box -7 -31 130 96
+use INV  INV_0
+timestamp 1741159900
+transform 1 0 139 0 1 37
+box -4 0 20 91
+use XOR2  XOR2_0
+timestamp 1746041965
+transform 1 0 -44 0 1 37
+box -36 0 44 94
+<< labels >>
+rlabel metal1 151 51 151 51 1 S
+rlabel metal1 -77 39 -77 39 1 VSS
+rlabel metal1 -77 123 -77 123 1 VDD
+rlabel metal1 17 23 17 23 1 A
+rlabel metal1 32 8 32 8 1 C
+rlabel metal2 -76 62 -76 62 3 K
+rlabel metal2 -76 69 -76 69 3 B
+rlabel metal1 121 31 121 31 1 Cbout
+<< end >>
